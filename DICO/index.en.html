@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>Sanskrit Heritage Dictionary</title>
+<meta name="author" content="G&#233;rard Huet">
+<meta property="dc:datecopyrighted" content="2017">
+<meta property="dc:rightsholder" content="G&#233;rard Huet">
+<meta name="keywords" content="dictionary,sanskrit,heritage,dictionnaire,sanscrit,india,inde,indology,linguistics,panini,digital humanities,cultural heritage,computational linguistics,hypertext lexicon">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen,tv">
+<link rel="shortcut icon" href="/SKT/IMAGES/favicon.ico">
+<script type="text/javascript" src="utf82VH.js"></script>
+</head>
+<body class="chamois_back">
+<table class="brown_back">
+<tr><td>
+<td>
+<td>
+</tr><tr><td><td><table class="beige_table">
+<tr><th><h1 class="title">Monier-Williams Dictionary</h1>
+<h3 class="b3">Version 2.98 [2017-04-12] (English)</h3>
+</th></tr></table>
+</td><td></tr><tr><td>
+<td>
+<td>
+</tr></table><div class="center">
+<p></p>
+<p class="g2">
+<br>
+Search for an entry matching an initial pattern:<br>
+Transliteration help <a href="../faq.en.html#transliteration">here</a>
+</p>
+<form action="/cgi-bin/SKT/sktindex.cgi" method="get" onsubmit="return convert()"><span class="latin12">
+Lexicon Access <select name="lex"><option value="SH">    Heritage     </option><option value="MW" selected="selected"> Monier-Williams </option></select>
+<br>
+<input id="focus" type="text" name="q">
+<select id="trans" name="t"><option value="VH" selected="selected"> Velthuis </option><option value="WX">    WX    </option><option value="KH">    KH    </option><option value="SL">   SLP1   </option><option value="DN">Devanagari</option><option value="RN">   IAST   </option></select><br>
+<input type="submit" value="Search">
+<input type="reset" value="Reset">
+</span></form>
+<p></p>
+<hr>
+<a name="easy"></a>
+<h1 class="title">Sanskrit made easy</h1>
+<p class="g2">
+The simplified interface below allows search without diacritics<br>
+Proper names may be entered with an initial capital
+</p>
+<form action="/cgi-bin/SKT/sktsearch.cgi" method="get" onsubmit="return convert()"><span class="latin12">
+<input type="hidden" name="lex" value="MW">
+<input id="unused" type="text" name="q">
+ASCII<br>
+<input type="submit" value="Search">
+<input type="reset" value="Reset">
+</span></form>
+<p></p>
+<hr>
+<h1 class="title">Search for atomic inflected forms</h1>
+<a name="stemmer"></a>
+<p class="g2">Submit candidate form and category
+<br>
+Forms ended in r should not be entered with final visarga
+<br>
+Compound words may be recognized with the Reader interface
+<br>
+</p>
+<form action="/cgi-bin/SKT/sktlemmatizer.cgi" method="get" onsubmit="return convert1()"><span class="latin12">
+<input type="hidden" name="lex" value="MW">
+<input id="focus1" type="text" name="q">
+<select id="trans1" name="t"><option value="VH" selected="selected"> Velthuis </option><option value="WX">    WX    </option><option value="KH">    KH    </option><option value="SL">   SLP1   </option><option value="DN">Devanagari</option><option value="RN">   IAST   </option></select><br>
+<select name="c"><option value="Noun" selected="selected"> Noun </option><option value="Pron"> Pron </option><option value="Verb"> Verb </option><option value="Part"> Part </option><option value="Inde"> Inde </option><option value="Absya"> Absya </option><option value="Abstvaa"> Abstvaa </option><option value="Voca"> Voca </option><option value="Iic"> Iic </option><option value="Ifc"> Ifc </option><option value="Iiv"> Iiv </option><option value="Piic"> Piic </option></select>
+<br>
+<input type="submit" value="Search">
+<input type="reset" value="Reset">
+</span></form>
+<br>
+</div>
+<table class="pad60">
+<tr><td></td></tr></table>
+<div class="enpied">
+<table class="bandeau"><tr><td>
+<a href="http://ocaml.org"><img src="../IMAGES/icon_ocaml.png" alt="Le chameau Ocaml" height="50"></a>
+</td><td>
+<table class="center">
+<tr><td>
+<a href="../index.en.html"><b>Top</b></a> | 
+<a href="index.en.html"><b>Index</b></a> | 
+<a href="index.en.html#stemmer"><b>Stemmer</b></a> | 
+<a href="grammar.en.html"><b>Grammar</b></a> | 
+<a href="sandhi.en.html"><b>Sandhi</b></a> | 
+<a href="reader.en.html"><b>Reader</b></a> | 
+<a href="../faq.en.html"><b>Help</b></a> | 
+<a href="../portal.en.html"><b>Portal</b></a>
+</td></tr><tr><td>
+&#169; G&#233;rard Huet 1994-2017</td></tr></table></td><td>
+<a href="http://www.inria.fr/"><img src="../IMAGES/logo_inria.png" alt="Logo Inria" height="50"></a>
+<br></td></tr></table></div>
+</body>
+</html>
