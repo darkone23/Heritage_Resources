@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-2 Mai 2017"><meta name="copyright" content="
+7 Mai 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -6436,6 +6436,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="bukkawas"><uf><tasil/></uf><s stem="bukka"/></f>
 <f form="budbuda"><uf><ind/></uf><s stem="budbuda"/></f>
 <f form="buxXapAxamafgalawas"><uf><tasil/></uf><s stem="buxXapAxamafgala"/></f>
+<f form="buxXaSrIjFAnawas"><uf><tasil/></uf><s stem="buxXaSrIjFAna"/></f>
 <f form="buxXiwas"><uf><tasil/></uf><s stem="buxXi"/></f>
 <f form="buxXisWawas"><uf><tasil/></uf><s stem="buxXisWa"/></f>
 <f form="buxXyapekRawas"><uf><tasil/></uf><s stem="buxXyapekRa"/></f>
@@ -7630,6 +7631,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="recayiwum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="ric"/></f>
 <f form="reNukawas"><uf><tasil/></uf><s stem="reNuka"/></f>
 <f form="reNuwas"><uf><tasil/></uf><s stem="reNu"/></f>
+<f form="rewanawas"><uf><tasil/></uf><s stem="rewas"/></f>
 <f form="rewum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="ri"/></f>
 <f form="rePawas"><uf><tasil/></uf><s stem="rePa"/></f>
 <f form="reBawas"><uf><tasil/></uf><s stem="reBa"/></f>
@@ -9206,6 +9208,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SOrasenawas"><uf><tasil/></uf><s stem="SOrasena"/></f>
 <f form="SOriwas"><uf><tasil/></uf><s stem="SOri"/></f>
 <f form="SOryawas"><uf><tasil/></uf><s stem="SOrya"/></f>
+<f form="SOvawas"><uf><tasil/></uf><s stem="SOva"/></f>
+<f form="SOvanawas"><uf><tasil/></uf><s stem="SOvana"/></f>
 <f form="Scowawas"><uf><tasil/></uf><s stem="Scowa"/></f>
 <f form="Scowanawas"><uf><tasil/></uf><s stem="Scowana"/></f>
 <f form="Scowayiwum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="Scuw#1"/></f>
@@ -10424,6 +10428,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="snAvayiwum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="snu"/></f>
 <f form="snegXum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="snih#1"/></f>
 <f form="snehawas"><uf><tasil/></uf><s stem="sneha"/></f>
+<f form="snehanawas"><uf><tasil/></uf><s stem="snehana"/></f>
 <f form="snehamayawas"><uf><tasil/></uf><s stem="snehamaya"/></f>
 <f form="snehayiwum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="snih#1"/></f>
 <f form="snehiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="snih#1"/></f>

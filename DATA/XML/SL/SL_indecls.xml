@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-2 Mai 2017"><meta name="copyright" content="
+7 Mai 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -6436,6 +6436,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="bukkatas"><uf><tasil/></uf><s stem="bukka"/></f>
 <f form="buqbuqa"><uf><ind/></uf><s stem="buqbuqa"/></f>
 <f form="budDapAdamaNgalatas"><uf><tasil/></uf><s stem="budDapAdamaNgala"/></f>
+<f form="budDaSrIjYAnatas"><uf><tasil/></uf><s stem="budDaSrIjYAna"/></f>
 <f form="budDitas"><uf><tasil/></uf><s stem="budDi"/></f>
 <f form="budDisTatas"><uf><tasil/></uf><s stem="budDisTa"/></f>
 <f form="budDyapekzatas"><uf><tasil/></uf><s stem="budDyapekza"/></f>
@@ -7630,6 +7631,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="recayitum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="ric"/></f>
 <f form="reRukatas"><uf><tasil/></uf><s stem="reRuka"/></f>
 <f form="reRutas"><uf><tasil/></uf><s stem="reRu"/></f>
+<f form="retanatas"><uf><tasil/></uf><s stem="retas"/></f>
 <f form="retum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="ri"/></f>
 <f form="rePatas"><uf><tasil/></uf><s stem="rePa"/></f>
 <f form="reBatas"><uf><tasil/></uf><s stem="reBa"/></f>
@@ -9206,6 +9208,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SOrasenatas"><uf><tasil/></uf><s stem="SOrasena"/></f>
 <f form="SOritas"><uf><tasil/></uf><s stem="SOri"/></f>
 <f form="SOryatas"><uf><tasil/></uf><s stem="SOrya"/></f>
+<f form="SOvatas"><uf><tasil/></uf><s stem="SOva"/></f>
+<f form="SOvanatas"><uf><tasil/></uf><s stem="SOvana"/></f>
 <f form="Scotatas"><uf><tasil/></uf><s stem="Scota"/></f>
 <f form="Scotanatas"><uf><tasil/></uf><s stem="Scotana"/></f>
 <f form="Scotayitum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="Scut#1"/></f>
@@ -10424,6 +10428,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="snAvayitum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="snu"/></f>
 <f form="snegDum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="snih#1"/></f>
 <f form="snehatas"><uf><tasil/></uf><s stem="sneha"/></f>
+<f form="snehanatas"><uf><tasil/></uf><s stem="snehana"/></f>
 <f form="snehamayatas"><uf><tasil/></uf><s stem="snehamaya"/></f>
 <f form="snehayitum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="snih#1"/></f>
 <f form="snehitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="snih#1"/></f>
