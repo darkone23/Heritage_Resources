@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-8 Mai 2017"><meta name="copyright" content="
+11 Mai 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -8385,10 +8385,13 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimarxawas"><uf><tasil/></uf><s stem="vimarxa"/></f>
 <f form="vimarxanawas"><uf><tasil/></uf><s stem="vimarxana"/></f>
 <f form="vimarSawas"><uf><tasil/></uf><s stem="vimarSa"/></f>
+<f form="vimarSanawas"><uf><tasil/></uf><s stem="vimarSana"/></f>
+<f form="vimarRaNawas"><uf><tasil/></uf><s stem="vimarSana"/></f>
 <f form="vimalawas"><uf><tasil/></uf><s stem="vimala"/></f>
 <f form="vimAwqjawas"><uf><tasil/></uf><s stem="vimAwqja"/></f>
 <f form="vimAnawas"><uf><tasil/></uf><s stem="vimAna#1"/></f>
 <f form="vimAnawas"><uf><tasil/></uf><s stem="vimAna#2"/></f>
+<f form="vimAnArcanakalpawas"><uf><tasil/></uf><s stem="vimAnArcanakalpa"/></f>
 <f form="vimArgawas"><uf><tasil/></uf><s stem="vimArga"/></f>
 <f form="vimukwiwas"><uf><tasil/></uf><s stem="vimukwi"/></f>
 <f form="vimuKawas"><uf><tasil/></uf><s stem="vimuKa"/></f>
@@ -8575,6 +8578,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vqWA"><uf><ind/></uf><s stem="vqWA"/></f>
 <f form="vqxXakawas"><uf><tasil/></uf><s stem="vqxXaka"/></f>
 <f form="vqxXiwas"><uf><tasil/></uf><s stem="vqxXi"/></f>
+<f form="vqnwawas"><uf><tasil/></uf><s stem="vqnwa"/></f>
+<f form="vqnwAkawas"><uf><tasil/></uf><s stem="vqnwAka"/></f>
 <f form="vqnxawas"><uf><tasil/></uf><s stem="vqnxa"/></f>
 <f form="vqnxArakawas"><uf><tasil/></uf><s stem="vqnxAraka"/></f>
 <f form="vqnxArawas"><uf><tasil/></uf><s stem="vqnxAra"/></f>

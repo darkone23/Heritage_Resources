@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-8 Mai 2017"><meta name="copyright" content="
+11 Mai 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSayitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aMSa"/></f>
@@ -12796,14 +12796,17 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimardaka"><iic/><s stem="vimardaka"/></f>
 <f form="vimardana"><iic/><s stem="vimardana"/></f>
 <f form="vimarSa"><iic/><s stem="vimarSa"/></f>
+<f form="vimarSana"><iic/><s stem="vimarSana"/></f>
 <f form="vimarSi"><iic/><s stem="vimarSin"/></f>
 <f form="vimarSinI"><iic/><s stem="vimarSin"/></f>
+<f form="vimarzaRa"><iic/><s stem="vimarSana"/></f>
 <f form="vimala"><iic/><s stem="vimala"/></f>
 <f form="vimalA"><iic/><s stem="vimalA"/></f>
 <f form="vimAtf"><iic/><s stem="vimAtf"/></f>
 <f form="vimAtfja"><iic/><s stem="vimAtfja"/></f>
 <f form="vimAna"><iic/><s stem="vimAna#1"/></f>
 <f form="vimAna"><iic/><s stem="vimAna#2"/></f>
+<f form="vimAnArcanakalpa"><iic/><s stem="vimAnArcanakalpa"/></f>
 <f form="vimArga"><iic/><s stem="vimArga"/></f>
 <f form="vimukti"><iic/><s stem="vimukti"/></f>
 <f form="vimuKa"><iic/><s stem="vimuKa"/></f>
@@ -13065,6 +13068,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vftratara"><iic/><s stem="vftratara"/></f>
 <f form="vfdDaka"><iic/><s stem="vfdDaka"/></f>
 <f form="vfdDi"><iic/><s stem="vfdDi"/></f>
+<f form="vfnta"><iic/><s stem="vfnta"/></f>
+<f form="vfntAka"><iic/><s stem="vfntAka"/></f>
+<f form="vfntAkI"><iic/><s stem="vfntAka"/></f>
 <f form="vfnda"><iic/><s stem="vfnda"/></f>
 <f form="vfndA"><iic/><s stem="vfndA"/></f>
 <f form="vfndAra"><iic/><s stem="vfndAra"/></f>
@@ -131554,6 +131560,20 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimardeByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="vimarda"/></f>
 <f form="vimardezu"><na><loc/><pl/><neu/></na><s stem="vimarda"/></f>
 <f form="vimardEs"><na><ins/><pl/><neu/></na><s stem="vimarda"/></f>
+<f form="vimarSanayA"><na><ins/><sg/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanA"><na><nom/><sg/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAnAm"><na><gen/><pl/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanABis"><na><ins/><pl/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAm"><na><acc/><sg/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAyAm"><na><loc/><sg/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAyE"><na><dat/><sg/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAsu"><na><loc/><pl/><fem/></na><s stem="vimarSana"/></f>
+<f form="vimarSane"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="vimarSana"/></f>
 <f form="vimarSam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="vimarSa"/></f>
 <f form="vimarSayA"><na><ins/><sg/><fem/></na><s stem="vimarSa"/></f>
 <f form="vimarSayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="vimarSa"/></f>
@@ -131640,6 +131660,29 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimAtrA"><na><ins/><sg/><mas/></na><s stem="vimAtf"/></f>
 <f form="vimAtre"><na><dat/><sg/><mas/></na><s stem="vimAtf"/></f>
 <f form="vimAtros"><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="vimAtf"/></f>
+<f form="vimAnArcanakalpam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpayA"><na><ins/><sg/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpasya"><na><gen/><sg/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpA"><na><nom/><sg/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAt"><na><abl/><sg/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAnAm"><na><gen/><pl/><fem/></na><na><gen/><pl/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAni"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpABis"><na><ins/><pl/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAm"><na><acc/><sg/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAya"><na><dat/><sg/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAyAm"><na><loc/><sg/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAyE"><na><dat/><sg/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAsu"><na><loc/><pl/><fem/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpe"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><na><acc/><du/><neu/></na><na><nom/><du/><neu/></na><na><loc/><sg/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpena"><na><ins/><sg/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpeByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpezu"><na><loc/><pl/><neu/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpEs"><na><ins/><pl/><neu/></na><s stem="vimAnArcanakalpa"/></f>
 <f form="vimArgam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="vimArga"/></f>
 <f form="vimArgayA"><na><ins/><sg/><fem/></na><s stem="vimArga"/></f>
 <f form="vimArgayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="vimArga"/></f>
@@ -134530,6 +134573,20 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vfDe"><na><dat/><sg/><mas/></na><na><dat/><sg/><neu/></na><na><dat/><sg/><fem/></na><s stem="vfD#2"/></f>
 <f form="vfDos"><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="vfD#2"/></f>
 <f form="vfDO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="vfD#2"/></f>
+<f form="vfntayA"><na><ins/><sg/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntA"><na><nom/><sg/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntAnAm"><na><gen/><pl/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntABis"><na><ins/><pl/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntAm"><na><acc/><sg/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntAyAm"><na><loc/><sg/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntAyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntAyE"><na><dat/><sg/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="vfnta"/></f>
+<f form="vfntAsu"><na><loc/><pl/><fem/></na><s stem="vfnta"/></f>
+<f form="vfnte"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="vfnta"/></f>
 <f form="vfndam"><na><acc/><sg/><mas/></na><s stem="vfnda"/></f>
 <f form="vfndam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><na><acc/><sg/><mas/></na><s stem="vfndA"/></f>
 <f form="vfndayA"><na><ins/><sg/><fem/></na><s stem="vfnda"/></f>
@@ -178073,10 +178130,14 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimardam"><avya/><s stem="vimarda"/></f>
 <f form="vimardAt"><avya/><s stem="vimarda"/></f>
 <f form="vimardikam"><avya/><s stem="vimardaka"/></f>
+<f form="vimarSanam"><avya/><s stem="vimarSana"/></f>
+<f form="vimarSanAt"><avya/><s stem="vimarSana"/></f>
 <f form="vimarSam"><avya/><s stem="vimarSa"/></f>
 <f form="vimarSAt"><avya/><s stem="vimarSa"/></f>
 <f form="vimarSi"><avya/><s stem="vimarSin"/></f>
 <f form="vimarSini"><avya/><s stem="vimarSin"/></f>
+<f form="vimarzaRam"><avya/><s stem="vimarSana"/></f>
+<f form="vimarzaRAt"><avya/><s stem="vimarSana"/></f>
 <f form="vimalam"><avya/><s stem="vimala"/></f>
 <f form="vimalam"><avya/><s stem="vimalA"/></f>
 <f form="vimalAt"><avya/><s stem="vimala"/></f>
@@ -178087,6 +178148,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimAnam"><avya/><s stem="vimAna#2"/></f>
 <f form="vimAnAt"><avya/><s stem="vimAna#1"/></f>
 <f form="vimAnAt"><avya/><s stem="vimAna#2"/></f>
+<f form="vimAnArcanakalpam"><avya/><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAt"><avya/><s stem="vimAnArcanakalpa"/></f>
 <f form="vimArgam"><avya/><s stem="vimArga"/></f>
 <f form="vimArgAt"><avya/><s stem="vimArga"/></f>
 <f form="vimukti"><avya/><s stem="vimukti"/></f>
@@ -178501,6 +178564,11 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vfdDakAt"><avya/><s stem="vfdDaka"/></f>
 <f form="vfdDi"><avya/><s stem="vfdDi"/></f>
 <f form="vfdDikam"><avya/><s stem="vfdDaka"/></f>
+<f form="vfntam"><avya/><s stem="vfnta"/></f>
+<f form="vfntAkam"><avya/><s stem="vfntAka"/></f>
+<f form="vfntAkAt"><avya/><s stem="vfntAka"/></f>
+<f form="vfntAki"><avya/><s stem="vfntAka"/></f>
+<f form="vfntAt"><avya/><s stem="vfnta"/></f>
 <f form="vfndam"><avya/><s stem="vfnda"/></f>
 <f form="vfndam"><avya/><s stem="vfndA"/></f>
 <f form="vfndAt"><avya/><s stem="vfnda"/></f>
@@ -221231,6 +221299,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimardike"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="vimardaka"/></f>
 <f form="vimardO"><na><voc/><du/><mas/></na><s stem="vimarda"/></f>
 <f form="vimarSa"><na><voc/><sg/><mas/></na><s stem="vimarSa"/></f>
+<f form="vimarSana"><na><voc/><sg/><neu/></na><s stem="vimarSana"/></f>
+<f form="vimarSanAni"><na><voc/><pl/><neu/></na><s stem="vimarSana"/></f>
+<f form="vimarSane"><na><voc/><du/><neu/></na><s stem="vimarSana"/></f>
 <f form="vimarSAs"><na><voc/><pl/><mas/></na><s stem="vimarSa"/></f>
 <f form="vimarSi"><na><voc/><sg/><neu/></na><s stem="vimarSin"/></f>
 <f form="vimarSin"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="vimarSin"/></f>
@@ -221242,6 +221313,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimarSinyO"><na><voc/><du/><fem/></na><s stem="vimarSin"/></f>
 <f form="vimarSIni"><na><voc/><pl/><neu/></na><s stem="vimarSin"/></f>
 <f form="vimarSO"><na><voc/><du/><mas/></na><s stem="vimarSa"/></f>
+<f form="vimarzaRa"><na><voc/><sg/><mas/></na><s stem="vimarSana"/></f>
+<f form="vimarzaRAs"><na><voc/><pl/><mas/></na><s stem="vimarSana"/></f>
+<f form="vimarzaRO"><na><voc/><du/><mas/></na><s stem="vimarSana"/></f>
 <f form="vimala"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="vimala"/></f>
 <f form="vimalAni"><na><voc/><pl/><neu/></na><s stem="vimala"/></f>
 <f form="vimalAs"><na><voc/><pl/><fem/></na><s stem="vimalA"/></f>
@@ -221259,6 +221333,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimAna"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="vimAna#2"/></f>
 <f form="vimAnAni"><na><voc/><pl/><neu/></na><s stem="vimAna#1"/></f>
 <f form="vimAnAni"><na><voc/><pl/><neu/></na><s stem="vimAna#2"/></f>
+<f form="vimAnArcanakalpa"><na><voc/><sg/><mas/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpAs"><na><voc/><pl/><mas/></na><s stem="vimAnArcanakalpa"/></f>
+<f form="vimAnArcanakalpO"><na><voc/><du/><mas/></na><s stem="vimAnArcanakalpa"/></f>
 <f form="vimAnAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="vimAna#1"/></f>
 <f form="vimAnAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="vimAna#2"/></f>
 <f form="vimAne"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="vimAna#1"/></f>
@@ -222275,6 +222352,19 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vfdDike"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="vfdDaka"/></f>
 <f form="vfdDI"><na><voc/><du/><fem/></na><s stem="vfdDi"/></f>
 <f form="vfdDe"><na><voc/><sg/><fem/></na><s stem="vfdDi"/></f>
+<f form="vfnta"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="vfnta"/></f>
+<f form="vfntAka"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="vfntAka"/></f>
+<f form="vfntAkAni"><na><voc/><pl/><neu/></na><s stem="vfntAka"/></f>
+<f form="vfntAkAs"><na><voc/><pl/><mas/></na><s stem="vfntAka"/></f>
+<f form="vfntAki"><na><voc/><sg/><fem/></na><s stem="vfntAka"/></f>
+<f form="vfntAke"><na><voc/><du/><neu/></na><s stem="vfntAka"/></f>
+<f form="vfntAkO"><na><voc/><du/><mas/></na><s stem="vfntAka"/></f>
+<f form="vfntAkyas"><na><voc/><pl/><fem/></na><s stem="vfntAka"/></f>
+<f form="vfntAkyO"><na><voc/><du/><fem/></na><s stem="vfntAka"/></f>
+<f form="vfntAni"><na><voc/><pl/><neu/></na><s stem="vfnta"/></f>
+<f form="vfntAs"><na><voc/><pl/><mas/></na><s stem="vfnta"/></f>
+<f form="vfnte"><na><voc/><du/><neu/></na><s stem="vfnta"/></f>
+<f form="vfntO"><na><voc/><du/><mas/></na><s stem="vfnta"/></f>
 <f form="vfnda"><na><voc/><sg/><neu/></na><s stem="vfnda"/></f>
 <f form="vfndAni"><na><voc/><pl/><neu/></na><s stem="vfnda"/></f>
 <f form="vfndAra"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="vfndAra"/></f>
@@ -238357,8 +238447,10 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimardI"><iiv/><s stem="vimarda"/></f>
 <f form="vimarSI"><iiv/><s stem="vimarSa"/></f>
 <f form="vimarSI"><iiv/><s stem="vimarSin"/></f>
+<f form="vimarzaRI"><iiv/><s stem="vimarSana"/></f>
 <f form="vimalI"><iiv/><s stem="vimala"/></f>
 <f form="vimAtfjI"><iiv/><s stem="vimAtfja"/></f>
+<f form="vimAnArcanakalpI"><iiv/><s stem="vimAnArcanakalpa"/></f>
 <f form="vimAnI"><iiv/><s stem="vimAna#1"/></f>
 <f form="vimAnI"><iiv/><s stem="vimAna#2"/></f>
 <f form="vimArgI"><iiv/><s stem="vimArga"/></f>
@@ -238524,6 +238616,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vftratarI"><iiv/><s stem="vftratara"/></f>
 <f form="vftrI"><iiv/><s stem="vftra"/></f>
 <f form="vfdDakI"><iiv/><s stem="vfdDaka"/></f>
+<f form="vfntAkI"><iiv/><s stem="vfntAka"/></f>
+<f form="vfntI"><iiv/><s stem="vfnta"/></f>
 <f form="vfndArakI"><iiv/><s stem="vfndAraka"/></f>
 <f form="vfndArI"><iiv/><s stem="vfndAra"/></f>
 <f form="vfScanI"><iiv/><s stem="vfScana"/></f>

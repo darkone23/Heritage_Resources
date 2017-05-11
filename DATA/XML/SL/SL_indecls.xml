@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-8 Mai 2017"><meta name="copyright" content="
+11 Mai 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -8385,10 +8385,13 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vimardatas"><uf><tasil/></uf><s stem="vimarda"/></f>
 <f form="vimardanatas"><uf><tasil/></uf><s stem="vimardana"/></f>
 <f form="vimarSatas"><uf><tasil/></uf><s stem="vimarSa"/></f>
+<f form="vimarSanatas"><uf><tasil/></uf><s stem="vimarSana"/></f>
+<f form="vimarzaRatas"><uf><tasil/></uf><s stem="vimarSana"/></f>
 <f form="vimalatas"><uf><tasil/></uf><s stem="vimala"/></f>
 <f form="vimAtfjatas"><uf><tasil/></uf><s stem="vimAtfja"/></f>
 <f form="vimAnatas"><uf><tasil/></uf><s stem="vimAna#1"/></f>
 <f form="vimAnatas"><uf><tasil/></uf><s stem="vimAna#2"/></f>
+<f form="vimAnArcanakalpatas"><uf><tasil/></uf><s stem="vimAnArcanakalpa"/></f>
 <f form="vimArgatas"><uf><tasil/></uf><s stem="vimArga"/></f>
 <f form="vimuktitas"><uf><tasil/></uf><s stem="vimukti"/></f>
 <f form="vimuKatas"><uf><tasil/></uf><s stem="vimuKa"/></f>
@@ -8575,6 +8578,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vfTA"><uf><ind/></uf><s stem="vfTA"/></f>
 <f form="vfdDakatas"><uf><tasil/></uf><s stem="vfdDaka"/></f>
 <f form="vfdDitas"><uf><tasil/></uf><s stem="vfdDi"/></f>
+<f form="vfntatas"><uf><tasil/></uf><s stem="vfnta"/></f>
+<f form="vfntAkatas"><uf><tasil/></uf><s stem="vfntAka"/></f>
 <f form="vfndatas"><uf><tasil/></uf><s stem="vfnda"/></f>
 <f form="vfndArakatas"><uf><tasil/></uf><s stem="vfndAraka"/></f>
 <f form="vfndAratas"><uf><tasil/></uf><s stem="vfndAra"/></f>
