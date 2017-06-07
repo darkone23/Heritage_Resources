@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-24 Mai 2017"><meta name="copyright" content="
+7 Juin 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSaya"><v><cj><prim/></cj><sys><prs gn="11"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="aMSa"/></f>
@@ -78304,8 +78304,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="xiXiRyeran"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><trd/></np></v><s stem="XA#1"/></f>
 <f form="xiXiRyevahi"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><du/><fst/></np></v><s stem="XA#1"/></f>
 <f form="xiXiRyE"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><fst/></np></v><s stem="XA#1"/></f>
-<f form="xiXyAwe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><trd/></np></v><s stem="XI#1"/></f>
-<f form="xiXyAWe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><snd/></np></v><s stem="XI#1"/></f>
 <f form="xiXyAsawAm"><v><cj><des/></cj><sys><prs><md><ip/></md><atma/></prs></sys><np><sg/><trd/></np></v><s stem="XyA"/></f>
 <f form="xiXyAsawe"><v><cj><des/></cj><sys><prs><md><pr/></md><atma/></prs></sys><np><sg/><trd/></np></v><s stem="XyA"/></f>
 <f form="xiXyAsaXvam"><v><cj><des/></cj><sys><prs><md><ip/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="XyA"/></f>
@@ -78369,12 +78367,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="xiXyAsyeran"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><trd/></np></v><s stem="XyA"/></f>
 <f form="xiXyAsyevahi"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><du/><fst/></np></v><s stem="XyA"/></f>
 <f form="xiXyAsyE"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><fst/></np></v><s stem="XyA"/></f>
-<f form="xiXyiXve"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><pl/><snd/></np></v><s stem="XI#1"/></f>
-<f form="xiXyimahe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><pl/><fst/></np></v><s stem="XI#1"/></f>
-<f form="xiXyire"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><pl/><trd/></np></v><s stem="XI#1"/></f>
-<f form="xiXyivahe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><fst/></np></v><s stem="XI#1"/></f>
-<f form="xiXyiRe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><snd/></np></v><s stem="XI#1"/></f>
-<f form="xiXye"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="XI#1"/></f>
 <f form="xiSa"><v><cj><prim/></cj><sys><prs gn="6"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="xiS#1"/></f>
 <f form="xiSawa"><v><cj><prim/></cj><sys><prs gn="6"><md><ip/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="xiS#1"/></f>
 <f form="xiSawam"><v><cj><prim/></cj><sys><prs gn="6"><md><ip/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="xiS#1"/></f>
@@ -83754,24 +83746,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="XekRye"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="xih"/></f>
 <f form="XekRyewe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><trd/></np></v><s stem="xih"/></f>
 <f form="XekRyeWe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><snd/></np></v><s stem="xih"/></f>
-<f form="XewA"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><sg/><trd/></np></v><s stem="XI#1"/></f>
-<f form="XewAras"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><pl/><trd/></np></v><s stem="XI#1"/></f>
-<f form="XewArO"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><du/><trd/></np></v><s stem="XI#1"/></f>
-<f form="XewAsi"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><sg/><snd/></np></v><s stem="XI#1"/></f>
-<f form="XewAsWa"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><pl/><snd/></np></v><s stem="XI#1"/></f>
-<f form="XewAsWas"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><du/><snd/></np></v><s stem="XI#1"/></f>
-<f form="XewAsmas"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><pl/><fst/></np></v><s stem="XI#1"/></f>
-<f form="XewAsmi"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><sg/><fst/></np></v><s stem="XI#1"/></f>
-<f form="XewAsvas"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><du/><fst/></np></v><s stem="XI#1"/></f>
-<f form="XeRyawe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><trd/></np></v><s stem="XI#1"/></f>
-<f form="XeRyaXve"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><pl/><snd/></np></v><s stem="XI#1"/></f>
-<f form="XeRyanwe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><pl/><trd/></np></v><s stem="XI#1"/></f>
-<f form="XeRyase"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><snd/></np></v><s stem="XI#1"/></f>
-<f form="XeRyAmahe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><pl/><fst/></np></v><s stem="XI#1"/></f>
-<f form="XeRyAvahe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><fst/></np></v><s stem="XI#1"/></f>
-<f form="XeRye"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="XI#1"/></f>
-<f form="XeRyewe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><trd/></np></v><s stem="XI#1"/></f>
-<f form="XeRyeWe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><snd/></np></v><s stem="XI#1"/></f>
 <f form="Xehi"><v><cj><prim/></cj><sys><prs gn="3"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="XA#1"/></f>
 <f form="XokRi"><v><cj><prim/></cj><sys><prs gn="2"><md><pr/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
 <f form="XokRyawas"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>

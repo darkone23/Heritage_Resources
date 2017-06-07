@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-24 Mai 2017"><meta name="copyright" content="
+7 Juin 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSaya"><v><cj><prim/></cj><sys><prs gn="11"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="aMSa"/></f>
@@ -78304,8 +78304,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="diDizyeran"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><trd/></np></v><s stem="DA#1"/></f>
 <f form="diDizyevahi"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><du/><fst/></np></v><s stem="DA#1"/></f>
 <f form="diDizyE"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><fst/></np></v><s stem="DA#1"/></f>
-<f form="diDyAte"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><trd/></np></v><s stem="DI#1"/></f>
-<f form="diDyATe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><snd/></np></v><s stem="DI#1"/></f>
 <f form="diDyAsatAm"><v><cj><des/></cj><sys><prs><md><ip/></md><atma/></prs></sys><np><sg/><trd/></np></v><s stem="DyA"/></f>
 <f form="diDyAsate"><v><cj><des/></cj><sys><prs><md><pr/></md><atma/></prs></sys><np><sg/><trd/></np></v><s stem="DyA"/></f>
 <f form="diDyAsaDvam"><v><cj><des/></cj><sys><prs><md><ip/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="DyA"/></f>
@@ -78369,12 +78367,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="diDyAsyeran"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><trd/></np></v><s stem="DyA"/></f>
 <f form="diDyAsyevahi"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><du/><fst/></np></v><s stem="DyA"/></f>
 <f form="diDyAsyE"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><fst/></np></v><s stem="DyA"/></f>
-<f form="diDyiDve"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><pl/><snd/></np></v><s stem="DI#1"/></f>
-<f form="diDyimahe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><pl/><fst/></np></v><s stem="DI#1"/></f>
-<f form="diDyire"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><pl/><trd/></np></v><s stem="DI#1"/></f>
-<f form="diDyivahe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><fst/></np></v><s stem="DI#1"/></f>
-<f form="diDyize"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><snd/></np></v><s stem="DI#1"/></f>
-<f form="diDye"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="DI#1"/></f>
 <f form="diSa"><v><cj><prim/></cj><sys><prs gn="6"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="diS#1"/></f>
 <f form="diSata"><v><cj><prim/></cj><sys><prs gn="6"><md><ip/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="diS#1"/></f>
 <f form="diSatam"><v><cj><prim/></cj><sys><prs gn="6"><md><ip/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="diS#1"/></f>
@@ -83754,24 +83746,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="Dekzye"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="dih"/></f>
 <f form="Dekzyete"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><trd/></np></v><s stem="dih"/></f>
 <f form="DekzyeTe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><snd/></np></v><s stem="dih"/></f>
-<f form="DetA"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><sg/><trd/></np></v><s stem="DI#1"/></f>
-<f form="DetAras"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><pl/><trd/></np></v><s stem="DI#1"/></f>
-<f form="DetArO"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><du/><trd/></np></v><s stem="DI#1"/></f>
-<f form="DetAsi"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><sg/><snd/></np></v><s stem="DI#1"/></f>
-<f form="DetAsTa"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><pl/><snd/></np></v><s stem="DI#1"/></f>
-<f form="DetAsTas"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><du/><snd/></np></v><s stem="DI#1"/></f>
-<f form="DetAsmas"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><pl/><fst/></np></v><s stem="DI#1"/></f>
-<f form="DetAsmi"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><sg/><fst/></np></v><s stem="DI#1"/></f>
-<f form="DetAsvas"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><du/><fst/></np></v><s stem="DI#1"/></f>
-<f form="Dezyate"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><trd/></np></v><s stem="DI#1"/></f>
-<f form="DezyaDve"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><pl/><snd/></np></v><s stem="DI#1"/></f>
-<f form="Dezyante"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><pl/><trd/></np></v><s stem="DI#1"/></f>
-<f form="Dezyase"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><snd/></np></v><s stem="DI#1"/></f>
-<f form="DezyAmahe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><pl/><fst/></np></v><s stem="DI#1"/></f>
-<f form="DezyAvahe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><fst/></np></v><s stem="DI#1"/></f>
-<f form="Dezye"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="DI#1"/></f>
-<f form="Dezyete"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><trd/></np></v><s stem="DI#1"/></f>
-<f form="DezyeTe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><snd/></np></v><s stem="DI#1"/></f>
 <f form="Dehi"><v><cj><prim/></cj><sys><prs gn="3"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="DA#1"/></f>
 <f form="Dokzi"><v><cj><prim/></cj><sys><prs gn="2"><md><pr/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="duh#1"/></f>
 <f form="Dokzyatas"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><du/><trd/></np></v><s stem="duh#1"/></f>
