@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-7 Juin 2017"><meta name="copyright" content="
+11 Juin 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -2809,6 +2809,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kzetum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="kzI"/></f>
 <f form="kzetratas"><uf><tasil/></uf><s stem="kzetra"/></f>
 <f form="kzetriyatas"><uf><tasil/></uf><s stem="kzetriya"/></f>
+<f form="kzepakatas"><uf><tasil/></uf><s stem="kzepaka"/></f>
 <f form="kzepaRatas"><uf><tasil/></uf><s stem="kzepaRa"/></f>
 <f form="kzepatas"><uf><tasil/></uf><s stem="kzepa"/></f>
 <f form="kzepayitum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="kzip"/></f>
@@ -3474,6 +3475,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="CAtratas"><uf><tasil/></uf><s stem="CAttra"/></f>
 <f form="CAdanatas"><uf><tasil/></uf><s stem="CAdana"/></f>
 <f form="CAdayitum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="Cad#1"/></f>
+<f form="CAdizeyatas"><uf><tasil/></uf><s stem="CAdizeya"/></f>
 <f form="CAndasatas"><uf><tasil/></uf><s stem="CAndasa"/></f>
 <f form="CAndogyatas"><uf><tasil/></uf><s stem="CAndogya"/></f>
 <f form="CAyatas"><uf><tasil/></uf><s stem="CAya"/></f>
@@ -9818,7 +9820,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sarvatra"><uf><ind/></uf><s stem="sarvatra"/></f>
 <f form="sarvaTA"><uf><ind/></uf><s stem="sarvaTA"/></f>
 <f form="sarvadatas"><uf><tasil/></uf><s stem="sarvada"/></f>
-<f form="sarvadarSanasidDAntatas"><uf><tasil/></uf><s stem="sarvadarSanasidDAnta"/></f>
 <f form="sarvadA"><uf><ind/></uf><s stem="sarvadA"/></f>
 <f form="sarvapradatas"><uf><tasil/></uf><s stem="sarvaprada"/></f>
 <f form="sarvapraBuguRatas"><uf><tasil/></uf><s stem="sarvapraBuguRa"/></f>
