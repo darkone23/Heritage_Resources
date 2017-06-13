@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-11 Juin 2017"><meta name="copyright" content="
+13 Juin 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSayiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aMSa"/></f>
@@ -4088,6 +4088,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ukAra"><iic/><s stem="ukAra"/></f>
 <f form="ukwi"><iic/><s stem="ukwi"/></f>
 <f form="ukWa"><iic/><s stem="ukWa"/></f>
+<f form="ukWaSas"><iic/><s stem="ukWaSas"/></f>
+<f form="ukWaSasa"><iic/><s stem="ukWaSas"/></f>
 <f form="ukRa"><iic/><s stem="ukRan"/></f>
 <f form="uKa"><iic/><s stem="uKa"/></f>
 <f form="ugra"><iic/><s stem="ugra"/></f>
@@ -4618,6 +4620,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="qwi"><iic/><s stem="qwi"/></f>
 <f form="qwu"><iic/><s stem="qwu"/></f>
 <f form="qwvik"><iic/><s stem="qwvij"/></f>
+<f form="qwviya"><iic/><s stem="qwviya"/></f>
 <f form="qxXi"><iic/><s stem="qxXi"/></f>
 <f form="qBu"><iic/><s stem="qBu"/></f>
 <f form="qSya"><iic/><s stem="qSya"/></f>
@@ -10011,7 +10014,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="priyawara"><iic/><s stem="priyawara"/></f>
 <f form="priyaxarSi"><iic/><s stem="priyaxarSin"/></f>
 <f form="priyaxarSinI"><iic/><s stem="priyaxarSin"/></f>
-<f form="priyaprAya"><iic/><s stem="priyaprAya"/></f>
 <f form="priyam"><iic/><s stem="priyam"/></f>
 <f form="priyavAxi"><iic/><s stem="priyavAxin"/></f>
 <f form="priyavAxinI"><iic/><s stem="priyavAxin"/></f>
@@ -43363,6 +43365,29 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="qwvije"><na><dat/><sg/><fem/></na><na><dat/><sg/><neu/></na><s stem="qwvij"/></f>
 <f form="qwvijos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="qwvij"/></f>
 <f form="qwvijO"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="qwvij"/></f>
+<f form="qwviyam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyayA"><na><ins/><sg/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviyayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyasya"><na><gen/><sg/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyA"><na><nom/><sg/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviyAw"><na><abl/><sg/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyAnAm"><na><gen/><pl/><fem/></na><na><gen/><pl/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyAni"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyABis"><na><ins/><pl/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviyAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviyAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyAm"><na><acc/><sg/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviyAya"><na><dat/><sg/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyAyAm"><na><loc/><sg/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviyAyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviyAyE"><na><dat/><sg/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviyAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviyAsu"><na><loc/><pl/><fem/></na><s stem="qwviya"/></f>
+<f form="qwviye"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><na><acc/><du/><neu/></na><na><nom/><du/><neu/></na><na><loc/><sg/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyena"><na><ins/><sg/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyeByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyeRu"><na><loc/><pl/><neu/></na><s stem="qwviya"/></f>
+<f form="qwviyEs"><na><ins/><pl/><neu/></na><s stem="qwviya"/></f>
 <f form="qwvE"><na><dat/><sg/><fem/></na><s stem="qwu"/></f>
 <f form="qwvos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="qwu"/></f>
 <f form="qxXayas"><na><nom/><pl/><mas/></na><s stem="qxXi"/></f>
@@ -164759,6 +164784,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ukArAw"><avya/><s stem="ukAra"/></f>
 <f form="ukwi"><avya/><s stem="ukwi"/></f>
 <f form="ukWam"><avya/><s stem="ukWa"/></f>
+<f form="ukWaSasam"><avya/><s stem="ukWaSas"/></f>
+<f form="ukWaSasAw"><avya/><s stem="ukWaSas"/></f>
 <f form="ukWAw"><avya/><s stem="ukWa"/></f>
 <f form="ukRam"><avya/><s stem="ukRan"/></f>
 <f form="uKam"><avya/><s stem="uKa"/></f>
@@ -165636,6 +165663,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="qwi"><avya/><s stem="qwi"/></f>
 <f form="qwu"><avya/><s stem="qwu"/></f>
 <f form="qwvik"><avya/><s stem="qwvij"/></f>
+<f form="qwviyam"><avya/><s stem="qwviya"/></f>
+<f form="qwviyAw"><avya/><s stem="qwviya"/></f>
 <f form="qxXi"><avya/><s stem="qxXi"/></f>
 <f form="qBu"><avya/><s stem="qBu"/></f>
 <f form="qSyam"><avya/><s stem="qSya"/></f>
@@ -174375,8 +174404,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="priyawarAw"><avya/><s stem="priyawara"/></f>
 <f form="priyaxarSi"><avya/><s stem="priyaxarSin"/></f>
 <f form="priyaxarSini"><avya/><s stem="priyaxarSin"/></f>
-<f form="priyaprAyam"><avya/><s stem="priyaprAya"/></f>
-<f form="priyaprAyAw"><avya/><s stem="priyaprAya"/></f>
 <f form="priyam"><avya/><s stem="priya"/></f>
 <f form="priyavAxi"><avya/><s stem="priyavAxin"/></f>
 <f form="priyavAxini"><avya/><s stem="priyavAxin"/></f>
@@ -189495,6 +189522,15 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ukwI"><na><voc/><du/><fem/></na><s stem="ukwi"/></f>
 <f form="ukwe"><na><voc/><sg/><fem/></na><s stem="ukwi"/></f>
 <f form="ukWa"><na><voc/><sg/><neu/></na><s stem="ukWa"/></f>
+<f form="ukWaSas"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><na><voc/><sg/><fem/></na><s stem="ukWaSas"/></f>
+<f form="ukWaSasa"><na><voc/><sg/><neu/></na><na><voc/><sg/><mas/></na><s stem="ukWaSas"/></f>
+<f form="ukWaSasas"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="ukWaSas"/></f>
+<f form="ukWaSasAni"><na><voc/><pl/><neu/></na><s stem="ukWaSas"/></f>
+<f form="ukWaSasAs"><na><voc/><pl/><fem/></na><na><voc/><pl/><mas/></na><s stem="ukWaSas"/></f>
+<f form="ukWaSasI"><na><voc/><du/><neu/></na><s stem="ukWaSas"/></f>
+<f form="ukWaSase"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><na><voc/><du/><neu/></na><s stem="ukWaSas"/></f>
+<f form="ukWaSasO"><na><voc/><du/><fem/></na><na><voc/><du/><mas/></na><s stem="ukWaSas"/></f>
+<f form="ukWaSAMsi"><na><voc/><pl/><neu/></na><s stem="ukWaSas"/></f>
 <f form="ukWAni"><na><voc/><pl/><neu/></na><s stem="ukWa"/></f>
 <f form="ukWAs"><na><voc/><pl/><fem/></na><s stem="ukWa"/></f>
 <f form="ukWe"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="ukWa"/></f>
@@ -191460,6 +191496,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="qwvik"><na><voc/><sg/><mas/></na><s stem="qwvij"/></f>
 <f form="qwvijas"><na><voc/><pl/><mas/></na><s stem="qwvij"/></f>
 <f form="qwvijO"><na><voc/><du/><mas/></na><s stem="qwvij"/></f>
+<f form="qwviya"><na><voc/><sg/><mas/></na><s stem="qwviya"/></f>
+<f form="qwviyAs"><na><voc/><pl/><mas/></na><s stem="qwviya"/></f>
+<f form="qwviyO"><na><voc/><du/><mas/></na><s stem="qwviya"/></f>
 <f form="qxXayas"><na><voc/><pl/><fem/></na><s stem="qxXi"/></f>
 <f form="qxXI"><na><voc/><du/><fem/></na><s stem="qxXi"/></f>
 <f form="qxXe"><na><voc/><sg/><fem/></na><s stem="qxXi"/></f>
@@ -211900,11 +211939,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="priyaxarSinyas"><na><voc/><pl/><fem/></na><s stem="priyaxarSin"/></f>
 <f form="priyaxarSinyO"><na><voc/><du/><fem/></na><s stem="priyaxarSin"/></f>
 <f form="priyaxarSIni"><na><voc/><pl/><neu/></na><s stem="priyaxarSin"/></f>
-<f form="priyaprAya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="priyaprAya"/></f>
-<f form="priyaprAyANi"><na><voc/><pl/><neu/></na><s stem="priyaprAya"/></f>
-<f form="priyaprAyAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="priyaprAya"/></f>
-<f form="priyaprAye"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="priyaprAya"/></f>
-<f form="priyaprAyO"><na><voc/><du/><mas/></na><s stem="priyaprAya"/></f>
 <f form="priyavAxi"><na><voc/><sg/><neu/></na><s stem="priyavAxin"/></f>
 <f form="priyavAxin"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="priyavAxin"/></f>
 <f form="priyavAxinas"><na><voc/><pl/><mas/></na><s stem="priyavAxin"/></f>
@@ -233931,6 +233965,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ISvarI"><iiv/><s stem="ISvara"/></f>
 <f form="IhI"><iiv/><s stem="Iha"/></f>
 <f form="ukArI"><iiv/><s stem="ukAra"/></f>
+<f form="ukWaSasI"><iiv/><s stem="ukWaSas"/></f>
 <f form="uKI"><iiv/><s stem="uKa"/></f>
 <f form="ugrawamI"><iiv/><s stem="ugrawama"/></f>
 <f form="ugrawarI"><iiv/><s stem="ugrawara"/></f>
@@ -234236,6 +234271,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="qwamBarI"><iiv/><s stem="qwamBara"/></f>
 <f form="qwI"><iiv/><s stem="qwi"/></f>
 <f form="qwU"><iiv/><s stem="qwu"/></f>
+<f form="qwviyI"><iiv/><s stem="qwviya"/></f>
 <f form="qBU"><iiv/><s stem="qBu"/></f>
 <f form="qSyI"><iiv/><s stem="qSya"/></f>
 <f form="qRaBI"><iiv/><s stem="qRaBa"/></f>
@@ -237473,7 +237509,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="priyawamI"><iiv/><s stem="priyawama"/></f>
 <f form="priyawarI"><iiv/><s stem="priyawara"/></f>
 <f form="priyaxarSI"><iiv/><s stem="priyaxarSin"/></f>
-<f form="priyaprAyI"><iiv/><s stem="priyaprAya"/></f>
 <f form="priyavAxI"><iiv/><s stem="priyavAxin"/></f>
 <f form="priyI"><iiv/><s stem="priya"/></f>
 <f form="prIwimayI"><iiv/><s stem="prIwimaya"/></f>
