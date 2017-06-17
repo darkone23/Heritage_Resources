@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-13 Juin 2017"><meta name="copyright" content="
+20 Juin 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSayitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aMSa"/></f>
@@ -2424,6 +2424,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="agnizwut"><iic/><s stem="agnizwut"/></f>
 <f form="agnizwoma"><iic/><s stem="agnizwoma"/></f>
 <f form="agnihotri"><iic/><s stem="agnihotrin"/></f>
+<f form="agnIRdra"><iic/><s stem="agnIRdra"/></f>
 <f form="agnIzoma"><iic/><s stem="agnIzoma"/></f>
 <f form="agnIzomIya"><iic/><s stem="agnIzomIya"/></f>
 <f form="agra"><iic/><s stem="agra"/></f>
@@ -2761,6 +2762,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="anujYA"><iic/><s stem="anujYA#2"/></f>
 <f form="anujyezWa"><iic/><s stem="anujyezWa"/></f>
 <f form="anutApa"><iic/><s stem="anutApa"/></f>
+<f form="anutta"><iic/><s stem="anutta#1"/></f>
 <f form="anuttarayogatantra"><iic/><s stem="anuttarayogatantra"/></f>
 <f form="anuttaropapAtikadaSA"><iic/><s stem="anuttaropapAtikadaSA"/></f>
 <f form="anudyUta"><iic/><s stem="anudyUta"/></f>
@@ -16097,6 +16099,29 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="agnihotrizu"><na><loc/><pl/><neu/></na><s stem="agnihotrin"/></f>
 <f form="agnihotrIRi"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="agnihotrin"/></f>
 <f form="agnI"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="agni"/></f>
+<f form="agnIRdram"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrayA"><na><ins/><sg/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrasya"><na><gen/><sg/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrA"><na><nom/><sg/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrARAm"><na><gen/><pl/><fem/></na><na><gen/><pl/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrARi"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAt"><na><abl/><sg/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrABis"><na><ins/><pl/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAm"><na><acc/><sg/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAya"><na><dat/><sg/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAyAm"><na><loc/><sg/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAyE"><na><dat/><sg/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAsu"><na><loc/><pl/><fem/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdre"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><na><acc/><du/><neu/></na><na><nom/><du/><neu/></na><na><loc/><sg/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdreRa"><na><ins/><sg/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdreByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrezu"><na><loc/><pl/><neu/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrEs"><na><ins/><pl/><neu/></na><s stem="agnIRdra"/></f>
 <f form="agnInAm"><na><gen/><pl/><fem/></na><na><gen/><pl/><neu/></na><s stem="agni"/></f>
 <f form="agnIni"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="agni"/></f>
 <f form="agnIzomam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="agnIzoma"/></f>
@@ -162109,6 +162134,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="agnizwomam"><avya/><s stem="agnizwoma"/></f>
 <f form="agnizwomAt"><avya/><s stem="agnizwoma"/></f>
 <f form="agnihotri"><avya/><s stem="agnihotrin"/></f>
+<f form="agnIRdram"><avya/><s stem="agnIRdra"/></f>
+<f form="agnIRdrAt"><avya/><s stem="agnIRdra"/></f>
 <f form="agnIzomam"><avya/><s stem="agnIzoma"/></f>
 <f form="agnIzomAt"><avya/><s stem="agnIzoma"/></f>
 <f form="agnIzomIyam"><avya/><s stem="agnIzomIya"/></f>
@@ -162656,9 +162683,11 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="anujyezWAt"><avya/><s stem="anujyezWa"/></f>
 <f form="anutApam"><avya/><s stem="anutApa"/></f>
 <f form="anutApAt"><avya/><s stem="anutApa"/></f>
+<f form="anuttam"><avya/><s stem="anutta#1"/></f>
 <f form="anuttarayogatantram"><avya/><s stem="anuttarayogatantra"/></f>
 <f form="anuttarayogatantrAt"><avya/><s stem="anuttarayogatantra"/></f>
 <f form="anuttaropapAtikadaSam"><avya/><s stem="anuttaropapAtikadaSA"/></f>
+<f form="anuttAt"><avya/><s stem="anutta#1"/></f>
 <f form="anudyUtam"><avya/><s stem="anudyUta"/></f>
 <f form="anudyUtAt"><avya/><s stem="anudyUta"/></f>
 <f form="anunayam"><avya/><s stem="anunaya"/></f>
@@ -183355,6 +183384,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="agnihotriRO"><na><voc/><du/><mas/></na><s stem="agnihotrin"/></f>
 <f form="agnihotrin"><na><voc/><sg/><mas/></na><s stem="agnihotrin"/></f>
 <f form="agnI"><na><voc/><du/><mas/></na><s stem="agni"/></f>
+<f form="agnIRdra"><na><voc/><sg/><mas/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrAs"><na><voc/><pl/><mas/></na><s stem="agnIRdra"/></f>
+<f form="agnIRdrO"><na><voc/><du/><mas/></na><s stem="agnIRdra"/></f>
 <f form="agnIzoma"><na><voc/><sg/><mas/></na><s stem="agnIzoma"/></f>
 <f form="agnIzomAs"><na><voc/><pl/><mas/></na><s stem="agnIzoma"/></f>
 <f form="agnIzomIya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="agnIzomIya"/></f>
@@ -184602,11 +184634,16 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="anutApa"><na><voc/><sg/><mas/></na><s stem="anutApa"/></f>
 <f form="anutApAs"><na><voc/><pl/><mas/></na><s stem="anutApa"/></f>
 <f form="anutApO"><na><voc/><du/><mas/></na><s stem="anutApa"/></f>
+<f form="anutta"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="anutta#1"/></f>
 <f form="anuttarayogatantra"><na><voc/><sg/><neu/></na><s stem="anuttarayogatantra"/></f>
 <f form="anuttarayogatantrARi"><na><voc/><pl/><neu/></na><s stem="anuttarayogatantra"/></f>
 <f form="anuttarayogatantre"><na><voc/><du/><neu/></na><s stem="anuttarayogatantra"/></f>
 <f form="anuttaropapAtikadaSAs"><na><voc/><pl/><fem/></na><s stem="anuttaropapAtikadaSA"/></f>
 <f form="anuttaropapAtikadaSe"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="anuttaropapAtikadaSA"/></f>
+<f form="anuttAni"><na><voc/><pl/><neu/></na><s stem="anutta#1"/></f>
+<f form="anuttAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="anutta#1"/></f>
+<f form="anutte"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="anutta#1"/></f>
+<f form="anuttO"><na><voc/><du/><mas/></na><s stem="anutta#1"/></f>
 <f form="anudyUta"><na><voc/><sg/><neu/></na><s stem="anudyUta"/></f>
 <f form="anudyUtAni"><na><voc/><pl/><neu/></na><s stem="anudyUta"/></f>
 <f form="anudyUte"><na><voc/><du/><neu/></na><s stem="anudyUta"/></f>
@@ -233009,6 +233046,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="agnizwomI"><iiv/><s stem="agnizwoma"/></f>
 <f form="agnihotrI"><iiv/><s stem="agnihotrin"/></f>
 <f form="agnI"><iiv/><s stem="agni"/></f>
+<f form="agnIRdrI"><iiv/><s stem="agnIRdra"/></f>
 <f form="agnIzomI"><iiv/><s stem="agnIzoma"/></f>
 <f form="agnIzomIyI"><iiv/><s stem="agnIzomIya"/></f>
 <f form="agrajI"><iiv/><s stem="agraja"/></f>
@@ -233213,6 +233251,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="anujIvI"><iiv/><s stem="anujIvin"/></f>
 <f form="anujyezWI"><iiv/><s stem="anujyezWa"/></f>
 <f form="anutApI"><iiv/><s stem="anutApa"/></f>
+<f form="anuttI"><iiv/><s stem="anutta#1"/></f>
 <f form="anunayI"><iiv/><s stem="anunaya"/></f>
 <f form="anunAsikI"><iiv/><s stem="anunAsika"/></f>
 <f form="anupadI"><iiv/><s stem="anupada"/></f>
