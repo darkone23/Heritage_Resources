@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-20 Juin 2017"><meta name="copyright" content="
+21 Juin 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSayiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aMSa"/></f>
@@ -10438,6 +10438,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="BAva"><iic/><s stem="BAva"/></f>
 <f form="BAvaka"><iic/><s stem="BAvaka"/></f>
 <f form="BAvana"><iic/><s stem="BAvana"/></f>
+<f form="BAvanA"><iic/><s stem="BAvanA"/></f>
 <f form="BAvanI"><iic/><s stem="BAvana"/></f>
 <f form="BAvayiwq"><iic/><s stem="BAvayiwq"/></f>
 <f form="BAvayiwrI"><iic/><s stem="BAvayiwq"/></f>
@@ -107167,6 +107168,23 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="BAleRu"><na><loc/><pl/><mas/></na><s stem="BAla"/></f>
 <f form="BAlEs"><na><ins/><pl/><mas/></na><s stem="BAla"/></f>
 <f form="BAlO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="BAla"/></f>
+<f form="BAvanam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><na><acc/><sg/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanayos"><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanas"><na><nom/><sg/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanasya"><na><gen/><sg/><neu/></na><na><gen/><sg/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanAw"><na><abl/><sg/><neu/></na><na><abl/><sg/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanAn"><na><acc/><pl/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanAnAm"><na><gen/><pl/><neu/></na><na><gen/><pl/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanAni"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="BAvanA"/></f>
+<f form="BAvanAByAm"><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><na><abl/><du/><mas/></na><na><dat/><du/><mas/></na><na><ins/><du/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanAya"><na><dat/><sg/><neu/></na><na><dat/><sg/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanAs"><na><nom/><pl/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvane"><na><acc/><du/><neu/></na><na><nom/><du/><neu/></na><na><loc/><sg/><neu/></na><na><loc/><sg/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanena"><na><ins/><sg/><neu/></na><na><ins/><sg/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvaneByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><na><abl/><pl/><mas/></na><na><dat/><pl/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvaneRu"><na><loc/><pl/><neu/></na><na><loc/><pl/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanEs"><na><ins/><pl/><neu/></na><na><ins/><pl/><mas/></na><s stem="BAvanA"/></f>
+<f form="BAvanO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="BAvanA"/></f>
 <f form="BAvam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="BAva"/></f>
 <f form="BAvayA"><na><ins/><sg/><fem/></na><s stem="BAva"/></f>
 <f form="BAvayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="BAva"/></f>
@@ -175112,6 +175130,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="BAvakam"><avya/><s stem="BAvaka"/></f>
 <f form="BAvakAw"><avya/><s stem="BAvaka"/></f>
 <f form="BAvanam"><avya/><s stem="BAvana"/></f>
+<f form="BAvanam"><avya/><s stem="BAvanA"/></f>
 <f form="BAvanAw"><avya/><s stem="BAvana"/></f>
 <f form="BAvani"><avya/><s stem="BAvana"/></f>
 <f form="BAvam"><avya/><s stem="BAva"/></f>
@@ -213592,9 +213611,11 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="BAvakO"><na><voc/><du/><mas/></na><s stem="BAvaka"/></f>
 <f form="BAvana"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="BAvana"/></f>
 <f form="BAvanAni"><na><voc/><pl/><neu/></na><s stem="BAvana"/></f>
-<f form="BAvanAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="BAvana"/></f>
+<f form="BAvanAs"><na><voc/><pl/><fem/></na><s stem="BAvanA"/></f>
+<f form="BAvanAs"><na><voc/><pl/><mas/></na><s stem="BAvana"/></f>
 <f form="BAvani"><na><voc/><sg/><fem/></na><s stem="BAvana"/></f>
-<f form="BAvane"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="BAvana"/></f>
+<f form="BAvane"><na><voc/><du/><neu/></na><s stem="BAvana"/></f>
+<f form="BAvane"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="BAvanA"/></f>
 <f form="BAvanO"><na><voc/><du/><mas/></na><s stem="BAvana"/></f>
 <f form="BAvanyas"><na><voc/><pl/><fem/></na><s stem="BAvana"/></f>
 <f form="BAvanyO"><na><voc/><du/><fem/></na><s stem="BAvana"/></f>
