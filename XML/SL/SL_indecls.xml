@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-21 Juin 2017"><meta name="copyright" content="
+1er Juillet 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -22,6 +22,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="akarmakatas"><uf><tasil/></uf><s stem="akarmaka"/></f>
 <f form="akasmAt"><uf><ind/></uf><s stem="akasmAt"/></f>
 <f form="akAratas"><uf><tasil/></uf><s stem="akAra"/></f>
+<f form="akAlahInam"><uf><ind/></uf><s stem="akAlahInam"/></f>
+<f form="akAlyatas"><uf><tasil/></uf><s stem="akAlya"/></f>
 <f form="akUpAratas"><uf><tasil/></uf><s stem="akUpAra"/></f>
 <f form="aktutas"><uf><tasil/></uf><s stem="aktu"/></f>
 <f form="akzatas"><uf><tasil/></uf><s stem="akza"/></f>
@@ -1981,6 +1983,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kawutas"><uf><tasil/></uf><s stem="kawu"/></f>
 <f form="kaWatas"><uf><tasil/></uf><s stem="kaWa"/></f>
 <f form="kaWinatas"><uf><tasil/></uf><s stem="kaWina"/></f>
+<f form="kaWeratas"><uf><tasil/></uf><s stem="kaWera"/></f>
+<f form="kaWoratas"><uf><tasil/></uf><s stem="kaWora"/></f>
+<f form="kaWorayitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="kaWora"/></f>
 <f form="kaqambatas"><uf><tasil/></uf><s stem="kadamba"/></f>
 <f form="kaqAratas"><uf><tasil/></uf><s stem="kaqAra"/></f>
 <f form="kaRatas"><uf><tasil/></uf><s stem="kaRa"/></f>
@@ -2044,6 +2049,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kandarpatas"><uf><tasil/></uf><s stem="kandarpa"/></f>
 <f form="kandalatas"><uf><tasil/></uf><s stem="kandala"/></f>
 <f form="kandukatas"><uf><tasil/></uf><s stem="kanduka"/></f>
+<f form="kandutas"><uf><tasil/></uf><s stem="kandu"/></f>
 <f form="kanDaratas"><uf><tasil/></uf><s stem="kanDara"/></f>
 <f form="kannaqatas"><uf><tasil/></uf><s stem="kannaqa"/></f>
 <f form="kanyatas"><uf><tasil/></uf><s stem="kanya"/></f>
@@ -5697,12 +5703,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puraHsTatas"><uf><tasil/></uf><s stem="puraHsTa"/></f>
 <f form="puraYjanatas"><uf><tasil/></uf><s stem="puraYjana"/></f>
 <f form="puraYjayatas"><uf><tasil/></uf><s stem="puraYjaya"/></f>
-<f form="puratas"><uf><tasil/></uf><s stem="pur"/></f>
 <f form="purandaratas"><uf><tasil/></uf><s stem="purandara"/></f>
 <f form="puranDitas"><uf><tasil/></uf><s stem="puranDi"/></f>
 <f form="puranDritas"><uf><tasil/></uf><s stem="puranDri"/></f>
-<f form="puramaTanatas"><uf><tasil/></uf><s stem="puramaTana"/></f>
-<f form="puravargatas"><uf><tasil/></uf><s stem="puravarga"/></f>
 <f form="puras"><uf><ind/></uf><uf><prep/></uf><s stem="puras"/></f>
 <f form="puraskAratas"><uf><tasil/></uf><s stem="puraskAra"/></f>
 <f form="purastAt"><uf><ind/></uf><s stem="purastAt"/></f>
@@ -6763,6 +6766,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="makaratas"><uf><tasil/></uf><s stem="makara"/></f>
 <f form="makarandatas"><uf><tasil/></uf><s stem="makaranda"/></f>
 <f form="makAratas"><uf><tasil/></uf><s stem="makAra"/></f>
+<f form="makuratas"><uf><tasil/></uf><s stem="makura"/></f>
+<f form="makulatas"><uf><tasil/></uf><s stem="makula"/></f>
 <f form="makzU"><uf><ind/></uf><s stem="makzU"/></f>
 <f form="maKatas"><uf><tasil/></uf><s stem="maKa"/></f>
 <f form="magaDatas"><uf><tasil/></uf><s stem="magaDa"/></f>

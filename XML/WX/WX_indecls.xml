@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-21 Juin 2017"><meta name="copyright" content="
+1er Juillet 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -22,6 +22,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="akarmakawas"><uf><tasil/></uf><s stem="akarmaka"/></f>
 <f form="akasmAw"><uf><ind/></uf><s stem="akasmAw"/></f>
 <f form="akArawas"><uf><tasil/></uf><s stem="akAra"/></f>
+<f form="akAlahInam"><uf><ind/></uf><s stem="akAlahInam"/></f>
+<f form="akAlyawas"><uf><tasil/></uf><s stem="akAlya"/></f>
 <f form="akUpArawas"><uf><tasil/></uf><s stem="akUpAra"/></f>
 <f form="akwuwas"><uf><tasil/></uf><s stem="akwu"/></f>
 <f form="akRawas"><uf><tasil/></uf><s stem="akRa"/></f>
@@ -1981,6 +1983,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="katuwas"><uf><tasil/></uf><s stem="katu"/></f>
 <f form="kaTawas"><uf><tasil/></uf><s stem="kaTa"/></f>
 <f form="kaTinawas"><uf><tasil/></uf><s stem="kaTina"/></f>
+<f form="kaTerawas"><uf><tasil/></uf><s stem="kaTera"/></f>
+<f form="kaTorawas"><uf><tasil/></uf><s stem="kaTora"/></f>
+<f form="kaTorayiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="kaTora"/></f>
 <f form="kadambawas"><uf><tasil/></uf><s stem="kaxamba"/></f>
 <f form="kadArawas"><uf><tasil/></uf><s stem="kadAra"/></f>
 <f form="kaNawas"><uf><tasil/></uf><s stem="kaNa"/></f>
@@ -2044,6 +2049,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kanxarpawas"><uf><tasil/></uf><s stem="kanxarpa"/></f>
 <f form="kanxalawas"><uf><tasil/></uf><s stem="kanxala"/></f>
 <f form="kanxukawas"><uf><tasil/></uf><s stem="kanxuka"/></f>
+<f form="kanxuwas"><uf><tasil/></uf><s stem="kanxu"/></f>
 <f form="kanXarawas"><uf><tasil/></uf><s stem="kanXara"/></f>
 <f form="kannadawas"><uf><tasil/></uf><s stem="kannada"/></f>
 <f form="kanyawas"><uf><tasil/></uf><s stem="kanya"/></f>
@@ -5697,12 +5703,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puraHsWawas"><uf><tasil/></uf><s stem="puraHsWa"/></f>
 <f form="puraFjanawas"><uf><tasil/></uf><s stem="puraFjana"/></f>
 <f form="puraFjayawas"><uf><tasil/></uf><s stem="puraFjaya"/></f>
-<f form="purawas"><uf><tasil/></uf><s stem="pur"/></f>
 <f form="puranxarawas"><uf><tasil/></uf><s stem="puranxara"/></f>
 <f form="puranXiwas"><uf><tasil/></uf><s stem="puranXi"/></f>
 <f form="puranXriwas"><uf><tasil/></uf><s stem="puranXri"/></f>
-<f form="puramaWanawas"><uf><tasil/></uf><s stem="puramaWana"/></f>
-<f form="puravargawas"><uf><tasil/></uf><s stem="puravarga"/></f>
 <f form="puras"><uf><ind/></uf><uf><prep/></uf><s stem="puras"/></f>
 <f form="puraskArawas"><uf><tasil/></uf><s stem="puraskAra"/></f>
 <f form="puraswAw"><uf><ind/></uf><s stem="puraswAw"/></f>
@@ -6763,6 +6766,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="makarawas"><uf><tasil/></uf><s stem="makara"/></f>
 <f form="makaranxawas"><uf><tasil/></uf><s stem="makaranxa"/></f>
 <f form="makArawas"><uf><tasil/></uf><s stem="makAra"/></f>
+<f form="makurawas"><uf><tasil/></uf><s stem="makura"/></f>
+<f form="makulawas"><uf><tasil/></uf><s stem="makula"/></f>
 <f form="makRU"><uf><ind/></uf><s stem="makRU"/></f>
 <f form="maKawas"><uf><tasil/></uf><s stem="maKa"/></f>
 <f form="magaXawas"><uf><tasil/></uf><s stem="magaXa"/></f>
