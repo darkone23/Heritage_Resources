@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-25 Juillet 2017"><meta name="copyright" content="
+28 Juillet 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSayiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aMSa"/></f>
@@ -13779,6 +13779,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SrIkalApUrNa"><iic/><s stem="SrIkalApUrNa"/></f>
 <f form="SrIkAlahaswi"><iic/><s stem="SrIkAlahaswi"/></f>
 <f form="SrIwawwvaniXi"><iic/><s stem="SrIwawwvaniXi"/></f>
+<f form="SrIxurgAsapwaSawI"><iic/><s stem="SrIxurgAsapwaSawI"/></f>
 <f form="SrInAWajI"><iic/><s stem="SrInAWajI"/></f>
 <f form="SrIrAGavayAxavIya"><iic/><s stem="SrIrAGavayAxavIya"/></f>
 <f form="SrIla"><iic/><s stem="SrIla"/></f>
@@ -144265,6 +144266,23 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SrIwawwvaniXyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="SrIwawwvaniXi"/></f>
 <f form="SrIwawwvaniXyE"><na><dat/><sg/><fem/></na><s stem="SrIwawwvaniXi"/></f>
 <f form="SrIwawwvaniXyos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="SrIwawwvaniXi"/></f>
+<f form="SrIxurgAsapwaSawIkam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><na><acc/><sg/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkayos"><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkas"><na><nom/><sg/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkasya"><na><gen/><sg/><neu/></na><na><gen/><sg/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkAw"><na><abl/><sg/><neu/></na><na><abl/><sg/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkAn"><na><acc/><pl/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkAnAm"><na><gen/><pl/><neu/></na><na><gen/><pl/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkAni"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkAByAm"><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><na><abl/><du/><mas/></na><na><dat/><du/><mas/></na><na><ins/><du/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkAya"><na><dat/><sg/><neu/></na><na><dat/><sg/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkAs"><na><nom/><pl/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIke"><na><acc/><du/><neu/></na><na><nom/><du/><neu/></na><na><loc/><sg/><neu/></na><na><loc/><sg/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkena"><na><ins/><sg/><neu/></na><na><ins/><sg/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkeByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><na><abl/><pl/><mas/></na><na><dat/><pl/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkeRu"><na><loc/><pl/><neu/></na><na><loc/><pl/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkEs"><na><ins/><pl/><neu/></na><na><ins/><pl/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawIkO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="SrIxurgAsapwaSawI"/></f>
 <f form="SrIn"><na><acc/><pl/><mas/></na><s stem="SrI"/></f>
 <f form="SrInAWajI"><na><nom/><sg/><fem/></na><s stem="SrInAWajI"/></f>
 <f form="SrInAWajIkam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="SrInAWajI"/></f>
@@ -180555,6 +180573,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SrIkalApUrNAw"><avya/><s stem="SrIkalApUrNa"/></f>
 <f form="SrIkAlahaswi"><avya/><s stem="SrIkAlahaswi"/></f>
 <f form="SrIwawwvaniXi"><avya/><s stem="SrIwawwvaniXi"/></f>
+<f form="SrIxurgAsapwaSawi"><avya/><s stem="SrIxurgAsapwaSawI"/></f>
 <f form="SrInAWaji"><avya/><s stem="SrInAWajI"/></f>
 <f form="SrIrAGavayAxavIyam"><avya/><s stem="SrIrAGavayAxavIya"/></f>
 <f form="SrIrAGavayAxavIyAw"><avya/><s stem="SrIrAGavayAxavIya"/></f>
@@ -226371,6 +226390,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SrIwawwvaniXayas"><na><voc/><pl/><mas/></na><s stem="SrIwawwvaniXi"/></f>
 <f form="SrIwawwvaniXI"><na><voc/><du/><mas/></na><s stem="SrIwawwvaniXi"/></f>
 <f form="SrIwawwvaniXe"><na><voc/><sg/><mas/></na><s stem="SrIwawwvaniXi"/></f>
+<f form="SrIxurgAsapwaSawi"><na><voc/><sg/><fem/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawyas"><na><voc/><pl/><fem/></na><s stem="SrIxurgAsapwaSawI"/></f>
+<f form="SrIxurgAsapwaSawyO"><na><voc/><du/><fem/></na><s stem="SrIxurgAsapwaSawI"/></f>
 <f form="SrInAWaji"><na><voc/><sg/><mas/></na><s stem="SrInAWajI"/></f>
 <f form="SrInAWajyas"><na><voc/><pl/><mas/></na><s stem="SrInAWajI"/></f>
 <f form="SrInAWajyA"><na><voc/><du/><mas/></na><s stem="SrInAWajI"/></f>
