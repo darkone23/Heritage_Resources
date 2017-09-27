@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-18 Septembre 2017"><meta name="copyright" content="
+27 Septembre 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -1064,6 +1064,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ApastambIyatas"><uf><tasil/></uf><s stem="ApastambIya"/></f>
 <f form="ApastambIyaDarmasUtratas"><uf><tasil/></uf><s stem="ApastambIyaDarmasUtra"/></f>
 <f form="ApAtatas"><uf><tasil/></uf><s stem="ApAta"/></f>
+<f form="ApAdakatas"><uf><tasil/></uf><s stem="ApAdaka"/></f>
+<f form="ApAdatas"><uf><tasil/></uf><s stem="ApAda"/></f>
+<f form="ApAdanatas"><uf><tasil/></uf><s stem="ApAdana"/></f>
 <f form="ApAnatas"><uf><tasil/></uf><s stem="ApAna#1"/></f>
 <f form="ApAnatas"><uf><tasil/></uf><s stem="ApAna#2"/></f>
 <f form="Apitas"><uf><tasil/></uf><s stem="Api"/></f>
@@ -4304,6 +4307,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="duHKyitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="duHKa"/></f>
 <f form="duHSalatas"><uf><tasil/></uf><s stem="duHSala"/></f>
 <f form="duHSAsanatas"><uf><tasil/></uf><s stem="duHSAsana"/></f>
+<f form="duHzWu"><uf><ind/></uf><s stem="duHzWu"/></f>
+<f form="duHzWutas"><uf><tasil/></uf><s stem="duHzWu"/></f>
 <f form="duHsampAdatas"><uf><tasil/></uf><s stem="duHsampAda"/></f>
 <f form="duHsahatas"><uf><tasil/></uf><s stem="duHsaha"/></f>
 <f form="duHsTatas"><uf><tasil/></uf><s stem="duHsTa"/></f>
@@ -7778,7 +7783,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="lagaDatas"><uf><tasil/></uf><s stem="lagaDa"/></f>
 <f form="lagitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="lag"/></f>
 <f form="laguqatas"><uf><tasil/></uf><s stem="laguqa"/></f>
-<f form="laGayitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="laGa"/></f>
+<f form="laGayitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="laG"/></f>
 <f form="laGimatas"><uf><tasil/></uf><s stem="laGiman"/></f>
 <f form="laGizWatas"><uf><tasil/></uf><s stem="laGizWa"/></f>
 <f form="laGu"><uf><ind/></uf><s stem="laGu"/></f>
@@ -9748,6 +9753,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="samAgamanatas"><uf><tasil/></uf><s stem="samAgamana"/></f>
 <f form="samAcAratas"><uf><tasil/></uf><s stem="samAcAra"/></f>
 <f form="samAjatas"><uf><tasil/></uf><s stem="samAja"/></f>
+<f form="samAjikatas"><uf><tasil/></uf><s stem="samAjika"/></f>
 <f form="samADAnatas"><uf><tasil/></uf><s stem="samADAna"/></f>
 <f form="samADitas"><uf><tasil/></uf><s stem="samADi"/></f>
 <f form="samAnatas"><uf><tasil/></uf><s stem="samAna#1"/></f>
@@ -10811,6 +10817,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="hfzutas"><uf><tasil/></uf><s stem="hfzu"/></f>
 <f form="hetitas"><uf><tasil/></uf><s stem="heti"/></f>
 <f form="hetukatas"><uf><tasil/></uf><s stem="hetuka"/></f>
+<f form="hetucakraqamarutas"><uf><tasil/></uf><s stem="hetucakraqamaru"/></f>
 <f form="hetutas"><uf><tasil/></uf><s stem="hetu"/></f>
 <f form="hetum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="hi#2"/></f>
 <f form="hetuhetumadBAvatas"><uf><tasil/></uf><s stem="hetuhetumadBAva"/></f>
