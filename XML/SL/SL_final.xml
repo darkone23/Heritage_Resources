@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-13 Octobre 2017"><meta name="copyright" content="
+26 Octobre 2017"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2017"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSayitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aMSa"/></f>
@@ -73,7 +73,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="arhitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="arh"/></f>
 <f form="arhya"><vu><cj><prim/></cj><iv><abs/></iv></vu><vu><cj><ca/></cj><iv><abs/></iv></vu><s stem="arh"/></f>
 <f form="avitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="av"/></f>
-<f form="avya"><vu><cj><prim/></cj><iv><abs/></iv></vu><s stem="av"/></f>
 <f form="aSanAyitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aSana#2"/></f>
 <f form="aSanIyitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aSana#2"/></f>
 <f form="aSitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aS#1"/></f>
@@ -107,7 +106,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="Ayya"><vu><cj><ca/></cj><iv><abs/></iv></vu><s stem="i"/></f>
 <f form="Avayitum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="av"/></f>
 <f form="Avilayitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="Avila"/></f>
-<f form="Avya"><vu><cj><ca/></cj><iv><abs/></iv></vu><s stem="av"/></f>
+<f form="Avya"><vu><cj><prim/></cj><iv><abs/></iv></vu><vu><cj><ca/></cj><iv><abs/></iv></vu><s stem="av"/></f>
 <f form="ASayitum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="aS#2"/></f>
 <f form="ASya"><vu><cj><ca/></cj><iv><abs/></iv></vu><s stem="aS#2"/></f>
 <f form="Asam"><vu><cj><prim/></cj><iv><abs/></iv></vu><s stem="as#2"/></f>
@@ -2619,6 +2618,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="atispazwa"><iic/><s stem="atispazwa"/></f>
 <f form="atihasita"><iic/><s stem="atihasita"/></f>
 <f form="atIndriya"><iic/><s stem="atIndriya"/></f>
+<f form="atIndriyadarSanadarSana"><iic/><s stem="atIndriyadarSanadarSana"/></f>
 <f form="atIsAra"><iic/><s stem="atisAra"/></f>
 <f form="atulya"><iic/><s stem="atulya"/></f>
 <f form="atti"><iic/><s stem="atti"/></f>
@@ -3744,6 +3744,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ABAsana"><iic/><s stem="ABAsana"/></f>
 <f form="ABAsvara"><iic/><s stem="ABAsvara"/></f>
 <f form="ABiDarmika"><iic/><s stem="ABiDarmika"/></f>
+<f form="ABiprAyika"><iic/><s stem="ABiprAyika"/></f>
 <f form="ABizeka"><iic/><s stem="ABizeka"/></f>
 <f form="ABIkzRa"><iic/><s stem="ABIkzRa"/></f>
 <f form="ABIkzRya"><iic/><s stem="ABIkzRya"/></f>
@@ -6552,6 +6553,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="citsuKa"><iic/><s stem="citsuKa"/></f>
 <f form="cintana"><iic/><s stem="cintana"/></f>
 <f form="cintA"><iic/><s stem="cintA"/></f>
+<f form="cintAmaya"><iic/><s stem="cintAmaya"/></f>
+<f form="cintAmayI"><iic/><s stem="cintAmaya"/></f>
 <f form="cinmaya"><iic/><s stem="cinmaya"/></f>
 <f form="cinmayI"><iic/><s stem="cinmaya"/></f>
 <f form="cira"><iic/><s stem="cira"/></f>
@@ -7372,6 +7375,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="trEguRya"><iic/><s stem="trEguRya"/></f>
 <f form="trEyambaka"><iic/><s stem="trEyambaka"/></f>
 <f form="trErASika"><iic/><s stem="trErASika"/></f>
+<f form="trErUpya"><iic/><s stem="trErUpya"/></f>
 <f form="trElokya"><iic/><s stem="trElokya"/></f>
 <f form="trEvarRa"><iic/><s stem="trEvarRa"/></f>
 <f form="trEvarRika"><iic/><s stem="trEvarRika"/></f>
@@ -9326,7 +9330,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="punar"><iic/><s stem="punar"/></f>
 <f form="punArAja"><iic/><s stem="punArAja"/></f>
 <f form="pum"><iic/><s stem="puMs"/></f>
-<f form="pur"><iic/><s stem="pur"/></f>
+<f form="pura"><iic/><s stem="pura"/></f>
 <f form="puraHsat"><iic/><s stem="puraHsad"/></f>
 <f form="puraHsTa"><iic/><s stem="puraHsTa"/></f>
 <f form="puraYjana"><iic/><s stem="puraYjana"/></f>
@@ -9341,6 +9345,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puraskAra"><iic/><s stem="puraskAra"/></f>
 <f form="purARa"><iic/><s stem="purARa"/></f>
 <f form="purARI"><iic/><s stem="purARa"/></f>
+<f form="puri"><iic/><s stem="pura"/></f>
+<f form="purI"><iic/><s stem="pura"/></f>
 <f form="purIza"><iic/><s stem="purIza"/></f>
 <f form="purIzya"><iic/><s stem="purIzya"/></f>
 <f form="puru"><iic/><s stem="puru"/></f>
@@ -9399,7 +9405,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pUti"><iic/><s stem="pUti"/></f>
 <f form="pUpa"><iic/><s stem="pUpa"/></f>
 <f form="pUya"><iic/><s stem="pUya"/></f>
-<f form="pUr"><iic/><s stem="pur"/></f>
 <f form="pUra"><iic/><s stem="pUra"/></f>
 <f form="pUraka"><iic/><s stem="pUraka"/></f>
 <f form="pUraRa"><iic/><s stem="pUraRa"/></f>
@@ -10439,6 +10444,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="BavatI"><iic/><s stem="Bavat#2"/></f>
 <f form="BavadIya"><iic/><s stem="BavadIya"/></f>
 <f form="Bavana"><iic/><s stem="Bavana"/></f>
+<f form="BavanAmaya"><iic/><s stem="BavanAmaya"/></f>
+<f form="BavanAmayI"><iic/><s stem="BavanAmaya"/></f>
 <f form="BavAnI"><iic/><s stem="BavAnI"/></f>
 <f form="Bavi"><iic/><s stem="Bavin"/></f>
 <f form="Bavitf"><iic/><s stem="Bavitf"/></f>
@@ -10789,6 +10796,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="manas"><iic/><s stem="manas"/></f>
 <f form="manasA"><iic/><s stem="manasA#2"/></f>
 <f form="manasAyajYa"><iic/><s stem="manasAyajYa"/></f>
+<f form="manasikAra"><iic/><s stem="manasikAra"/></f>
 <f form="manasigaNgAkuRqa"><iic/><s stem="manasigaNgAkuRqa"/></f>
 <f form="manasija"><iic/><s stem="manasija"/></f>
 <f form="manasvat"><iic/><s stem="manasvat"/></f>
@@ -13882,6 +13890,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SrInATajI"><iic/><s stem="SrInATajI"/></f>
 <f form="SrIrAGavayAdavIya"><iic/><s stem="SrIrAGavayAdavIya"/></f>
 <f form="SrIla"><iic/><s stem="SrIla"/></f>
+<f form="Srutamaya"><iic/><s stem="Srutamaya"/></f>
+<f form="SrutamayI"><iic/><s stem="Srutamaya"/></f>
 <f form="Sruti"><iic/><s stem="Sruti"/></f>
 <f form="SrutitattvaprakASikA"><iic/><s stem="SrutitattvaprakASikA"/></f>
 <f form="SreRi"><iic/><s stem="SreRi"/></f>
@@ -15125,6 +15135,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sUrmI"><iic/><s stem="sUrmI"/></f>
 <f form="sUrya"><iic/><s stem="sUrya"/></f>
 <f form="sUryapraBa"><iic/><s stem="sUryapraBa"/></f>
+<f form="sUryam"><iic/><s stem="sUryam"/></f>
+<f form="sUryampaSya"><iic/><s stem="sUryampaSya"/></f>
 <f form="sUryavaMSi"><iic/><s stem="sUryavaMSin"/></f>
 <f form="sUryavaMSinI"><iic/><s stem="sUryavaMSin"/></f>
 <f form="sUryAgnI"><iic/><s stem="sUryAgnI"/></f>
@@ -18416,6 +18428,31 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="atihasitezu"><na><loc/><pl/><mas/></na><s stem="atihasita"/></f>
 <f form="atihasitEs"><na><ins/><pl/><mas/></na><s stem="atihasita"/></f>
 <f form="atihasitO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="atihasita"/></f>
+<f form="atIndriyadarSanadarSanam"><na><acc/><sg/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanayA"><na><ins/><sg/><fem/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanas"><na><nom/><sg/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanasya"><na><gen/><sg/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanA"><na><nom/><sg/><fem/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAt"><na><abl/><sg/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAn"><na><acc/><pl/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAnAm"><na><gen/><pl/><fem/></na><na><gen/><pl/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanABis"><na><ins/><pl/><fem/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><na><abl/><du/><mas/></na><na><dat/><du/><mas/></na><na><ins/><du/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAm"><na><acc/><sg/><fem/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAya"><na><dat/><sg/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAyAm"><na><loc/><sg/><fem/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAyE"><na><dat/><sg/><fem/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><na><nom/><pl/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAsu"><na><loc/><pl/><fem/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSane"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><na><loc/><sg/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanena"><na><ins/><sg/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSaneByas"><na><abl/><pl/><mas/></na><na><dat/><pl/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanezu"><na><loc/><pl/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanEs"><na><ins/><pl/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="atIndriyadarSanadarSana"/></f>
 <f form="atti"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="atti"/></f>
 <f form="attinas"><na><gen/><sg/><neu/></na><na><abl/><sg/><neu/></na><s stem="atti"/></f>
 <f form="attinA"><na><ins/><sg/><neu/></na><s stem="atti"/></f>
@@ -73889,6 +73926,31 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="trEkUwakeByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="trEkUwaka"/></f>
 <f form="trEkUwakezu"><na><loc/><pl/><neu/></na><s stem="trEkUwaka"/></f>
 <f form="trEkUwakEs"><na><ins/><pl/><neu/></na><s stem="trEkUwaka"/></f>
+<f form="trErUpyam"><na><acc/><sg/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyayA"><na><ins/><sg/><fem/></na><s stem="trErUpya"/></f>
+<f form="trErUpyayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyas"><na><nom/><sg/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyasya"><na><gen/><sg/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyA"><na><nom/><sg/><fem/></na><s stem="trErUpya"/></f>
+<f form="trErUpyARAm"><na><gen/><pl/><fem/></na><na><gen/><pl/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAt"><na><abl/><sg/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAn"><na><acc/><pl/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyABis"><na><ins/><pl/><fem/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><na><abl/><du/><mas/></na><na><dat/><du/><mas/></na><na><ins/><du/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAm"><na><acc/><sg/><fem/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAya"><na><dat/><sg/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAyAm"><na><loc/><sg/><fem/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAyE"><na><dat/><sg/><fem/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><na><nom/><pl/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyAsu"><na><loc/><pl/><fem/></na><s stem="trErUpya"/></f>
+<f form="trErUpye"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><na><loc/><sg/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyeRa"><na><ins/><sg/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyeByas"><na><abl/><pl/><mas/></na><na><dat/><pl/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyezu"><na><loc/><pl/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyEs"><na><ins/><pl/><mas/></na><s stem="trErUpya"/></f>
+<f form="trErUpyO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="trErUpya"/></f>
 <f form="trElokyam"><na><acc/><sg/><mas/></na><s stem="trElokya"/></f>
 <f form="trElokyayA"><na><ins/><sg/><fem/></na><s stem="trElokya"/></f>
 <f form="trElokyayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="trElokya"/></f>
@@ -94657,8 +94719,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puranDres"><na><gen/><sg/><mas/></na><na><abl/><sg/><mas/></na><s stem="puranDri"/></f>
 <f form="puranDrO"><na><loc/><sg/><mas/></na><s stem="puranDri"/></f>
 <f form="puranDryos"><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="puranDri"/></f>
-<f form="puram"><na><acc/><sg/><mas/></na><s stem="pur"/></f>
-<f form="puras"><na><gen/><sg/><neu/></na><na><abl/><sg/><neu/></na><na><acc/><pl/><mas/></na><na><nom/><pl/><mas/></na><na><gen/><sg/><mas/></na><na><abl/><sg/><mas/></na><s stem="pur"/></f>
 <f form="puraskAram"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="puraskAra"/></f>
 <f form="puraskArayA"><na><ins/><sg/><fem/></na><s stem="puraskAra"/></f>
 <f form="puraskArayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="puraskAra"/></f>
@@ -94682,10 +94742,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puraskAreByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="puraskAra"/></f>
 <f form="puraskArezu"><na><loc/><pl/><neu/></na><s stem="puraskAra"/></f>
 <f form="puraskArEs"><na><ins/><pl/><neu/></na><s stem="puraskAra"/></f>
-<f form="purA"><na><ins/><sg/><neu/></na><na><ins/><sg/><mas/></na><s stem="pur"/></f>
-<f form="purAm"><na><gen/><pl/><neu/></na><na><gen/><pl/><mas/></na><s stem="pur"/></f>
-<f form="puri"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><na><loc/><sg/><neu/></na><na><loc/><sg/><mas/></na><s stem="pur"/></f>
-<f form="purI"><na><acc/><du/><neu/></na><na><nom/><du/><neu/></na><s stem="pur"/></f>
 <f form="purIzam"><na><acc/><sg/><mas/></na><s stem="purIza"/></f>
 <f form="purIzayA"><na><ins/><sg/><fem/></na><s stem="purIza"/></f>
 <f form="purIzayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="purIza"/></f>
@@ -94757,7 +94813,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puruzeByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="puruza"/></f>
 <f form="puruzezu"><na><loc/><pl/><neu/></na><s stem="puruza"/></f>
 <f form="puruzEs"><na><ins/><pl/><neu/></na><s stem="puruza"/></f>
-<f form="pure"><na><dat/><sg/><neu/></na><na><dat/><sg/><mas/></na><s stem="pur"/></f>
 <f form="purocanam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="purocana"/></f>
 <f form="purocanayA"><na><ins/><sg/><fem/></na><s stem="purocana"/></f>
 <f form="purocanayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="purocana"/></f>
@@ -94811,8 +94866,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puroDoBis"><na><ins/><pl/><fem/></na><na><ins/><pl/><neu/></na><s stem="puroDas"/></f>
 <f form="puroDoByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="puroDas"/></f>
 <f form="puroDoByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><s stem="puroDas"/></f>
-<f form="puros"><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="pur"/></f>
-<f form="purO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="pur"/></f>
 <f form="pulakam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="pulaka"/></f>
 <f form="pulakayA"><na><ins/><sg/><fem/></na><s stem="pulaka"/></f>
 <f form="pulakayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="pulaka"/></f>
@@ -95374,7 +95427,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pUyAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="pUya"/></f>
 <f form="pUyAsu"><na><loc/><pl/><fem/></na><s stem="pUya"/></f>
 <f form="pUye"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="pUya"/></f>
-<f form="pUr"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><na><nom/><sg/><mas/></na><s stem="pur"/></f>
 <f form="pUrRimam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><na><acc/><sg/><mas/></na><s stem="pUrRimA"/></f>
 <f form="pUrRimayos"><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="pUrRimA"/></f>
 <f form="pUrRimas"><na><nom/><sg/><mas/></na><s stem="pUrRimA"/></f>
@@ -95414,9 +95466,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pUrtes"><na><gen/><sg/><mas/></na><na><abl/><sg/><mas/></na><s stem="pUrti"/></f>
 <f form="pUrtO"><na><loc/><sg/><mas/></na><s stem="pUrti"/></f>
 <f form="pUrtyos"><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="pUrti"/></f>
-<f form="pUrBis"><na><ins/><pl/><neu/></na><na><ins/><pl/><mas/></na><s stem="pur"/></f>
-<f form="pUrByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><na><abl/><pl/><mas/></na><na><dat/><pl/><mas/></na><s stem="pur"/></f>
-<f form="pUrByAm"><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><na><abl/><du/><mas/></na><na><dat/><du/><mas/></na><na><ins/><du/><mas/></na><s stem="pur"/></f>
 <f form="pUrvapadaprakftisvaram"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="pUrvapadaprakftisvara"/></f>
 <f form="pUrvapadaprakftisvarayA"><na><ins/><sg/><fem/></na><s stem="pUrvapadaprakftisvara"/></f>
 <f form="pUrvapadaprakftisvarayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="pUrvapadaprakftisvara"/></f>
@@ -95493,7 +95542,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pUrvizu"><na><loc/><pl/><mas/></na><na><loc/><pl/><neu/></na><s stem="pUrvin"/></f>
 <f form="pUrvI"><na><nom/><sg/><mas/></na><s stem="pUrvin"/></f>
 <f form="pUrvIRi"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="pUrvin"/></f>
-<f form="pUrzu"><na><loc/><pl/><neu/></na><na><loc/><pl/><mas/></na><s stem="pur"/></f>
 <f form="pUlam"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="pUla"/></f>
 <f form="pUlayos"><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="pUla"/></f>
 <f form="pUlasya"><na><gen/><sg/><neu/></na><s stem="pUla"/></f>
@@ -111327,6 +111375,29 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="manasAyajYezu"><na><loc/><pl/><neu/></na><s stem="manasAyajYa"/></f>
 <f form="manasAyajYEs"><na><ins/><pl/><neu/></na><s stem="manasAyajYa"/></f>
 <f form="manasAs"><na><nom/><pl/><mas/></na><s stem="manasA#2"/></f>
+<f form="manasikAram"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArayA"><na><ins/><sg/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikArayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArasya"><na><gen/><sg/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArA"><na><nom/><sg/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikArARAm"><na><gen/><pl/><fem/></na><na><gen/><pl/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArARi"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArAt"><na><abl/><sg/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArABis"><na><ins/><pl/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikArAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikArAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArAm"><na><acc/><sg/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikArAya"><na><dat/><sg/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArAyAm"><na><loc/><sg/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikArAyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikArAyE"><na><dat/><sg/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikArAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikArAsu"><na><loc/><pl/><fem/></na><s stem="manasikAra"/></f>
+<f form="manasikAre"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><na><acc/><du/><neu/></na><na><nom/><du/><neu/></na><na><loc/><sg/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikAreRa"><na><ins/><sg/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikAreByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArezu"><na><loc/><pl/><neu/></na><s stem="manasikAra"/></f>
+<f form="manasikArEs"><na><ins/><pl/><neu/></na><s stem="manasikAra"/></f>
 <f form="manasigaNgAkuRqam"><na><acc/><sg/><mas/></na><s stem="manasigaNgAkuRqa"/></f>
 <f form="manasigaNgAkuRqayA"><na><ins/><sg/><fem/></na><s stem="manasigaNgAkuRqa"/></f>
 <f form="manasigaNgAkuRqayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><s stem="manasigaNgAkuRqa"/></f>
@@ -163801,6 +163872,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="atispazwAt"><avya/><s stem="atispazwa"/></f>
 <f form="atihasitam"><avya/><s stem="atihasita"/></f>
 <f form="atihasitAt"><avya/><s stem="atihasita"/></f>
+<f form="atIndriyadarSanadarSanam"><avya/><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAt"><avya/><s stem="atIndriyadarSanadarSana"/></f>
 <f form="atIndriyam"><avya/><s stem="atIndriya"/></f>
 <f form="atIndriyAt"><avya/><s stem="atIndriya"/></f>
 <f form="atIsAram"><avya/><s stem="atisAra"/></f>
@@ -165604,6 +165677,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ABAsvarAt"><avya/><s stem="ABAsvara"/></f>
 <f form="ABiDarmikam"><avya/><s stem="ABiDarmika"/></f>
 <f form="ABiDarmikAt"><avya/><s stem="ABiDarmika"/></f>
+<f form="ABiprAyikam"><avya/><s stem="ABiprAyika"/></f>
+<f form="ABiprAyikAt"><avya/><s stem="ABiprAyika"/></f>
 <f form="ABizekam"><avya/><s stem="ABizeka"/></f>
 <f form="ABizekAt"><avya/><s stem="ABizeka"/></f>
 <f form="ABIkzRam"><avya/><s stem="ABIkzRa"/></f>
@@ -170177,6 +170252,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="cintanam"><avya/><s stem="cintana"/></f>
 <f form="cintanAt"><avya/><s stem="cintana"/></f>
 <f form="cintam"><avya/><s stem="cintA"/></f>
+<f form="cintAmayam"><avya/><s stem="cintAmaya"/></f>
+<f form="cintAmayAt"><avya/><s stem="cintAmaya"/></f>
+<f form="cintAmayi"><avya/><s stem="cintAmaya"/></f>
 <f form="cinmayam"><avya/><s stem="cinmaya"/></f>
 <f form="cinmayAt"><avya/><s stem="cinmaya"/></f>
 <f form="cinmayi"><avya/><s stem="cinmaya"/></f>
@@ -171456,6 +171534,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="trEyambakAt"><avya/><s stem="trEyambaka"/></f>
 <f form="trErASikam"><avya/><s stem="trErASika"/></f>
 <f form="trErASikAt"><avya/><s stem="trErASika"/></f>
+<f form="trErUpyam"><avya/><s stem="trErUpya"/></f>
+<f form="trErUpyAt"><avya/><s stem="trErUpya"/></f>
 <f form="trElokyam"><avya/><s stem="trElokya"/></f>
 <f form="trElokyAt"><avya/><s stem="trElokya"/></f>
 <f form="trEvarRam"><avya/><s stem="trEvarRa"/></f>
@@ -174640,7 +174720,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pudgalAt"><avya/><s stem="pudgala"/></f>
 <f form="punArAjam"><avya/><s stem="punArAja"/></f>
 <f form="punArAjAt"><avya/><s stem="punArAja"/></f>
-<f form="pur"><avya/><s stem="pur"/></f>
 <f form="puraHsat"><avya/><s stem="puraHsad"/></f>
 <f form="puraHsTam"><avya/><s stem="puraHsTa"/></f>
 <f form="puraHsTAt"><avya/><s stem="puraHsTa"/></f>
@@ -174653,11 +174732,14 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="purandarAt"><avya/><s stem="purandara"/></f>
 <f form="puranDi"><avya/><s stem="puranDi"/></f>
 <f form="puranDri"><avya/><s stem="puranDri"/></f>
+<f form="puram"><avya/><s stem="pura"/></f>
 <f form="puraskAram"><avya/><s stem="puraskAra"/></f>
 <f form="puraskArAt"><avya/><s stem="puraskAra"/></f>
 <f form="purARam"><avya/><s stem="purARa"/></f>
 <f form="purARAt"><avya/><s stem="purARa"/></f>
 <f form="purARi"><avya/><s stem="purARa"/></f>
+<f form="purAt"><avya/><s stem="pura"/></f>
+<f form="puri"><avya/><s stem="pura"/></f>
 <f form="purIzam"><avya/><s stem="purIza"/></f>
 <f form="purIzAt"><avya/><s stem="purIza"/></f>
 <f form="purIzyam"><avya/><s stem="purIzya"/></f>
@@ -176468,6 +176550,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="BavadIyAt"><avya/><s stem="BavadIya"/></f>
 <f form="Bavanam"><avya/><s stem="Bavana"/></f>
 <f form="BavanAt"><avya/><s stem="Bavana"/></f>
+<f form="BavanAmayam"><avya/><s stem="BavanAmaya"/></f>
+<f form="BavanAmayAt"><avya/><s stem="BavanAmaya"/></f>
+<f form="BavanAmayi"><avya/><s stem="BavanAmaya"/></f>
 <f form="Bavantam"><avya/><s stem="Bavat#2"/></f>
 <f form="Bavam"><avya/><s stem="Bava"/></f>
 <f form="BavAt"><avya/><s stem="Bava"/></f>
@@ -177014,6 +177099,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="manasam"><avya/><s stem="manasA#2"/></f>
 <f form="manasAyajYam"><avya/><s stem="manasAyajYa"/></f>
 <f form="manasAyajYAt"><avya/><s stem="manasAyajYa"/></f>
+<f form="manasikAram"><avya/><s stem="manasikAra"/></f>
+<f form="manasikArAt"><avya/><s stem="manasikAra"/></f>
 <f form="manasigaNgAkuRqam"><avya/><s stem="manasigaNgAkuRqa"/></f>
 <f form="manasigaNgAkuRqAt"><avya/><s stem="manasigaNgAkuRqa"/></f>
 <f form="manasijam"><avya/><s stem="manasija"/></f>
@@ -181900,6 +181987,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SrIrAGavayAdavIyAt"><avya/><s stem="SrIrAGavayAdavIya"/></f>
 <f form="SrIlam"><avya/><s stem="SrIla"/></f>
 <f form="SrIlAt"><avya/><s stem="SrIla"/></f>
+<f form="Srutamayam"><avya/><s stem="Srutamaya"/></f>
+<f form="SrutamayAt"><avya/><s stem="Srutamaya"/></f>
+<f form="Srutamayi"><avya/><s stem="Srutamaya"/></f>
 <f form="Sruti"><avya/><s stem="Sruti"/></f>
 <f form="SrutitattvaprakASikam"><avya/><s stem="SrutitattvaprakASikA"/></f>
 <f form="SreRi"><avya/><s stem="SreRi"/></f>
@@ -183922,6 +184012,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sUryapraBam"><avya/><s stem="sUryapraBa"/></f>
 <f form="sUryapraBAt"><avya/><s stem="sUryapraBa"/></f>
 <f form="sUryam"><avya/><s stem="sUrya"/></f>
+<f form="sUryampaSyam"><avya/><s stem="sUryampaSya"/></f>
+<f form="sUryampaSyAt"><avya/><s stem="sUryampaSya"/></f>
 <f form="sUryavaMSi"><avya/><s stem="sUryavaMSin"/></f>
 <f form="sUryavaMSini"><avya/><s stem="sUryavaMSin"/></f>
 <f form="sUryAgni"><avya/><s stem="sUryAgnI"/></f>
@@ -185652,6 +185744,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="atihasitAni"><na><voc/><pl/><neu/></na><s stem="atihasita"/></f>
 <f form="atihasite"><na><voc/><du/><neu/></na><s stem="atihasita"/></f>
 <f form="atIndriya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="atIndriya"/></f>
+<f form="atIndriyadarSanadarSana"><na><voc/><sg/><neu/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSanAni"><na><voc/><pl/><neu/></na><s stem="atIndriyadarSanadarSana"/></f>
+<f form="atIndriyadarSanadarSane"><na><voc/><du/><neu/></na><s stem="atIndriyadarSanadarSana"/></f>
 <f form="atIndriyARi"><na><voc/><pl/><neu/></na><s stem="atIndriya"/></f>
 <f form="atIndriyAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="atIndriya"/></f>
 <f form="atIndriye"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="atIndriya"/></f>
@@ -189839,6 +189934,11 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ABiDarmikAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="ABiDarmika"/></f>
 <f form="ABiDarmike"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="ABiDarmika"/></f>
 <f form="ABiDarmikO"><na><voc/><du/><mas/></na><s stem="ABiDarmika"/></f>
+<f form="ABiprAyika"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="ABiprAyika"/></f>
+<f form="ABiprAyikARi"><na><voc/><pl/><neu/></na><s stem="ABiprAyika"/></f>
+<f form="ABiprAyikAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="ABiprAyika"/></f>
+<f form="ABiprAyike"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="ABiprAyika"/></f>
+<f form="ABiprAyikO"><na><voc/><du/><mas/></na><s stem="ABiprAyika"/></f>
 <f form="ABizeka"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="ABizeka"/></f>
 <f form="ABizekARi"><na><voc/><pl/><neu/></na><s stem="ABizeka"/></f>
 <f form="ABizekAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="ABizeka"/></f>
@@ -200323,6 +200423,14 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="cintanAni"><na><voc/><pl/><neu/></na><s stem="cintana"/></f>
 <f form="cintanAs"><na><voc/><pl/><fem/></na><s stem="cintana"/></f>
 <f form="cintane"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="cintana"/></f>
+<f form="cintAmaya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="cintAmaya"/></f>
+<f form="cintAmayAni"><na><voc/><pl/><neu/></na><s stem="cintAmaya"/></f>
+<f form="cintAmayAs"><na><voc/><pl/><mas/></na><s stem="cintAmaya"/></f>
+<f form="cintAmayi"><na><voc/><sg/><fem/></na><s stem="cintAmaya"/></f>
+<f form="cintAmaye"><na><voc/><du/><neu/></na><s stem="cintAmaya"/></f>
+<f form="cintAmayO"><na><voc/><du/><mas/></na><s stem="cintAmaya"/></f>
+<f form="cintAmayyas"><na><voc/><pl/><fem/></na><s stem="cintAmaya"/></f>
+<f form="cintAmayyO"><na><voc/><du/><fem/></na><s stem="cintAmaya"/></f>
 <f form="cintAs"><na><voc/><pl/><fem/></na><s stem="cintA"/></f>
 <f form="cinte"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="cintA"/></f>
 <f form="cinmaya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="cinmaya"/></f>
@@ -203404,6 +203512,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="trErASikAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="trErASika"/></f>
 <f form="trErASike"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="trErASika"/></f>
 <f form="trErASikO"><na><voc/><du/><mas/></na><s stem="trErASika"/></f>
+<f form="trErUpya"><na><voc/><sg/><neu/></na><s stem="trErUpya"/></f>
+<f form="trErUpyARi"><na><voc/><pl/><neu/></na><s stem="trErUpya"/></f>
+<f form="trErUpye"><na><voc/><du/><neu/></na><s stem="trErUpya"/></f>
 <f form="trElokya"><na><voc/><sg/><neu/></na><s stem="trElokya"/></f>
 <f form="trElokyAni"><na><voc/><pl/><neu/></na><s stem="trElokya"/></f>
 <f form="trElokye"><na><voc/><du/><neu/></na><s stem="trElokya"/></f>
@@ -210938,6 +211049,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puman"><na><voc/><sg/><mas/></na><s stem="puMs"/></f>
 <f form="pumAMsas"><na><voc/><pl/><mas/></na><s stem="puMs"/></f>
 <f form="pumAMsO"><na><voc/><du/><mas/></na><s stem="puMs"/></f>
+<f form="pura"><na><voc/><sg/><neu/></na><s stem="pura"/></f>
 <f form="puraHsat"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><na><voc/><sg/><fem/></na><s stem="puraHsad"/></f>
 <f form="puraHsadas"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="puraHsad"/></f>
 <f form="puraHsadi"><na><voc/><pl/><neu/></na><s stem="puraHsad"/></f>
@@ -210972,8 +211084,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puranDre"><na><voc/><sg/><fem/></na><s stem="puranDri"/></f>
 <f form="puranDryas"><na><voc/><pl/><fem/></na><s stem="puranDri"/></f>
 <f form="puranDryO"><na><voc/><du/><fem/></na><s stem="puranDri"/></f>
+<f form="purayas"><na><voc/><pl/><mas/></na><s stem="pura"/></f>
 <f form="puravas"><na><voc/><pl/><mas/></na><s stem="puru"/></f>
-<f form="puras"><na><voc/><pl/><fem/></na><s stem="pur"/></f>
 <f form="puraskAra"><na><voc/><sg/><mas/></na><s stem="puraskAra"/></f>
 <f form="puraskArAs"><na><voc/><pl/><mas/></na><s stem="puraskAra"/></f>
 <f form="puraskArO"><na><voc/><du/><mas/></na><s stem="puraskAra"/></f>
@@ -210981,10 +211093,13 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="purARAni"><na><voc/><pl/><neu/></na><s stem="purARa"/></f>
 <f form="purARAs"><na><voc/><pl/><mas/></na><s stem="purARa"/></f>
 <f form="purARi"><na><voc/><sg/><fem/></na><s stem="purARa"/></f>
+<f form="purARi"><na><voc/><pl/><neu/></na><s stem="pura"/></f>
 <f form="purARe"><na><voc/><du/><neu/></na><s stem="purARa"/></f>
 <f form="purARO"><na><voc/><du/><mas/></na><s stem="purARa"/></f>
 <f form="purARyas"><na><voc/><pl/><fem/></na><s stem="purARa"/></f>
 <f form="purARyO"><na><voc/><du/><fem/></na><s stem="purARa"/></f>
+<f form="puri"><na><voc/><sg/><fem/></na><s stem="pura"/></f>
+<f form="purI"><na><voc/><du/><mas/></na><s stem="pura"/></f>
 <f form="purIza"><na><voc/><sg/><neu/></na><s stem="purIza"/></f>
 <f form="purIzARi"><na><voc/><pl/><neu/></na><s stem="purIza"/></f>
 <f form="purIze"><na><voc/><du/><neu/></na><s stem="purIza"/></f>
@@ -211011,6 +211126,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puruzO"><na><voc/><du/><mas/></na><s stem="puruza"/></f>
 <f form="purU"><na><voc/><du/><mas/></na><s stem="puru"/></f>
 <f form="purURi"><na><voc/><pl/><neu/></na><s stem="puru"/></f>
+<f form="pure"><na><voc/><du/><neu/></na><na><voc/><sg/><mas/></na><s stem="pura"/></f>
 <f form="puro"><na><voc/><sg/><mas/></na><s stem="puru"/></f>
 <f form="puroga"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="puroga"/></f>
 <f form="purogARi"><na><voc/><pl/><neu/></na><s stem="puroga"/></f>
@@ -211051,7 +211167,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puroBAgiRyO"><na><voc/><du/><fem/></na><s stem="puroBAgin"/></f>
 <f form="puroBAgin"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="puroBAgin"/></f>
 <f form="puroBAgIRi"><na><voc/><pl/><neu/></na><s stem="puroBAgin"/></f>
-<f form="purO"><na><voc/><du/><fem/></na><s stem="pur"/></f>
+<f form="puryas"><na><voc/><pl/><fem/></na><s stem="pura"/></f>
+<f form="puryO"><na><voc/><du/><fem/></na><s stem="pura"/></f>
 <f form="pula"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="pula"/></f>
 <f form="pulaka"><na><voc/><sg/><mas/></na><s stem="pulaka"/></f>
 <f form="pulakAs"><na><voc/><pl/><mas/></na><s stem="pulaka"/></f>
@@ -211211,7 +211328,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pUyAs"><na><voc/><pl/><mas/></na><s stem="pUya"/></f>
 <f form="pUye"><na><voc/><du/><neu/></na><s stem="pUya"/></f>
 <f form="pUyO"><na><voc/><du/><mas/></na><s stem="pUya"/></f>
-<f form="pUr"><na><voc/><sg/><fem/></na><s stem="pur"/></f>
 <f form="pUra"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="pUra"/></f>
 <f form="pUraka"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="pUraka"/></f>
 <f form="pUrakARi"><na><voc/><pl/><neu/></na><s stem="pUraka"/></f>
@@ -215155,6 +215271,14 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="Bavan"><na><voc/><sg/><mas/></na><s stem="Bavat#2"/></f>
 <f form="Bavana"><na><voc/><sg/><neu/></na><s stem="Bavana"/></f>
 <f form="BavanAni"><na><voc/><pl/><neu/></na><s stem="Bavana"/></f>
+<f form="BavanAmaya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="BavanAmaya"/></f>
+<f form="BavanAmayAni"><na><voc/><pl/><neu/></na><s stem="BavanAmaya"/></f>
+<f form="BavanAmayAs"><na><voc/><pl/><mas/></na><s stem="BavanAmaya"/></f>
+<f form="BavanAmayi"><na><voc/><sg/><fem/></na><s stem="BavanAmaya"/></f>
+<f form="BavanAmaye"><na><voc/><du/><neu/></na><s stem="BavanAmaya"/></f>
+<f form="BavanAmayO"><na><voc/><du/><mas/></na><s stem="BavanAmaya"/></f>
+<f form="BavanAmayyas"><na><voc/><pl/><fem/></na><s stem="BavanAmaya"/></f>
+<f form="BavanAmayyO"><na><voc/><du/><fem/></na><s stem="BavanAmaya"/></f>
 <f form="Bavane"><na><voc/><du/><neu/></na><s stem="Bavana"/></f>
 <f form="Bavantas"><na><voc/><pl/><mas/></na><s stem="Bavat#2"/></f>
 <f form="BavantO"><na><voc/><du/><mas/></na><s stem="Bavat#2"/></f>
@@ -216438,6 +216562,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="manasAyajYAs"><na><voc/><pl/><mas/></na><s stem="manasAyajYa"/></f>
 <f form="manasAyajYO"><na><voc/><du/><mas/></na><s stem="manasAyajYa"/></f>
 <f form="manasAs"><na><voc/><pl/><fem/></na><s stem="manasA#2"/></f>
+<f form="manasikAra"><na><voc/><sg/><mas/></na><s stem="manasikAra"/></f>
+<f form="manasikArAs"><na><voc/><pl/><mas/></na><s stem="manasikAra"/></f>
+<f form="manasikArO"><na><voc/><du/><mas/></na><s stem="manasikAra"/></f>
 <f form="manasigaNgAkuRqa"><na><voc/><sg/><neu/></na><s stem="manasigaNgAkuRqa"/></f>
 <f form="manasigaNgAkuRqAni"><na><voc/><pl/><neu/></na><s stem="manasigaNgAkuRqa"/></f>
 <f form="manasigaNgAkuRqe"><na><voc/><du/><neu/></na><s stem="manasigaNgAkuRqa"/></f>
@@ -228154,6 +228281,14 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SrIle"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="SrIla"/></f>
 <f form="SrIlO"><na><voc/><du/><mas/></na><s stem="SrIla"/></f>
 <f form="SrIs"><na><voc/><sg/><fem/></na><s stem="SrI"/></f>
+<f form="Srutamaya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="Srutamaya"/></f>
+<f form="SrutamayAni"><na><voc/><pl/><neu/></na><s stem="Srutamaya"/></f>
+<f form="SrutamayAs"><na><voc/><pl/><mas/></na><s stem="Srutamaya"/></f>
+<f form="Srutamayi"><na><voc/><sg/><fem/></na><s stem="Srutamaya"/></f>
+<f form="Srutamaye"><na><voc/><du/><neu/></na><s stem="Srutamaya"/></f>
+<f form="SrutamayO"><na><voc/><du/><mas/></na><s stem="Srutamaya"/></f>
+<f form="Srutamayyas"><na><voc/><pl/><fem/></na><s stem="Srutamaya"/></f>
+<f form="SrutamayyO"><na><voc/><du/><fem/></na><s stem="Srutamaya"/></f>
 <f form="Srutayas"><na><voc/><pl/><fem/></na><s stem="Sruti"/></f>
 <f form="SrutitattvaprakASikAs"><na><voc/><pl/><fem/></na><s stem="SrutitattvaprakASikA"/></f>
 <f form="SrutitattvaprakASike"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="SrutitattvaprakASikA"/></f>
@@ -233087,6 +233222,11 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sUryapraBa"><na><voc/><sg/><mas/></na><s stem="sUryapraBa"/></f>
 <f form="sUryapraBAs"><na><voc/><pl/><mas/></na><s stem="sUryapraBa"/></f>
 <f form="sUryapraBO"><na><voc/><du/><mas/></na><s stem="sUryapraBa"/></f>
+<f form="sUryampaSya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="sUryampaSya"/></f>
+<f form="sUryampaSyAni"><na><voc/><pl/><neu/></na><s stem="sUryampaSya"/></f>
+<f form="sUryampaSyAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="sUryampaSya"/></f>
+<f form="sUryampaSye"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="sUryampaSya"/></f>
+<f form="sUryampaSyO"><na><voc/><du/><mas/></na><s stem="sUryampaSya"/></f>
 <f form="sUryavaMSi"><na><voc/><sg/><neu/></na><s stem="sUryavaMSin"/></f>
 <f form="sUryavaMSin"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="sUryavaMSin"/></f>
 <f form="sUryavaMSinas"><na><voc/><pl/><mas/></na><s stem="sUryavaMSin"/></f>
@@ -235940,6 +236080,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ABAsI"><iiv/><s stem="ABAsa"/></f>
 <f form="ABAsvarI"><iiv/><s stem="ABAsvara"/></f>
 <f form="ABiDarmikI"><iiv/><s stem="ABiDarmika"/></f>
+<f form="ABiprAyikI"><iiv/><s stem="ABiprAyika"/></f>
 <f form="ABizekI"><iiv/><s stem="ABizeka"/></f>
 <f form="ABIkzRI"><iiv/><s stem="ABIkzRa"/></f>
 <f form="ABIrI"><iiv/><s stem="ABIra"/></f>
@@ -237633,6 +237774,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="citrI"><iiv/><s stem="citra"/></f>
 <f form="citrI"><iiv/><s stem="citrin"/></f>
 <f form="citsuKI"><iiv/><s stem="citsuKa"/></f>
+<f form="cintAmayI"><iiv/><s stem="cintAmaya"/></f>
 <f form="cinmayI"><iiv/><s stem="cinmaya"/></f>
 <f form="ciraYjIvI"><iiv/><s stem="ciraYjIvin"/></f>
 <f form="ciratamI"><iiv/><s stem="ciratama"/></f>
@@ -239287,6 +239429,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="puranDI"><iiv/><s stem="puranDi"/></f>
 <f form="puraskArI"><iiv/><s stem="puraskAra"/></f>
 <f form="purARI"><iiv/><s stem="purARa"/></f>
+<f form="purI"><iiv/><s stem="pura"/></f>
 <f form="purIzyI"><iiv/><s stem="purIzya"/></f>
 <f form="puruzadaGnI"><iiv/><s stem="puruzadaGna"/></f>
 <f form="puruzAdakI"><iiv/><s stem="puruzAdaka"/></f>
@@ -239947,6 +240090,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="BallI"><iiv/><s stem="Balla"/></f>
 <f form="BallUkI"><iiv/><s stem="BallUka"/></f>
 <f form="BavadIyI"><iiv/><s stem="BavadIya"/></f>
+<f form="BavanAmayI"><iiv/><s stem="BavanAmaya"/></f>
 <f form="BavizRU"><iiv/><s stem="BavizRu"/></f>
 <f form="BavizyI"><iiv/><s stem="Bavizya"/></f>
 <f form="BavI"><iiv/><s stem="Bava"/></f>
@@ -240150,6 +240294,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="maDvI"><iiv/><s stem="maDva"/></f>
 <f form="mananI"><iiv/><s stem="manana"/></f>
 <f form="manasAyajYI"><iiv/><s stem="manasAyajYa"/></f>
+<f form="manasikArI"><iiv/><s stem="manasikAra"/></f>
 <f form="manasijI"><iiv/><s stem="manasija"/></f>
 <f form="manasvI"><iiv/><s stem="manasvin"/></f>
 <f form="mana_ApI"><iiv/><s stem="mana_Apa"/></f>
@@ -241996,6 +242141,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SrIkAlahastI"><iiv/><s stem="SrIkAlahasti"/></f>
 <f form="SrItattvaniDI"><iiv/><s stem="SrItattvaniDi"/></f>
 <f form="SrIlI"><iiv/><s stem="SrIla"/></f>
+<f form="SrutamayI"><iiv/><s stem="Srutamaya"/></f>
 <f form="SreyaskarI"><iiv/><s stem="Sreyaskara"/></f>
 <f form="SreyAMsI"><iiv/><s stem="SreyAMsa"/></f>
 <f form="SrezWatamI"><iiv/><s stem="SrezWatama"/></f>
@@ -242759,6 +242905,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sUrI"><iiv/><s stem="sUra"/></f>
 <f form="sUrI"><iiv/><s stem="sUri"/></f>
 <f form="sUryapraBI"><iiv/><s stem="sUryapraBa"/></f>
+<f form="sUryampaSyI"><iiv/><s stem="sUryampaSya"/></f>
 <f form="sUryavaMSI"><iiv/><s stem="sUryavaMSin"/></f>
 <f form="sUryAcandramasI"><iiv/><s stem="sUryAcandramasa"/></f>
 <f form="sUryI"><iiv/><s stem="sUrya"/></f>
