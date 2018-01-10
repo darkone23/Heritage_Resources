@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-8 Janvier 2018"><meta name="copyright" content="
+10 Janvier 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSayiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aMSa"/></f>
@@ -11952,6 +11952,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="rOxrI"><iic/><s stem="rOxra"/></f>
 <f form="rOpya"><iic/><s stem="rOpya"/></f>
 <f form="rOmaka"><iic/><s stem="rOmaka"/></f>
+<f form="rOrava"><iic/><s stem="rOrava"/></f>
 <f form="lakAra"><iic/><s stem="lakAra"/></f>
 <f form="lakuta"><iic/><s stem="lakuta"/></f>
 <f form="lakuti"><iic/><s stem="lakutin"/></f>
@@ -180005,6 +180006,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="rOmakam"><avya/><s stem="rOmaka"/></f>
 <f form="rOmakAw"><avya/><s stem="rOmaka"/></f>
 <f form="rOmikam"><avya/><s stem="rOmaka"/></f>
+<f form="rOravam"><avya/><s stem="rOrava"/></f>
+<f form="rOravAw"><avya/><s stem="rOrava"/></f>
 <f form="lakAram"><avya/><s stem="lakAra"/></f>
 <f form="lakArAw"><avya/><s stem="lakAra"/></f>
 <f form="lakutam"><avya/><s stem="lakuta"/></f>
@@ -222123,6 +222126,11 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="rOmakO"><na><voc/><du/><mas/></na><s stem="rOmaka"/></f>
 <f form="rOmikAs"><na><voc/><pl/><fem/></na><s stem="rOmaka"/></f>
 <f form="rOmike"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="rOmaka"/></f>
+<f form="rOrava"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="rOrava"/></f>
+<f form="rOravANi"><na><voc/><pl/><neu/></na><s stem="rOrava"/></f>
+<f form="rOravAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="rOrava"/></f>
+<f form="rOrave"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="rOrava"/></f>
+<f form="rOravO"><na><voc/><du/><mas/></na><s stem="rOrava"/></f>
 <f form="lakAra"><na><voc/><sg/><mas/></na><s stem="lakAra"/></f>
 <f form="lakArAs"><na><voc/><pl/><mas/></na><s stem="lakAra"/></f>
 <f form="lakArO"><na><voc/><du/><mas/></na><s stem="lakAra"/></f>
@@ -242605,6 +242613,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="rOxrI"><iiv/><s stem="rOxra"/></f>
 <f form="rOpyI"><iiv/><s stem="rOpya"/></f>
 <f form="rOmakI"><iiv/><s stem="rOmaka"/></f>
+<f form="rOravI"><iiv/><s stem="rOrava"/></f>
 <f form="lakArI"><iiv/><s stem="lakAra"/></f>
 <f form="lakutI"><iiv/><s stem="lakuta"/></f>
 <f form="lakutI"><iiv/><s stem="lakutin"/></f>
