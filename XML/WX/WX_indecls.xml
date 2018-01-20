@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-10 Janvier 2018"><meta name="copyright" content="
+20 Janvier 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -1337,7 +1337,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="iwarewarASrayaxoRawas"><uf><tasil/></uf><s stem="iwarewarASrayaxoRa"/></f>
 <f form="iwas"><uf><ind/></uf><s stem="iwas"/></f>
 <f form="iwi"><uf><parti/></uf><s stem="iwi"/></f>
-<f form="iwihAsawas"><uf><tasil/></uf><s stem="iwihAsa"/></f>
 <f form="iwWam"><uf><ind/></uf><s stem="iwWam"/></f>
 <f form="iwWA"><uf><ind/></uf><uf><prep/></uf><s stem="iwWA"/></f>
 <f form="ixam"><uf><ind/></uf><s stem="ixam"/></f>
@@ -2700,6 +2699,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kOtawas"><uf><tasil/></uf><s stem="kOta"/></f>
 <f form="kOtalyawas"><uf><tasil/></uf><s stem="kOtalya"/></f>
 <f form="kOtilikawas"><uf><tasil/></uf><s stem="kOtilika"/></f>
+<f form="kOtilIyawas"><uf><tasil/></uf><s stem="kOtilIya"/></f>
 <f form="kOtilyawas"><uf><tasil/></uf><s stem="kOtilya"/></f>
 <f form="kOtumbawas"><uf><tasil/></uf><s stem="kOtumba"/></f>
 <f form="kOTArawas"><uf><tasil/></uf><s stem="kOTAra"/></f>
@@ -5079,6 +5079,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="niveSanawas"><uf><tasil/></uf><s stem="niveSana"/></f>
 <f form="niSawas"><uf><tasil/></uf><s stem="niSA#1"/></f>
 <f form="niSamanawas"><uf><tasil/></uf><s stem="niSamana"/></f>
+<f form="niSamayawas"><uf><tasil/></uf><s stem="niSamaya"/></f>
 <f form="niSAnawas"><uf><tasil/></uf><s stem="niSAna"/></f>
 <f form="niSAniSam"><uf><ind/></uf><s stem="niSAniSam"/></f>
 <f form="niSAnwawas"><uf><tasil/></uf><s stem="niSAnwa#2"/></f>
@@ -6116,6 +6117,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="praWanawas"><uf><tasil/></uf><s stem="praWana"/></f>
 <f form="praWamawas"><uf><tasil/></uf><s stem="praWama"/></f>
 <f form="praWayiwum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="praW"/></f>
+<f form="praWiwiwas"><uf><tasil/></uf><s stem="praWiwi"/></f>
 <f form="praWiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="praW"/></f>
 <f form="praxakRiNawas"><uf><tasil/></uf><s stem="praxakRiNa"/></f>
 <f form="praxakRiNapaWawas"><uf><tasil/></uf><s stem="praxakRiNapaWa"/></f>
@@ -9058,9 +9060,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SamaWawas"><uf><tasil/></uf><s stem="SamaWa"/></f>
 <f form="Samanawas"><uf><tasil/></uf><s stem="Samana"/></f>
 <f form="Samayiwum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="Sam#1"/></f>
+<f form="Samayiwum"><vu><cj><ca/></cj><iv><inf/></iv></vu><s stem="Sam#2"/></f>
 <f form="Samikawas"><uf><tasil/></uf><s stem="Samika"/></f>
 <f form="Samiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="Sam#1"/></f>
-<f form="Samiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="Sam#2"/></f>
 <f form="SamIkawas"><uf><tasil/></uf><s stem="SamIka"/></f>
 <f form="Sambawas"><uf><tasil/></uf><s stem="Samba"/></f>
 <f form="Sambarawas"><uf><tasil/></uf><s stem="Sambara"/></f>
@@ -9106,6 +9108,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SalAwurawas"><uf><tasil/></uf><s stem="SalAwura"/></f>
 <f form="SalAlukawas"><uf><tasil/></uf><s stem="SalAluka"/></f>
 <f form="Saliwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="Sal"/></f>
+<f form="Salkawas"><uf><tasil/></uf><s stem="Salka"/></f>
 <f form="Salyakawas"><uf><tasil/></uf><s stem="Salyaka"/></f>
 <f form="Salyawas"><uf><tasil/></uf><s stem="Salya"/></f>
 <f form="Sallakawas"><uf><tasil/></uf><s stem="Sallaka"/></f>
