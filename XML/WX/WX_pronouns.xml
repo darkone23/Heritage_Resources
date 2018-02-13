@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-1er F\'evrier 2018"><meta name="copyright" content="
+8 F\'evrier 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="axas"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="axas"/></f>
@@ -111,20 +111,34 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="anyeRu"><na><loc/><pl/><mas/></na><na><loc/><pl/><neu/></na><s stem="anya"/></f>
 <f form="anyEs"><na><ins/><pl/><mas/></na><na><ins/><pl/><neu/></na><s stem="anya"/></f>
 <f form="anyO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="anya"/></f>
-<f form="aparayA"><na><ins/><sg/><fem/></na><s stem="apara"/></f>
-<f form="aparayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="apara"/></f>
-<f form="aparasyAm"><na><loc/><sg/><fem/></na><s stem="apara"/></f>
-<f form="aparasyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="apara"/></f>
-<f form="aparasyE"><na><dat/><sg/><fem/></na><s stem="apara"/></f>
-<f form="aparA"><na><nom/><sg/><fem/></na><s stem="apara"/></f>
-<f form="aparABis"><na><ins/><pl/><fem/></na><s stem="apara"/></f>
-<f form="aparAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="apara"/></f>
-<f form="aparAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="apara"/></f>
-<f form="aparAm"><na><acc/><sg/><fem/></na><s stem="apara"/></f>
-<f form="aparAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="apara"/></f>
-<f form="aparAsAm"><na><gen/><pl/><fem/></na><s stem="apara"/></f>
-<f form="aparAsu"><na><loc/><pl/><fem/></na><s stem="apara"/></f>
-<f form="apare"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="apara"/></f>
+<f form="aparayA"><na><ins/><sg/><fem/></na><s stem="apara#1"/></f>
+<f form="aparayA"><na><ins/><sg/><fem/></na><s stem="apara#2"/></f>
+<f form="aparayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="apara#1"/></f>
+<f form="aparayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="apara#2"/></f>
+<f form="aparasyAm"><na><loc/><sg/><fem/></na><s stem="apara#1"/></f>
+<f form="aparasyAm"><na><loc/><sg/><fem/></na><s stem="apara#2"/></f>
+<f form="aparasyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="apara#1"/></f>
+<f form="aparasyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="apara#2"/></f>
+<f form="aparasyE"><na><dat/><sg/><fem/></na><s stem="apara#1"/></f>
+<f form="aparasyE"><na><dat/><sg/><fem/></na><s stem="apara#2"/></f>
+<f form="aparA"><na><nom/><sg/><fem/></na><s stem="apara#1"/></f>
+<f form="aparA"><na><nom/><sg/><fem/></na><s stem="apara#2"/></f>
+<f form="aparABis"><na><ins/><pl/><fem/></na><s stem="apara#1"/></f>
+<f form="aparABis"><na><ins/><pl/><fem/></na><s stem="apara#2"/></f>
+<f form="aparAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="apara#1"/></f>
+<f form="aparAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="apara#2"/></f>
+<f form="aparAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="apara#1"/></f>
+<f form="aparAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="apara#2"/></f>
+<f form="aparAm"><na><acc/><sg/><fem/></na><s stem="apara#1"/></f>
+<f form="aparAm"><na><acc/><sg/><fem/></na><s stem="apara#2"/></f>
+<f form="aparAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="apara#1"/></f>
+<f form="aparAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="apara#2"/></f>
+<f form="aparAsAm"><na><gen/><pl/><fem/></na><s stem="apara#1"/></f>
+<f form="aparAsAm"><na><gen/><pl/><fem/></na><s stem="apara#2"/></f>
+<f form="aparAsu"><na><loc/><pl/><fem/></na><s stem="apara#1"/></f>
+<f form="aparAsu"><na><loc/><pl/><fem/></na><s stem="apara#2"/></f>
+<f form="apare"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="apara#1"/></f>
+<f form="apare"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="apara#2"/></f>
 <f form="amI"><na><nom/><pl/><mas/></na><s stem="axas"/></f>
 <f form="amIBis"><na><ins/><pl/><mas/></na><na><ins/><pl/><neu/></na><s stem="axas"/></f>
 <f form="amIByas"><na><abl/><pl/><mas/></na><na><dat/><pl/><mas/></na><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="axas"/></f>
