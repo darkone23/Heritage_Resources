@@ -17,7 +17,8 @@
      Version 2.5 Date: Nov 05 2012 - perif future has voice, gana optional attr
      Version 3.1 Date: Nov 22 2013 - proper kridanta structure for participles
      Version 3.2 Date: Dec 23 2014 - fix gn attribute of prs consistent with DTD
-     Version 3.3 Date: Jun 08 2015 - tasil indeclinable taddhitas added
+     Version 3.3 Date: Jun 08 2015 - tasil undeclinable taddhitas added
+     Version 3.4 Date: Feb 21 2018 - ind renamed as und
 -->
 
 <!-- Transliteration of forms according to UoH scheme WX: 
@@ -67,19 +68,19 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 <!ELEMENT iic EMPTY> <!-- beginning of compound -->
 <!ELEMENT iiv EMPTY> <!-- before auxiliary verb -->
 <!ELEMENT iip (cj,no)>  <!-- beginning of compound from participle -->
-<!ELEMENT uf (ind | interj | parti | prep | conj | tasil)>   <!-- indeclinable form -->
-<!ELEMENT ind EMPTY> <!-- indeclinable - adverb -->
+<!ELEMENT uf (und | interj | parti | prep | conj | tasil)>   <!-- undeclinable form -->
+<!ELEMENT und EMPTY> <!-- undeclinable - adverb -->
 <!ELEMENT avya EMPTY> <!-- right component of avyayiibhaava -->
-<!ELEMENT interj EMPTY> <!-- indeclinable - interjection -->
-<!ELEMENT parti EMPTY> <!-- indeclinable - particle -->
-<!ELEMENT prep EMPTY> <!-- indeclinable - preposition -->
-<!ELEMENT conj EMPTY> <!-- indeclinable - conjunction -->
-<!ELEMENT tasil EMPTY> <!-- indeclinable - adverbs of manner in -tas -->
+<!ELEMENT interj EMPTY> <!-- undeclinable - interjection -->
+<!ELEMENT parti EMPTY> <!-- undeclinable - particle -->
+<!ELEMENT prep EMPTY> <!-- undeclinable - preposition -->
+<!ELEMENT conj EMPTY> <!-- undeclinable - conjunction -->
+<!ELEMENT tasil EMPTY> <!-- undeclinable - adverbs of manner in -tas -->
 <!ELEMENT pa (na,kr)> <!-- participial forms have nominal declension parameters and kridanta generator -->
 <!ELEMENT kr (vb)>     <!-- kridanta generator has verbal structure -->
 <!ELEMENT ab (cj)>     <!-- abs in tvaa with conjugation -->
 <!ELEMENT vb (cj,no)>   <!-- verbal has conjugation and nominal -->
-<!ELEMENT vu (cj,iv)>   <!-- indeclinable verbal form -->
+<!ELEMENT vu (cj,iv)>   <!-- undeclinable verbal form -->
 <!ELEMENT na ((nom | voc | acc | ins | dat | abl | gen | loc), 
               (sg | du | pl), 
               (mas | neu | fem | dei))> <!-- noun/adjective with case, number, gender -->
