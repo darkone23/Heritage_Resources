@@ -18,7 +18,6 @@
      Version 3.1 Date: Nov 22 2013 - proper kridanta structure for participles
      Version 3.2 Date: Dec 23 2014 - fix gn attribute of prs consistent with DTD
      Version 3.3 Date: Jun 08 2015 - tasil undeclinable taddhitas added
-     Version 3.4 Date: Feb 21 2018 - ind renamed as und
 -->
 
 <!-- Transliteration of forms according to UoH scheme WX: 
@@ -68,8 +67,8 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 <!ELEMENT iic EMPTY> <!-- beginning of compound -->
 <!ELEMENT iiv EMPTY> <!-- before auxiliary verb -->
 <!ELEMENT iip (cj,no)>  <!-- beginning of compound from participle -->
-<!ELEMENT uf (und | interj | parti | prep | conj | tasil)>   <!-- undeclinable form -->
-<!ELEMENT und EMPTY> <!-- undeclinable - adverb -->
+<!ELEMENT uf (ind | interj | parti | prep | conj | tasil)>   <!-- indeclinable form -->
+<!ELEMENT ind EMPTY> <!-- indeclinable - adverb -->
 <!ELEMENT avya EMPTY> <!-- right component of avyayiibhaava -->
 <!ELEMENT interj EMPTY> <!-- undeclinable - interjection -->
 <!ELEMENT parti EMPTY> <!-- undeclinable - particle -->
