@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-27 F\'evrier 2018"><meta name="copyright" content="
+9 Mars 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSaya"><v><cj><prim/></cj><sys><prs gn="11"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="aMSa"/></f>
@@ -4913,6 +4913,16 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="acarcaye"><v><cj><prim/></cj><sys><prs gn="11"><md><im/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="carca"/></f>
 <f form="acarcayetAm"><v><cj><prim/></cj><sys><prs gn="11"><md><im/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="carca"/></f>
 <f form="acarcayeTAm"><v><cj><prim/></cj><sys><prs gn="11"><md><im/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="carca"/></f>
+<f form="acarcar"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><sg/><trd/></np></v><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="acarcaram"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="acarcarIt"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="acarcarIs"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="acarcarur"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="acarcarta"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="acarcartam"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="acarcartAm"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="acarcarma"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="acarcarva"><v><cj><int/></cj><sys><prs><md><im/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="car"/></f>
 <f form="acarcyata"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><s stem="carca"/></f>
 <f form="acarcyaTAs"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><s stem="carca"/></f>
 <f form="acarcyaDvam"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><s stem="carca"/></f>
@@ -5248,6 +5258,24 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="aciklidas"><v><cj><prim/></cj><sys><tp><aor gn="3"/><para/></tp></sys><np><sg/><snd/></np></v><s stem="klid"/></f>
 <f form="aciklidAma"><v><cj><prim/></cj><sys><tp><aor gn="3"/><para/></tp></sys><np><pl/><fst/></np></v><s stem="klid"/></f>
 <f form="aciklidAva"><v><cj><prim/></cj><sys><tp><aor gn="3"/><para/></tp></sys><np><du/><fst/></np></v><s stem="klid"/></f>
+<f form="acicarizat"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="acicarizata"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="acicarizatam"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="acicarizatAm"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="acicarizan"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="acicarizam"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="acicarizas"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="acicarizAma"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="acicarizAva"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="acicarizyata"><v><cj><des/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="acicarizyaTAs"><v><cj><des/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="acicarizyaDvam"><v><cj><des/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="acicarizyanta"><v><cj><des/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="acicarizyAmahi"><v><cj><des/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="acicarizyAvahi"><v><cj><des/></cj><sys><pas><md><im/></md></pas></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="acicarizye"><v><cj><des/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="acicarizyetAm"><v><cj><des/></cj><sys><pas><md><im/></md></pas></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="acicarizyeTAm"><v><cj><des/></cj><sys><pas><md><im/></md></pas></sys><np><du/><snd/></np></v><s stem="car"/></f>
 <f form="acicIzat"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="ci"/></f>
 <f form="acicIzata"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="ci"/></f>
 <f form="acicIzatam"><v><cj><des/></cj><sys><prs><md><im/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="ci"/></f>
@@ -31342,14 +31370,22 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ahaveTAm"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="hU"/></f>
 <f form="ahas"><v><cj><prim/></cj><sys><tp><aor gn="1"/><para/></tp></sys><np><sg/><snd/></np></v><s stem="has"/></f>
 <f form="ahasat"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="has"/></f>
-<f form="ahasata"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
+<f form="ahasata"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="ahasatam"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="has"/></f>
 <f form="ahasatAm"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="has"/></f>
+<f form="ahasaTAs"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="has"/></f>
+<f form="ahasaDvam"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="ahasan"><v><cj><prim/></cj><sys><tp><aor gn="1"/><para/></tp></sys><np><pl/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="has"/></f>
+<f form="ahasanta"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="has"/></f>
 <f form="ahasam"><v><cj><prim/></cj><sys><tp><aor gn="1"/><para/></tp></sys><np><sg/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="has"/></f>
 <f form="ahasas"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="has"/></f>
 <f form="ahasAma"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="has"/></f>
+<f form="ahasAmahi"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="has"/></f>
 <f form="ahasAva"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="has"/></f>
+<f form="ahasAvahi"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="has"/></f>
+<f form="ahase"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="has"/></f>
+<f form="ahasetAm"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="has"/></f>
+<f form="ahaseTAm"><v><cj><prim/></cj><sys><prs gn="1"><md><im/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="has"/></f>
 <f form="ahasta"><v><cj><prim/></cj><sys><tp><aor gn="1"/><para/></tp></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="ahastam"><v><cj><prim/></cj><sys><tp><aor gn="1"/><para/></tp></sys><np><du/><snd/></np></v><s stem="has"/></f>
 <f form="ahastAm"><v><cj><prim/></cj><sys><tp><aor gn="1"/><para/></tp></sys><np><du/><trd/></np></v><s stem="has"/></f>
@@ -58575,6 +58611,37 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="carcayevahi"><v><cj><prim/></cj><sys><prs gn="11"><md><op/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="carca"/></f>
 <f form="carcayes"><v><cj><prim/></cj><sys><prs gn="11"><md><op/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="carca"/></f>
 <f form="carcayE"><v><cj><prim/></cj><sys><prs gn="11"><md><ip/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="carca"/></f>
+<f form="carcarati"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="carcaratu"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="carcarARi"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="carcarAma"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="carcarAva"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="carcarIti"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="carcarItu"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="carcarImi"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="carcarIzi"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="carcarta"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="carcartam"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="carcartas"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="carcartAm"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="carcarti"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="carcartu"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="carcarTa"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="carcarTas"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="carcarDi"><v><cj><int/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="carcarmas"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="carcarmi"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="carcaryAt"><v><cj><int/></cj><sys><prs><md><op/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="carcaryAta"><v><cj><int/></cj><sys><prs><md><op/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="carcaryAtam"><v><cj><int/></cj><sys><prs><md><op/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="carcaryAtAm"><v><cj><int/></cj><sys><prs><md><op/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="carcaryAm"><v><cj><int/></cj><sys><prs><md><op/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="carcaryAma"><v><cj><int/></cj><sys><prs><md><op/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="carcaryAva"><v><cj><int/></cj><sys><prs><md><op/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="carcaryAs"><v><cj><int/></cj><sys><prs><md><op/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="carcaryur"><v><cj><int/></cj><sys><prs><md><op/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="carcarvas"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="carcarzi"><v><cj><int/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
 <f form="carcyatAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><trd/></np></v><s stem="carca"/></f>
 <f form="carcyate"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><trd/></np></v><s stem="carca"/></f>
 <f form="carcyaDvam"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><snd/></np></v><s stem="carca"/></f>
@@ -59915,6 +59982,78 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ciKidur"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><pl/><trd/></np></v><s stem="Kid"/></f>
 <f form="ciKeda"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><fst/></np></v><s stem="Kid"/></f>
 <f form="ciKediTa"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><snd/></np></v><s stem="Kid"/></f>
+<f form="cicariza"><v><cj><des/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizata"><v><cj><des/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizatam"><v><cj><des/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizatas"><v><cj><des/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizatAm"><v><cj><des/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizati"><v><cj><des/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizatu"><v><cj><des/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizaTa"><v><cj><des/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizaTas"><v><cj><des/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizanti"><v><cj><des/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizantu"><v><cj><des/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizasi"><v><cj><des/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizARi"><v><cj><des/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizAma"><v><cj><des/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizAmas"><v><cj><des/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizAmi"><v><cj><des/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizAva"><v><cj><des/></cj><sys><prs><md><ip/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizAvas"><v><cj><des/></cj><sys><prs><md><pr/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizitA"><v><cj><des/></cj><sys><pef><para/></pef></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizitAras"><v><cj><des/></cj><sys><pef><para/></pef></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizitArO"><v><cj><des/></cj><sys><pef><para/></pef></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizitAsi"><v><cj><des/></cj><sys><pef><para/></pef></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizitAsTa"><v><cj><des/></cj><sys><pef><para/></pef></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizitAsTas"><v><cj><des/></cj><sys><pef><para/></pef></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizitAsmas"><v><cj><des/></cj><sys><pef><para/></pef></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizitAsmi"><v><cj><des/></cj><sys><pef><para/></pef></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizitAsvas"><v><cj><des/></cj><sys><pef><para/></pef></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizet"><v><cj><des/></cj><sys><prs><md><op/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizeta"><v><cj><des/></cj><sys><prs><md><op/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizetam"><v><cj><des/></cj><sys><prs><md><op/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizetAm"><v><cj><des/></cj><sys><prs><md><op/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizema"><v><cj><des/></cj><sys><prs><md><op/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizeyam"><v><cj><des/></cj><sys><prs><md><op/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizeyur"><v><cj><des/></cj><sys><prs><md><op/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizeva"><v><cj><des/></cj><sys><prs><md><op/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizes"><v><cj><des/></cj><sys><prs><md><op/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyatas"><v><cj><des/></cj><sys><tp><fut/><para/></tp></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyatAm"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyati"><v><cj><des/></cj><sys><tp><fut/><para/></tp></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyate"><v><cj><des/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyaTa"><v><cj><des/></cj><sys><tp><fut/><para/></tp></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyaTas"><v><cj><des/></cj><sys><tp><fut/><para/></tp></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyaDvam"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyaDve"><v><cj><des/></cj><sys><pas><md><pr/></md></pas></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyantAm"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyanti"><v><cj><des/></cj><sys><tp><fut/><para/></tp></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyante"><v><cj><des/></cj><sys><pas><md><pr/></md></pas></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyasi"><v><cj><des/></cj><sys><tp><fut/><para/></tp></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyase"><v><cj><des/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyasva"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyAmas"><v><cj><des/></cj><sys><tp><fut/><para/></tp></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyAmahe"><v><cj><des/></cj><sys><pas><md><pr/></md></pas></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyAmahE"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyAmi"><v><cj><des/></cj><sys><tp><fut/><para/></tp></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyAvas"><v><cj><des/></cj><sys><tp><fut/><para/></tp></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyAvahe"><v><cj><des/></cj><sys><pas><md><pr/></md></pas></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyAvahE"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizye"><v><cj><des/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyeta"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><sg/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyetAm"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyete"><v><cj><des/></cj><sys><pas><md><pr/></md></pas></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyeTAm"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyeTAs"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyeTe"><v><cj><des/></cj><sys><pas><md><pr/></md></pas></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyeDvam"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyemahi"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyeya"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyeyAtAm"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyeyATAm"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="cicarizyeran"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><trd/></np></v><s stem="car"/></f>
+<f form="cicarizyevahi"><v><cj><des/></cj><sys><pas><md><op/></md></pas></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="cicarizyE"><v><cj><des/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><fst/></np></v><s stem="car"/></f>
 <f form="cicikitsa"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><pl/><snd/></np></v><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><trd/></np></v><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><fst/></np></v><s stem="cit#1"/></f>
 <f form="cicikitsatur"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><du/><trd/></np></v><s stem="cit#1"/></f>
 <f form="cicikitsaTur"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><du/><snd/></np></v><s stem="cit#1"/></f>
@@ -59952,6 +60091,13 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="cicikrIzivahe"><v><cj><des/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><fst/></np></v><s stem="krI"/></f>
 <f form="cicikrIzize"><v><cj><des/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><snd/></np></v><s stem="krI"/></f>
 <f form="cicikrIze"><v><cj><des/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><trd/></np></v><v><cj><des/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="krI"/></f>
+<f form="cicicariza"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><pl/><snd/></np></v><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><trd/></np></v><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><fst/></np></v><s stem="car"/></f>
+<f form="cicicarizatur"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><du/><trd/></np></v><s stem="car"/></f>
+<f form="cicicarizaTur"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><du/><snd/></np></v><s stem="car"/></f>
+<f form="cicicariziTa"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><snd/></np></v><s stem="car"/></f>
+<f form="cicicarizima"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><pl/><fst/></np></v><s stem="car"/></f>
+<f form="cicicariziva"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><du/><fst/></np></v><s stem="car"/></f>
+<f form="cicicarizur"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><pl/><trd/></np></v><s stem="car"/></f>
 <f form="cicicIza"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><pl/><snd/></np></v><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><trd/></np></v><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><fst/></np></v><s stem="ci"/></f>
 <f form="cicicIzatur"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><du/><trd/></np></v><s stem="ci"/></f>
 <f form="cicicIzaTur"><v><cj><des/></cj><sys><tp><prf/><para/></tp></sys><np><du/><snd/></np></v><s stem="ci"/></f>
@@ -64591,10 +64737,18 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="jahasa"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><pl/><snd/></np></v><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><fst/></np></v><s stem="has"/></f>
 <f form="jahasatur"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><du/><trd/></np></v><s stem="has"/></f>
 <f form="jahasaTur"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><du/><snd/></np></v><s stem="has"/></f>
+<f form="jahasAte"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><trd/></np></v><s stem="has"/></f>
+<f form="jahasATe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><snd/></np></v><s stem="has"/></f>
 <f form="jahasiTa"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><snd/></np></v><s stem="has"/></f>
+<f form="jahasiDve"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="jahasima"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><pl/><fst/></np></v><s stem="has"/></f>
+<f form="jahasimahe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><pl/><fst/></np></v><s stem="has"/></f>
+<f form="jahasire"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><pl/><trd/></np></v><s stem="has"/></f>
 <f form="jahasiva"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><du/><fst/></np></v><s stem="has"/></f>
+<f form="jahasivahe"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><du/><fst/></np></v><s stem="has"/></f>
+<f form="jahasize"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><snd/></np></v><s stem="has"/></f>
 <f form="jahasur"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><pl/><trd/></np></v><s stem="has"/></f>
+<f form="jahase"><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><tp><prf/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="has"/></f>
 <f form="jahAWa"><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><tp><prf/><para/></tp></sys><np><sg/><fst/></np></v><s stem="haW"/></f>
 <f form="jahAti"><v><cj><prim/></cj><sys><prs gn="3"><md><pr/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="hA#1"/></f>
 <f form="jahAtu"><v><cj><prim/></cj><sys><prs gn="3"><md><ip/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="hA#1"/></f>
@@ -149052,20 +149206,31 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="hasata"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="hasatam"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="has"/></f>
 <f form="hasatas"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="has"/></f>
-<f form="hasatAm"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="has"/></f>
+<f form="hasatAm"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><atma/></prs></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="has"/></f>
 <f form="hasati"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="has"/></f>
 <f form="hasatu"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="has"/></f>
+<f form="hasate"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><atma/></prs></sys><np><sg/><trd/></np></v><s stem="has"/></f>
 <f form="hasaTa"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="hasaTas"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="has"/></f>
+<f form="hasaDvam"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
+<f form="hasaDve"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
+<f form="hasantAm"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="has"/></f>
 <f form="hasanti"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="has"/></f>
 <f form="hasantu"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="has"/></f>
+<f form="hasante"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="has"/></f>
 <f form="hasasi"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="has"/></f>
+<f form="hasase"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="has"/></f>
+<f form="hasasva"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="has"/></f>
 <f form="hasAni"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="has"/></f>
 <f form="hasAma"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="has"/></f>
 <f form="hasAmas"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="has"/></f>
+<f form="hasAmahe"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="has"/></f>
+<f form="hasAmahE"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="has"/></f>
 <f form="hasAmi"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="has"/></f>
 <f form="hasAva"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="has"/></f>
 <f form="hasAvas"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="has"/></f>
+<f form="hasAvahe"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="has"/></f>
+<f form="hasAvahE"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="has"/></f>
 <f form="hasitA"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><sg/><trd/></np></v><s stem="has"/></f>
 <f form="hasitAras"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><pl/><trd/></np></v><s stem="has"/></f>
 <f form="hasitArO"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><du/><trd/></np></v><s stem="has"/></f>
@@ -149077,23 +149242,45 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="hasitAsvas"><v><cj><prim/></cj><sys><pef><para/></pef></sys><np><du/><fst/></np></v><s stem="has"/></f>
 <f form="hasizyatas"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><du/><trd/></np></v><s stem="has"/></f>
 <f form="hasizyati"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><sg/><trd/></np></v><s stem="has"/></f>
+<f form="hasizyate"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><trd/></np></v><s stem="has"/></f>
 <f form="hasizyaTa"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="hasizyaTas"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><du/><snd/></np></v><s stem="has"/></f>
+<f form="hasizyaDve"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="hasizyanti"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><pl/><trd/></np></v><s stem="has"/></f>
+<f form="hasizyante"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><pl/><trd/></np></v><s stem="has"/></f>
 <f form="hasizyasi"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><sg/><snd/></np></v><s stem="has"/></f>
+<f form="hasizyase"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><snd/></np></v><s stem="has"/></f>
 <f form="hasizyAmas"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><pl/><fst/></np></v><s stem="has"/></f>
+<f form="hasizyAmahe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><pl/><fst/></np></v><s stem="has"/></f>
 <f form="hasizyAmi"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><sg/><fst/></np></v><s stem="has"/></f>
 <f form="hasizyAvas"><v><cj><prim/></cj><sys><tp><fut/><para/></tp></sys><np><du/><fst/></np></v><s stem="has"/></f>
+<f form="hasizyAvahe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><fst/></np></v><s stem="has"/></f>
+<f form="hasizye"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="has"/></f>
+<f form="hasizyete"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><trd/></np></v><s stem="has"/></f>
+<f form="hasizyeTe"><v><cj><prim/></cj><sys><tp><fut/><atma/></tp></sys><np><du/><snd/></np></v><s stem="has"/></f>
+<f form="hase"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="has"/></f>
 <f form="hase"><v><cj><prim/></cj><sys><prs gn="2"><md><pr/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="han#1"/></f>
 <f form="haset"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="has"/></f>
-<f form="haseta"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
+<f form="haseta"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><atma/></prs></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="hasetam"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="has"/></f>
-<f form="hasetAm"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="has"/></f>
+<f form="hasetAm"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><atma/></prs></sys><np><du/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="has"/></f>
+<f form="hasete"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="has"/></f>
+<f form="haseTAm"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="has"/></f>
+<f form="haseTAs"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="has"/></f>
+<f form="haseTe"><v><cj><prim/></cj><sys><prs gn="1"><md><pr/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="has"/></f>
+<f form="haseDvam"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="has"/></f>
 <f form="hasema"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="has"/></f>
+<f form="hasemahi"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="has"/></f>
+<f form="haseya"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="has"/></f>
 <f form="haseyam"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="has"/></f>
+<f form="haseyAtAm"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="has"/></f>
+<f form="haseyATAm"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="has"/></f>
 <f form="haseyur"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="has"/></f>
+<f form="haseran"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="has"/></f>
 <f form="haseva"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="has"/></f>
+<f form="hasevahi"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="has"/></f>
 <f form="hases"><v><cj><prim/></cj><sys><prs gn="1"><md><op/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="has"/></f>
+<f form="hasE"><v><cj><prim/></cj><sys><prs gn="1"><md><ip/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="has"/></f>
 <f form="hasyatAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><trd/></np></v><s stem="has"/></f>
 <f form="hasyate"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><trd/></np></v><s stem="has"/></f>
 <f form="hasyaDvam"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><snd/></np></v><s stem="has"/></f>
