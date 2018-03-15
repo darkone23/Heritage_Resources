@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-9 Mars 2018"><meta name="copyright" content="
+15 Mars 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -1144,6 +1144,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="Alimpanawas"><uf><tasil/></uf><s stem="Alimpana"/></f>
 <f form="Alukawas"><uf><tasil/></uf><s stem="Aluka"/></f>
 <f form="Aluwas"><uf><tasil/></uf><s stem="Alu"/></f>
+<f form="Aluliwawas"><uf><tasil/></uf><s stem="Aluliwa"/></f>
 <f form="Alokawas"><uf><tasil/></uf><s stem="Aloka"/></f>
 <f form="Alokanawas"><uf><tasil/></uf><s stem="Alokana"/></f>
 <f form="Alocanawas"><uf><tasil/></uf><s stem="Alocana"/></f>
@@ -2619,6 +2620,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kRiprawas"><uf><tasil/></uf><s stem="kRipra"/></f>
 <f form="kRIbawas"><uf><tasil/></uf><s stem="kRIba"/></f>
 <f form="kRIrawas"><uf><tasil/></uf><s stem="kRIra"/></f>
+<f form="kRuwiwas"><uf><tasil/></uf><s stem="kRuwi"/></f>
 <f form="kRuwpipAsiwawas"><uf><tasil/></uf><s stem="kRuwpipAsiwa"/></f>
 <f form="kRuxrawas"><uf><tasil/></uf><s stem="kRuxra"/></f>
 <f form="kRurawas"><uf><tasil/></uf><s stem="kRura"/></f>
@@ -7879,6 +7881,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vyAyAmawas"><uf><tasil/></uf><s stem="vyAyAma"/></f>
 <f form="vyAyAmikawas"><uf><tasil/></uf><s stem="vyAyAmika"/></f>
 <f form="vyAlawas"><uf><tasil/></uf><s stem="vyAla"/></f>
+<f form="vyAlolawas"><uf><tasil/></uf><s stem="vyAlola"/></f>
 <f form="vyAvarwakawas"><uf><tasil/></uf><s stem="vyAvarwaka"/></f>
 <f form="vyAvarwawas"><uf><tasil/></uf><s stem="vyAvarwa"/></f>
 <f form="vyAvarwanawas"><uf><tasil/></uf><s stem="vyAvarwana"/></f>
@@ -9634,4 +9637,5 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="hlAxawas"><uf><tasil/></uf><s stem="hlAxa"/></f>
 <f form="hlAxanawas"><uf><tasil/></uf><s stem="hlAxana"/></f>
 <f form="hvarakawas"><uf><tasil/></uf><s stem="hvaraka"/></f>
+<f form="hvalanawas"><uf><tasil/></uf><s stem="hvalana"/></f>
 </forms>
