@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-8 Avril 2018"><meta name="copyright" content="
+18 Avril 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -2372,6 +2372,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kulatas"><uf><tasil/></uf><s stem="kula"/></f>
 <f form="kulatTatas"><uf><tasil/></uf><s stem="kulatTa"/></f>
 <f form="kulADInatas"><uf><tasil/></uf><s stem="kulADIna"/></f>
+<f form="kulAyatas"><uf><tasil/></uf><s stem="kulAya"/></f>
+<f form="kulAyasTatas"><uf><tasil/></uf><s stem="kulAyasTa"/></f>
 <f form="kulAlatas"><uf><tasil/></uf><s stem="kulAla"/></f>
 <f form="kulindatas"><uf><tasil/></uf><s stem="kulinda"/></f>
 <f form="kuliSatas"><uf><tasil/></uf><s stem="kuliSa"/></f>
@@ -3311,6 +3313,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="jAmbUnadatas"><uf><tasil/></uf><s stem="jAmbUnada"/></f>
 <f form="jAyutas"><uf><tasil/></uf><s stem="jAyu"/></f>
 <f form="jAratas"><uf><tasil/></uf><s stem="jAra"/></f>
+<f form="jAlakatas"><uf><tasil/></uf><s stem="jAlaka"/></f>
 <f form="jAlatas"><uf><tasil/></uf><s stem="jAla"/></f>
 <f form="jAlanDaratas"><uf><tasil/></uf><s stem="jAlanDara"/></f>
 <f form="jAlasTAnatas"><uf><tasil/></uf><s stem="jAlasTAna"/></f>
@@ -4478,6 +4481,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="nirhrAdatas"><uf><tasil/></uf><s stem="nirhrAda"/></f>
 <f form="nilambitatas"><uf><tasil/></uf><s stem="nilambita"/></f>
 <f form="nilayatas"><uf><tasil/></uf><s stem="nilaya"/></f>
+<f form="nilayanatas"><uf><tasil/></uf><s stem="nilayana"/></f>
+<f form="nilAyatas"><uf><tasil/></uf><s stem="nilAya"/></f>
 <f form="nivaSatas"><uf><tasil/></uf><s stem="nivaSa"/></f>
 <f form="nivahatas"><uf><tasil/></uf><s stem="nivaha"/></f>
 <f form="nivAtatas"><uf><tasil/></uf><s stem="nivAta"/></f>
@@ -4539,6 +4544,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="nizyandatas"><uf><tasil/></uf><s stem="nizyanda"/></f>
 <f form="nisargatas"><uf><tasil/></uf><s stem="nisarga"/></f>
 <f form="nIcatas"><uf><tasil/></uf><s stem="nIca"/></f>
+<f form="nIqakatas"><uf><tasil/></uf><s stem="nIqaka"/></f>
+<f form="nIqajatas"><uf><tasil/></uf><s stem="nIqaja"/></f>
 <f form="nIqatas"><uf><tasil/></uf><s stem="nIqa"/></f>
 <f form="nItijYatas"><uf><tasil/></uf><s stem="nItijYa"/></f>
 <f form="nItitas"><uf><tasil/></uf><s stem="nIti"/></f>
