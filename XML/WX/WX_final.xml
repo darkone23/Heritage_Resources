@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-18 Avril 2018"><meta name="copyright" content="
+1er Mai 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSayiwum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aMSa"/></f>
@@ -13894,6 +13894,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SuRmiNI"><iic/><s stem="SuRmin"/></f>
 <f form="SUxra"><iic/><s stem="SUxra"/></f>
 <f form="SUxraka"><iic/><s stem="SUxraka"/></f>
+<f form="SUxrAcAraSiromaNi"><iic/><s stem="SUxrAcAraSiromaNi"/></f>
 <f form="SUnya"><iic/><s stem="SUnya"/></f>
 <f form="SUnyamanaska"><iic/><s stem="SUnyamanaska"/></f>
 <f form="SUnyavAxi"><iic/><s stem="SUnyavAxin"/></f>
@@ -14417,6 +14418,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sanxeSa"><iic/><s stem="sanxeSa"/></f>
 <f form="sanxeSaka"><iic/><s stem="sanxeSaka"/></f>
 <f form="sanxeha"><iic/><s stem="sanxeha"/></f>
+<f form="sanxoha"><iic/><s stem="sanxoha"/></f>
+<f form="sanxohana"><iic/><s stem="sanxohana"/></f>
 <f form="sanXA"><iic/><s stem="sanXA#2"/></f>
 <f form="sanXAna"><iic/><s stem="sanXAna"/></f>
 <f form="sanXAnI"><iic/><s stem="sanXAna"/></f>
@@ -14494,6 +14497,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="saBArya"><iic/><s stem="saBArya"/></f>
 <f form="saBika"><iic/><s stem="saBika"/></f>
 <f form="saBya"><iic/><s stem="saBya"/></f>
+<f form="saBrukutImuKa"><iic/><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKI"><iic/><s stem="saBrukutImuKa"/></f>
 <f form="sama"><iic/><s stem="sama"/></f>
 <f form="samaka"><iic/><s stem="samaka"/></f>
 <f form="samakRa"><iic/><s stem="samakRa"/></f>
@@ -142514,6 +142519,24 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SUxram"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="SUxra"/></f>
 <f form="SUxrayos"><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="SUxra"/></f>
 <f form="SUxrasya"><na><gen/><sg/><neu/></na><s stem="SUxra"/></f>
+<f form="SUxrAcAraSiromaNayas"><na><nom/><pl/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNaye"><na><dat/><sg/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNiBis"><na><ins/><pl/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNiByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNiByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNim"><na><acc/><sg/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNiRu"><na><loc/><pl/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNis"><na><nom/><sg/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNI"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNInAm"><na><gen/><pl/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNIs"><na><acc/><pl/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNes"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNO"><na><loc/><sg/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNyA"><na><ins/><sg/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNyAm"><na><loc/><sg/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNyE"><na><dat/><sg/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNyos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="SUxrAcAraSiromaNi"/></f>
 <f form="SUxrANAm"><na><gen/><pl/><neu/></na><s stem="SUxra"/></f>
 <f form="SUxrANi"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="SUxra"/></f>
 <f form="SUxrAw"><na><abl/><sg/><neu/></na><s stem="SUxra"/></f>
@@ -147768,6 +147791,29 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sanxeheByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="sanxeha"/></f>
 <f form="sanxeheRu"><na><loc/><pl/><neu/></na><s stem="sanxeha"/></f>
 <f form="sanxehEs"><na><ins/><pl/><neu/></na><s stem="sanxeha"/></f>
+<f form="sanxoham"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="sanxoha"/></f>
+<f form="sanxohayA"><na><ins/><sg/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohayos"><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohasya"><na><gen/><sg/><neu/></na><s stem="sanxoha"/></f>
+<f form="sanxohA"><na><nom/><sg/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAw"><na><abl/><sg/><neu/></na><s stem="sanxoha"/></f>
+<f form="sanxohAnAm"><na><gen/><pl/><neu/></na><na><gen/><pl/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAni"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="sanxoha"/></f>
+<f form="sanxohABis"><na><ins/><pl/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAByAm"><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAm"><na><acc/><sg/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAya"><na><dat/><sg/><neu/></na><s stem="sanxoha"/></f>
+<f form="sanxohAyAm"><na><loc/><sg/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAyE"><na><dat/><sg/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohAsu"><na><loc/><pl/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohe"><na><acc/><du/><neu/></na><na><nom/><du/><neu/></na><na><loc/><sg/><neu/></na><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="sanxoha"/></f>
+<f form="sanxohena"><na><ins/><sg/><neu/></na><s stem="sanxoha"/></f>
+<f form="sanxoheByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="sanxoha"/></f>
+<f form="sanxoheRu"><na><loc/><pl/><neu/></na><s stem="sanxoha"/></f>
+<f form="sanxohEs"><na><ins/><pl/><neu/></na><s stem="sanxoha"/></f>
 <f form="sanXam"><na><acc/><sg/><mas/></na><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="sanXA#2"/></f>
 <f form="sanXayas"><na><nom/><pl/><fem/></na><s stem="sanXi"/></f>
 <f form="sanXaye"><na><dat/><sg/><fem/></na><s stem="sanXi"/></f>
@@ -180179,6 +180225,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SUxrakam"><avya/><s stem="SUxraka"/></f>
 <f form="SUxrakAw"><avya/><s stem="SUxraka"/></f>
 <f form="SUxram"><avya/><s stem="SUxra"/></f>
+<f form="SUxrAcAraSiromaNi"><avya/><s stem="SUxrAcAraSiromaNi"/></f>
 <f form="SUxrAw"><avya/><s stem="SUxra"/></f>
 <f form="SUnyam"><avya/><s stem="SUnya"/></f>
 <f form="SUnyamanaskam"><avya/><s stem="SUnyamanaska"/></f>
@@ -181022,6 +181069,10 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sanxeSAw"><avya/><s stem="sanxeSa"/></f>
 <f form="sanxeham"><avya/><s stem="sanxeha"/></f>
 <f form="sanxehAw"><avya/><s stem="sanxeha"/></f>
+<f form="sanxohanam"><avya/><s stem="sanxohana"/></f>
+<f form="sanxohanAw"><avya/><s stem="sanxohana"/></f>
+<f form="sanxoham"><avya/><s stem="sanxoha"/></f>
+<f form="sanxohAw"><avya/><s stem="sanxoha"/></f>
 <f form="sanXam"><avya/><s stem="sanXA#2"/></f>
 <f form="sanXAnam"><avya/><s stem="sanXAna"/></f>
 <f form="sanXAnAw"><avya/><s stem="sanXAna"/></f>
@@ -181146,6 +181197,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="saBikAw"><avya/><s stem="saBika"/></f>
 <f form="saByam"><avya/><s stem="saBya"/></f>
 <f form="saByAw"><avya/><s stem="saBya"/></f>
+<f form="saBrukutImuKam"><avya/><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKAw"><avya/><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKi"><avya/><s stem="saBrukutImuKa"/></f>
 <f form="samakam"><avya/><s stem="samaka"/></f>
 <f form="samakAw"><avya/><s stem="samaka"/></f>
 <f form="samakRam"><avya/><s stem="samakRa"/></f>
@@ -226909,6 +226963,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SUxraka"><na><voc/><sg/><mas/></na><s stem="SUxraka"/></f>
 <f form="SUxrakAs"><na><voc/><pl/><mas/></na><s stem="SUxraka"/></f>
 <f form="SUxrakO"><na><voc/><du/><mas/></na><s stem="SUxraka"/></f>
+<f form="SUxrAcAraSiromaNayas"><na><voc/><pl/><mas/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNI"><na><voc/><du/><mas/></na><s stem="SUxrAcAraSiromaNi"/></f>
+<f form="SUxrAcAraSiromaNe"><na><voc/><sg/><mas/></na><s stem="SUxrAcAraSiromaNi"/></f>
 <f form="SUxrAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="SUxra"/></f>
 <f form="SUxre"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="SUxra"/></f>
 <f form="SUxrO"><na><voc/><du/><mas/></na><s stem="SUxra"/></f>
@@ -228932,6 +228989,14 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sanxeha"><na><voc/><sg/><mas/></na><s stem="sanxeha"/></f>
 <f form="sanxehAs"><na><voc/><pl/><mas/></na><s stem="sanxeha"/></f>
 <f form="sanxehO"><na><voc/><du/><mas/></na><s stem="sanxeha"/></f>
+<f form="sanxoha"><na><voc/><sg/><mas/></na><s stem="sanxoha"/></f>
+<f form="sanxohana"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="sanxohana"/></f>
+<f form="sanxohanAni"><na><voc/><pl/><neu/></na><s stem="sanxohana"/></f>
+<f form="sanxohanAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="sanxohana"/></f>
+<f form="sanxohane"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="sanxohana"/></f>
+<f form="sanxohanO"><na><voc/><du/><mas/></na><s stem="sanxohana"/></f>
+<f form="sanxohAs"><na><voc/><pl/><mas/></na><s stem="sanxoha"/></f>
+<f form="sanxohO"><na><voc/><du/><mas/></na><s stem="sanxoha"/></f>
 <f form="sanXayas"><na><voc/><pl/><mas/></na><s stem="sanXi"/></f>
 <f form="sanXAna"><na><voc/><sg/><neu/></na><s stem="sanXAna"/></f>
 <f form="sanXAnAni"><na><voc/><pl/><neu/></na><s stem="sanXAna"/></f>
@@ -229220,6 +229285,14 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="saByAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="saBya"/></f>
 <f form="saBye"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="saBya"/></f>
 <f form="saByO"><na><voc/><du/><mas/></na><s stem="saBya"/></f>
+<f form="saBrukutImuKa"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKAni"><na><voc/><pl/><neu/></na><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKAs"><na><voc/><pl/><mas/></na><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKi"><na><voc/><sg/><fem/></na><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKe"><na><voc/><du/><neu/></na><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKO"><na><voc/><du/><mas/></na><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKyas"><na><voc/><pl/><fem/></na><s stem="saBrukutImuKa"/></f>
+<f form="saBrukutImuKyO"><na><voc/><du/><fem/></na><s stem="saBrukutImuKa"/></f>
 <f form="sama"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="sama"/></f>
 <f form="samaka"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="samaka"/></f>
 <f form="samakAni"><na><voc/><pl/><neu/></na><s stem="samaka"/></f>
@@ -241435,6 +241508,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SuRmI"><iiv/><s stem="SuRma"/></f>
 <f form="SuRmI"><iiv/><s stem="SuRmin"/></f>
 <f form="SUxrakI"><iiv/><s stem="SUxraka"/></f>
+<f form="SUxrAcAraSiromaNI"><iiv/><s stem="SUxrAcAraSiromaNi"/></f>
 <f form="SUxrI"><iiv/><s stem="SUxra"/></f>
 <f form="SUnyamanaskI"><iiv/><s stem="SUnyamanaska"/></f>
 <f form="SUnyavAxI"><iiv/><s stem="SUnyavAxin"/></f>
@@ -241745,6 +241819,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sanxeSakI"><iiv/><s stem="sanxeSaka"/></f>
 <f form="sanxeSI"><iiv/><s stem="sanxeSa"/></f>
 <f form="sanxehI"><iiv/><s stem="sanxeha"/></f>
+<f form="sanxohanI"><iiv/><s stem="sanxohana"/></f>
+<f form="sanxohI"><iiv/><s stem="sanxoha"/></f>
 <f form="sanXI"><iiv/><s stem="sanXi"/></f>
 <f form="sanXyAkarananxI"><iiv/><s stem="sanXyAkarananxin"/></f>
 <f form="sannayI"><iiv/><s stem="sannaya"/></f>
@@ -241791,6 +241867,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="saBAryI"><iiv/><s stem="saBArya"/></f>
 <f form="saBikI"><iiv/><s stem="saBika"/></f>
 <f form="saByI"><iiv/><s stem="saBya"/></f>
+<f form="saBrukutImuKI"><iiv/><s stem="saBrukutImuKa"/></f>
 <f form="samakI"><iiv/><s stem="samaka"/></f>
 <f form="samakRI"><iiv/><s stem="samakRa"/></f>
 <f form="samagrI"><iiv/><s stem="samagra"/></f>

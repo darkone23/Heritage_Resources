@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-18 Avril 2018"><meta name="copyright" content="
+1er Mai 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSaya"><v><cj><prim/></cj><sys><prs gn="11"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="aMSa"/></f>
@@ -5131,6 +5131,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="acAyaye"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="ci"/></f>
 <f form="acAyayewAm"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="ci"/></f>
 <f form="acAyayeWAm"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="ci"/></f>
+<f form="acAyi"><v><cj><prim/></cj><sys><tp><aor gn="1"/><pass/></tp></sys><np><sg/><trd/></np></v><s stem="ci"/></f>
 <f form="acAyyawa"><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><s stem="ci"/></f>
 <f form="acAyyaWAs"><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><s stem="ci"/></f>
 <f form="acAyyaXvam"><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><s stem="ci"/></f>
@@ -10673,6 +10674,24 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="axIXare"><v><cj><prim/></cj><sys><tp><aor gn="3"/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="Xq"/></f>
 <f form="axIXarewAm"><v><cj><prim/></cj><sys><tp><aor gn="3"/><atma/></tp></sys><np><du/><trd/></np></v><s stem="Xq"/></f>
 <f form="axIXareWAm"><v><cj><prim/></cj><sys><tp><aor gn="3"/><atma/></tp></sys><np><du/><snd/></np></v><s stem="Xq"/></f>
+<f form="axIpi"><v><cj><prim/></cj><sys><tp><aor gn="1"/><pass/></tp></sys><np><sg/><trd/></np></v><s stem="xIp"/></f>
+<f form="axIpiXvam"><v><cj><prim/></cj><sys><tp><aor gn="5"/><atma/></tp></sys><np><pl/><snd/></np></v><s stem="xIp"/></f>
+<f form="axIpiRawa"><v><cj><prim/></cj><sys><tp><aor gn="5"/><atma/></tp></sys><np><pl/><trd/></np></v><s stem="xIp"/></f>
+<f form="axIpiRam"><v><cj><prim/></cj><sys><tp><aor gn="5"/><para/></tp></sys><np><sg/><fst/></np></v><s stem="xIp"/></f>
+<f form="axIpiRAwAm"><v><cj><prim/></cj><sys><tp><aor gn="5"/><atma/></tp></sys><np><du/><trd/></np></v><s stem="xIp"/></f>
+<f form="axIpiRAWAm"><v><cj><prim/></cj><sys><tp><aor gn="5"/><atma/></tp></sys><np><du/><snd/></np></v><s stem="xIp"/></f>
+<f form="axIpiRi"><v><cj><prim/></cj><sys><tp><aor gn="5"/><atma/></tp></sys><np><sg/><fst/></np></v><s stem="xIp"/></f>
+<f form="axIpiRur"><v><cj><prim/></cj><sys><tp><aor gn="5"/><para/></tp></sys><np><pl/><trd/></np></v><s stem="xIp"/></f>
+<f form="axIpiRta"><v><cj><prim/></cj><sys><tp><aor gn="5"/><atma/></tp></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><tp><aor gn="5"/><para/></tp></sys><np><pl/><snd/></np></v><s stem="xIp"/></f>
+<f form="axIpiRtam"><v><cj><prim/></cj><sys><tp><aor gn="5"/><para/></tp></sys><np><du/><snd/></np></v><s stem="xIp"/></f>
+<f form="axIpiRtAm"><v><cj><prim/></cj><sys><tp><aor gn="5"/><para/></tp></sys><np><du/><trd/></np></v><s stem="xIp"/></f>
+<f form="axIpiRTAs"><v><cj><prim/></cj><sys><tp><aor gn="5"/><atma/></tp></sys><np><sg/><snd/></np></v><s stem="xIp"/></f>
+<f form="axIpiRma"><v><cj><prim/></cj><sys><tp><aor gn="5"/><para/></tp></sys><np><pl/><fst/></np></v><s stem="xIp"/></f>
+<f form="axIpiRmahi"><v><cj><prim/></cj><sys><tp><aor gn="5"/><atma/></tp></sys><np><pl/><fst/></np></v><s stem="xIp"/></f>
+<f form="axIpiRva"><v><cj><prim/></cj><sys><tp><aor gn="5"/><para/></tp></sys><np><du/><fst/></np></v><s stem="xIp"/></f>
+<f form="axIpiRvahi"><v><cj><prim/></cj><sys><tp><aor gn="5"/><atma/></tp></sys><np><du/><fst/></np></v><s stem="xIp"/></f>
+<f form="axIpIw"><v><cj><prim/></cj><sys><tp><aor gn="5"/><para/></tp></sys><np><sg/><trd/></np></v><s stem="xIp"/></f>
+<f form="axIpIs"><v><cj><prim/></cj><sys><tp><aor gn="5"/><para/></tp></sys><np><sg/><snd/></np></v><s stem="xIp"/></f>
 <f form="axIpyawa"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><sg/><trd/></np></v><s stem="xIp"/></f>
 <f form="axIpyaWAs"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="xIp"/></f>
 <f form="axIpyaXvam"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="xIp"/></f>
@@ -10859,15 +10878,23 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="axuhi"><v><cj><prim/></cj><sys><prs gn="2"><md><im/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="axuhma"><v><cj><prim/></cj><sys><prs gn="2"><md><im/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="axuhmahi"><v><cj><prim/></cj><sys><prs gn="2"><md><im/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="axuhyawa"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="axuhyaWAs"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="axuhyaXvam"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="axuhyanwa"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="axuhyAmahi"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="axuhyAvahi"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="axuhye"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="axuhyewAm"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="axuhyeWAm"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyaw"><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyawa"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyawam"><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyawAm"><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyaWAs"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyaXvam"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyan"><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyanwa"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyam"><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyas"><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyAma"><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyAmahi"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyAva"><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyAvahi"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><du/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="axuhye"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyewAm"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><du/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="axuhyeWAm"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><du/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><im/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
 <f form="axuhra"><v><cj><prim/></cj><sys><prs gn="2"><md><im/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
 <f form="axuhva"><v><cj><prim/></cj><sys><prs gn="2"><md><im/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="axuhvahi"><v><cj><prim/></cj><sys><prs gn="2"><md><im/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
@@ -11188,6 +11215,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="axohaye"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="axohayewAm"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
 <f form="axohayeWAm"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="axohi"><v><cj><prim/></cj><sys><tp><aor gn="1"/><pass/></tp></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
 <f form="axohyawa"><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
 <f form="axohyaWAs"><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
 <f form="axohyaXvam"><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
@@ -14181,6 +14209,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="apAxaye"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="pax#1"/></f>
 <f form="apAxayewAm"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="pax#1"/></f>
 <f form="apAxayeWAm"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="pax#1"/></f>
+<f form="apAxi"><v><cj><prim/></cj><sys><tp><aor gn="1"/><pass/></tp></sys><np><sg/><trd/></np></v><s stem="pax#1"/></f>
 <f form="apAxyawa"><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><s stem="pax#1"/></f>
 <f form="apAxyaWAs"><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><s stem="pax#1"/></f>
 <f form="apAxyaXvam"><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><s stem="pax#1"/></f>
@@ -15048,6 +15077,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="apUraye"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="pQ"/></f>
 <f form="apUrayewAm"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="pQ"/></f>
 <f form="apUrayeWAm"><v><cj><ca/></cj><sys><prs><md><im/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="pQ"/></f>
+<f form="apUri"><v><cj><prim/></cj><sys><tp><aor gn="1"/><pass/></tp></sys><np><sg/><trd/></np></v><s stem="pQ"/></f>
 <f form="apUryawa"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><trd/></np></v><s stem="pQ"/></f>
 <f form="apUryaWAs"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><sg/><snd/></np></v><s stem="pQ"/></f>
 <f form="apUryaXvam"><v><cj><prim/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><v><cj><ca/></cj><sys><pas><md><im/></md></pas></sys><np><pl/><snd/></np></v><s stem="pQ"/></f>
@@ -78884,42 +78914,64 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="xuhe"><v><cj><prim/></cj><sys><prs gn="2"><md><pr/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="xuhmas"><v><cj><prim/></cj><sys><prs gn="2"><md><pr/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="xuhmahe"><v><cj><prim/></cj><sys><prs gn="2"><md><pr/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyawAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyawe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyaXvam"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyaXve"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyanwAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyanwe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyase"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyasva"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhya"><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyawa"><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyawam"><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyawas"><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyawAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><atma/></prs></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyawi"><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyawu"><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyawe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><atma/></prs></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyaWa"><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyaWas"><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyaXvam"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyaXve"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><pl/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyanwAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyanwi"><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyanwu"><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyanwe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><pl/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyasi"><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyase"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyasva"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
 <f form="xuhyAw"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
 <f form="xuhyAwa"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
 <f form="xuhyAwam"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
 <f form="xuhyAwAm"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAni"><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="xuhyAm"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyAma"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyAmahe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyAmahE"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyAva"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyAvahe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyAvahE"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAma"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><pl/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAmas"><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAmahe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><pl/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAmahE"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><pl/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAmi"><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAva"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><du/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAvas"><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAvahe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><du/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyAvahE"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><du/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="xuhyAs"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
 <f form="xuhyur"><v><cj><prim/></cj><sys><prs gn="2"><md><op/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhye"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyewa"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyewAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyewe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyeWAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyeWAs"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyeWe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyeXvam"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyemahi"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyeya"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyeyAwAm"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyeyAWAm"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyeran"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyevahi"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
-<f form="xuhyE"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhye"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><sg/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyew"><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyewa"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><atma/></prs></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><para/></prs></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyewam"><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><para/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyewAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><du/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><atma/></prs></sys><np><du/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><para/></prs></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyewe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><du/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeWAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><du/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeWAs"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><sg/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><atma/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeWe"><v><cj><prim/></cj><sys><pas><md><pr/></md></pas></sys><np><du/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><pr/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeXvam"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><atma/></prs></sys><np><pl/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyema"><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><para/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyemahi"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><atma/></prs></sys><np><pl/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeya"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><sg/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeyam"><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><para/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeyAwAm"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><du/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><atma/></prs></sys><np><du/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeyAWAm"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><du/><snd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><atma/></prs></sys><np><du/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeyur"><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><para/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeran"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><pl/><trd/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyeva"><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyevahi"><v><cj><prim/></cj><sys><pas><md><op/></md></pas></sys><np><du/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyes"><v><cj><prim/></cj><sys><prs gn="4"><md><op/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="xuh#1"/></f>
+<f form="xuhyE"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><fst/></np></v><v><cj><prim/></cj><sys><prs gn="4"><md><ip/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="xuhvas"><v><cj><prim/></cj><sys><prs gn="2"><md><pr/></md><para/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="xuhvahe"><v><cj><prim/></cj><sys><prs gn="2"><md><pr/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="xuh#1"/></f>
 <f form="xUyawAm"><v><cj><prim/></cj><sys><pas><md><ip/></md></pas></sys><np><sg/><trd/></np></v><s stem="xu"/></f>
