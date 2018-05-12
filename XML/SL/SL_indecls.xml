@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-1er Mai 2018"><meta name="copyright" content="
+12 Mai 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -38,7 +38,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="agnimayatas"><uf><tasil/></uf><s stem="agnimaya"/></f>
 <f form="agnizwomatas"><uf><tasil/></uf><s stem="agnizwoma"/></f>
 <f form="agnisAt"><uf><ind/></uf><s stem="agnisAt"/></f>
-<f form="agnIRdratas"><uf><tasil/></uf><s stem="agnIRdra"/></f>
 <f form="agnIzomatas"><uf><tasil/></uf><s stem="agnIzoma"/></f>
 <f form="agnIzomIyatas"><uf><tasil/></uf><s stem="agnIzomIya"/></f>
 <f form="agrajatas"><uf><tasil/></uf><s stem="agraja"/></f>
@@ -6062,6 +6061,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="BUr"><uf><ind/></uf><s stem="BU#2"/></f>
 <f form="BUritas"><uf><tasil/></uf><s stem="BUri"/></f>
 <f form="BUriSas"><uf><ind/></uf><s stem="BUriSas"/></f>
+<f form="BUrI"><uf><ind/></uf><s stem="BUri"/></f>
 <f form="BUruhatas"><uf><tasil/></uf><s stem="BUruha"/></f>
 <f form="BUrjatas"><uf><tasil/></uf><s stem="BUrja"/></f>
 <f form="BUzaRatas"><uf><tasil/></uf><s stem="BUzaRa"/></f>
@@ -6677,6 +6677,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="yAmatas"><uf><tasil/></uf><s stem="yAma"/></f>
 <f form="yAmalatas"><uf><tasil/></uf><s stem="yAmala"/></f>
 <f form="yAmunatas"><uf><tasil/></uf><s stem="yAmuna"/></f>
+<f form="yAmyatas"><uf><tasil/></uf><s stem="yAmya"/></f>
 <f form="yAyAvaratas"><uf><tasil/></uf><s stem="yAyAvara"/></f>
 <f form="yAvat"><uf><ind/></uf><s stem="yAvat"/></f>
 <f form="yAvatas"><uf><tasil/></uf><s stem="yAva"/></f>
