@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-12 Mai 2018"><meta name="copyright" content="
+17 Mai 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSayitum"><vu><cj><prim/></cj><iv><inf/></iv></vu><s stem="aMSa"/></f>
@@ -13123,6 +13123,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vistAriRI"><iic/><s stem="vistArin"/></f>
 <f form="vispazwa"><iic/><s stem="vispazwa"/></f>
 <f form="vismaya"><iic/><s stem="vismaya"/></f>
+<f form="vismaya"><iic/><s stem="vismaya#1"/></f>
 <f form="vismayi"><iic/><s stem="vismayin"/></f>
 <f form="vismayinI"><iic/><s stem="vismayin"/></f>
 <f form="vismaraRa"><iic/><s stem="vismaraRa"/></f>
@@ -15054,6 +15055,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="suKakAri"><iic/><s stem="suKakArin"/></f>
 <f form="suKakAriRI"><iic/><s stem="suKakArin"/></f>
 <f form="suKatara"><iic/><s stem="suKatara"/></f>
+<f form="suKamaya"><iic/><s stem="suKamaya"/></f>
+<f form="suKamayI"><iic/><s stem="suKamaya"/></f>
 <f form="suKA"><iic/><s stem="suKA"/></f>
 <f form="suKAvatIvyUha"><iic/><s stem="suKAvatIvyUha"/></f>
 <f form="suKi"><iic/><s stem="suKin"/></f>
@@ -15181,6 +15184,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sumaNgala"><iic/><s stem="sumaNgala"/></f>
 <f form="sumaNgalI"><iic/><s stem="sumaNgala"/></f>
 <f form="sumati"><iic/><s stem="sumati"/></f>
+<f form="sumaDyamA"><iic/><s stem="sumaDyamA"/></f>
 <f form="sumana"><iic/><s stem="sumana"/></f>
 <f form="sumanas"><iic/><s stem="sumanas"/></f>
 <f form="sumanottarA"><iic/><s stem="sumanottarA"/></f>
@@ -154615,6 +154619,23 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="suBaveByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="suBava"/></f>
 <f form="suBavezu"><na><loc/><pl/><neu/></na><s stem="suBava"/></f>
 <f form="suBavEs"><na><ins/><pl/><neu/></na><s stem="suBava"/></f>
+<f form="sumaDyamam"><na><acc/><sg/><mas/></na><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamayos"><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamas"><na><nom/><sg/><mas/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamasya"><na><gen/><sg/><mas/></na><na><gen/><sg/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamAt"><na><abl/><sg/><mas/></na><na><abl/><sg/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamAn"><na><acc/><pl/><mas/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamAnAm"><na><gen/><pl/><mas/></na><na><gen/><pl/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamAni"><na><acc/><pl/><neu/></na><na><nom/><pl/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamAByAm"><na><abl/><du/><mas/></na><na><dat/><du/><mas/></na><na><ins/><du/><mas/></na><na><abl/><du/><neu/></na><na><dat/><du/><neu/></na><na><ins/><du/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamAya"><na><dat/><sg/><mas/></na><na><dat/><sg/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamAs"><na><nom/><pl/><mas/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyame"><na><loc/><sg/><mas/></na><na><acc/><du/><neu/></na><na><nom/><du/><neu/></na><na><loc/><sg/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamena"><na><ins/><sg/><mas/></na><na><ins/><sg/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyameByas"><na><abl/><pl/><mas/></na><na><dat/><pl/><mas/></na><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamezu"><na><loc/><pl/><mas/></na><na><loc/><pl/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamEs"><na><ins/><pl/><mas/></na><na><ins/><pl/><neu/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyamO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="sumaDyamA"/></f>
 <f form="sumanottaram"><na><acc/><sg/><mas/></na><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="sumanottarA"/></f>
 <f form="sumanottarayos"><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><s stem="sumanottarA"/></f>
 <f form="sumanottaras"><na><nom/><sg/><mas/></na><s stem="sumanottarA"/></f>
@@ -178969,7 +178990,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vispazwam"><avya/><s stem="vispazwa"/></f>
 <f form="vispazwAt"><avya/><s stem="vispazwa"/></f>
 <f form="vismayam"><avya/><s stem="vismaya"/></f>
+<f form="vismayam"><avya/><s stem="vismaya#1"/></f>
 <f form="vismayAt"><avya/><s stem="vismaya"/></f>
+<f form="vismayAt"><avya/><s stem="vismaya#1"/></f>
 <f form="vismayi"><avya/><s stem="vismayin"/></f>
 <f form="vismayini"><avya/><s stem="vismayin"/></f>
 <f form="vismaraRam"><avya/><s stem="vismaraRa"/></f>
@@ -182117,6 +182140,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="suKatarAt"><avya/><s stem="suKatara"/></f>
 <f form="suKam"><avya/><s stem="suKa"/></f>
 <f form="suKam"><avya/><s stem="suKA"/></f>
+<f form="suKamayam"><avya/><s stem="suKamaya"/></f>
+<f form="suKamayAt"><avya/><s stem="suKamaya"/></f>
+<f form="suKamayi"><avya/><s stem="suKamaya"/></f>
 <f form="suKAt"><avya/><s stem="suKa"/></f>
 <f form="suKAvatIvyUham"><avya/><s stem="suKAvatIvyUha"/></f>
 <f form="suKAvatIvyUhAt"><avya/><s stem="suKAvatIvyUha"/></f>
@@ -182318,6 +182344,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sumaNgalAt"><avya/><s stem="sumaNgala"/></f>
 <f form="sumaNgali"><avya/><s stem="sumaNgala"/></f>
 <f form="sumati"><avya/><s stem="sumati"/></f>
+<f form="sumaDyamam"><avya/><s stem="sumaDyamA"/></f>
 <f form="sumanam"><avya/><s stem="sumana"/></f>
 <f form="sumanAt"><avya/><s stem="sumana"/></f>
 <f form="sumanottaram"><avya/><s stem="sumanottarA"/></f>
@@ -224057,7 +224084,10 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vispazwe"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="vispazwa"/></f>
 <f form="vispazwO"><na><voc/><du/><mas/></na><s stem="vispazwa"/></f>
 <f form="vismaya"><na><voc/><sg/><mas/></na><s stem="vismaya"/></f>
+<f form="vismaya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="vismaya#1"/></f>
+<f form="vismayAni"><na><voc/><pl/><neu/></na><s stem="vismaya#1"/></f>
 <f form="vismayAs"><na><voc/><pl/><mas/></na><s stem="vismaya"/></f>
+<f form="vismayAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="vismaya#1"/></f>
 <f form="vismayi"><na><voc/><sg/><neu/></na><s stem="vismayin"/></f>
 <f form="vismayin"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="vismayin"/></f>
 <f form="vismayinas"><na><voc/><pl/><mas/></na><s stem="vismayin"/></f>
@@ -224067,7 +224097,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vismayinyas"><na><voc/><pl/><fem/></na><s stem="vismayin"/></f>
 <f form="vismayinyO"><na><voc/><du/><fem/></na><s stem="vismayin"/></f>
 <f form="vismayIni"><na><voc/><pl/><neu/></na><s stem="vismayin"/></f>
+<f form="vismaye"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="vismaya#1"/></f>
 <f form="vismayO"><na><voc/><du/><mas/></na><s stem="vismaya"/></f>
+<f form="vismayO"><na><voc/><du/><mas/></na><s stem="vismaya#1"/></f>
 <f form="vismaraRa"><na><voc/><sg/><neu/></na><s stem="vismaraRa"/></f>
 <f form="vismaraRAni"><na><voc/><pl/><neu/></na><s stem="vismaraRa"/></f>
 <f form="vismaraRe"><na><voc/><du/><neu/></na><s stem="vismaraRa"/></f>
@@ -231497,6 +231529,14 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="suKatarAs"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="suKatara"/></f>
 <f form="suKatare"><na><voc/><du/><neu/></na><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="suKatara"/></f>
 <f form="suKatarO"><na><voc/><du/><mas/></na><s stem="suKatara"/></f>
+<f form="suKamaya"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="suKamaya"/></f>
+<f form="suKamayAni"><na><voc/><pl/><neu/></na><s stem="suKamaya"/></f>
+<f form="suKamayAs"><na><voc/><pl/><mas/></na><s stem="suKamaya"/></f>
+<f form="suKamayi"><na><voc/><sg/><fem/></na><s stem="suKamaya"/></f>
+<f form="suKamaye"><na><voc/><du/><neu/></na><s stem="suKamaya"/></f>
+<f form="suKamayO"><na><voc/><du/><mas/></na><s stem="suKamaya"/></f>
+<f form="suKamayyas"><na><voc/><pl/><fem/></na><s stem="suKamaya"/></f>
+<f form="suKamayyO"><na><voc/><du/><fem/></na><s stem="suKamaya"/></f>
 <f form="suKAni"><na><voc/><pl/><neu/></na><s stem="suKa"/></f>
 <f form="suKAvatIvyUha"><na><voc/><sg/><mas/></na><s stem="suKAvatIvyUha"/></f>
 <f form="suKAvatIvyUhAs"><na><voc/><pl/><mas/></na><s stem="suKAvatIvyUha"/></f>
@@ -232060,6 +232100,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sumatI"><na><voc/><du/><mas/></na><na><voc/><du/><fem/></na><s stem="sumati"/></f>
 <f form="sumatIni"><na><voc/><pl/><neu/></na><s stem="sumati"/></f>
 <f form="sumate"><na><voc/><sg/><mas/></na><na><voc/><sg/><fem/></na><s stem="sumati"/></f>
+<f form="sumaDyamAs"><na><voc/><pl/><fem/></na><s stem="sumaDyamA"/></f>
+<f form="sumaDyame"><na><voc/><du/><fem/></na><na><voc/><sg/><fem/></na><s stem="sumaDyamA"/></f>
 <f form="sumana"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><s stem="sumana"/></f>
 <f form="sumanas"><na><voc/><sg/><mas/></na><na><voc/><sg/><neu/></na><na><voc/><sg/><fem/></na><s stem="sumanas"/></f>
 <f form="sumanasas"><na><voc/><pl/><mas/></na><na><voc/><pl/><fem/></na><s stem="sumanas"/></f>
@@ -241087,6 +241129,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vistArI"><iiv/><s stem="vistArin"/></f>
 <f form="vispazwI"><iiv/><s stem="vispazwa"/></f>
 <f form="vismayI"><iiv/><s stem="vismaya"/></f>
+<f form="vismayI"><iiv/><s stem="vismaya#1"/></f>
 <f form="vismayI"><iiv/><s stem="vismayin"/></f>
 <f form="visramBI"><iiv/><s stem="visramBa"/></f>
 <f form="vihagI"><iiv/><s stem="vihaga"/></f>
@@ -242250,6 +242293,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sukzatrI"><iiv/><s stem="sukzatra"/></f>
 <f form="suKakArI"><iiv/><s stem="suKakArin"/></f>
 <f form="suKatarI"><iiv/><s stem="suKatara"/></f>
+<f form="suKamayI"><iiv/><s stem="suKamaya"/></f>
 <f form="suKAvatIvyUhI"><iiv/><s stem="suKAvatIvyUha"/></f>
 <f form="suKI"><iiv/><s stem="suKa"/></f>
 <f form="suKI"><iiv/><s stem="suKin"/></f>
