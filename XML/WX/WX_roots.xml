@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-17 Mai 2018"><meta name="copyright" content="
+21 Mai 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSaya"><v><cj><prim/></cj><sys><prs gn="11"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="aMSa"/></f>
@@ -130600,7 +130600,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vErAyeran"><v><cj><prim/></cj><sys><prs gn="11"><md><op/></md><atma/></prs></sys><np><pl/><trd/></np></v><s stem="vEra"/></f>
 <f form="vErAyevahi"><v><cj><prim/></cj><sys><prs gn="11"><md><op/></md><atma/></prs></sys><np><du/><fst/></np></v><s stem="vEra"/></f>
 <f form="vErAyE"><v><cj><prim/></cj><sys><prs gn="11"><md><ip/></md><atma/></prs></sys><np><sg/><fst/></np></v><s stem="vEra"/></f>
-<f form="vocaw"><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><sg/><trd/></np></v><s stem="vac"/></f>
+<f form="vocaw"><v><cj><prim/></cj><sys><tp><subj/><para/></tp></sys><np><sg/><trd/></np></v><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><sg/><trd/></np></v><s stem="vac"/></f>
 <f form="vocawa"><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><pl/><snd/></np></v><s stem="vac"/></f>
 <f form="vocawam"><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><du/><snd/></np></v><s stem="vac"/></f>
 <f form="vocawAm"><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><du/><trd/></np></v><s stem="vac"/></f>
@@ -130608,7 +130608,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vocawu"><v><cj><prim/></cj><sys><prs gn="2"><md><ip/></md><para/></prs></sys><np><sg/><trd/></np></v><s stem="vac"/></f>
 <f form="vocan"><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><pl/><trd/></np></v><s stem="vac"/></f>
 <f form="vocam"><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><sg/><fst/></np></v><s stem="vac"/></f>
-<f form="vocas"><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><sg/><snd/></np></v><s stem="vac"/></f>
+<f form="vocas"><v><cj><prim/></cj><sys><tp><subj/><para/></tp></sys><np><sg/><snd/></np></v><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><sg/><snd/></np></v><s stem="vac"/></f>
 <f form="vocAma"><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><pl/><fst/></np></v><s stem="vac"/></f>
 <f form="vocAva"><v><cj><prim/></cj><sys><tp><inj gn="2"/><para/></tp></sys><np><du/><fst/></np></v><s stem="vac"/></f>
 <f form="voci"><v><cj><prim/></cj><sys><prs gn="2"><md><ip/></md><para/></prs></sys><np><sg/><snd/></np></v><s stem="vac"/></f>

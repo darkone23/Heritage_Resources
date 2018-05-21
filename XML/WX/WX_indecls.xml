@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-17 Mai 2018"><meta name="copyright" content="
+21 Mai 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -6809,6 +6809,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="rAjanawas"><uf><tasil/></uf><s stem="rAjana"/></f>
 <f form="rAjanyawas"><uf><tasil/></uf><s stem="rAjanya"/></f>
 <f form="rAjapuwrIyawas"><uf><tasil/></uf><s stem="rAjapuwrIya"/></f>
+<f form="rAjamqgAfgawas"><uf><tasil/></uf><s stem="rAjamqgAfga"/></f>
 <f form="rAjasaKawas"><uf><tasil/></uf><s stem="rAjasaKa"/></f>
 <f form="rAjasaKiwas"><uf><tasil/></uf><s stem="rAjasaKa"/></f>
 <f form="rAjasawas"><uf><tasil/></uf><s stem="rAjasa"/></f>
@@ -7038,6 +7039,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="loRtawas"><uf><tasil/></uf><s stem="loRta"/></f>
 <f form="lohakArawas"><uf><tasil/></uf><s stem="lohakAra"/></f>
 <f form="lohawas"><uf><tasil/></uf><s stem="loha"/></f>
+<f form="loharawas"><uf><tasil/></uf><s stem="lohara"/></f>
 <f form="lohiwakawas"><uf><tasil/></uf><s stem="lohiwaka"/></f>
 <f form="lohiwawas"><uf><tasil/></uf><s stem="lohiwa"/></f>
 <f form="lOkAyawawas"><uf><tasil/></uf><s stem="lOkAyawa"/></f>
@@ -7675,8 +7677,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="viswaraSas"><uf><ind/></uf><s stem="viswaraSas"/></f>
 <f form="viswArawas"><uf><tasil/></uf><s stem="viswAra"/></f>
 <f form="vispaRtawas"><uf><tasil/></uf><s stem="vispaRta"/></f>
-<f form="vismayawas"><uf><tasil/></uf><s stem="vismaya"/></f>
 <f form="vismayawas"><uf><tasil/></uf><s stem="vismaya#1"/></f>
+<f form="vismayawas"><uf><tasil/></uf><s stem="vismaya#2"/></f>
 <f form="vismaraNawas"><uf><tasil/></uf><s stem="vismaraNa"/></f>
 <f form="visramBawas"><uf><tasil/></uf><s stem="visramBa"/></f>
 <f form="vihagawas"><uf><tasil/></uf><s stem="vihaga"/></f>
