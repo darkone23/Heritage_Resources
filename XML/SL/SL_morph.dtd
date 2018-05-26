@@ -18,6 +18,7 @@
      Version 3.1 Date: Nov 22 2013 - proper kridanta structure for participles
      Version 3.2 Date: Dec 23 2014 - fix gn attribute of prs consistent with DTD
      Version 3.3 Date: Jun 08 2015 - tasil undeclinable taddhitas added
+     Version 3.7 Date: May 26 2018 - subjunctive added
 -->
 
 <!-- Transliteration of forms according to Sanskrit Library scheme SL1:
@@ -113,14 +114,15 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 
 <!ELEMENT pas (md)> <!-- passive system has mode-->
 
-<!ELEMENT tp ((fut | prf | aor | inj | cnd | ben),(para | atma | pass))> <!-- tense paradigm has tense and voice -->
+<!ELEMENT tp ((fut | prf | aor | inj | cnd | ben | subj),(para | atma | pass))> <!-- tense paradigm has tense and voice -->
 
 <!ELEMENT fut EMPTY> <!-- future -->
 <!ELEMENT prf EMPTY> <!-- perfect -->
 <!ELEMENT aor (#PCDATA)> <!-- aorist has kind, integer between 1 and 7-->
 <!ELEMENT inj (#PCDATA)> <!-- injunctive (aorist without augment) had kind -->
-<!ELEMENT cnd EMPTY> <!-- conditional -->
 <!ELEMENT ben EMPTY> <!-- benedictive -->
+<!ELEMENT cnd EMPTY> <!-- conditional -->
+<!ELEMENT subj EMPTY> <!-- subjunctive -->
 
 <!ELEMENT pef (para | atma)> <!-- perif future -->
 <!ELEMENT no (ppp | ppa | ppr | pprp | ppft | pfut | pfutp)> <!-- nominal form is one among kridanta formation schemes -->
