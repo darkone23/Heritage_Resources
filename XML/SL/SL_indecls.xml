@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-22 Juillet 2018"><meta name="copyright" content="
+26 Juillet 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -721,6 +721,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="avagrahatas"><uf><tasil/></uf><s stem="avagraha"/></f>
 <f form="avaGAtatas"><uf><tasil/></uf><s stem="avaGAta"/></f>
 <f form="avacayatas"><uf><tasil/></uf><s stem="avacaya"/></f>
+<f form="avacCittitas"><uf><tasil/></uf><s stem="avacCitti"/></f>
 <f form="avacCedakatas"><uf><tasil/></uf><s stem="avacCedaka"/></f>
 <f form="avacCedatas"><uf><tasil/></uf><s stem="avacCeda"/></f>
 <f form="avacCedanatas"><uf><tasil/></uf><s stem="avacCedana"/></f>
@@ -848,6 +849,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="asratas"><uf><tasil/></uf><s stem="asra"/></f>
 <f form="asrapatas"><uf><tasil/></uf><s stem="asrapa"/></f>
 <f form="ahaNkAratas"><uf><tasil/></uf><s stem="ahaNkAra"/></f>
+<f form="ahambparAmarSatas"><uf><tasil/></uf><s stem="ahambparAmarSa"/></f>
 <f form="ahitas"><uf><tasil/></uf><s stem="ahi"/></f>
 <f form="ahituRqikatas"><uf><tasil/></uf><s stem="ahituRqika"/></f>
 <f form="ahirbuDnyatas"><uf><tasil/></uf><s stem="ahirbuDnya"/></f>
@@ -2208,7 +2210,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kAmajatas"><uf><tasil/></uf><s stem="kAmaja"/></f>
 <f form="kAmatas"><uf><tasil/></uf><s stem="kAma"/></f>
 <f form="kAmadatas"><uf><tasil/></uf><s stem="kAmada"/></f>
-<f form="kAmaduGatas"><uf><tasil/></uf><s stem="kAmaduGa"/></f>
 <f form="kAmanatas"><uf><tasil/></uf><s stem="kAmana"/></f>
 <f form="kAmandakatas"><uf><tasil/></uf><s stem="kAmandaka"/></f>
 <f form="kAmandakitas"><uf><tasil/></uf><s stem="kAmandaki"/></f>
@@ -6369,6 +6370,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="mardanatas"><uf><tasil/></uf><s stem="mardana"/></f>
 <f form="mardalatas"><uf><tasil/></uf><s stem="mardala"/></f>
 <f form="marpatas"><uf><tasil/></uf><s stem="marpa"/></f>
+<f form="marmagatas"><uf><tasil/></uf><s stem="marmaga"/></f>
 <f form="marmatas"><uf><tasil/></uf><s stem="marman"/></f>
 <f form="marmaratas"><uf><tasil/></uf><s stem="marmara"/></f>
 <f form="maryatas"><uf><tasil/></uf><s stem="marya"/></f>

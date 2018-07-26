@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-22 Juillet 2018"><meta name="copyright" content="
+26 Juillet 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -721,6 +721,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="avagrahawas"><uf><tasil/></uf><s stem="avagraha"/></f>
 <f form="avaGAwawas"><uf><tasil/></uf><s stem="avaGAwa"/></f>
 <f form="avacayawas"><uf><tasil/></uf><s stem="avacaya"/></f>
+<f form="avacCiwwiwas"><uf><tasil/></uf><s stem="avacCiwwi"/></f>
 <f form="avacCexakawas"><uf><tasil/></uf><s stem="avacCexaka"/></f>
 <f form="avacCexawas"><uf><tasil/></uf><s stem="avacCexa"/></f>
 <f form="avacCexanawas"><uf><tasil/></uf><s stem="avacCexana"/></f>
@@ -848,6 +849,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="asrawas"><uf><tasil/></uf><s stem="asra"/></f>
 <f form="asrapawas"><uf><tasil/></uf><s stem="asrapa"/></f>
 <f form="ahafkArawas"><uf><tasil/></uf><s stem="ahafkAra"/></f>
+<f form="ahambparAmarSawas"><uf><tasil/></uf><s stem="ahambparAmarSa"/></f>
 <f form="ahiwas"><uf><tasil/></uf><s stem="ahi"/></f>
 <f form="ahiwuNdikawas"><uf><tasil/></uf><s stem="ahiwuNdika"/></f>
 <f form="ahirbuXnyawas"><uf><tasil/></uf><s stem="ahirbuXnya"/></f>
@@ -2208,7 +2210,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kAmajawas"><uf><tasil/></uf><s stem="kAmaja"/></f>
 <f form="kAmawas"><uf><tasil/></uf><s stem="kAma"/></f>
 <f form="kAmaxawas"><uf><tasil/></uf><s stem="kAmaxa"/></f>
-<f form="kAmaxuGawas"><uf><tasil/></uf><s stem="kAmaxuGa"/></f>
 <f form="kAmanawas"><uf><tasil/></uf><s stem="kAmana"/></f>
 <f form="kAmanxakawas"><uf><tasil/></uf><s stem="kAmanxaka"/></f>
 <f form="kAmanxakiwas"><uf><tasil/></uf><s stem="kAmanxaki"/></f>
@@ -6369,6 +6370,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="marxanawas"><uf><tasil/></uf><s stem="marxana"/></f>
 <f form="marxalawas"><uf><tasil/></uf><s stem="marxala"/></f>
 <f form="marpawas"><uf><tasil/></uf><s stem="marpa"/></f>
+<f form="marmagawas"><uf><tasil/></uf><s stem="marmaga"/></f>
 <f form="marmawas"><uf><tasil/></uf><s stem="marman"/></f>
 <f form="marmarawas"><uf><tasil/></uf><s stem="marmara"/></f>
 <f form="maryawas"><uf><tasil/></uf><s stem="marya"/></f>
