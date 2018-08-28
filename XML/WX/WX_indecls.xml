@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-25 Ao\^ut 2018"><meta name="copyright" content="
+26 Ao\^ut 2018"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -1836,6 +1836,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="eRawas"><uf><tasil/></uf><s stem="eRa#2"/></f>
 <f form="ehawas"><uf><tasil/></uf><s stem="eha"/></f>
 <f form="ehaswas"><uf><tasil/></uf><s stem="eha"/></f>
+<f form="ehi"><uf><ind/></uf><s stem="ehi"/></f>
 <f form="EkaXyawas"><uf><tasil/></uf><s stem="EkaXya"/></f>
 <f form="Ekamawyawas"><uf><tasil/></uf><s stem="Ekamawya"/></f>
 <f form="EkAnwikawas"><uf><tasil/></uf><s stem="EkAnwika"/></f>
@@ -3477,7 +3478,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="Takkurawas"><uf><tasil/></uf><s stem="Takkura"/></f>
 <f form="dakArawas"><uf><tasil/></uf><s stem="dakAra"/></f>
 <f form="damarawas"><uf><tasil/></uf><s stem="damara"/></f>
-<f form="damaruwas"><uf><tasil/></uf><s stem="damarin"/></f>
+<f form="damaruwas"><uf><tasil/></uf><s stem="damaru"/></f>
 <f form="dambarawas"><uf><tasil/></uf><s stem="dambara"/></f>
 <f form="dAkawas"><uf><tasil/></uf><s stem="dAka"/></f>
 <f form="dAmarawas"><uf><tasil/></uf><s stem="dAmara"/></f>
@@ -4157,6 +4158,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="XaraNawas"><uf><tasil/></uf><s stem="XaraNa"/></f>
 <f form="XaraNiwas"><uf><tasil/></uf><s stem="XaraNI"/></f>
 <f form="Xarawas"><uf><tasil/></uf><s stem="Xara"/></f>
+<f form="Xarasenawas"><uf><tasil/></uf><s stem="Xarasena"/></f>
 <f form="XaruNawas"><uf><tasil/></uf><s stem="XaruNa"/></f>
 <f form="Xarmajawas"><uf><tasil/></uf><s stem="Xarmaja"/></f>
 <f form="Xarmawas"><uf><tasil/></uf><s stem="Xarma"/></f>
@@ -4422,6 +4424,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="niXanawas"><uf><tasil/></uf><s stem="niXana"/></f>
 <f form="niXAnawas"><uf><tasil/></uf><s stem="niXAna"/></f>
 <f form="niXiwas"><uf><tasil/></uf><s stem="niXi"/></f>
+<f form="ninAxawas"><uf><tasil/></uf><s stem="ninAxa"/></f>
 <f form="nipawanawas"><uf><tasil/></uf><s stem="nipawana"/></f>
 <f form="nipAwawas"><uf><tasil/></uf><s stem="nipAwa"/></f>
 <f form="nipAwanawas"><uf><tasil/></uf><s stem="nipAwana"/></f>
