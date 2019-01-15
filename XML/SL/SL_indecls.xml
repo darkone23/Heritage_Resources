@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-1er Janvier 2019"><meta name="copyright" content="
+15 Janvier 2019"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2018"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -1229,6 +1229,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="AvAhanatas"><uf><tasil/></uf><s stem="AvAhana"/></f>
 <f form="Avikatas"><uf><tasil/></uf><s stem="Avika"/></f>
 <f form="Avikzitatas"><uf><tasil/></uf><s stem="Avikzita"/></f>
+<f form="AvirBAvatas"><uf><tasil/></uf><s stem="AvirBAva"/></f>
 <f form="Avilatas"><uf><tasil/></uf><s stem="Avila"/></f>
 <f form="AvizkaraRatas"><uf><tasil/></uf><s stem="AvizkaraRa"/></f>
 <f form="AvizkAratas"><uf><tasil/></uf><s stem="AvizkAra"/></f>
@@ -2940,6 +2941,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="guRakatas"><uf><tasil/></uf><s stem="guRaka"/></f>
 <f form="guRatas"><uf><tasil/></uf><s stem="guRa"/></f>
 <f form="guRanatas"><uf><tasil/></uf><s stem="guRana"/></f>
+<f form="guRapraBatas"><uf><tasil/></uf><s stem="guRapraBa"/></f>
 <f form="guRamayatas"><uf><tasil/></uf><s stem="guRamaya"/></f>
 <f form="guRitatas"><uf><tasil/></uf><s stem="guRita"/></f>
 <f form="guRqatas"><uf><tasil/></uf><s stem="guRqa"/></f>
@@ -3070,6 +3072,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="Gozakatas"><uf><tasil/></uf><s stem="Gozaka"/></f>
 <f form="GozaRatas"><uf><tasil/></uf><s stem="GozaRa"/></f>
 <f form="Gozatas"><uf><tasil/></uf><s stem="Goza"/></f>
+<f form="Gozitatas"><uf><tasil/></uf><s stem="Gozita"/></f>
 <f form="GrARatas"><uf><tasil/></uf><s stem="GrARa"/></f>
 <f form="NakAratas"><uf><tasil/></uf><s stem="NakAra"/></f>
 <f form="ca"><uf><conj/></uf><s stem="ca"/></f>
@@ -3354,6 +3357,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="janitas"><uf><tasil/></uf><s stem="jana"/></f>
 <f form="janitvatas"><uf><tasil/></uf><s stem="janitva"/></f>
 <f form="janInatas"><uf><tasil/></uf><s stem="janIna"/></f>
+<f form="januzwas"><uf><tasil/></uf><s stem="janus"/></f>
 <f form="jantutas"><uf><tasil/></uf><s stem="jantu"/></f>
 <f form="janmatas"><uf><tasil/></uf><s stem="janman"/></f>
 <f form="janyatas"><uf><tasil/></uf><s stem="janya#2"/></f>
@@ -5458,6 +5462,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pOdgalikatas"><uf><tasil/></uf><s stem="pOdgalika"/></f>
 <f form="pOnaruktatas"><uf><tasil/></uf><s stem="pOnarukta"/></f>
 <f form="pOnaruktyatas"><uf><tasil/></uf><s stem="pOnaruktya"/></f>
+<f form="pOnarBavatas"><uf><tasil/></uf><s stem="pOnarBava"/></f>
 <f form="pOratas"><uf><tasil/></uf><s stem="pOra"/></f>
 <f form="pOravatas"><uf><tasil/></uf><s stem="pOrava"/></f>
 <f form="pOrastyatas"><uf><tasil/></uf><s stem="pOrastya"/></f>
@@ -7792,10 +7797,13 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="viBAvanatas"><uf><tasil/></uf><s stem="viBAvana"/></f>
 <f form="viBItakatas"><uf><tasil/></uf><s stem="viBItaka"/></f>
 <f form="viBItatas"><uf><tasil/></uf><s stem="viBIta#2"/></f>
+<f form="viBIdakatas"><uf><tasil/></uf><s stem="viBIdaka"/></f>
 <f form="viBIzakatas"><uf><tasil/></uf><s stem="viBIzaka"/></f>
 <f form="viBIzaRatas"><uf><tasil/></uf><s stem="viBIzaRa"/></f>
 <f form="viBUtitas"><uf><tasil/></uf><s stem="viBUti"/></f>
 <f form="viBUzaRatas"><uf><tasil/></uf><s stem="viBUzaRa"/></f>
+<f form="viBedakatas"><uf><tasil/></uf><s stem="viBedaka"/></f>
+<f form="viBedatas"><uf><tasil/></uf><s stem="viBeda"/></f>
 <f form="viBramatas"><uf><tasil/></uf><s stem="viBrama"/></f>
 <f form="viBvatas"><uf><tasil/></uf><s stem="viBvan"/></f>
 <f form="vimatitas"><uf><tasil/></uf><s stem="vimati"/></f>
@@ -9134,6 +9142,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sarasvatIkaRWABaraRatas"><uf><tasil/></uf><s stem="sarasvatIkaRWABaraRa"/></f>
 <f form="sarasvatIvilAsatas"><uf><tasil/></uf><s stem="sarasvatIvilAsa"/></f>
 <f form="sarahatas"><uf><tasil/></uf><s stem="saraha"/></f>
+<f form="sarAgatas"><uf><tasil/></uf><s stem="sarAga"/></f>
 <f form="sarAGavatas"><uf><tasil/></uf><s stem="sarAGava"/></f>
 <f form="sarAjakatas"><uf><tasil/></uf><s stem="sarAjaka"/></f>
 <f form="saruditatas"><uf><tasil/></uf><s stem="sarudita"/></f>
