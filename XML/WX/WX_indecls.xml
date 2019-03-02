@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-22 F\'evrier 2019"><meta name="copyright" content="
+1er Mars 2019"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2019"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -792,6 +792,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="avacCexanawas"><uf><tasil/></uf><s stem="avacCexana"/></f>
 <f form="avatItawas"><uf><tasil/></uf><s stem="avatIta"/></f>
 <f form="avawaMsawas"><uf><tasil/></uf><s stem="avawaMsa"/></f>
+<f form="avawapwenakulasWiwawas"><uf><tasil/></uf><s stem="avawapwenakulasWiwa"/></f>
 <f form="avawaraNawas"><uf><tasil/></uf><s stem="avawaraNa"/></f>
 <f form="avawarawas"><uf><tasil/></uf><s stem="avawara"/></f>
 <f form="avawAnawas"><uf><tasil/></uf><s stem="avawAna"/></f>
@@ -1777,6 +1778,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="upasarpaNawas"><uf><tasil/></uf><s stem="upasarpaNa"/></f>
 <f form="upasAnwvanawas"><uf><tasil/></uf><s stem="upasAnwvana"/></f>
 <f form="upasunxawas"><uf><tasil/></uf><s stem="upasunxa"/></f>
+<f form="upasekawas"><uf><tasil/></uf><s stem="upaseka"/></f>
 <f form="upasecanawas"><uf><tasil/></uf><s stem="upasecana"/></f>
 <f form="upaskarawas"><uf><tasil/></uf><s stem="upaskara"/></f>
 <f form="upasWawas"><uf><tasil/></uf><s stem="upasWa"/></f>
@@ -2971,6 +2973,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="gaBawas"><uf><tasil/></uf><s stem="gaBa"/></f>
 <f form="gaBaswiwas"><uf><tasil/></uf><s stem="gaBaswi"/></f>
 <f form="gaBIrawas"><uf><tasil/></uf><s stem="gaBIra"/></f>
+<f form="gamakawas"><uf><tasil/></uf><s stem="gamaka"/></f>
+<f form="gamakawvawas"><uf><tasil/></uf><s stem="gamakawva"/></f>
 <f form="gamawas"><uf><tasil/></uf><s stem="gama"/></f>
 <f form="gamanawas"><uf><tasil/></uf><s stem="gamana"/></f>
 <f form="gamAgamikawas"><uf><tasil/></uf><s stem="gamAgamika"/></f>
@@ -4905,6 +4909,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="niRkAFcanawas"><uf><tasil/></uf><s stem="niRkAFcana"/></f>
 <f form="niRkAmawas"><uf><tasil/></uf><s stem="niRkAma"/></f>
 <f form="niRkAraNawas"><uf><tasil/></uf><s stem="niRkAraNa"/></f>
+<f form="niRkAsawas"><uf><tasil/></uf><s stem="niRkAsa"/></f>
 <f form="niRkiFcanawas"><uf><tasil/></uf><s stem="niRkiFcana"/></f>
 <f form="niRkutawas"><uf><tasil/></uf><s stem="niRkuta"/></f>
 <f form="niRkqpawas"><uf><tasil/></uf><s stem="niRkqpa"/></f>
@@ -5396,6 +5401,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pAwiwyawas"><uf><tasil/></uf><s stem="pAwiwya"/></f>
 <f form="pAwrawas"><uf><tasil/></uf><s stem="pAwra"/></f>
 <f form="pAwrawvawas"><uf><tasil/></uf><s stem="pAwrawva"/></f>
+<f form="pAwresamiwawas"><uf><tasil/></uf><s stem="pAwresamiwa"/></f>
 <f form="pAxakawas"><uf><tasil/></uf><s stem="pAxaka"/></f>
 <f form="pAxawas"><uf><tasil/></uf><s stem="pAxa"/></f>
 <f form="pAxawAdiwakawas"><uf><tasil/></uf><s stem="pAxawAdiwaka"/></f>
@@ -6478,6 +6484,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="Basawwas"><uf><tasil/></uf><s stem="Basax"/></f>
 <f form="Baswrikawas"><uf><tasil/></uf><s stem="Baswrika"/></f>
 <f form="Basmawas"><uf><tasil/></uf><s stem="Basman"/></f>
+<f form="Basmanihuwawas"><uf><tasil/></uf><s stem="Basmanihuwa"/></f>
 <f form="BasmasAw"><uf><ind/></uf><s stem="BasmasAw"/></f>
 <f form="BAgawas"><uf><tasil/></uf><s stem="BAga"/></f>
 <f form="BAgavawawas"><uf><tasil/></uf><s stem="BAgavawa"/></f>
@@ -8299,6 +8306,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="viRtiwas"><uf><tasil/></uf><s stem="viRti"/></f>
 <f form="viRNuwas"><uf><tasil/></uf><s stem="viRNu"/></f>
 <f form="viRNusahasranAmaswowrawas"><uf><tasil/></uf><s stem="viRNusahasranAmaswowra"/></f>
+<f form="viRNusenawas"><uf><tasil/></uf><s stem="viRNusena"/></f>
 <f form="viRvaksenawas"><uf><tasil/></uf><s stem="viRvaksena"/></f>
 <f form="visaMvAxakawas"><uf><tasil/></uf><s stem="visaMvAxaka"/></f>
 <f form="visaMvAxawas"><uf><tasil/></uf><s stem="visaMvAxa"/></f>
