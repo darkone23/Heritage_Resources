@@ -19,6 +19,7 @@
      Version 3.2 Date: Dec 23 2014 - fix gn attribute of prs consistent with DTD
      Version 3.3 Date: Jun 08 2015 - tasil undeclinable taddhitas added
      Version 3.7 Date: May 26 2018 - subjunctive added
+     Version 3.13 Date: Feb 28 2019 - fixed gerundive parameter
 -->
 
 <!-- Transliteration of forms according to UoH scheme WX: 
@@ -119,7 +120,7 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 <!ELEMENT fut EMPTY> <!-- future -->
 <!ELEMENT prf EMPTY> <!-- perfect -->
 <!ELEMENT aor (#PCDATA)> <!-- aorist has kind, integer between 1 and 7-->
-<!ELEMENT inj (#PCDATA)> <!-- injunctive (aorist without augment) had kind -->
+<!ELEMENT inj (#PCDATA)> <!-- injunctive (aorist without augment) has kind -->
 <!ELEMENT ben EMPTY> <!-- benedictive -->
 <!ELEMENT cnd EMPTY> <!-- conditional -->
 <!ELEMENT subj EMPTY> <!-- subjunctive -->
@@ -133,7 +134,7 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 <!ELEMENT pprp EMPTY>     <!-- passive present participle -->
 <!ELEMENT ppft (para | atma)> <!-- perfect participle has pade -->
 <!ELEMENT pfut (para | atma)> <!-- future participle has pade -->
-<!ELEMENT pfutp (gya | iya | tav)>    <!-- passive future participle has geruntive formation scheme -->
+<!ELEMENT pfutp (gya | iya | tav)>    <!-- passive future participle has gerundive formation scheme -->
 
 <!ELEMENT gya EMPTY> <!-- gerundive in ya -->
 <!ELEMENT iya EMPTY> <!-- gerundive in Iya -->
@@ -143,6 +144,3 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 <!ELEMENT inf EMPTY> <!-- infinitive -->
 <!ELEMENT abs EMPTY> <!-- absolutive in ya -->
 <!ELEMENT per EMPTY> <!-- periphrastic perfect -->
-
-
-
