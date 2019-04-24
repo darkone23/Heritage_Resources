@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-11 Avril 2019"><meta name="copyright" content="
+24 Avril 2019"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2019"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakawas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -1465,6 +1465,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ukWawas"><uf><tasil/></uf><s stem="ukWa"/></f>
 <f form="ukWaSasawas"><uf><tasil/></uf><s stem="ukWaSas"/></f>
 <f form="ukWaSaswas"><uf><tasil/></uf><s stem="ukWaSas"/></f>
+<f form="ukRawarawas"><uf><tasil/></uf><s stem="ukRawara"/></f>
 <f form="ukRawas"><uf><tasil/></uf><s stem="ukRan"/></f>
 <f form="uKawas"><uf><tasil/></uf><s stem="uKa"/></f>
 <f form="ugrawamawas"><uf><tasil/></uf><s stem="ugrawama"/></f>
@@ -1905,7 +1906,9 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="qxXiwas"><uf><tasil/></uf><s stem="qxXi"/></f>
 <f form="qBuwas"><uf><tasil/></uf><s stem="qBu"/></f>
 <f form="qSyawas"><uf><tasil/></uf><s stem="qSya"/></f>
+<f form="qRaBawarawas"><uf><tasil/></uf><s stem="qRaBawara"/></f>
 <f form="qRaBawas"><uf><tasil/></uf><s stem="qRaBa"/></f>
+<f form="qRaBawvawas"><uf><tasil/></uf><s stem="qRaBawva"/></f>
 <f form="qRiwas"><uf><tasil/></uf><s stem="qRi"/></f>
 <f form="qRtiwas"><uf><tasil/></uf><s stem="qRti"/></f>
 <f form="qRyawas"><uf><tasil/></uf><s stem="qRya"/></f>
@@ -1967,6 +1970,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ehawas"><uf><tasil/></uf><s stem="eha"/></f>
 <f form="ehaswas"><uf><tasil/></uf><s stem="eha"/></f>
 <f form="ehi"><uf><ind/></uf><s stem="ehi"/></f>
+<f form="ehIhawas"><uf><tasil/></uf><s stem="ehIha"/></f>
 <f form="EkaXyawas"><uf><tasil/></uf><s stem="EkaXya"/></f>
 <f form="Ekamawyawas"><uf><tasil/></uf><s stem="Ekamawya"/></f>
 <f form="EkAnwikawas"><uf><tasil/></uf><s stem="EkAnwika"/></f>
@@ -2046,6 +2050,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="ORaXawas"><uf><tasil/></uf><s stem="ORaXa"/></f>
 <f form="ORaXiwas"><uf><tasil/></uf><s stem="ORaXa"/></f>
 <f form="ORtrakawas"><uf><tasil/></uf><s stem="ORtraka"/></f>
+<f form="ORtrawas"><uf><tasil/></uf><s stem="ORtra"/></f>
 <f form="kaMsawas"><uf><tasil/></uf><s stem="kaMsa"/></f>
 <f form="kakArawas"><uf><tasil/></uf><s stem="kakAra"/></f>
 <f form="kakuwsWawas"><uf><tasil/></uf><s stem="kakuwsWa"/></f>
@@ -4629,6 +4634,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="nAnA"><uf><ind/></uf><s stem="nAnA"/></f>
 <f form="nAnAnxrawas"><uf><tasil/></uf><s stem="nAnAnxra"/></f>
 <f form="nAnArWavargawas"><uf><tasil/></uf><s stem="nAnArWavarga"/></f>
+<f form="nAnArWaSabxakoSawas"><uf><tasil/></uf><s stem="nAnArWaSabxakoSa"/></f>
 <f form="nApiwawas"><uf><tasil/></uf><s stem="nApiwa"/></f>
 <f form="nABAgawas"><uf><tasil/></uf><s stem="nABAga"/></f>
 <f form="nABiwas"><uf><tasil/></uf><s stem="nABi"/></f>
@@ -6281,6 +6287,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="PANtawas"><uf><tasil/></uf><s stem="PANta"/></f>
 <f form="PAlawas"><uf><tasil/></uf><s stem="PAla"/></f>
 <f form="PAlgunawas"><uf><tasil/></uf><s stem="PAlguna"/></f>
+<f form="PAlguniwas"><uf><tasil/></uf><s stem="PAlguni"/></f>
 <f form="Pirafgawas"><uf><tasil/></uf><s stem="Pirafga"/></f>
 <f form="PIt"><uf><ind/></uf><s stem="PIt"/></f>
 <f form="Puw"><uf><ind/></uf><s stem="PUw"/></f>
@@ -6620,6 +6627,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="BUmiFjayawas"><uf><tasil/></uf><s stem="BUmiFjaya"/></f>
 <f form="BUmiwas"><uf><tasil/></uf><s stem="BUmi"/></f>
 <f form="BUmipawas"><uf><tasil/></uf><s stem="BUmipa"/></f>
+<f form="BUmipawiwvawas"><uf><tasil/></uf><s stem="BUmipawiwva"/></f>
 <f form="BUmyAxikANdawas"><uf><tasil/></uf><s stem="BUmyAxikANda"/></f>
 <f form="BUyawas"><uf><tasil/></uf><s stem="BUya"/></f>
 <f form="BUyaSas"><uf><ind/></uf><s stem="BUyaSas"/></f>
@@ -6871,6 +6879,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="maswuwas"><uf><tasil/></uf><s stem="maswu"/></f>
 <f form="mahawwamawas"><uf><tasil/></uf><s stem="mahawwama"/></f>
 <f form="mahawwarawas"><uf><tasil/></uf><s stem="mahawwara"/></f>
+<f form="mahawwvawas"><uf><tasil/></uf><s stem="mahawwva"/></f>
 <f form="mahanwawas"><uf><tasil/></uf><s stem="mahanwa"/></f>
 <f form="mahar"><uf><ind/></uf><s stem="mahas"/></f>
 <f form="maharlokawas"><uf><tasil/></uf><s stem="maharloka"/></f>
@@ -7055,6 +7064,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="mukwakawas"><uf><tasil/></uf><s stem="mukwaka"/></f>
 <f form="mukwAkArawas"><uf><tasil/></uf><s stem="mukwAkAra"/></f>
 <f form="mukwiwas"><uf><tasil/></uf><s stem="mukwi"/></f>
+<f form="mukwisWalawas"><uf><tasil/></uf><s stem="mukwisWala"/></f>
 <f form="muKawas"><uf><tasil/></uf><s stem="muKa"/></f>
 <f form="muKaxaGnawas"><uf><tasil/></uf><s stem="muKaxaGna"/></f>
 <f form="muKarawas"><uf><tasil/></uf><s stem="muKara"/></f>
@@ -7143,6 +7153,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="mexurawas"><uf><tasil/></uf><s stem="mexura"/></f>
 <f form="meXawas"><uf><tasil/></uf><s stem="meXa"/></f>
 <f form="meXaswas"><uf><tasil/></uf><s stem="meXa"/></f>
+<f form="meXinIkarawas"><uf><tasil/></uf><s stem="meXinIkara"/></f>
+<f form="meXinIkoSawas"><uf><tasil/></uf><s stem="meXinIkoSa"/></f>
 <f form="meXirawas"><uf><tasil/></uf><s stem="meXira"/></f>
 <f form="meXyawas"><uf><tasil/></uf><s stem="meXya"/></f>
 <f form="meXrawas"><uf><tasil/></uf><s stem="meXra"/></f>
@@ -7177,6 +7189,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="mokRaNawas"><uf><tasil/></uf><s stem="mokRaNa"/></f>
 <f form="mokRawas"><uf><tasil/></uf><s stem="mokRa"/></f>
 <f form="mokRaxawas"><uf><tasil/></uf><s stem="mokRaxa"/></f>
+<f form="mokRamUlawas"><uf><tasil/></uf><s stem="mokRamUla"/></f>
 <f form="mokRamUlarawas"><uf><tasil/></uf><s stem="mokRamUlara"/></f>
 <f form="moGawas"><uf><tasil/></uf><s stem="moGa"/></f>
 <f form="mocakawas"><uf><tasil/></uf><s stem="mocaka"/></f>
@@ -7856,6 +7869,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vAkyapaxIyawas"><uf><tasil/></uf><s stem="vAkyapaxIya"/></f>
 <f form="vAkyArWawvawas"><uf><tasil/></uf><s stem="vAkyArWawva"/></f>
 <f form="vAkyArWamAwqkAvqwwiwas"><uf><tasil/></uf><s stem="vAkyArWamAwqkAvqwwi"/></f>
+<f form="vAgqRaBawvawas"><uf><tasil/></uf><s stem="vAgqRaBawva"/></f>
 <f form="vAGelawas"><uf><tasil/></uf><s stem="vAGela"/></f>
 <f form="vAfmayawas"><uf><tasil/></uf><s stem="vAfmaya"/></f>
 <f form="vAcakawas"><uf><tasil/></uf><s stem="vAcaka"/></f>
@@ -8412,6 +8426,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vqjinawas"><uf><tasil/></uf><s stem="vqjina"/></f>
 <f form="vqwwacUdawas"><uf><tasil/></uf><s stem="vqwwacUda"/></f>
 <f form="vqwwajAwisamuccayawas"><uf><tasil/></uf><s stem="vqwwajAwisamuccaya"/></f>
+<f form="vqwwamAlAswuwiwas"><uf><tasil/></uf><s stem="vqwwamAlAswuwi"/></f>
 <f form="vqwwiwas"><uf><tasil/></uf><s stem="vqwwi"/></f>
 <f form="vqwwiwvawas"><uf><tasil/></uf><s stem="vqwwiwva"/></f>
 <f form="vqwrawarawas"><uf><tasil/></uf><s stem="vqwrawara"/></f>
@@ -8489,6 +8504,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vEklavyawas"><uf><tasil/></uf><s stem="vEklavya"/></f>
 <f form="vEKAnasawas"><uf><tasil/></uf><s stem="vEKAnasa"/></f>
 <f form="vEcakRaNyawas"><uf><tasil/></uf><s stem="vEcakRaNya"/></f>
+<f form="vEcArikawas"><uf><tasil/></uf><s stem="vEcArika"/></f>
 <f form="vEciwryawas"><uf><tasil/></uf><s stem="vEciwrya"/></f>
 <f form="vEjayanwawas"><uf><tasil/></uf><s stem="vEjayanwa"/></f>
 <f form="vEjayikawas"><uf><tasil/></uf><s stem="vEjayika"/></f>
@@ -8921,6 +8937,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SIwalawas"><uf><tasil/></uf><s stem="SIwala"/></f>
 <f form="SIwkArawas"><uf><tasil/></uf><s stem="SIwkAra"/></f>
 <f form="SIXuwas"><uf><tasil/></uf><s stem="SIXu"/></f>
+<f form="SIrawas"><uf><tasil/></uf><s stem="SIra"/></f>
 <f form="SIrNawvawas"><uf><tasil/></uf><s stem="SIrNawva"/></f>
 <f form="SIrRakawas"><uf><tasil/></uf><s stem="SIrRaka"/></f>
 <f form="SIrRaNyawas"><uf><tasil/></uf><s stem="SIrRaNya"/></f>
@@ -9070,6 +9087,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SrIkalApUrNawas"><uf><tasil/></uf><s stem="SrIkalApUrNa"/></f>
 <f form="SrIkAlahaswiwas"><uf><tasil/></uf><s stem="SrIkAlahaswi"/></f>
 <f form="SrIwawwvaniXiwas"><uf><tasil/></uf><s stem="SrIwawwvaniXi"/></f>
+<f form="SrIpAxasapwawiwas"><uf><tasil/></uf><s stem="SrIpAxasapwawi"/></f>
 <f form="SrIrAGavayAxavIyawas"><uf><tasil/></uf><s stem="SrIrAGavayAxavIya"/></f>
 <f form="SrIlawas"><uf><tasil/></uf><s stem="SrIla"/></f>
 <f form="Sruwamayawas"><uf><tasil/></uf><s stem="Sruwamaya"/></f>
@@ -10113,6 +10131,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sUxanawas"><uf><tasil/></uf><s stem="sUxana"/></f>
 <f form="sUnuwas"><uf><tasil/></uf><s stem="sUnu"/></f>
 <f form="sUpawas"><uf><tasil/></uf><s stem="sUpa"/></f>
+<f form="sUpaprawi"><uf><ind/></uf><s stem="sUpaprawi"/></f>
 <f form="sUpasarpaNawas"><uf><tasil/></uf><s stem="sUpasarpaNa"/></f>
 <f form="sUpAyanawas"><uf><tasil/></uf><s stem="sUpAyana"/></f>
 <f form="sUmawas"><uf><tasil/></uf><s stem="sUma"/></f>
