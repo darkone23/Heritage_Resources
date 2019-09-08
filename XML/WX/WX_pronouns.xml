@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-14 Ao\^ut 2019"><meta name="copyright" content="
+7 Septembre 2019"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2019"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="axas"><na><acc/><sg/><neu/></na><na><nom/><sg/><neu/></na><s stem="axas"/></f>
@@ -24,20 +24,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="aXare"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="aXara"/></f>
 <f form="anayA"><na><ins/><sg/><fem/></na><s stem="ixam"/></f>
 <f form="anayos"><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="ixam"/></f>
-<f form="anekayA"><na><ins/><sg/><fem/></na><s stem="aneka"/></f>
-<f form="anekayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="aneka"/></f>
-<f form="anekasyAm"><na><loc/><sg/><fem/></na><s stem="aneka"/></f>
-<f form="anekasyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="aneka"/></f>
-<f form="anekasyE"><na><dat/><sg/><fem/></na><s stem="aneka"/></f>
-<f form="anekA"><na><nom/><sg/><fem/></na><s stem="aneka"/></f>
-<f form="anekABis"><na><ins/><pl/><fem/></na><s stem="aneka"/></f>
-<f form="anekAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="aneka"/></f>
-<f form="anekAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="aneka"/></f>
-<f form="anekAm"><na><acc/><sg/><fem/></na><s stem="aneka"/></f>
-<f form="anekAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="aneka"/></f>
-<f form="anekAsAm"><na><gen/><pl/><fem/></na><s stem="aneka"/></f>
-<f form="anekAsu"><na><loc/><pl/><fem/></na><s stem="aneka"/></f>
-<f form="aneke"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="aneka"/></f>
 <f form="anena"><na><ins/><sg/><neu/></na><na><ins/><sg/><mas/></na><s stem="ixam"/></f>
 <f form="anwarayA"><na><ins/><sg/><fem/></na><s stem="anwara"/></f>
 <f form="anwarayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="anwara"/></f>
@@ -111,33 +97,19 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="anyeRu"><na><loc/><pl/><mas/></na><na><loc/><pl/><neu/></na><s stem="anya"/></f>
 <f form="anyEs"><na><ins/><pl/><mas/></na><na><ins/><pl/><neu/></na><s stem="anya"/></f>
 <f form="anyO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="anya"/></f>
-<f form="aparayA"><na><ins/><sg/><fem/></na><s stem="apara#1"/></f>
 <f form="aparayA"><na><ins/><sg/><fem/></na><s stem="apara#2"/></f>
-<f form="aparayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="apara#1"/></f>
 <f form="aparayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="apara#2"/></f>
-<f form="aparasyAm"><na><loc/><sg/><fem/></na><s stem="apara#1"/></f>
 <f form="aparasyAm"><na><loc/><sg/><fem/></na><s stem="apara#2"/></f>
-<f form="aparasyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="apara#1"/></f>
 <f form="aparasyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="apara#2"/></f>
-<f form="aparasyE"><na><dat/><sg/><fem/></na><s stem="apara#1"/></f>
 <f form="aparasyE"><na><dat/><sg/><fem/></na><s stem="apara#2"/></f>
-<f form="aparA"><na><nom/><sg/><fem/></na><s stem="apara#1"/></f>
 <f form="aparA"><na><nom/><sg/><fem/></na><s stem="apara#2"/></f>
-<f form="aparABis"><na><ins/><pl/><fem/></na><s stem="apara#1"/></f>
 <f form="aparABis"><na><ins/><pl/><fem/></na><s stem="apara#2"/></f>
-<f form="aparAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="apara#1"/></f>
 <f form="aparAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="apara#2"/></f>
-<f form="aparAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="apara#1"/></f>
 <f form="aparAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="apara#2"/></f>
-<f form="aparAm"><na><acc/><sg/><fem/></na><s stem="apara#1"/></f>
 <f form="aparAm"><na><acc/><sg/><fem/></na><s stem="apara#2"/></f>
-<f form="aparAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="apara#1"/></f>
 <f form="aparAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="apara#2"/></f>
-<f form="aparAsAm"><na><gen/><pl/><fem/></na><s stem="apara#1"/></f>
 <f form="aparAsAm"><na><gen/><pl/><fem/></na><s stem="apara#2"/></f>
-<f form="aparAsu"><na><loc/><pl/><fem/></na><s stem="apara#1"/></f>
 <f form="aparAsu"><na><loc/><pl/><fem/></na><s stem="apara#2"/></f>
-<f form="apare"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="apara#1"/></f>
 <f form="apare"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="apara#2"/></f>
 <f form="amI"><na><nom/><pl/><mas/></na><s stem="axas"/></f>
 <f form="amIBis"><na><ins/><pl/><mas/></na><na><ins/><pl/><neu/></na><s stem="axas"/></f>
@@ -166,20 +138,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="amURu"><na><loc/><pl/><fem/></na><s stem="axas"/></f>
 <f form="amUs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="axas"/></f>
 <f form="ayam"><na><nom/><sg/><mas/></na><s stem="ixam"/></f>
-<f form="avarayA"><na><ins/><sg/><fem/></na><s stem="avara"/></f>
-<f form="avarayos"><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="avara"/></f>
-<f form="avarasyAm"><na><loc/><sg/><fem/></na><s stem="avara"/></f>
-<f form="avarasyAs"><na><gen/><sg/><fem/></na><na><abl/><sg/><fem/></na><s stem="avara"/></f>
-<f form="avarasyE"><na><dat/><sg/><fem/></na><s stem="avara"/></f>
-<f form="avarA"><na><nom/><sg/><fem/></na><s stem="avara"/></f>
-<f form="avarABis"><na><ins/><pl/><fem/></na><s stem="avara"/></f>
-<f form="avarAByas"><na><abl/><pl/><fem/></na><na><dat/><pl/><fem/></na><s stem="avara"/></f>
-<f form="avarAByAm"><na><abl/><du/><fem/></na><na><dat/><du/><fem/></na><na><ins/><du/><fem/></na><s stem="avara"/></f>
-<f form="avarAm"><na><acc/><sg/><fem/></na><s stem="avara"/></f>
-<f form="avarAs"><na><acc/><pl/><fem/></na><na><nom/><pl/><fem/></na><s stem="avara"/></f>
-<f form="avarAsAm"><na><gen/><pl/><fem/></na><s stem="avara"/></f>
-<f form="avarAsu"><na><loc/><pl/><fem/></na><s stem="avara"/></f>
-<f form="avare"><na><acc/><du/><fem/></na><na><nom/><du/><fem/></na><s stem="avara"/></f>
 <f form="asakO"><na><nom/><sg/><mas/></na><na><nom/><sg/><fem/></na><s stem="axas"/></f>
 <f form="asO"><na><nom/><sg/><mas/></na><na><nom/><sg/><fem/></na><s stem="axas"/></f>
 <f form="asmaw"><na><abl/><pl/><dei/></na><s stem="asmax"/></f>
@@ -369,17 +327,17 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="eweRu"><na><loc/><pl/><neu/></na><na><loc/><pl/><mas/></na><s stem="ewax"/></f>
 <f form="ewEs"><na><ins/><pl/><neu/></na><na><ins/><pl/><mas/></na><s stem="ewax"/></f>
 <f form="ewO"><na><acc/><du/><mas/></na><na><nom/><du/><mas/></na><s stem="ewax"/></f>
-<f form="enaw"><na><acc/><sg/><neu/></na><s stem="ena"/></f>
-<f form="enam"><na><acc/><sg/><mas/></na><s stem="ena"/></f>
-<f form="enayA"><na><ins/><sg/><fem/></na><s stem="ena"/></f>
-<f form="enayos"><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="ena"/></f>
-<f form="enAn"><na><acc/><pl/><mas/></na><s stem="ena"/></f>
-<f form="enAni"><na><acc/><pl/><neu/></na><s stem="ena"/></f>
-<f form="enAm"><na><acc/><sg/><fem/></na><s stem="ena"/></f>
-<f form="enAs"><na><acc/><pl/><fem/></na><s stem="ena"/></f>
-<f form="ene"><na><acc/><du/><neu/></na><na><acc/><du/><fem/></na><s stem="ena"/></f>
-<f form="enena"><na><ins/><sg/><mas/></na><na><ins/><sg/><neu/></na><s stem="ena"/></f>
-<f form="enO"><na><acc/><du/><mas/></na><s stem="ena"/></f>
+<f form="enaw"><na><acc/><sg/><neu/></na><s stem="ixam"/></f>
+<f form="enam"><na><acc/><sg/><mas/></na><s stem="ixam"/></f>
+<f form="enayA"><na><ins/><sg/><fem/></na><s stem="ixam"/></f>
+<f form="enayos"><na><loc/><du/><mas/></na><na><gen/><du/><mas/></na><na><loc/><du/><neu/></na><na><gen/><du/><neu/></na><na><loc/><du/><fem/></na><na><gen/><du/><fem/></na><s stem="ixam"/></f>
+<f form="enAn"><na><acc/><pl/><mas/></na><s stem="ixam"/></f>
+<f form="enAni"><na><acc/><pl/><neu/></na><s stem="ixam"/></f>
+<f form="enAm"><na><acc/><sg/><fem/></na><s stem="ixam"/></f>
+<f form="enAs"><na><acc/><pl/><fem/></na><s stem="ixam"/></f>
+<f form="ene"><na><acc/><du/><neu/></na><na><acc/><du/><fem/></na><s stem="ixam"/></f>
+<f form="enena"><na><ins/><sg/><mas/></na><na><ins/><sg/><neu/></na><s stem="ixam"/></f>
+<f form="enO"><na><acc/><du/><mas/></na><s stem="ixam"/></f>
 <f form="eBis"><na><ins/><pl/><neu/></na><na><ins/><pl/><mas/></na><s stem="ixam"/></f>
 <f form="eByas"><na><abl/><pl/><neu/></na><na><dat/><pl/><neu/></na><na><abl/><pl/><mas/></na><na><dat/><pl/><mas/></na><s stem="ixam"/></f>
 <f form="eRa"><na><nom/><sg/><mas/></na><s stem="ewax"/></f>
