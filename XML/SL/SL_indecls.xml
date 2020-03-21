@@ -4,7 +4,7 @@
 <meta name="title" content="Sanskrit Morphology"; ps ">
 <meta name="author" content="
 G&#233;rard Huet"><meta name="date" content="
-25 F\'evrier 2020"><meta name="copyright" content="
+14 Mars 2020"><meta name="copyright" content="
 &#169; G&#233;rard Huet 1994-2020"><meta name="keywords" content="sanskrit; morphology"> -->
 <forms>
 <f form="aMSakatas"><uf><tasil/></uf><s stem="aMSaka#2"/></f>
@@ -1415,6 +1415,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="Ayurdatas"><uf><tasil/></uf><s stem="Ayurda"/></f>
 <f form="Ayuzwas"><uf><tasil/></uf><s stem="Ayus"/></f>
 <f form="Ayuzyatas"><uf><tasil/></uf><s stem="Ayuzya"/></f>
+<f form="Ayogatas"><uf><tasil/></uf><s stem="Ayoga"/></f>
 <f form="Ayogavatas"><uf><tasil/></uf><s stem="Ayogava"/></f>
 <f form="AyoDanatas"><uf><tasil/></uf><s stem="AyoDana"/></f>
 <f form="AyoDyikatas"><uf><tasil/></uf><s stem="AyoDyika"/></f>
@@ -1778,6 +1779,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="utpAdanatas"><uf><tasil/></uf><s stem="utpAdana"/></f>
 <f form="utpibatas"><uf><tasil/></uf><s stem="utpiba"/></f>
 <f form="utpizwatas"><uf><tasil/></uf><s stem="utpizwa"/></f>
+<f form="utpucCatas"><uf><tasil/></uf><s stem="utpucCa"/></f>
 <f form="utPullatas"><uf><tasil/></uf><s stem="utPulla"/></f>
 <f form="utsaNgatas"><uf><tasil/></uf><s stem="utsaNga"/></f>
 <f form="utsatas"><uf><tasil/></uf><s stem="utsa"/></f>
@@ -3111,6 +3113,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="kva"><uf><ind/></uf><s stem="kva"/></f>
 <f form="kvacit"><uf><ind/></uf><s stem="kvacid"/></f>
 <f form="kvaRatas"><uf><tasil/></uf><s stem="kvaRa"/></f>
+<f form="kvasvit"><uf><ind/></uf><s stem="kvasvid"/></f>
 <f form="kvATatas"><uf><tasil/></uf><s stem="kvATa"/></f>
 <f form="kzaRatas"><uf><tasil/></uf><s stem="kzaRa"/></f>
 <f form="kzaRikatas"><uf><tasil/></uf><s stem="kzaRika"/></f>
@@ -3400,6 +3403,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="guruvat"><uf><ind/></uf><s stem="guruvat"/></f>
 <f form="gurjaratas"><uf><tasil/></uf><s stem="gurjara"/></f>
 <f form="gulatas"><uf><tasil/></uf><s stem="gula"/></f>
+<f form="gulgulutas"><uf><tasil/></uf><s stem="guggulu"/></f>
 <f form="gulPatas"><uf><tasil/></uf><s stem="gulPa"/></f>
 <f form="gulPadaGnatas"><uf><tasil/></uf><s stem="gulPadaGna"/></f>
 <f form="gulmatas"><uf><tasil/></uf><s stem="gulma"/></f>
@@ -4476,6 +4480,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="dAhatas"><uf><tasil/></uf><s stem="dAha"/></f>
 <f form="dititas"><uf><tasil/></uf><s stem="diti"/></f>
 <f form="ditsutas"><uf><tasil/></uf><s stem="ditsu"/></f>
+<f form="didikzutas"><uf><tasil/></uf><s stem="didikzu"/></f>
 <f form="diDizutas"><uf><tasil/></uf><s stem="diDizu"/></f>
 <f form="dinatas"><uf><tasil/></uf><s stem="dina"/></f>
 <f form="dilIpatas"><uf><tasil/></uf><s stem="dilIpa"/></f>
@@ -4510,6 +4515,8 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="dIrGatas"><uf><tasil/></uf><s stem="dIrGa"/></f>
 <f form="duHKatas"><uf><tasil/></uf><s stem="duHKa"/></f>
 <f form="duHKArtatas"><uf><tasil/></uf><s stem="duHKArta"/></f>
+<f form="duHSakatas"><uf><tasil/></uf><s stem="duHSaka"/></f>
+<f form="duHSakatvatas"><uf><tasil/></uf><s stem="duHSakatva"/></f>
 <f form="duHSalatas"><uf><tasil/></uf><s stem="duHSala"/></f>
 <f form="duHSAsanatas"><uf><tasil/></uf><s stem="duHSAsana"/></f>
 <f form="duHzWu"><uf><ind/></uf><s stem="duHzWu"/></f>
@@ -4759,11 +4766,13 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="dvinavatitamatas"><uf><tasil/></uf><s stem="dvinavatitama"/></f>
 <f form="dvipaYcASattamatas"><uf><tasil/></uf><s stem="dvipaYcASattama"/></f>
 <f form="dvipatas"><uf><tasil/></uf><s stem="dvipa"/></f>
+<f form="dvirUpaDvanisaNgrahatas"><uf><tasil/></uf><s stem="dvirUpaDvanisaNgraha"/></f>
 <f form="dvizatas"><uf><tasil/></uf><s stem="dviz#2"/></f>
 <f form="dvizwas"><uf><tasil/></uf><s stem="dviz#2"/></f>
 <f form="dvis"><uf><ind/></uf><s stem="dvis"/></f>
 <f form="dvisaptatatas"><uf><tasil/></uf><s stem="dvisaptata"/></f>
 <f form="dvisaptatitamatas"><uf><tasil/></uf><s stem="dvisaptatitama"/></f>
+<f form="dvisaPatas"><uf><tasil/></uf><s stem="dvisaPa"/></f>
 <f form="dvIpatas"><uf><tasil/></uf><s stem="dvIpa"/></f>
 <f form="dvezatas"><uf><tasil/></uf><s stem="dveza"/></f>
 <f form="dvezyatvatas"><uf><tasil/></uf><s stem="dvezyatva"/></f>
@@ -4780,6 +4789,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="dvyAyuzatas"><uf><tasil/></uf><s stem="dvyAyuza"/></f>
 <f form="DakAratas"><uf><tasil/></uf><s stem="DakAra"/></f>
 <f form="DattUratas"><uf><tasil/></uf><s stem="DattUra"/></f>
+<f form="Danakatas"><uf><tasil/></uf><s stem="Danaka"/></f>
 <f form="DanaYjayatas"><uf><tasil/></uf><s stem="DanaYjaya"/></f>
 <f form="Danatas"><uf><tasil/></uf><s stem="Dana"/></f>
 <f form="Danikatas"><uf><tasil/></uf><s stem="Danika"/></f>
@@ -4836,6 +4846,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="DIratas"><uf><tasil/></uf><s stem="DIra#1"/></f>
 <f form="DIratas"><uf><tasil/></uf><s stem="DIra#2"/></f>
 <f form="DIratvatas"><uf><tasil/></uf><s stem="DIratva"/></f>
+<f form="DIvatas"><uf><tasil/></uf><s stem="DIvan"/></f>
 <f form="DIvaratas"><uf><tasil/></uf><s stem="DIvara"/></f>
 <f form="DunDutas"><uf><tasil/></uf><s stem="DunDu"/></f>
 <f form="Duratas"><uf><tasil/></uf><s stem="Dura"/></f>
@@ -4951,6 +4962,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="navatvatas"><uf><tasil/></uf><s stem="navatva"/></f>
 <f form="navanavatitamatas"><uf><tasil/></uf><s stem="navanavatitama"/></f>
 <f form="navamatas"><uf><tasil/></uf><s stem="navama"/></f>
+<f form="navarAtratas"><uf><tasil/></uf><s stem="navarAtra"/></f>
 <f form="navazazwitamatas"><uf><tasil/></uf><s stem="navazazwitama"/></f>
 <f form="navasaptatitamatas"><uf><tasil/></uf><s stem="navasaptatitama"/></f>
 <f form="navASItitamatas"><uf><tasil/></uf><s stem="navASItitama"/></f>
@@ -5458,6 +5470,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pacanatas"><uf><tasil/></uf><s stem="pacana"/></f>
 <f form="paYcakatas"><uf><tasil/></uf><s stem="paYcaka"/></f>
 <f form="paYcakftvas"><uf><ind/></uf><s stem="paYcakftvas"/></f>
+<f form="paYcatattvAprakASatas"><uf><tasil/></uf><s stem="paYcatattvAprakASa"/></f>
 <f form="paYcatantrakatas"><uf><tasil/></uf><s stem="paYcatantraka"/></f>
 <f form="paYcatayatas"><uf><tasil/></uf><s stem="paYcataya"/></f>
 <f form="paYcatvatas"><uf><tasil/></uf><s stem="paYcatva"/></f>
@@ -5576,6 +5589,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="parantapatas"><uf><tasil/></uf><s stem="parantapa"/></f>
 <f form="paramatas"><uf><tasil/></uf><s stem="parama"/></f>
 <f form="paramAtmasandarBatas"><uf><tasil/></uf><s stem="paramAtmasandarBa"/></f>
+<f form="paramAnandIyatas"><uf><tasil/></uf><s stem="paramAnandIya"/></f>
 <f form="paramArTatas"><uf><tasil/></uf><s stem="paramArTa"/></f>
 <f form="paramArTikatas"><uf><tasil/></uf><s stem="paramArTika"/></f>
 <f form="paramezWatas"><uf><tasil/></uf><s stem="paramezWa"/></f>
@@ -5597,6 +5611,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="parasmEpadatas"><uf><tasil/></uf><s stem="parasmEpada"/></f>
 <f form="parahitatas"><uf><tasil/></uf><s stem="parahita"/></f>
 <f form="parahyas"><uf><ind/></uf><s stem="parahyas"/></f>
+<f form="parAkaraRatas"><uf><tasil/></uf><s stem="parAkaraRa"/></f>
 <f form="parAkramatas"><uf><tasil/></uf><s stem="parAkrama"/></f>
 <f form="parAgatas"><uf><tasil/></uf><s stem="parAga"/></f>
 <f form="parANmuKatas"><uf><tasil/></uf><s stem="parANmuKa"/></f>
@@ -5649,6 +5664,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="paritApatas"><uf><tasil/></uf><s stem="paritApa"/></f>
 <f form="paritozatas"><uf><tasil/></uf><s stem="paritoza"/></f>
 <f form="parityAgatas"><uf><tasil/></uf><s stem="parityAga"/></f>
+<f form="paritrARatas"><uf><tasil/></uf><s stem="paritrARa"/></f>
 <f form="paridInatas"><uf><tasil/></uf><s stem="paridIna"/></f>
 <f form="paridevakatas"><uf><tasil/></uf><s stem="paridevaka"/></f>
 <f form="paridevatas"><uf><tasil/></uf><s stem="parideva"/></f>
@@ -5789,6 +5805,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pAMsutas"><uf><tasil/></uf><s stem="pAMsu"/></f>
 <f form="pAMsulatas"><uf><tasil/></uf><s stem="pAMsula"/></f>
 <f form="pAkatas"><uf><tasil/></uf><s stem="pAka"/></f>
+<f form="pAKaRqatas"><uf><tasil/></uf><s stem="pAzaRqa"/></f>
 <f form="pAgalatas"><uf><tasil/></uf><s stem="pAgala"/></f>
 <f form="pANktatas"><uf><tasil/></uf><s stem="pANkta"/></f>
 <f form="pANkteyatas"><uf><tasil/></uf><s stem="pANkteya"/></f>
@@ -5924,6 +5941,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pASupAlyatas"><uf><tasil/></uf><s stem="pASupAlya"/></f>
 <f form="pAScAttyatas"><uf><tasil/></uf><s stem="pAScAttya"/></f>
 <f form="pAScAtyatas"><uf><tasil/></uf><s stem="pAScAttya"/></f>
+<f form="pAzaRqatas"><uf><tasil/></uf><s stem="pAzaRqa"/></f>
 <f form="pAzaRqasTatas"><uf><tasil/></uf><s stem="pAzaRqasTa"/></f>
 <f form="pAzARatas"><uf><tasil/></uf><s stem="pAzARa"/></f>
 <f form="pikatas"><uf><tasil/></uf><s stem="pika"/></f>
@@ -6668,6 +6686,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="pretanATatas"><uf><tasil/></uf><s stem="pretanATa"/></f>
 <f form="pretarAjatas"><uf><tasil/></uf><s stem="pretarAja"/></f>
 <f form="pretitas"><uf><tasil/></uf><s stem="preti"/></f>
+<f form="pretyaBAvatas"><uf><tasil/></uf><s stem="pretyaBAva"/></f>
 <f form="prepsutas"><uf><tasil/></uf><s stem="prepsu"/></f>
 <f form="prematas"><uf><tasil/></uf><s stem="preman"/></f>
 <f form="preraRatas"><uf><tasil/></uf><s stem="preraRa"/></f>
@@ -7244,6 +7263,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="manuzwas"><uf><tasil/></uf><s stem="manu"/></f>
 <f form="manuzyatas"><uf><tasil/></uf><s stem="manuzya"/></f>
 <f form="manuzyatvatas"><uf><tasil/></uf><s stem="manuzyatva"/></f>
+<f form="manojatas"><uf><tasil/></uf><s stem="manoja"/></f>
 <f form="manomayatas"><uf><tasil/></uf><s stem="manomaya"/></f>
 <f form="mantutas"><uf><tasil/></uf><s stem="mantu"/></f>
 <f form="mantratas"><uf><tasil/></uf><s stem="mantra"/></f>
@@ -7917,6 +7937,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="rAjakatas"><uf><tasil/></uf><s stem="rAjaka"/></f>
 <f form="rAjakarmatas"><uf><tasil/></uf><s stem="rAjakarma"/></f>
 <f form="rAjatas"><uf><tasil/></uf><s stem="rAjan"/></f>
+<f form="rAjatvatas"><uf><tasil/></uf><s stem="rAjatva"/></f>
 <f form="rAjanatas"><uf><tasil/></uf><s stem="rAjana"/></f>
 <f form="rAjanyakatas"><uf><tasil/></uf><s stem="rAjanyaka"/></f>
 <f form="rAjanyatas"><uf><tasil/></uf><s stem="rAjanya"/></f>
@@ -7997,7 +8018,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="rUpatvatas"><uf><tasil/></uf><s stem="rUpatva"/></f>
 <f form="rUpavattaratas"><uf><tasil/></uf><s stem="rUpavattara"/></f>
 <f form="rUpyakatas"><uf><tasil/></uf><s stem="rUpyaka"/></f>
-<f form="rUpyatas"><uf><tasil/></uf><s stem="rUpya"/></f>
 <f form="rUpyamayatas"><uf><tasil/></uf><s stem="rUpyamaya"/></f>
 <f form="rekRastas"><uf><tasil/></uf><s stem="rekRas"/></f>
 <f form="reKAmAtram"><uf><ind/></uf><s stem="reKAmAtram"/></f>
@@ -8237,7 +8257,6 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vanaspatitas"><uf><tasil/></uf><s stem="vanaspati"/></f>
 <f form="vanizWatas"><uf><tasil/></uf><s stem="vanizWa"/></f>
 <f form="vanecaratas"><uf><tasil/></uf><s stem="vanecara"/></f>
-<f form="vanOzaDivargatas"><uf><tasil/></uf><s stem="vanOzaDivarga"/></f>
 <f form="vandatas"><uf><tasil/></uf><s stem="vanda"/></f>
 <f form="vandanatas"><uf><tasil/></uf><s stem="vandana"/></f>
 <f form="vandArutas"><uf><tasil/></uf><s stem="vandAru"/></f>
@@ -9171,6 +9190,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="vyAmatas"><uf><tasil/></uf><s stem="vyAma"/></f>
 <f form="vyAyAmatas"><uf><tasil/></uf><s stem="vyAyAma"/></f>
 <f form="vyAyAmikatas"><uf><tasil/></uf><s stem="vyAyAmika"/></f>
+<f form="vyAyogatas"><uf><tasil/></uf><s stem="vyAyoga"/></f>
 <f form="vyAlatas"><uf><tasil/></uf><s stem="vyAla"/></f>
 <f form="vyAlolatas"><uf><tasil/></uf><s stem="vyAlola"/></f>
 <f form="vyAvartakatas"><uf><tasil/></uf><s stem="vyAvartaka"/></f>
@@ -9255,6 +9275,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="SanEs"><uf><ind/></uf><s stem="SanEs"/></f>
 <f form="Santanutas"><uf><tasil/></uf><s stem="Santanu"/></f>
 <f form="Santutas"><uf><tasil/></uf><s stem="Santu"/></f>
+<f form="Sap"><uf><parti/></uf><s stem="Sap#1"/></f>
 <f form="Sapatas"><uf><tasil/></uf><s stem="Sapa"/></f>
 <f form="SapaTatas"><uf><tasil/></uf><s stem="SapaTa"/></f>
 <f form="SaPatas"><uf><tasil/></uf><s stem="SaPa"/></f>
@@ -10015,6 +10036,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="samanvayatas"><uf><tasil/></uf><s stem="samanvaya"/></f>
 <f form="samaBivyAhAratas"><uf><tasil/></uf><s stem="samaBivyAhAra"/></f>
 <f form="samaBihAratas"><uf><tasil/></uf><s stem="samaBihAra"/></f>
+<f form="samaByasatas"><uf><tasil/></uf><s stem="samaByasa"/></f>
 <f form="samayakAratas"><uf><tasil/></uf><s stem="samayakAra"/></f>
 <f form="samayatas"><uf><tasil/></uf><s stem="samaya"/></f>
 <f form="samayaBedoparacanacakratas"><uf><tasil/></uf><s stem="samayaBedoparacanacakra"/></f>
@@ -10428,6 +10450,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sAvanatas"><uf><tasil/></uf><s stem="sAvana"/></f>
 <f form="sAvayavatas"><uf><tasil/></uf><s stem="sAvayava"/></f>
 <f form="sAvarRatas"><uf><tasil/></uf><s stem="sAvarRa"/></f>
+<f form="sAvarRitas"><uf><tasil/></uf><s stem="sAvarRa"/></f>
 <f form="sAvarRyatas"><uf><tasil/></uf><s stem="sAvarRya"/></f>
 <f form="sAvaSezatas"><uf><tasil/></uf><s stem="sAvaSeza"/></f>
 <f form="sAvitratas"><uf><tasil/></uf><s stem="sAvitra"/></f>
@@ -10746,6 +10769,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="sekatas"><uf><tasil/></uf><s stem="seka"/></f>
 <f form="secanatas"><uf><tasil/></uf><s stem="secana"/></f>
 <f form="setutas"><uf><tasil/></uf><s stem="setu"/></f>
+<f form="senakulatas"><uf><tasil/></uf><s stem="senakula"/></f>
 <f form="senAgragatas"><uf><tasil/></uf><s stem="senAgraga"/></f>
 <f form="sendratas"><uf><tasil/></uf><s stem="sendra"/></f>
 <f form="sevakatas"><uf><tasil/></uf><s stem="sevaka"/></f>
@@ -10969,6 +10993,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="svapnavAsavadattatas"><uf><tasil/></uf><s stem="svapnavAsavadatta"/></f>
 <f form="svaprakASatvatas"><uf><tasil/></uf><s stem="svaprakASatva"/></f>
 <f form="svaBAvajatas"><uf><tasil/></uf><s stem="svaBAvaja"/></f>
+<f form="svaBAvatvatas"><uf><tasil/></uf><s stem="svaBAvatva"/></f>
 <f form="svaBAvasidDatvatas"><uf><tasil/></uf><s stem="svaBAvasidDatva"/></f>
 <f form="svayam"><uf><ind/></uf><uf><ind/></uf><s stem="svayam"/></f>
 <f form="svayamButas"><uf><tasil/></uf><s stem="svayamBu"/></f>
@@ -11117,6 +11142,7 @@ G&#233;rard Huet"><meta name="date" content="
 <f form="himatas"><uf><tasil/></uf><s stem="hima"/></f>
 <f form="himyatas"><uf><tasil/></uf><s stem="himya"/></f>
 <f form="hiraRmayatas"><uf><tasil/></uf><s stem="hiraRmaya"/></f>
+<f form="hiraRyakatas"><uf><tasil/></uf><s stem="hiraRyaka"/></f>
 <f form="hiraRyatas"><uf><tasil/></uf><s stem="hiraRya"/></f>
 <f form="hiraRyamayatas"><uf><tasil/></uf><s stem="hiraRyamaya"/></f>
 <f form="hInajatas"><uf><tasil/></uf><s stem="hInaja"/></f>
