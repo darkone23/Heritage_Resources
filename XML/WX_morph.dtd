@@ -20,6 +20,7 @@
      Version 3.3 Date: Jun 08 2015 - tasil undeclinable taddhitas added
      Version 3.7 Date: May 26 2018 - subjunctive added
      Version 3.13 Date: Feb 28 2019 - fixed gerundive parameter
+     Version 3.23 Date: Apr 26 2020 - fixed elements kr aor and inj 
 -->
 
 <!-- Transliteration of forms according to UoH scheme WX: 
@@ -78,7 +79,7 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 <!ELEMENT conj EMPTY> <!-- undeclinable - conjunction -->
 <!ELEMENT tasil EMPTY> <!-- undeclinable - adverbs of manner in -tas -->
 <!ELEMENT pa (na,kr)> <!-- participial forms have nominal declension parameters and kridanta generator -->
-<!ELEMENT kr (vb)>     <!-- kridanta generator has verbal structure -->
+<!ELEMENT kr (cj,no)>     <!-- kridanta generator has verbal structure -->
 <!ELEMENT ab (cj)>     <!-- abs in tvaa with conjugation -->
 <!ELEMENT vb (cj,no)>   <!-- verbal has conjugation and nominal -->
 <!ELEMENT vu (cj,iv)>   <!-- undeclinable verbal form -->
@@ -120,7 +121,9 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 <!ELEMENT fut EMPTY> <!-- future -->
 <!ELEMENT prf EMPTY> <!-- perfect -->
 <!ELEMENT aor (#PCDATA)> <!-- aorist has kind, integer between 1 and 7-->
+<!ATTLIST aor gn (1 | 2 | 3 | 4 | 5 | 6 | 7) #REQUIRED>
 <!ELEMENT inj (#PCDATA)> <!-- injunctive (aorist without augment) has kind -->
+<!ATTLIST inj gn (1 | 2 | 3 | 4 | 5 | 6 | 7) #REQUIRED>
 <!ELEMENT ben EMPTY> <!-- benedictive -->
 <!ELEMENT cnd EMPTY> <!-- conditional -->
 <!ELEMENT subj EMPTY> <!-- subjunctive -->
