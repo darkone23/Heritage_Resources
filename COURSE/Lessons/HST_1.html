@@ -1,0 +1,247 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>Hypertext Sanskrit Tools</title>
+<meta name="author" content="Gérard Huet"/>
+<meta property="dc:datecopyrighted" content="2021">
+<meta property="dc:rightsholder" content="Gérard Huet">
+<meta name="keywords" content="sanskrit,dictionary,heritage,dictionnaire,sanscrit,india,inde,indology,linguistics,panini,digital humanities,digital libraries,cultural heritage,computational linguistics,hypertext lexicon">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen,tv" />
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body class="chamois_back">
+<table border="0pt" cellpadding="0" cellspacing="15pt" width="100%">
+<tr><td>
+<div class="latin12"><p></p>
+
+<h1 class="title">Hypertext Sanskrit Tools I</h1>
+
+  We shall start with an invocation of Gaṇeśa.
+  
+<h1 class="title"><a
+  href="http://localhost/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=t;st=t;us=f;text=namoga.nezaayavighnezvaraaya;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=12,{Nouc},{vighnezvaraaya},{t}|4,{Nouc},{ga.nezaaya},{t}|0,{Inde},{namas},{t}"target="_blank">नमोगणेशायविघ्नेश्वराय</a></h1> <!-- 996 -->
+  
+  <p>
+
+  Clicking on the above link invokes our Sanskrit segmenter,
+  that returns the 
+  <a href="http://sanskrit.inria.fr/DICO/38.html#padapaa.tha">padapāṭha</a>
+  of our  
+ <a href="https://sanskrit.inria.fr/DICO/24.html#ga.neza">Gaṇeśa</a>
+  invocation.
+
+  We now have two Web windows: the present one, which is a digest of
+  my course transcript, and a new window, where I can demonstrate my tools
+  progressively.
+  In this new window, you see first the input sentence, in blue
+  <a href="http://sanskrit.inria.fr/DICO/33.html#devanaagarii">devanāgarī</a>
+script, then a graphic is shown there the sentence is written again,
+  now decomposed as a stream of phonemes represented in the IAST alphabet.
+  This horizontal line is then analysed as a sequence of padas represented
+  as colored rectangles. These padas are the steps that we follow when we read
+  the sentence 
+ <a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+yaani+kaani+ca+paapaani+janmaantarak.rtaani+ca+taani+taani+vinazyanti+pradak.si.napade+pade&cpts=76%2C%7BNouc%7D%2C%7Bpade%7D%2C%7Bt%7D|71%2C%7BNouc%7D%2C%7Bpade%7D%2C%7Bt%7D|30%2C%7BKric%7D%2C%7Bk.rtaani%7D%2C%7Bt%7D|0%2C%7BPron%7D%2C%7Byaani%7D%2C%7Bt%7D|13%2C%7BNouc%7D%2C%7Bpaapaani%7D%2C%7Bt%7D|20%2C%7BIicc%7D%2C%7Bjanma%7D%2C%7Bt%7D|24%2C%7BIicv%7D%2C%7Bantara%7D%2C%7Bt%7D|50%2C%3C%7BPv%7D%7BRoot%7D%7Bvi%7D%7Bnazyanti%7D%3E%2C%7Bvinazyanti%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=61"target="_blank">pade pade</a> as a list of words.
+<p>
+  We see that the tool has segmented the continuous sentence
+नमोगणेशायविघ्नेश्वराय
+  into a sequence of 3 padas:  <i>namaḥ</i>,  <i>gaṇeśāya</i>,
+  and  <i>vighneśvarāya</i>, that is, in devanāgarī:
+  नमः, गणेशाय and विघ्नेश्वराय. However, the sentence is NOT the concatenation of
+  the three padas. The end "aḥ" of <i>namaḥ</i>, in contact with the beginning g of
+  <i>gaṇeśāya</i>, has turned into "o". This phenomenon is called  <i>sandhi</i> or junction,
+  and segmentation is called  <i>sandhi-viccheda</i> or undoing sandhi at word junction.
+  In this particular case, the sandhi rule may be expressed as a
+  rewrite rule on phonemic streams : <b>⟨aḥ|g → og⟩</b>. More generally,
+the rule is that final <i>aḥ</i> turns into <i>o</i> in front of a voiced
+consonant, but turns into <i>as</i> in front of a mute one (think of
+<i>namaste</i>).
+<p>
+We shall come back to sandhi later, but first we show basics of our user
+  interface.
+<p>
+First we notice, on our invocation window, that the color rectangles have
+internal structure, accessible by clicking on them. Thus blue <i>gaṇeśāya</i>,
+when clicked, reveals that it is a form of <i>gaṇeśa</i>, namely
+<center>[<i>gaṇeśa</i>]{m. sg. dat.}</center>
+where the stem <i>gaṇeśa</i> bears a link to its meaning in the dictionary,
+and the tag {m. sg. dat.} indicates its declension (vibhakti) in the
+masculine (पुंस्), singular (एकवचन), and dative (चतुर्थी).
+The dative case is the correct vibhakti, usable to represent the semantic role
+(कारक) of giving (सम्प्रदान). It is through this vi-bhakti that we can
+ discriminate the rôle of the blue pada as expressing a gift "to Gaṇeśa".
+Consistently with our homage <i>namaḥ</i>, which requires a donatory
+expressed in the dative. 
+<p>
+Now we click on the link <i>gaṇeśa</i> in order to find its dictionary
+  definition. And we show the active link to its declension m. where
+we check the dative singular form. We also notice our invocation,
+in unsandhied form.
+<p>
+Actually, there is also a possibility to reach the 
+Sanskrit Heritage dictionary, which has a richer hypertext structure , as we
+  show by demonstrating the Index tool. And now the quotation is an active
+link to the corpus repository. 
+<p>
+
+<!--
+Now most auditors of the course may be turned off by the French text.
+But do not despair, French is not mandatory, it is just a plus.
+There is the possibility to access instead to the Sanskrit-English dictionary
+of Monier-Williams. It all depends on the context of use, and of the
+configuration of the server on which you use the site.
+Here I demo dictionary access,
+https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+yaani+kaani+ca+paapaani+janmaantarak.rtaani+ca+taani+taani+vinazyanti+pradak.si.napade+pade&cpts=76%2C%7BNouc%7D%2C%7Bpade%7D%2C%7Bt%7D|71%2C%7BNouc%7D%2C%7Bpade%7D%2C%7Bt%7D|30%2C%7BKric%7D%2C%7Bk.rtaani%7D%2C%7Bt%7D|0%2C%7BPron%7D%2C%7Byaani%7D%2C%7Bt%7D|13%2C%7BNouc%7D%2C%7Bpaapaani%7D%2C%7Bt%7D|20%2C%7BIicc%7D%2C%7Bjanma%7D%2C%7Bt%7D|24%2C%7BIicv%7D%2C%7Bantara%7D%2C%7Bt%7D|50%2C%3C%7BPv%7D%7BRoot%7D%7Bvi%7D%7Bnazyanti%7D%3E%2C%7Bvinazyanti%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=61 OK
+https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+yaani+kaani+ca+paapaani+janmaantarak.rtaani+ca+taani+taani+vinazyanti+pradak.si.napade+pade&t=VH&cpts=76%252C%257BNouc%257D%252C%257Bpade%257D%252C%257Bt%257D%7c71%252C%257BNouc%257D%252C%257Bpade%257D%252C%257Bt%257D%7c30%252C%257BKric%257D%252C%257Bk.rtaani%257D%252C%257Bt%257D%7c0%252C%257BPron%257D%252C%257Byaani%257D%252C%257Bt%257D%7c13%252C%257BNouc%257D%252C%257Bpaapaani%257D%252C%257Bt%257D%7c20%252C%257BIicc%257D%252C%257Bjanma%257D%252C%257Bt%257D%7c24%252C%257BIicv%257D%252C%257Bantara%257D%252C%257Bt%257D%7c50%252C%253C%257BPv%257D%257BRoot%257D%257Bvi%257D%257Bnazyanti%257D%253E%252C%257Bvinazyanti%257D%252C%257Bt%257D&corpdir=Heritage_citations&sentno=61
+-->
+
+Now we quickly demonstrate the Grammar and Stemmer tool. We point out that the
+input to our various tools allows multiple notations, while the output font
+may be set to IAST romanization ot to devanāgarī. 
+<p>
+Returning to our invocation, we see that gaṇeśāya and vighneśvarāya are blue
+rectangles, whereas namaḥ is mauve. Clicking on namaḥ shows that it is
+an indeclinable pada, and the lexicon entry shows that its stem, <i>namas</i>,
+may be used as a neuter noun, meaning homage, as well as a preposition,
+in the sense of "glory to", when associated with a pada in the dative case.
+This dual nature may be demonstrated on the Stemmer.
+Thus we understand that nominal padas are represented as blue segments when
+declined from a stem having a semantic contents, and as a mauve one
+when being a contentless use as an invariant grammatical word, in various
+roles (adverb, preposition, conjunction, discourse particle, etc.
+<p>
+Here we shall have a little grammatical diversion, in order to understand
+the difference between the <b>stem</b> <i>gaṇeśa</i> and the <b>pada</b>
+<i>gaṇeśaḥ</i>. Both are "words", but the word "word" is ambiguous. 
+We should distinguish words as their appear in the sentence (pada) from
+their root stems that may be looked up in the dictionary, called in
+Sanskrit <i>prātipadika</i>. These stems carry the denotation of the
+universal notion they are naming. They are subject to <i>vibhakti</i>
+in order to be declined as the instance of this notion decorated
+by morphological parameters that indicate their role in a sentence:
+gender, number and case for nominal padas.
+<p>
+This distinction is hardly visible in English, where gender has been
+relegated to pronouns, and case is expressed by syntactic means by
+prepositions. So eg "cat" has only two variations: plural "cats" and
+genitive "cat's", which furthermore are homophones! So we use the word
+"word" for the two notions, without even thinking of the ambiguity,
+if we are not professional linguists.
+In Sanskrit, morphology is taken seriously. There are three genders, three
+numbers, and eight cases, giving potentially 72 pada variations for a given
+stem. These variations are essential to be mastered, since their understanding
+is crucial for the understanding of sentences where they appear.
+<p>
+Sanskrit is not just any old language. It is a scientific medium of
+communication, refined from a North Indian vernacular spoken at the time
+by professional grammarians such as Pāṇini (25 centuries ago).
+So learning how to decipher Sanskrit, either oral or written, is a serious
+endeavour. In Pañcatantra, it is stated:
+ <a href="http://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+dvaadazabhirvar.sai.h+vyaakara.nam+zruuyate&cpts=2%2C%7BA%7D%2C%7Ba%7D%2C%7Bf%7D|10%2C%7BNouc%7D%2C%7Bvar.sais%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=181"target="_blank">It takes 12 years to learn grammar.</a> 
+In the West, Sanskrit is still taught with 19th century methods, using
+bulky grammars with page after page of declension and conjugation tables
+that you are supposed to learn by heart. This is crazy.
+Now we have efficient software, built on Pāṇinian principles, that allow you
+to delay acquisition of surface details, and access texts directly
+in their interesting
+structure. The frequent paradigms you will catch progressively,
+by reading texts (and furthermore reading them aloud, this is important).
+<p>
+We mentioned above the Sanskrit name for nominal stem : <i>prātipadika</i>.
+This looks like a complicated term. Let us look in our 
+ <a href="http://sanskrit.inria.fr/DICO/45.html#praatipadika"target="_blank">lexicon</a>.
+Please note the etymology of this entry: [*pratipada-ika]. This notation
+explains the derivation of the adjective <i>prātipadika</i> as affixing
+suffix "-ika" to a simpler stem <i>pratipada</i> "matured" to the 
+<i>vṛddhi</i> phonetic level (this is the meaning of the * notation,
+that in this case lengthens initial short vowel <i>a</i> to <i>ā</i>).
+By clicking on this inner stem we find that it is obtained by prefixing
+the word <i>pada</i> by the proposition <i>prati</i> (against).
+So <i>prātipadika</i> means litterally "relevant to the pada analysis".
+Here we learn 2 things: Firstly, inner morphology gives you the etymological
+meaning of a word
+as a compositional process. By learning two generic morphological
+composition rules, you see that it was enough to know <i>pada</i> in order to
+understand <i>prātipadika</i>. So this means you should not be afraid
+of seemingly complex words, that may be analysed rather than memorized.
+Secondly, it indicates that the ancient grammairiens placed the pada
+notion as prior to the stem notion. The stem is an analysis of the word
+in the context of a sentence, which is meaningful linguistic unit.
+<p>
+Now that we have completed this quick survey of various morphological tools,
+let us return at our Reader interface. First we must explain the colors
+of the segment rectangles. We saw in our Gaṇeśa incantation two colors,
+blue for nominal padas (nouns and adjectives), mauve for indeclinable ones
+(grammatical tool words). In the grammatical example above, we saw a red
+pada <i>śrūyate</i>, which by clicking reveals its verbal nature:
+[śru]{pr. ps. sg. 3}, meaning passive form of root <i>śru</i>, conjugated in the
+present tense (<i>vartamāna</i>) in the singular third person (<i>prathama</i>).
+<p>
+Aside : compare the conjugation tables of <i>śru</i> Western style and
+Indian style. Not in the same order of persons !
+This is also the occasion to contemplate the richness of the verbal morphology.
+Again, there is no reason to try to memorize all those forms. They will
+be recognized by the reader software when they occur in sentences,
+and progressively you will memorize the frequently occurring ones.
+Many of these forms, like <i>śuśuśrūṣuṣīṣu</i>, are unlikely to occur in
+Sanskrit texts, but occasionally a poet may indulge into coining such
+rarities for their alliteration esthetics.
+And not only you do not have to memorize these forms, but even my computer
+does not memorize them. The morphological generators, of the declension
+and conjugation services, do not look-up the forms in some precomputed
+database. The forms are generated on the fly, for every query, using
+the internal Pāṇinian glueing processes.
+
+<p>
+We return to our grammatical <i>subhāṣita</i>. One color remains mysterious,
+the yellow of <i>dvā</i>. <i>dvā</i> is not a pada, it is only the
+<i>pūrvapada</i> (iic.) of the <i>samāsa</i> (compound) <i>dvā-daśabhiḥ</i>.
+Thus here this sentence has only 4 padas, even though is is shown in 5 segments.
+Yellow is the color of stems (<i>prātipadika</i>), since in general
+a <i>samāsa</i> of two padas (P1,P2) is formed by sandhi-glueing
+the (<i>prātipadika</i>) of P1, obtained by erasing (<i>lopa</i>) its 
+<i>vibhakti</i> with pada P2. 
+<p>
+We have seen 4 colors of boxes so far. Let us survey all the colors that may
+appear in the analysis of a text. These colors are properly the parts of
+speech of Sanskrit. 
+We thus turn to "Hoisting the colors of Sanskrit" in the Corpus repository.
+<p>
+Here I comment the corresponding mini-corpus. 
+<p>
+N.B. Pāṇini says (I,4,14): सुप्तिङन्तम् पदम्, i.e. <i>sup-tiṅ-antam padam</i>:
+A <i>pada</i> is ended in <i>sup</i> or in <i>tiṅ</i>. In this formulation,
+<i>sup</i> is a condensed (<i>pratyāhāra</i>) formulation for the declension
+suffixes, and <i>tiṅ</i> similarly designates the conjugation suffixes.
+In our color codes, red is <i>tiṅ</i> (nominal forms) and blue is <i>sup</i>
+(verbal forms). Thus nominal forms and verbal forms are two modes
+of formation of padas. However, given a word enunciation (śabda), it does
+not make sense to ask whether it is a <i>subanta</i> or a <i>tiṅanta</i>,
+since actually it may be both, e.g.
+<a
+href="http://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=SH&cache=t&st=t&us=f&font=roma&text=gacchati&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno="target="_blank">gacchati</a>. Although
+such ambiguities are not frequent, they may occur. That is, a pada is not
+just a piece of spech, it is a structured entity, summarized in its tag.
+
+
+<p>
+After this short overview of the platform, tools, we are now ready to discuss
+sandhi. This will be the main topic of the next lesson. 
+<p>
+
+
+</td></tr></table>
+<div class="enpied">
+<table bgcolor="#00FFFF" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td align="left">
+© Gérard Huet 2021</td>
+<td align="right">
+<a href="../../"><strong>Retour</strong></a> | 
+</td></tr>
+</table>
+</div>
+
+</div>
+</body>
+</html>
