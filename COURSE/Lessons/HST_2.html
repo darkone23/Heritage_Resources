@@ -1,0 +1,552 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>Hypertext Sanskrit Tools</title>
+<meta name="author" content="Gérard Huet"/>
+<meta property="dc:datecopyrighted" content="2021">
+<meta property="dc:rightsholder" content="Gérard Huet">
+<meta name="keywords" content="sanskrit,dictionary,heritage,dictionnaire,sanscrit,india,inde,indology,linguistics,panini,digital humanities,digital libraries,cultural heritage,computational linguistics,hypertext lexicon">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen,tv" />
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body class="chamois_back">
+<table border="0pt" cellpadding="0" cellspacing="15pt" width="100%">
+<tr><td>
+<div class="latin12"><p></p>
+
+<h1 class="title">Hypertext Sanskrit Tools II</h1>
+
+We are now going to discuss sandhi.
+  Before getting into this topic, we must go a little bit into phonetics.
+  <p>
+  Natural language is a communication medium using vocal signals,
+  i.e. modulation in air vibration produced by the mouth organs,
+  and analysed by the ear. 
+  This basic fact is often dissimulated by the predominance of writing
+  in modern linguistic communication. Writing is a way to <b>store</b>
+  linguistic information, it is a modern invention, merely a few
+  millenia away in the earliest of cases, compared to articulated speech,
+  that is co-existent with mankind. Writing was not for the common man,
+  it was the professional occupation of scribes. Furthermore, reading was
+  for a long time actually reading out the text loud. In the West,
+  it is Saint Ambrose, Roman governor of Liguria in the 4th century,
+  elected by acclamation bishop of Milano, a theologian and respected
+  intellectual who acquired the title of Father of the Church, who is credited
+  with the invention of silent reading. Visiting the library of a monastery,
+  he was caught reading manuscripts silently, and was denounced to the Superior
+  as using magic, and suspected of heresy. Monks knew only of reading
+  aloud sacred scriptures at the commun meal!
+  At the University, the Reader would read instruction material aloud to the
+  students. In the Indian tradition, this is still the case, and actually
+  the <i>ācārya</i> is supposed to have committed the text to memory, and to speak
+  it aloud to the students without any written support. 
+<p>
+  Writing is often imperfect, and may
+  be an encoding coined for an earlier stage of the language.
+  In French, orthography is to a great measure absurd, although it is
+  a sacred cow of school education. Thus "oiseau" (bird) is an absurd
+  encoding of the phonetic string "wazo" it represents.
+  The problem with most writing systems is that writing was coined
+ in an experimental manner, without sound phonetic principles.
+In India, the situation is completely different. Preservation of the Veda
+induced sophisticated phonetic investigations in the prātiśākhyas, that
+dealt precisely with the problem of segmentation: how to deconstruct
+<i>vākya</i> from its continuous utterance in the <i>saṃhitāpāṭha</i> recitation
+into its step-by-step <i>padapāṭha</i> word chain. All this phonetic
+science could be put to use by further linguists such as Pāṇini to
+explain grammar in formal terms. Formal to the point of being amenable
+to mathematical analysis, and informatics implementation !
+<p>
+Pāṇini was living roughly 25 centuries ago, way before writing was used in
+  India. The first attested pieces of writing date from the inscriptions
+of Emperor Aśoka, one century later. And devanāgarī is a much later
+development of the script. So we may question the Indian Post Office
+rendition of Pāṇini as a 
+ <a href="http://sanskrit.inria.fr/IMAGES/panini.jpg"target="_blank">scribe</a>
+So what is Pāṇini writing ? Certainly not devanāgarī.
+Saying that he is writing in AIST or in WX notation would be a bit
+anachronistic, but it has a ring of truth, as we shall see.
+<p>
+Let us consider how our reader analyses <i>tacchrutvā</i>, a very frequent
+beginning of sentence, signalling a change in turn of speak: typically,
+the current agent is going to act after hearing some statement, given
+in the previous sentence and ended by <i>iti</i>, the indirect speech end marker.
+It is analysed as a 2-pada chunk as follows:
+ <a   href="http://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=MW&cache=t&st=t&us=f&font=roma&text=tacchrutvaa&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno="target="_blank"><i>tacchrutvā</i></a>.
+NB. Here I show that I am not cheating by actually calling the Reader on
+तच्छ्रुत्वा.
+The 9 letter line t.a.c.ch.r.u.t.v.ā explains clearly the phonetic change:
+the sequence t|ś is transformed into the sequence cch.
+We redo it again in mode Tagging, where the sandhi rule is clearly stated:
+t|ś → cch. 
+I can also do it with printing in devanāgarī, but then the rule is
+muddled with viramas. And the input chunk has been massaged into
+just 3 akṣaras, with the middle one an incredible jungle of glyphs
+च्छ्रु pasting together 3 consonants and a vowel. Which we have to deconstruct
+in order to understand the sandhi, but there is no way to cut its picture
+into the proper components. In other words, the problem with devanāgarī
+is that it is a syllabic script which is not compositional as a graphic
+representation at the phonemic level. Each <i>akṣara</i> is a complex ligature
+of glyphs, as opposed to the sequence of sounds it represents.
+Extreme mixing of glyphs is witnessed in क्ष for kṣa and fज्ञ for jña.
+<p>
+Aside: IAST is not a fully satisfactory phonemic notation either, note that
+phoneme ch uses two roman letters, it should be a one-character ligature.
+Only wacCruwvA (WX) and tacCrutvA (SLP1) are satisfactory roman encodings,
+although not perfect for human usage...
+<p>
+So now we understand that IAST (or any alternative phonemic representation)
+is better than devanāgarī to explain
+phonetic processes such as sandhi, and the point is not that it is a Western
+notion, since Pāṇini himself discusses these topics at the phonemic level,
+using the notion of <i>varṇa</i>. So we need now to discuss this notion.
+<p>
+Let us have a look at the 
+<a href="http:/sanskrit.inria.fr/COURSE/Images/varnamala.jpg" target="_blank"><i>varṇamālā</i></a>.
+It looks like the English alphabet {a,b,c, ...}. But it is not an alphabet
+of glyphs for writing, but of phonetic segments or articulated sounds,
+scientifically arranged
+according to their place of articulation in the mouth. As opposed to the
+various sounds corresponding to the pronunciation of "a" in English such as
+alphabet (alfəbɛt), paper (peɪpə), parcel (pɑːsəl), place (pleɪs) etc.
+Conversely, a sound like "f" may be written with an "f" like "fire"
+or with the sequence "ph" like in "pharmacy". The reason being that
+the second writing is justified for works having a Greek origin.
+In French, the spelling of word "nénuphar" is the topic of fierce battles,
+evoking medieval disputes about the sex of angels. 
+Does that mean that the <i>varṇamālā</i>
+is a substitute to the International Phonetic alphabet ?
+No, and this for at least two reasons. Firstly, not all sounds used in
+natural speech are used in Sanskrit. For instance, the sounds "f", "z",
+French "u", etc. are not used. Secondly, these <i>varṇa</i>s are not very
+precisely defined as sounds or even sound neighborhoods. What matters is
+their mutual <b>contrast</b> giving them a power of discriminating
+identification between the words of the language.
+They correspond to the notion of <b>phoneme</b>,
+coined in the West by the Prague school of linguistics in the 20th century,
+while this notion was implicit from ancient Sanskrit linguists under the
+name of <i>varṇa</i>. What matters is that distinct phonemes ought to
+disambiguate similarly sounding words in order to avoid homophonic
+ambiguities.
+<p>
+This is exemplified in the following saying from the Subhāṣitaratnakośa:
+<a
+  href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=yadyapi+bahunaadhii.se+tathaapi+pa.tha+putra+vyaakara.nam+svajana.h+zvajana.h+maa+bhuut+sakalam+zakalam+sak.rcchak.rt;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=94,{Nouc},{zak.rt},{t}|89,{Nouc},{sak.rt},{t}|73,{Nouc},{sakalam},{t}|66,{Inde},{maa},{t}|60,{Nouc},{janas},{t}|51,{Nouc},{janas},{t}|19,{Inde},{tathaapi},{t}|13,%3C{Pv}{Root}{adhi}{i.se}%3E,{adhii.se},{t}|8,{Nouc},{bahunaa},{t}|0,{Inde},{yadyapi},{t}"target="_blank">यद्यपि बहुनाधीषे तथापि पठ पुत्र व्याकरणम् स्वजनः श्वजनः मा भूत् सकलम् शकलम् सकृच्छकृत्</a>
+Ô son, even though you studied a lot, you must know learn grammar, and
+say <i>svajanaḥ</i> and not <i>śvajanaḥ</i>,
+<i>sakalam</i> and not <i>śakalam</i>, 
+<i>sakṛt</i> and not <i>śakṛt</i>. The saying warns of the semantic confusion
+arising from mispronouncing <i>sa</i> as <i>śa</i>, by exhibiting pairs of
+opposites which would be confused: folks with dogs, intact with broken,
+suddenly with shit. This humorous statement is actually a very serious
+assertion of the mutual strength of repulsion of the phonemes s (स्) and ś (श्).
+In modern linguistic terminology, this <i>subhāṣita</i> exhibits
+three <b>contrasting pairs</b> for the two phonemes. So phonemes
+are discriminating sounds relatively to the vocabulary of the language,
+repulsing magnets in the phonetic space, so to speak. 
+<p>
+Phonemes are not universal across all human languages.
+American English has a different set of phonemes than Oxford English.
+Bengali does not distinguish between श, ष and स. So when
+Raghunātha Śiromaṇi left Bengal to study <i>vyākaraṇa</i> in Mithilā,
+at the first lesson he protested that there were three letters for the
+same sound. It could be for him that this <i>subhāṣita</i> was coined !
+Similarly, Bengali, as well as Japanese, does not distinguish between
+ba (ब) and va (व). The similarity of the glyphs of the two
+<i>akṣara</i> is revealing of their weak mutual distinction,
+as witnessed in variations like Kubera/Kuvera.
+<p>
+
+After this long discussion about <i>varṇa</i>, we are coming at last
+to sandhi, that is phonetic glueing discretized as phonemic
+transformation.
+Now we have to explain a subtle point about sandhi.
+We have to distinguish between so-called <b>internal</b> sandhi,
+happening at the intra level within word formation, by glueing
+together morphemes (verbal roots, suffixes and prefixes), from
+<b>external</b> sandhi happening when linking together words (padas)
+in a continous enunciation within a sentence.
+The two phenomena happen in Western languages such as English and
+French. Let us look for instance at English.
+Internal sandhi may be noticeable in the orthography of words,
+for instance for deriving substantive "absorption" from the verb
+"to absorb": the voiced consonant "b" is muted by the mute consonant
+"t" and turned into a "p". Look at the <i>pavarga</i> of the
+<i>varṇamālā</i>: this is just a column shift.
+But this is rare, usually the phonetic transformation is not
+signaled in writing, like the difference between "cats" and "dogs",
+where the second is spoken as "dogz". So you have to learn
+pronunciation from usage, rather than looking at the written form
+as a phonetic notation. Concerning inter-sentence linking of words,
+first the notation for a sentence is really that of its
+<i>padapāṭha</i>: words are separated with blanks, and sandhi is
+reduced to liaison, not marked in writing. So the problem
+of <i>sandhiviccheda</i> does not occur in reading text, only in
+disambiguating continuous speech. Thus there is no problem
+in disambiguating "a notion" from "an ocean" in writing,
+but orally we have ambiguity, and this is precisely the
+<i>sandhiviccheda</i> problem. The problem arises in Sanskrit
+reading not because of a default of devanāgarī, but on the contrary
+because of its quality, to be a perfect encoding of speech !
+<p>
+Let us try to locate a similar alternance of "b" and "p"
+in Sanskrit. For instance, <i>ap</i> (water) may form a compound
+with a form of <i>ja</i> (born) to form <i>abjaḥ</i> -
+born for water, an epithet of Brahmā.
+Here, it is the mute "p" that gets voiced by contact with
+voiced "j" to turn into "b", and the corresponding
+sandhi rule is "p|j → bj". More generally,
+a mute consonant becomes voiced in front of voiced consonants, vowels
+and semi-vowels. And a final vowel is invariant in front of a
+consonant. The only exception is that a final short vowel
+changes "ch" into "cch", this change being optional if the vowel
+is long. Thus काष्ठच्छित् from काष्ठ-छित् for the wood-pecker. 
+<p>
+Before going further, let us discuss final sandhi, the change
+that occurs at the end of the last pada of a sentence. The rule
+is simple. If the last phoneme is "r" or "s", it turns into
+<i>visarga</i> "ḥ" (":" notation in devanāgarī), and if it is
+a voiced consonant, it gets muted. More precisely, it is
+turned into the corresponding mute unaspirated consonant in the same
+<i>varga</i>, except for the palatals
+(<i>cavarga</i>, <i>tālavya</i>),
+where "c" or "j" may turn into guttural "k" (क्), like in <i>vāk</i>
+or retroflex "ṭ" (ट्), like in <i>svarāṭ</i>; also final "h" (ह्)
+has a more complex treatment, which we shall not discuss at this
+point. But the end result is that a Sanskrit <i>pada</i> may have as
+final <i>varṇa</i> either a vowel, a <i>visarga</i>, the following
+mute stops: "k","ṭ","t","p", and the three nasals "ṅ","n" and "m".
+<p>
+Now for the good news: (external) sandhi of pada p1 and pada p2
+may be effected by first putting p1 into final sandhi, and then
+doing sandhi with p2. Only exception: final "ar" or "ār" should be preserved
+in front of vowels, semi-vowels, voiced stops, and "h".
+Thus  <i>punarapi</i>, <i>punarjanma</i>, <i>punarvādaḥ</i>, etc.
+And NOT <i>*punopi</i> which would result from <i>punaḥ-api</i>.
+NB. This exception is actually rare, it concerns only
+3 indeclinable padas: <i>antar</i>, <i>punar</i> and <i>prātar</i>,
+and a few vocative forms like <i>mātar</i> and <i>pitar</i>.
+For "ār" this is even rarer, for archaic words <i>dvār</i> and <i>vār</i>.
+But now the above rule allows us to consider a very small number
+of cases for the possible left contexts of sandhi.
+<p> 
+Thus the only cases to consider are explained in the following
+sandhi grids, extracted from the "Teach yourself" course of Michael Coulson:
+<a href="http://sanskrit.inria.fr/COURSE/Images/Sandhi_grid_consonants.jpg" target="_blank">consonants</a> 
+and <a href="http:/sanskrit.inria.fr/COURSE/Images/Sandhi_grid_vowels.jpg" target="_blank">vowels</a>. 
+These charts should be consulted for reference in case of doubt, they do
+not have to be committed to memory. Specially if your goal is not to speak
+Sanskrit, but to read Sanskrit with the help of our tools, since they
+know not only how to effect sandhi, but also how to analyse it, which is
+harder since ambiguities arise. Thus we shall in this course just point out a
+few difficulties.
+<p>
+The sandhi engine of our platform is available from the green control bar
+at the bottom of entry pages, like 
+<a href="http://sanskrit.inria.fr/index.en.html" target="_blank">here</a>.
+Here we shall demo the Sandhi engine on तच्छ्रुत्वा. First, we demonstrate that
+the Reader indicates the
+analysis <i>tat</i>|<i>śrutvā</i> and indeed the sandhi engine answers:<br>
+तत् | श्रुत्वा = तच्छ्रुत्वा<br>
+consistently with the sandhi grid for consonants above:<br>
+t|ś → cch. <br>
+However, note the warning: "NB. Other sandhi solutions may be allowed."
+This points out that actually sandhi is not fully deterministic, there are
+cases where some other optional rule may be used.
+Indeed, one such optional rule is: <br>
+t|ś → cś <br>
+<!-- ; (("t","z","cch"), [ (8,4,40); (8,4,63) ]) (*  tat+ziva.h -> tacchiva.h *)
+; (("t","z","cz"), [ (8,4,40) ]) (*  tat+ziva.h -> tacziva.h *) -->
+Actually, this is the sandhi rule explained in <i>sūtra</i> (8,4,40),
+yielding form तच्श्रुत्वा, and it is a further <i>sūtra</i> (8,4,63),
+that authorizes, optionally, तच्छ्रुत्वा. This is actually the most common
+spelling of this pada combination.
+It is to be remarked that, although this form is suggested by our sandhi
+engine, our Reader allows the recognition of the alternative form तच्श्रुत्वा,
+witness: <a href="http://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=SH&cache=t&st=t&us=f&font=roma&text=taczrutvaa&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno=" target="_blank">तच्श्रुत्वा</a>.
+<p>
+NB. This is a typical case where "optionally" in Pāṇini means "preferably".
+<p>
+One very common sandhi rule is that <i>visarga</i> following short "a"
+turns into "o" in contact with voiced consonants and semi-vowels.
+Whereas it is erased before vowels, with a hiatus that is marked by
+a space in the devanāgarī string. Thus
+<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=SH;font=roma;cache=t;st=t;us=f;text=raama+ujjayinii.m+gacchati;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=15,{Root},{gacchati},{t}|0,{Nouc},{raamas},{t}" target="_blank">राम उज्जयिनीं गच्छति</a>. Please note the underscore in the display,
+which marks a space recognized by the computer as mandatory.
+But there is an important exception, when the vowel is short "a". In that case,
+<i>visarga</i>, turns into "o", and the "a" is erased, and replaced by
+a dummy <i>avagraha</i>, like in:
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=WX;lex=MW;font=roma;cache=f;st=t;us=f;text=rAmoZyoXyaM+gacCawi;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=12,{Root},{gacchati},{t}|4,{Nouv},{ayodhyam},{t}|0,{Nouc},{raamas},{t}" target="_blank">रामोऽयोध्यं गच्छति</a>.
+
+<br>
+The <i>avagraha</i> is not a phonetic element, it is just the ghost of the
+erased initial "a". But it is important in writing, since it disambiguates.
+This <i>avagraha</i> mark is a recent invention, and it is not formally
+required. However, our software demands it, and modern editions of Sanskrit
+text generally mark it.
+<p>
+This sandhi case is very frequent, notably after nominative (<i>prathama</i>)
+singular (<i>ekavacana</i>) of masculine stems (<i>prātipadika</i>) in "a",
+which are very frequent. Note, for a feminine stem such as <i>ambhā</i>,
+the different treatment of the above gendered sentence:
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=SH;font=roma;cache=f;st=t;us=f;text=ambojjayinii.m+gacchati;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=13,{Root},{gacchati},{t}|0,{Iicv},{ambaa},{f}"
+target="_blank">अम्बोज्जयिनीं गच्छति</a>, consistently with the vowel grid above.
+<p>
+Another frequent situation concerns <i>visarga</i> following long "ā",
+the form of the stems in nominative plural (<i>bahuvacana</i>). When
+the following word starts with a vowel, semivowel or voiced consonant,
+the <i>visarga</i> is dropped, and replaced by hiatus (oral pause,
+spacing in writing).
+Thus for instance:
+<a href="http://localhost/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=t;st=t;us=f;text=anarthakaa+mantraa.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=0,{An},{an},{f}|0,{Iicv},{anartha},{f}|9,{Nouc},{mantraas},{t}"
+target="_blank">अनर्थका मन्त्राः</a>.
+
+<p>
+The above examples shows that final "m" generally turns into 
+<i>anusvaram</i>, except before vowels and at the end of sentences, where
+it stays as "m". But before stops (the five <i>varga</i>s), it is actually
+equivalent to the homophonic (<i>savarga</i>) nasal. It is then
+<i>parasavarṇa</i>. In that case, our software normalizes it into the
+corresponding nasal. This may puzzle you, since this may induce a ligature
+which is avoided by the <i>anusvaram</i> notation.
+<p>
+Another interesting case occurs for sandhi of final "n" in front of a vowel.
+If it follows a short vowel, it is doubled.
+Here is a typical example:
+<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=SH;font=roma;cache=f;st=t;us=f;text=asminnarthe%27trabhavanta.m+pramaa.niikaromi;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=23,{Iiv},{pramaa.nii},{t}|14,{Nouc},{bhavantam},{t}|10,{Iicv},{atra},{t}"
+target="_blank">अस्मिन्नर्थेऽत्रभवन्तं प्रमाणीकरोमि</a>.
+<!-- {asminnarthe'trabhavanta.m pramaa.niikaromi} % Apte p319 % Z nn
+\sem{j'en appelle à Votre Honneur pour cette affaire} -->
+See how pada <i>asmin</i> joins with <i>arthe</i> into continuous स्मिन्नर्थे
+"in this matter". This is conditioned by the fact that the vowel preceding
+"n" is brief, here "i".
+<p>
+Here is the actual code in our sandhi compiler:
+<b> (Short_vowel,("n","a","nna"), [ (8,3,32) ])</b><br>
+Note that Pāṇini has a more concise rule, since he quantifies over
+condensed notations (<i>pratyāhāra</i>), so his <i>sūtra</i> generates
+many rules in our low-level formalism.
+<p>
+This exemple illustrates also a tricky sandhi rule between vowels:
+initial "a" is erased after final "e" or "o". But here we demand that the
+erasure of "a" be explicitated with <i>avagraha</i> <b>ऽ</b>.
+<p>
+Also note the orange color, signaling a verbal compound with a <i>cvi</i>
+stem in <i>ī</i>. It is not a pada, but a prefix of an auxiliary tinanta,
+It has an inchoative meaning, of transformation.
+More generally, root forms may be prefixed with anubandhas (preverbs)
+and certain specific forms (gati). 
+<p>
+We finally review the vowel-vowel case of sandhi. First, <i>savarṇa</i>
+vowels merge into the <i>savarṇa</i> long vowel. This induces an ambiguity
+of four cases in the analysis. This is specially noticeable in the
+frequent case of "". Consider for instance सेनाधिपतिः.
+<p>
+Otherwise, "a" or "ā" raise the grade (to <i>guṇa</i> or <i>vṛddhiḥ</i>)
+of a following vowel, and the other vowels turn into the corresponding
+semi-vowel. The only tricky cases are the diphtongs "e", "o", "ai", "au".
+The first two turn into "a" followed by a hiatus, and initial "a" is erased,
+but we demand that an <i>avagraha</i> marks this elision.
+Final "ai" becomes "ā" followed by a hiatus, and final "au"
+becomes "āv" without hiatus.
+<p>
+The principal difficulty is final "e" (frequent with locatives) in front
+of initial non-"a" vowel, because these is an ambiguity with final "aḥ"
+(frequent with nominative): we get "a" followed by hiatus (i.e. a mandatory
+space in writing). A similar ambiguity exists with final "ai" in front
+of any vowel: it turns into "ā" followed by a hiatus, and is thus ambiguous
+with a form in "āḥ", but forms ended in "ai" are not frequent. 
+<p>
+Compare <i>वन इव</i> (as if in the forest) with <i>कान्तार इव</i> (as if in the
+well). The first one is not ambiguous, with <i>padapāṭha</i>: <i>वने इव</i>,
+whereas the second one could be <i>कूपे इव</i> or <i>कूपः इव</i>. 
+<p>
+Please note that initial "h" following
+a final consonant turns into the <i>savarṇa</i> voiced aspirate.
+Thus <i>taddhita</i> for <i>tat</i>+<i>hita</i>.
+But this example shows also the possible error of interpretation:
+it could look as a doubling of "t", whereas it is "t" followed by a "dh".
+This ambiguity is due to the encoding of AIST unto ASCII, which is not a
+prefix code. A proper romanisation of phonemic strings would use
+ligatures to represent "th", "dh", etc. as single characters,
+as well as "ai" and "au".
+It is to be noted that such a transcription was proposed by the Sanskrit
+scholars of École de Nancy in the 19th century, carved in lead at Imprimerie 
+Veuve Raybois in 1861, and used for the first Dictionnaire sanskrit-français
+of Émile Burnouf and L. Leupol published in 1966.
+<p>
+Exercises.
+Try to segment the following statements in concord with the English meaning<br>
+अप्यवगच्छसि "do you understand?"<br>
+तन्नेच्छति "he does not want that"<br>
+<p>
+
+Important irregularities.
+Secial case for pronoun <i>sa</i>, in nominative, <i>saḥ</i>. When
+followed by consonant, the <i>visarga</i> is dropped, and replaced by hiatus.
+Thus <i>स कृष्णः</i>, but as usual <i>सोऽग्निः</i>, <i>स आचार्यः</i>, <i>अश्वः सः</i>.
+<p>
+There is also a rule that applies to the terminations "ī", "ū" and "e" of
+substantives in the dual number (<i>dvivacana</i>): they remain unchanged
+before vowels, thus <i>ते फले इच्छामः</i> "we want those two fruits". 
+<p>
+Again you do not need to memorize all the rules if you are using our Reader
+tool, that proposes possible segmentations of a continuous utterrance
+as <i>padapāṭha</i>s guaranteed to dissolve by sandhi into the input utterance.
+Your main problem with the use of the tool will be in the possibly
+many possible segmentations. So let us first present the problem
+with the canonical paradigmatic exemple analysed by Patañjali 23 centuries ago:
+
+<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=zvetodhaavati;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=2,{Root},{itas},{f}|2,%3C{Pvkv}{Kriv}{aa}{itas}%3E,{etas},{f}|5,{Kric},{dhaavati},{f}|0,{Iicc},{zva},{f}|4,{Ifcv},{uudhaa},{f}|2,%3C{Pv}{Root}{aa}{itas}%3E,{etas},{f}"
+target="_blank">श्वेतोधावति</a>.
+
+Here we see that the two interpretations make sense, so we have a genuine
+ambiguity. Such a situation is called <i>śleṣa</i> "embrace", evoking the
+two meanings intermixing. It is ambiguous, and if well crafted may
+provoque equivoque implications through the double meaning.
+So it was praised as one of the ten poetic qualities (<i>guṇa</i>),
+and Daṇḍī theorized in his Kāvyādarśa. So let us look at one of his examples:
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=SH;font=roma;cache=f;st=t;us=f;text=nak.satrapathavartinaa+raaj%7Enaa;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=12,{Ifcc},{vartinaa},{t}"
+target="_blank">नक्षत्रपथवर्तिना राज्ञा</a>.
+This nominal phrase takes of a king "who is following the path of stars", and is
+fit for a court panegyric. But the other side of the <i>śleṣa</i> hints
+that the king "is not following the path of heroes". 
+<p>
+Note that here we are not just dealing with homonymy (<i>abhaṅgaśleṣa</i>),
+but with ambiguity of segmentation (<i>sabhaṅgaśleṣa</i>), using oronyms.
+
+Another interesting <i>śleṣa</i> is this grammatical saying:
+<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=taddhitamuu.dhovaiyaakara.na.h+taddhitamuu.dho%27vaiyaakara.na.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=34,{A},{a},{t}|23,{Iicc},{tat},{t}|26,{Iikc},{hita},{t}|0,{Iicc},{tat},{t}|3,{Kric},{hitam},{t}|11,{Nouc},{vaiyaakara.nas},{t}" target="_blank">तद्धितमूढोवैयाकरणः तद्धितमूढोऽवैयाकरणः</a>.
+<p>
+This discussion on <i>śleṣa</i> showed that we should not always
+expect a unique solution to segmentation of Sanskrit text. Several meaningful
+solutions may appear, and sometimes this phenomenon is expected, and this
+actually incurred a specific style of double-entendre poetry. This combined with
+all kinds of poetic acrobatics which made combinatorial puzzles to the reader.
+An introduction to this style of poetry is presented by Ygal Bronner in
+"Extreme Poetry, the South Asian movement of simultaneous narration",
+Columbia University Press, 2010.
+<p>
+This being said, we are faced with the Reader tool with a far more severe
+overgeneration than esthetic experimentations coined by creative poets,
+and we face artificial ambiguities of the vocal form, most of which being
+meaningless,
+but meanings are not sought at this stage, which deals only with form.
+This is specially striking with small words, with one or two syllables,
+which tend to proliferate as noise polluting the correct solution.
+Let us look at a typical example :
+<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=MW&st=t&us=f&font=roma&text=raamovana.mgacchati&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno=" target="_blank">रामोवनङ्गच्छति</a>.
+<p>
+We are surprised by red <i>rāmaḥ</i>. It is a verbal form of Vedic root
+<i>रा</i> - we give. So it should be quickly erased with the red cross choice.
+For blue <i>gacchati</i>, this present participle (he going) in the locative
+would require a main verb, so must be discarded.
+So in two clicks, we discriminate between 4 potential solutions.
+So don't panic if the tool lists an astronomical number of "solutions",
+the number of clicks to decide the correct one is of the order of its
+logarithm.
+<p>
+Let us now process a more ambitious example, 
+
+
+internal sandhi - retroflexion,
+where it may occur 
+but raamaya.na 
+ex with perfect for pra-
+also agreva.nam 
+
+ihehi the acid text of skt segmenters
+
+<a href="" target="_blank">xxx</a>.
+
+gemination
+
+phonetics:
+http://www.sanskritweb.net/deutsch/ipa_sans.pdf
+
+Use of spacing
+Where is space standing for necessary hyatus ?
+Where is space allowed in cases of unambiguous sandhi : we undo the sandhi
+and basta. We then call the process recursively. This is called chunking.
+So the segmenter iterates a routine that does all the non-deterministic
+search for all sandhi splittings. Interest : we replace
+e(k*n) by k*e(n) where e is an exponential function and k is the number of
+chunks of average size n.
+
+
+
+Suite
+Heuristics.
+Select all upper segments.
+
+
+Les deux stratégies de base
+logic
+cherry-picking
+
+
+<p>
+NB. Highlighting the necessity to look at <i>varṇa</i>s
+rather than <i>akṣara</i>s in order to understand rigorously sandhi
+is NOT saying that romanisation script is preferable to devanāgarī
+for reading or writing. The two are actually strictly equivalent,
+it is just phonemic versus syllabic notation of the same <i>śabda</i>.
+Obviously, North Indians familiar with Hindi writing should read
+Sanskrit in devanāgarī, although they should be aware that
+the pronunciation of devanāgarī Sanskrit is different from that
+of the same devanāgarī string read as Hindi. In Hindi, consonants
+are chained without the <i>virama</i> mark, and thus ligatures
+are avoided. But this makes devanāgarī a mixed phonemic-syllabic
+notation, whereas devanāgarī is a perfect syllabic notation
+for Sanskrit, at the expense of having to draw ligatures. 
+
+<p> Now we must caution about the presentation of Sanskrit texts.
+Theoretically, a <i>saṃhita</i> text ought to have spaces (or line breaks)
+only at hiatus positions, ot at the end of <i>pāda</i>s, where now the term
+denotes a quarter stroph (<i>śloka</i>). But sometimes the text
+is presented as a <i>padapāṭha</i>, where words are separated with
+blanks, and sandhi is not effected (or rather sandhi is undone
+from the <i>saṃhita</i>, which is the actual source).
+And actually very often in digital libraries you find a
+non-disciplined mixture of the two presentations, plus additional
+punctuation with commas, hyphens, periods, quotes and what not.
+Our computing devices cannot deal with all this confusion.
+We provide readers in two formats: sam an pad. 
+
+<p>
+Sanskrit phonetics
+Sanskrit grammar
+
+Next
+operating the segmenter
+adding blanks: chunking
+
+
+
+
+
+
+
+
+<p><p>
+  <a href="http://sanskrit.inria.fr/SKT/DICO/38.html#padapaa.tha"target="_blank">padapāṭha</a>
+
+  
+</td></tr></table>
+<div class="enpied">
+<table bgcolor="#00FFFF" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td align="left">
+© Gérard Huet 2021</td>
+<td align="right">
+</td></tr>
+</table>
+</div>
+
+</div>
+</body>
+</html>
