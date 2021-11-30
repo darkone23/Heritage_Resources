@@ -90,16 +90,26 @@ into the proper components. In other words, the problem with devanāgarī
 is that it is a syllabic script which is not compositional as a graphic
 representation at the phonemic level. Each <i>akṣara</i> is a complex ligature
 of glyphs, as opposed to the sequence of sounds it represents.
-Extreme mixing of glyphs is witnessed in क्ष for kṣa and fज्ञ for jña.
+Extreme mixing of glyphs is witnessed in क्ष for kṣa and ज्ञ for jña.
 <p>
-Aside: IAST is not a fully satisfactory phonemic notation either, note that
-phoneme ch uses two roman letters, it should be a one-character ligature.
+<b>Aside:</b> IAST is not a fully satisfactory phonemic notation either,
+note that phoneme ch uses two roman letters, it should be a one-character
+ligature.
 Only wacCruwvA (WX) and tacCrutvA (SLP1) are satisfactory roman encodings,
-although not perfect for human usage...
+although not perfect for human usage... And an extreme case is वणिग्हसति
+(the merchant is laughting), which is not possible to input either in VH
+or AIST, but may be input in WX as "vaNighasawi" (whereas its sandhi variant
+वणिग्घसति may be input as "va.nigghasati" in VH or "vaṇigghasati" in IAST, or
+"vaNigGasawi" in WX). If you are not equipped with a devanāgarī keyboard
+and are confused with the variety of transliteration schemes, please refer to
+<a href="https://sanskrit.inria.fr/DOC/transliterations.pdf">Transliteration
+schemes at a glance</a>. 
+
 <p>
-So now we understand that IAST (or any alternative phonemic representation)
-is better than devanāgarī to explain
-phonetic processes such as sandhi, and the point is not that it is a Western
+So now we should understand that (except in exceptional situations as noted
+above), IAST (or any alternative phonemic representation)
+is better than devanāgarī to explain phonetic processes such as sandhi.
+And the point is <b>not</b> that it is a Western
 notion, since Pāṇini himself discusses these topics at the phonemic level,
 using the notion of <i>varṇa</i>. So we need now to discuss this notion.
 <p>
@@ -159,8 +169,8 @@ ba (ब) and va (व). The similarity of the glyphs of the two
 as witnessed in variations like Kubera/Kuvera.
 <p>
 
-Complements. We give another version of the
-<a href="http:/sanskrit.inria.fr/COURSE/Images/varnamala.jpg"
+<b>Complement</b>. We give another version of the
+<a href="http:/sanskrit.inria.fr/COURSE/Images/Sanskrit_alphabet_Allen.png"
 target="_blank"><i>varṇamālā</i></a>, where every phoneme
 is given its phonetic features, extracted from "Phonetics in Ancient India",
 by W.S. Allen, Oxford University Press, 1953. We also give a link
@@ -190,7 +200,7 @@ signaled in writing, like the difference between "cats" and "dogs",
 where the second is spoken as "dogz". So you have to learn
 pronunciation from usage, rather than looking at the written form
 as a phonetic notation. Concerning inter-sentence linking of words,
-first the notation for a sentence is really that of its
+first the convention for writing an English sentence is really that of its
 <i>padapāṭha</i>: words are separated with blanks, and sandhi is
 reduced to liaison, not marked in writing. So the problem
 of <i>sandhiviccheda</i> does not occur in reading text, only in
@@ -234,7 +244,7 @@ may be effected by first putting p1 into final sandhi, and then
 doing sandhi with p2. Only exception: final "ar" or "ār" should be preserved
 in front of vowels, semi-vowels, voiced stops, and "h".
 Thus  <i>punarapi</i>, <i>punarjanma</i>, <i>punarvādaḥ</i>, etc.
-And NOT <i>*punopi</i> which would result from <i>punaḥ-api</i>.
+And NOT <i>*puno'pi</i> which would result from <i>punaḥ-api</i>.
 NB. This exception is actually rare, it concerns only
 3 indeclinable padas: <i>antar</i>, <i>punar</i> and <i>prātar</i>,
 and a few vocative forms like <i>mātar</i> and <i>pitar</i>.
@@ -246,7 +256,13 @@ of cases for the possible left contexts of sandhi.
 Thus the only cases to consider are explained in the following
 sandhi grids, extracted from the "Teach yourself" course of Michael Coulson:
 <a href="http://sanskrit.inria.fr/COURSE/Images/Sandhi_grid_consonants.jpg" target="_blank">consonants</a> 
-and <a href="http:/sanskrit.inria.fr/COURSE/Images/Sandhi_grid_vowels.jpg" target="_blank">vowels</a>. 
+and <a href="http:/sanskrit.inria.fr/COURSE/Images/Sandhi_grid_vowels.jpg"
+target="_blank">vowels</a>.
+In the consonant chart, the footnote 4 refers to the exception for vowel "a":
+the sandhi of final "a.h" and initial "a" is "o'", where the
+<i>avagraha</i> "'" is not pronounced, but marks in writing the elision of
+initial "a". This is further discussed below.
+<p>
 These charts should be consulted for reference in case of doubt, they do
 not have to be committed to memory. Specially if your goal is not to speak
 Sanskrit, but to read Sanskrit with the help of our tools, since they
@@ -295,7 +311,8 @@ href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=WX;lex=MW;font=roma;c
 <br>
 The <i>avagraha</i> is not a phonetic element, it is just the ghost of the
 erased initial "a". But it is important in writing, since it disambiguates.
-This <i>avagraha</i> mark is a recent invention, and it is not formally
+This <i>avagraha</i> mark is a recent invention, since it concerns writing,
+and it is not formally
 required. However, our software demands it, and modern editions of Sanskrit
 text generally mark it.
 <p>
@@ -313,7 +330,7 @@ the following word starts with a vowel, semivowel or voiced consonant,
 the <i>visarga</i> is dropped, and replaced by hiatus (oral pause,
 spacing in writing).
 Thus for instance:
-<a href="http://localhost/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=t;st=t;us=f;text=anarthakaa+mantraa.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=0,{An},{an},{f}|0,{Iicv},{anartha},{f}|9,{Nouc},{mantraas},{t}"
+<a href="http:/sanskrit.inria.fr/COURSE/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=t;st=t;us=f;text=anarthakaa+mantraa.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=0,{An},{an},{f}|0,{Iicv},{anartha},{f}|9,{Nouc},{mantraas},{t}"
 target="_blank">अनर्थका मन्त्राः</a>.
 <p>
 Let us now review sandhi occurring after a <i>visarga</i> following a vowel
@@ -328,33 +345,43 @@ changes into "ś"; before "ṭ" or "ṭh", it changes into retroflex "ṣ"; but 
 <b>Examples</b>.<br>
 <i>nis</i>+<i>raktam</i>=<i>nīraktam</i> "without colors".<br>
 <i>catur</i>+<i>rātram</i>=<i>catūrātram</i> "during four days".<br>
-<i>punar</i>+<i>ramate</i>=<i>cpunāramate</i> "he enjoys again".<br>
+<i>punar</i>+<i>ramate</i>=<i>punāramate</i> "he enjoys again".<br>
 <p>
 <b>Final "m"</b>.
 The consonant chart shows that final "m" generally turns into 
-<i>anusvaram</i>, except before vowels and at the end of sentences, where
+<i>anusvaram</i> (""), except before vowels and at the end of sentences, where
 it stays as "m". But before stops (the five <i>varga</i>s), it is actually
 equivalent to the homophonic (<i>savarga</i>) nasal. It is then
 <i>parasavarṇa</i>. In that case, our software normalizes it into the
 corresponding nasal. This may puzzle you, since this may induce a ligature
 which is avoided by the <i>anusvaram</i> notation.
+Thus, if you enter वनंगच्छति (<i>vanaṃgacchati</i>), it will display it as वनङ्गच्छति
+(<i>vanaṅgacchati</i>) in the segmenter interface. 
 <p>
 Another interesting case occurs for sandhi of final "n" in front of a vowel.
 If it follows a short vowel, it is doubled.
 Here is a typical example:
 <a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=SH;font=roma;cache=f;st=t;us=f;text=asminnarthe%27trabhavanta.m+pramaa.niikaromi;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=23,{Iiv},{pramaa.nii},{t}|14,{Nouc},{bhavantam},{t}|10,{Iicv},{atra},{t}"
-target="_blank">अस्मिन्नर्थेऽत्रभवन्तं प्रमाणीकरोमि</a>.
+target="_blank">अस्मिन्नर्थेऽत्रभवन्तं प्रमाणीकरोमि</a> :
+"I request Sir to decide on this matter".
 <!-- {asminnarthe'trabhavanta.m pramaa.niikaromi} % Apte p319 % Z nn
 \sem{j'en appelle à Votre Honneur pour cette affaire} -->
-See how pada <i>asmin</i> joins with <i>arthe</i> into continuous स्मिन्नर्थे
-"in this matter". This is conditioned by the fact that the vowel preceding
+See how pada <i>asmin</i> joins with <i>arthe</i> into continuous
+<i>asminnartha</i> (अस्मिन्नर्थे) "in this matter".
+This gemmination is conditioned by the fact that the vowel preceding
 "n" is brief, here "i".
+<!-- also citation{1078} but first space necessary for vocative 
+{raajann iid.rzam audaarya.m yasya bhavati tenaatropave.s.tavyam} -->
 <p>
 Here is the actual code in our sandhi compiler:<br>
 <b> (Short_vowel,("n","a","nna"), [ (8,3,32) ])</b><br>
 Note that Pāṇini has a more concise rule, since he quantifies over
 condensed notations (<i>pratyāhāra</i>), so his <i>sūtra</i> generates
-many rules in our low-level formalism.
+many rules in our low-level formalism. In terms of specification languages,
+Pāṇini's rules are a higher level language than conditional rewrite rules on
+<i>varga</i> strings. He was induced to give abstract statements because of his
+care for 
+<a href="http://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+ardhamaatraalaaghavena+putrotsavam+manyante+vaiyaakara.naa.h&t=VH&cpts=8%2C%7BA%7D%2C%7Ba%7D%2C%7Bf%7D|4%2C%7BIicc%7D%2C%7Bmaatraa%7D%2C%7Bt%7D|9%2C%7BNouc%7D%2C%7Blaaghavena%7D%2C%7Bt%7D|22%2C%7BNouv%7D%2C%7Butsavam%7D%2C%7Bt%7D|39%2C%7BNouc%7D%2C%7Bvaiyaakara.naas%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=424target="_blank"><i>lāghavam</i></a>.
 <p>
 This exemple illustrates also a tricky sandhi rule between vowels:
 initial "a" is erased after final "e" or "o". But here we demand that the
@@ -370,6 +397,8 @@ We finally review the vowel-vowel case of sandhi. First, <i>savarṇa</i>
 vowels merge into the <i>savarṇa</i> long vowel. This induces an ambiguity
 of four cases in the analysis. This is specially noticeable in the
 frequent case of "ā". Consider for instance सेनाधिपतिः.
+This example ought to be studied carefully, in order to yield the meaning
+"army general" in the masculine gender. 
 <p>
 Otherwise, "a" or "ā" raise the grade (to <i>guṇa</i> or <i>vṛddhi</i>)
 of a following vowel, and the other vowels turn into the corresponding
@@ -392,7 +421,7 @@ whereas the second one could be <i>कूपे इव</i> or <i>कूपः �
 <p>
 Please note that initial "h" following
 a final consonant turns into the <i>savarṇa</i> voiced aspirate.
-Thus <i>taddhita</i> for <i>tat</i>+<i>hita</i>.
+Thus <i>taddhitaḥ</i> for <i>tat</i>+<i>hitaḥ</i>.
 <!--
 But this example shows also the possible error of interpretation:
 it could look as a doubling of "t" as "dd", whereas it is "d" followed by a
@@ -407,7 +436,7 @@ scholars of École de Nancy in the 19th century, carved in lead at Imprimerie
 Veuve Raybois in 1861, and used for the first Dictionnaire sanskrit-français
 of Émile Burnouf and L. Leupol published in 1866.-->
 <p>
-Exercises.
+<b>Exercises.</b>
 Try to segment the following phrases in concord with the English meaning<br>
 अप्यवगच्छसि "do you understand?"<br>
 तन्नेच्छति "he does not want that"<br>
@@ -418,7 +447,7 @@ Try to segment the following phrases in concord with the English meaning<br>
 शिशुश्शेते "the child is sleeping"<br>
 <p>
 
-Important irregularities.
+<b>Important irregularities.</b>
 Special case for pronoun <i>sa</i>, in nominative, <i>saḥ</i>. When
 followed by consonant, the <i>visarga</i> is dropped, and replaced by hiatus.
 Thus <i>स कृष्णः</i>, but as usual <i>सोऽग्निः</i>, <i>स आचार्यः</i>, <i>अश्वः सः</i>.
@@ -427,82 +456,58 @@ There is also a rule that applies to the terminations "ī", "ū" and "e" of
 substantives in the dual number (<i>dvivacana</i>): they remain unchanged
 before vowels, thus <i>ते फले इच्छामः</i> "we want those two fruits". 
 <p>
-Again you do not need to memorize all the rules if you are using our Reader
-tool, that proposes possible segmentations of a continuous utterrance
-as <i>padapāṭha</i>s guaranteed to dissolve by sandhi into the input utterance.
-Your main problem with the use of the tool will be in the possibly
-many possible segmentations. So let us first present the problem
-with the canonical paradigmatic exemple analysed by Patañjali 23 centuries ago:
+<b>Where to effect sandhi, and which kind.</b>
+Firstly, continuous enunciation is not always mandatory. Grammarians say:
+<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+sa.mhitaikapade+nityaa_nityaa_dhaatuupasargayo.h+nityaasamaase+vaakye+tu+saa_vivak.saamapek.sate&cpts=26%2C%7BIicc%7D%2C%7Bdhaatu%7D%2C%7Bt%7D|29%2C%7BNouv%7D%2C%7Bupasargayos%7D%2C%7Bt%7D|45%2C%7BA%7D%2C%7Ba%7D%2C%7Bf%7D|46%2C%7BNouc%7D%2C%7Bsamaase%7D%2C%7Bt%7D|41%2C%7BNouc%7D%2C%7Bnityaa%7D%2C%7Bt%7D|20%2C%7BNouc%7D%2C%7Bnityaa%7D%2C%7Bt%7D|14%2C%7BNouc%7D%2C%7Bnityaa%7D%2C%7Bt%7D|9%2C%7BNouc%7D%2C%7Bpade%7D%2C%7Bt%7D|0%2C%7BNouc%7D%2C%7Bsa.mhitaa%7D%2C%7Bt%7D|53%2C%7BKric%7D%2C%7Bvaakye%7D%2C%7Bt%7D|73%2C%3C%7BPv%7D%7BRoot%7D%7Bapa%7D%7Biik.sate%7D%3E%2C%7Bapek.sate%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=218">संहितैकपदे
+नित्या नित्या धातूपसर्गयोः नित्यासमासे वाक्ये तु सा विवक्षामपेक्षते</a> : "Continuous
+enunciation is mandatory within a word, between a root and its preverb,
+and within a compound, but between words it must conform to the locutor's
+intention". Thus sandhi is not strictly necessary between padas. But this maxim
+hides several difficulties. Actually, sandhi effected at morphology formation,
+for <i>vibhakti</i> as well as for preverb (<i>upasarga</i>) prefixing of roots,
+is of a stronger nature than the external sandhi between words and between
+compound components, since it occurs retroflexion. Thus, in the same way
+that the <i>tṛtīya</i> form of <i>rāma</i> is <i>rāmeṇa</i>, with retroflexion
+of the "n", verbal forms for roots prefixed by an <i>upasarga</i> containing "r"
+are subject of retroflexion, like <i>pra.nayati</i>. This extends to participles
+(<i>kṛdanta</i>) like <i>praṇītaḥ</i>.
+<p>
+However, one must be careful that sandhi must be carried from left to right in
+the sentence, including preverbs. This may induce a complex interference
+between inter-word sandhi, and preverb glueing, in the case of the short preverb
+<i>ā</i> (towards the locutor). This is exemplified in the sentence
+<i>ihehi</i> (इहेहि : come here). Here the verbal form is <i>ehi</i> (come),
+obtained by glueing <i>upasarga</i> <i>ā</i> to imperative form <i>ihi</i>
+of root <i>i</i>, to go. But it would be wrong to do sandhi between
+pada <i>iha</i> (here) and pada <i>ehi</i>, resulting in incorrect
+<i>*ihaihi</i> (इहैहि). You must instead do the sandhi between <i>iha</i>
+and <i>ā</i>, obtaining <i>ihā</i>, and then do sandhi with <i>ihi</i>,
+resulting indeed in <i>ihehi</i>.
+Fortunately, this is an extremely rare situation, but it poses a complex
+problem to our segmenting tool. Actually, <i>ihehi</i> is the acid test of
+Sanskrit segmentation. 
+<p>
+Another difficulty is that, although hiatus is forbidden within compound
+formation (the compound must be pronounced in continuaous enunciation
+(<i>saṃhitāpāṭha</i>) with no break in the devanāgarī written form,
+the corresponding sandhi is of the same nature as the inter-word sandhi, and
+thus does not incur retroflexion. But here too there is a glitch for proper
+names, which may have acquired retroflexion by usage. Thus while it is correct
+the use <i>rāmāyanam</i> ("रामायनम्") if you speak about the travels of your son
+Rāma, you must use  <i>rāmāyaṇam</i> ("रामायणम्") to speak about the epic Rāmāyaṇa.
+And a few frozen compounds also exhibit retroflexion, like <i>agrevaṇam</i>
+("अग्रेवणम्", at the border of the wood). 
+<p>
+We shall not discuss here the special rules leading to <i>upadhmānīya</i>
+("उपध्मानीय") or <i>jihvāmūlīya</i> ("जिह्वामूलीय"), represented by
+<i>ardhavisarga</i> ("अर्धविसर्ग") in writing, since these are rules for Vedic
+recitation, and <i>ardhavisarga</i> is replaced by <i>visarga</i> in texts
+of classical Sanskrit. Also we shall not discuss the 3-mātra long vowels
+(<i>pluta</i>).
 
-<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=zvetodhaavati;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=2,{Root},{itas},{f}|2,%3C{Pvkv}{Kriv}{aa}{itas}%3E,{etas},{f}|5,{Kric},{dhaavati},{f}|0,{Iicc},{zva},{f}|4,{Ifcv},{uudhaa},{f}|2,%3C{Pv}{Root}{aa}{itas}%3E,{etas},{f}"
-target="_blank">श्वेतोधावति</a>.
-
-Here we see that the two interpretations make sense, so we have a genuine
-ambiguity. Such a situation is called <i>śleṣa</i> "embrace", evoking the
-two meanings intermixing. It is ambiguous, and if well crafted may
-provoque equivoque implications through the double meaning.
-Thus it was praised as one of the ten poetic qualities (<i>guṇa</i>),
-and Daṇḍī theorized in his Kāvyādarśa. So let us look at one of his examples:
-<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=SH;font=roma;cache=f;st=t;us=f;text=nak.satrapathavartii+raajaa;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=12,{Ifcc},{vartii},{t}" target="_blank">नक्षत्रपथवर्ती राजा</a>.
-This nominal phrase talks of a king "who is following the path of stars", and is
-fit for a court panegyric. But the other side of the <i>śleṣa</i> hints
-that the king "is not following the path of heroes". 
 <p>
-Note that here we are not just dealing with homonymy (<i>abhaṅgaśleṣa</i>),
-but with ambiguity of segmentation (<i>sabhaṅgaśleṣa</i>), using oronyms.
-Another standard exemple is:
-<a
-href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=SH;font=roma;cache=f;st=t;us=f;text=natena+likhito+lekha.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=2,{Root},{tena},{f}|0,{Kric},{nataa},{f}|0,{Iikc},{nata},{f}|4,{Inde},{na},{f}"
-target="_blank">नतेन लिखितो लेखः</a>. Did he write the letter bending, or did he
-not write the letter ?
-<p>
-Another interesting <i>śleṣa</i> is this grammatical saying:
-<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=taddhitamuu.dhovaiyaakara.na.h+taddhitamuu.dho%27vaiyaakara.na.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=34,{A},{a},{t}|23,{Iicc},{tat},{t}|26,{Iikc},{hita},{t}|0,{Iicc},{tat},{t}|3,{Kric},{hitam},{t}|11,{Nouc},{vaiyaakara.nas},{t}" target="_blank">तद्धितमूढोवैयाकरणः तद्धितमूढोऽवैयाकरणः</a>.
-<p>
-This discussion on <i>śleṣa</i> showed that we should not always
-expect a unique solution to segmentation of Sanskrit text. Several meaningful
-solutions may appear, and sometimes this phenomenon is expected, and this
-actually incurred a specific style of double-entendre poetry. This combined with
-all kinds of poetic acrobatics which made combinatorial puzzles to the reader.
-An introduction to this style of poetry is presented by Ygal Bronner in
-"Extreme Poetry, the South Asian movement of simultaneous narration",
-Columbia University Press, 2010.
-<p>
-This being said, we are faced with the Reader tool with a far more severe
-overgeneration than esthetic experimentations coined by creative poets,
-and we face artificial ambiguities of the vocal form, most of which being
-meaningless,
-but meanings are not sought at this stage, which deals only with form.
-This is specially striking with small words, with one or two syllables,
-which tend to proliferate as noise polluting the correct solution.
-Let us look at a typical example :
-<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=MW&st=t&us=f&font=roma&text=raamovana.mgacchati&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno=" target="_blank">रामोवनङ्गच्छति</a>.
-<p>
-We are surprised by red <i>rāmaḥ</i>. It is a verbal form of Vedic root
-<i>रा</i> - we give. So it should be quickly erased with the red cross choice.
-For blue <i>gacchati</i>, this present participle (he going) in the locative
-would require a main verb, so must be discarded.
-So in two clicks, we discriminate between 4 potential solutions.
-So don't panic if the tool lists an astronomical number of "solutions",
-the number of clicks to decide the correct one is of the order of its
-logarithm.
-<p>
-Let us now process a more ambitious example, taken from
-Corpus:Heritage_citations.19:
-
-<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=annotator&text=+na+hi+vacanazatenaapy+anaarabhyo%27rtha.h+zakyovidhaatum&cpts=20%2C%7BNouv%7D%2C%7Banaarabhyas%7D%2C%7Bt%7D|17%2C%7BInde%7D%2C%7Bapi%7D%2C%7Bt%7D|12%2C%7BNouc%7D%2C%7Bzatena%7D%2C%7Bt%7D|6%2C%7BIicc%7D%2C%7Bvacana%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=19" target="_blank">न हि वचनशतेनाप्य् अनारभ्योऽर्थः शक्योविधातुम्</a>.
-Our corpus is just the recording of successful solutions obtained with the
-help of the Reader tool, when you have Annotator facility in the Corpus tool.
-So now we are going to replay the sequence of clicks needed to select
-the correct solutions among 495 possible segmentations.
-We select the devanāgarī Sentence in the current display, and call the Reader
-tool with this input, displaying now a lot of parasitic "solutions",
-either nonsensical or redundant.
-Actually, on this exemple, as often, you obtain the correct solution just by
-checking the top rectangles in the graphic display, except for <i>api</i>,
-that should be popped up. 
-<p>
-
+We now close the sandhi topic. The next course will discuss strategies
+to steer our Reader tool in order to effect segmentation of Sanskrit text.
   
 </td></tr></table>
 <div class="enpied">
