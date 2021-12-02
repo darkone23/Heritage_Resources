@@ -259,8 +259,8 @@ sandhi grids, extracted from the "Teach yourself" course of Michael Coulson:
 and <a href="http:/sanskrit.inria.fr/COURSE/Images/Sandhi_grid_vowels.jpg"
 target="_blank">vowels</a>.
 In the consonant chart, the footnote 4 refers to the exception for vowel "a":
-the sandhi of final "a.h" and initial "a" is "o'", where the
-<i>avagraha</i> "'" is not pronounced, but marks in writing the elision of
+the sandhi of final "a.h" and initial "a" is « o' », where the
+<i>avagraha</i> « ' » (devanāgarī ऽ) is not pronounced, but marks in writing the elision of
 initial "a". This is further discussed below.
 <p>
 These charts should be consulted for reference in case of doubt, they do
@@ -330,7 +330,7 @@ the following word starts with a vowel, semivowel or voiced consonant,
 the <i>visarga</i> is dropped, and replaced by hiatus (oral pause,
 spacing in writing).
 Thus for instance:
-<a href="http:/sanskrit.inria.fr/COURSE/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=t;st=t;us=f;text=anarthakaa+mantraa.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=0,{An},{an},{f}|0,{Iicv},{anartha},{f}|9,{Nouc},{mantraas},{t}"
+<a href="http:/sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=t;st=t;us=f;text=anarthakaa+mantraa.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=0,{An},{an},{f}|0,{Iicv},{anartha},{f}|9,{Nouc},{mantraas},{t}"
 target="_blank">अनर्थका मन्त्राः</a>.
 <p>
 Let us now review sandhi occurring after a <i>visarga</i> following a vowel
@@ -349,7 +349,7 @@ changes into "ś"; before "ṭ" or "ṭh", it changes into retroflex "ṣ"; but 
 <p>
 <b>Final "m"</b>.
 The consonant chart shows that final "m" generally turns into 
-<i>anusvaram</i> (""), except before vowels and at the end of sentences, where
+<i>anusvaram</i> ("ṃ"), except before vowels and at the end of sentences, where
 it stays as "m". But before stops (the five <i>varga</i>s), it is actually
 equivalent to the homophonic (<i>savarga</i>) nasal. It is then
 <i>parasavarṇa</i>. In that case, our software normalizes it into the
@@ -417,7 +417,25 @@ with a form in "āḥ", but forms ended in "ai" are not frequent (mostly datives
 <p>
 Compare वन इव (as if in the forest) with कूप इव (as if in the
 well). The first one is not ambiguous, with <i>padapāṭha</i>: <i>वने इव</i>,
-whereas the second one could be <i>कूपे इव</i> or <i>कूपः इव</i>. 
+whereas the second one could be <i>कूपे इव</i> or <i>कूपः इव</i>.
+A similar problem occurs with "iti", the indirect speech closing particle. Thus
+in Mahābhārata, we find King Yudhiṣṭhira stating: <a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+yotsye+vigatakalma.sa.h&cpts=&corpdir=Heritage_citations&sentno=132"
+target="_blank">योत्स्ये विगतकल्मषः</a>
+"I shall fight without committing sin". This echoes Arjun'a despondency :
+ <a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+na+yotsye&cpts=&corpdir=Heritage_citations&sentno=841" target="_blank">न योत्स्ये</a> "I shall not fight". But actually, in Bhagavadgītā,
+this is told by Sañjaya to King Dhṛtarāṣṭra as a quotation: <i>न योत्स्य इति गोविन्दम् उक्त्वा तूष्णीं बभूव ह</i>
+and now <i>yotsye</i> has become <i>yotsya</i> because of sandhi. You should thus be very
+careful about this situation : final "a" followed by space followed by an initial vowel
+could hide an "e" marking either a <i>sup</i> locative or an <i>ātmanepadi</i>
+or passive conjugation <i>tiṅ</i> suffix. For instance, look at rice
+cooking. The root is <i>pac</i>. In <i>parasmaipadi</i> style, you may say <i>pacatyodanam</i>
+(पचत्योदनम्) by sandhi of <i>pacati</i> and <i>odanam</i>: "(he) cooks rice". But
+you may also say, in <i>ātmanepadi</i> style :  <i>pacata odanaḥ</i> (पच्यत ओदनः)
+sandhi of <i>pacate</i> and <i>odanaḥ</i>, "rice is cooking". 
+So please note the necessary hiatus, marked by a space in the devanāgarī string,
+and by an underscore in the diagram of the Reader. 
+This phenomenon may also happen to words ending with vowel "o", but this is much rarer.
+
 <p>
 Please note that initial "h" following
 a final consonant turns into the <i>savarṇa</i> voiced aspirate.
@@ -451,6 +469,10 @@ Try to segment the following phrases in concord with the English meaning<br>
 Special case for pronoun <i>sa</i>, in nominative, <i>saḥ</i>. When
 followed by consonant, the <i>visarga</i> is dropped, and replaced by hiatus.
 Thus <i>स कृष्णः</i>, but as usual <i>सोऽग्निः</i>, <i>स आचार्यः</i>, <i>अश्वः सः</i>.
+Forgetting the hiatus will bring confusions with stems starting with "su", and
+they are extremely frequent, since "su" is a productive prefix (<i>sagotra</i>,
+<i>sajala</i>, etc.)
+
 <p>
 There is also a rule that applies to the terminations "ī", "ū" and "e" of
 substantives in the dual number (<i>dvivacana</i>): they remain unchanged
@@ -466,10 +488,10 @@ intention". Thus sandhi is not strictly necessary between padas. But this maxim
 hides several difficulties. Actually, sandhi effected at morphology formation,
 for <i>vibhakti</i> as well as for preverb (<i>upasarga</i>) prefixing of roots,
 is of a stronger nature than the external sandhi between words and between
-compound components, since it occurs retroflexion. Thus, in the same way
+compound components, since it incurs retroflexion. Thus, in the same way
 that the <i>tṛtīya</i> form of <i>rāma</i> is <i>rāmeṇa</i>, with retroflexion
 of the "n", verbal forms for roots prefixed by an <i>upasarga</i> containing "r"
-are subject of retroflexion, like <i>pra.nayati</i>. This extends to participles
+are subject of retroflexion, like <i>praṇayati</i>. This extends to participles
 (<i>kṛdanta</i>) like <i>praṇītaḥ</i>.
 <p>
 However, one must be careful that sandhi must be carried from left to right in
@@ -488,7 +510,7 @@ problem to our segmenting tool. Actually, <i>ihehi</i> is the acid test of
 Sanskrit segmentation. 
 <p>
 Another difficulty is that, although hiatus is forbidden within compound
-formation (the compound must be pronounced in continuaous enunciation
+formation (the compound must be pronounced in continuous enunciation
 (<i>saṃhitāpāṭha</i>) with no break in the devanāgarī written form,
 the corresponding sandhi is of the same nature as the inter-word sandhi, and
 thus does not incur retroflexion. But here too there is a glitch for proper
