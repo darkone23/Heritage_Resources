@@ -1,0 +1,323 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>Hypertext Sanskrit Tools IV</title>
+<meta name="author" content="Gérard Huet"/>
+<meta property="dc:datecopyrighted" content="2022">
+<meta property="dc:rightsholder" content="Gérard Huet">
+<meta name="keywords" content="sanskrit,dictionary,heritage,dictionnaire,sanscrit,india,inde,indology,linguistics,panini,digital humanities,digital libraries,cultural heritage,computational linguistics,hypertext lexicon">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen,tv" />
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body class="chamois_back">
+<table border="0pt" cellpadding="0" cellspacing="15pt" width="100%">
+<tr><td>
+<div class="latin12"><p></p>
+
+<h1 class="title">Hypertext Sanskrit Tools IV</h1>
+
+<p>
+
+We assume at this point that the reader has read the elementary 
+<a href="https://sanskrit.inria.fr/COURSE/Lessons/lesson1.en.html">lesson on
+  the Vikramacarita story</a> in Corpus mode of the Heritage site, and that
+  he/she tried to use the Heritage segmenter on the original sentences, in order
+  to retrieve the analysis provided in the lesson. The lesson actually gives
+  indications on how to understand the tagging, which may be used as heuristics 
+  on how to drive the segmentation process. We shall now study a few of
+  these heuristics,
+  and how they relate to the grammar lessons about the syntax of Sanskrit.
+<p>
+  <b> Varieties of style in Sanskrit corpus</b> <p>
+  First of all let us give a warning about Sanskrit corpus.
+  There are many styles of Sanskrit. The <i>sūtra</i> style is very terse.
+  It consists in short aphorisms whose meaning must be studied from
+  commentaries. Typical is the Dhātupāṭha entry for root ‘kṛ’ which we briefly
+  discussed in the terminological note: <i>ḍukṛñkaraṇe</i> (डुकृञ्करणे).
+  This krypic message
+  has to be decoded as P-R-S-M where P is a prefix marker to the root,
+  here <i>ḍu</i>, R is the bare root stem, here <i>kṛ</i>, S is a suffix
+  marker to the root, here <i>ñ</i>, meaning that this root admits <i>ātmane</i>
+  voice, and finally M is the meaning of the root, in ordinary Sanskrit,
+  in the locative, here <i>karaṇe</i> (करणे) ‘in the sense of doing’.
+ This utmost concision of expression of <i>sūtra</i> style is due to the
+  requirement that the whole grammar could be entirely memorized.
+  This is noted with humour in this <a
+  href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+ardhamaatraalaaghavena+putrotsavam+manyante+vaiyaakara.naa.h&cpts=8%2C%7BA%7D%2C%7Ba%7D%2C%7Bf%7D|4%2C%7BIicc%7D%2C%7Bmaatraa%7D%2C%7Bt%7D|9%2C%7BNouc%7D%2C%7Blaaghavena%7D%2C%7Bt%7D|22%2C%7BNouv%7D%2C%7Butsavam%7D%2C%7Bt%7D|39%2C%7BNouc%7D%2C%7Bvaiyaakara.naas%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=424&font=roma&lex=SH">subhāṣita</a>.
+<p>
+
+Similarly, Vedic is mostly out of the range of our tools, because of its
+complex syntax, with floating prepositions not glued to the verbs.
+
+<p>
+  Commentaries use a conventional style to analyse the commented
+  text, both in its grammatical structure and in its interpretation according to
+  a given school. They often use complex argumentation, couched in a technical
+ <i>navyanyāya</i> notation using long compounds, and their understanding
+  demands special training. Here is an example:<br>
+<a
+  href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+raamani.s.thaputratvaniruupitapit.rtvavaan+dazaratha.h&cpts=36%2C%7BNouc%7D%2C%7Bdazarathas%7D%2C%7Bt%7D|25%2C%7BNouc%7D%2C%7Bpit.rtvavaan%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=765&font=roma&lex=MW">रामनिष्ठपुत्रत्वनिरूपितपितृत्ववान् दशरथः</a>.
+<p>
+
+Litterature uses rarely prose, and most often
+  poetic or epic works use verses, in many meters. For instance,
+  Rāmāyaṇa uses the <i>śloka</i> format, of 4 <i>pādās</i> of 8 syllables.
+  In this style, the punctuation mark <i>daṇḍa</i> (| for the half
+  <i>śloka</i>) is not a syntax delimiter, and merely indicates pause in
+  the recitation (<i>avasāna</i>), and thus absence of sandhi in the text.
+  The double <i>daṇḍa</i>, or <i>pūrṇavirāma</i> (||), separates <i>ślokas</i>,
+  but may not indicate the end of the sentence, which may stretch over two 
+  <i>ślokas</i>. Thus, although often a śloka is a self-contained sentence,
+  if may happen that a śloka is composed of two sentences, or even that several
+  ślokas compose a complex sentence. And even the problem of sentence recognition
+  is hard enough to be beyond automatic treatment by computer at present. We
+  give this as warning that one should not always expect that a piece of text
+constitutes a sentence, even if it corresponds to a poetic unit. However, the segmenter does not care, it will undo sandhi of whatever piece of text in
+  terminal sandhi is given as input, and will respect <i>daṇḍa</i> sandhi
+isolation. 
+<p>
+<b> Ways of paraphrasing sentences</b> <p>
+
+In the course were presented two ways to discuss a sentence grammatically,
+using a paraphrase in prose syntax (<i>anvaya</i>). Thus <i>daṇḍānvaya</i>
+explains structurally a sentence by translating it in prose with a canonical
+order of constituents : first the agent (prathamā), then the complements in
+their various vibhaktis, finally the verb:
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+dazarathaputra.h+raama.h+ayodhyaanagare+kozaat+hastena+braahma.naaya+dhanam+dadaati&cpts=65%2C%7BRoot%7D%2C%7Bdadaati%7D%2C%7Bt%7D|40%2C%7BNouc%7D%2C%7Bhastena%7D%2C%7Bt%7D|34%2C%7BNouc%7D%2C%7Bkozaat%7D%2C%7Bt%7D|27%2C%7BNouc%7D%2C%7Bnagare%7D%2C%7Bt%7D|26%2C%7BA%7D%2C%7Ba%7D%2C%7Bf%7D|21%2C%7BIicv%7D%2C%7Bayodhyaa%7D%2C%7Bt%7D|15%2C%7BNouc%7D%2C%7Braamas%7D%2C%7Bt%7D|8%2C%7BNouc%7D%2C%7Bputras%7D%2C%7Bt%7D|0%2C%7BIicc%7D%2C%7Bdazaratha%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=330&font=deva&lex=MW">Example</a>.
+<p>
+This kind of presentation is appropriate for explaining the sentence, by
+reordering logically the words so that co-denotating phrases are grouped,
+and the phrase structure is explicit, on which semantic roles may be assigned
+unambiguously. A simple sentence is thus explained canonically as S-A*-O-V
+(subject adverbs object verb), consistently with the S-O-V nature of the
+language.
+<p>
+However, in real texts, that is outside of commentaries litterature,
+you will almost never meet the
+actual sentences in this format. Or if you do, it will rather smack of boring
+style. Don't expect Kālidāsa to write in  <i>daṇḍānvaya</i> style. On the
+contrary, he will slowly distill padas in the sentence in a mysterious order,
+and it is only at the end that you will get the crucial last piece of the
+puzzle, and access the meaning in a flash of insight (<i>sphoṭa</i>).
+
+Thus, this method is hardly helpful in reading corpus, and the <i>khaṇḍānvaya</i>
+must be resorted to. It consists in spotting first the verb, then in recursively
+filling its successive desires (<i>ākāṅkṣā</i>), thus progressively revealing
+the <i>kāraka</i> semantic structure. For each kāraka, we spot the head of
+the phrase, its <i>viśeṣya</i>, then its various qualifiers and adjectives (<i>viśeṣaṇa</i>),
+which must agree with it. This analytic method may proceed by phrasing questions
+asking fo the successive desires, i.e. dependencies. This dialectical
+argumentation is called <i>kathambhūtinī</i>. We call it the Socratic method,
+in analogy with Socrates teaching his students by asking questions.
+This is the main heuristic used in the Vikramacarita story.
+
+<p>
+
+Now we may relate the two methods. The khaṇḍānvaya method consists in
+progressively constructing the <i>daṇḍānvaya</i> by reading the sentence
+<i><u>pratilomena</u></i>, from right to left. Thus we capitalize on the general
+postfix nature of Sanskrit, which applies not only to identifying dependencies
+issued from semantic roles (kāraka) but also the ones issued from
+<i>upapadas</i> such as 3-<i>saha</i>, 6-<i>adhas</i>, etc. Also remark
+that the grammar uses systematically suffixes (<i>pratyaya</i>) for derivation.
+Sanskrit understanding by reading backwards is similar to the reverse
+Polish notation used by early computer scientists to evaluate expressions
+using a stack,
+and which was used by early desk calculators, where you would compute
+(5+17)*43 by typing in sequence 5;17;+;43;* each operation taking its arguments
+in the stack. It may be felt awkward to read backwards a sentence which after
+all is spoken in a left-to-right manner, but the stack analogy is relevant,
+when one thinks of the functioning of the short-term memory, where recent
+cognitions have priority over more remote ones. 
+<p>
+Let us show now how this method may be applied to our canonical example 
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=MW&st=t&us=f&font=roma&text=dazarathaputra.h+raama.h+ayodhyaanagare+kozaat+hastena+braahma.naaya+dhanam+dadaati&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno=">दशरथपुत्रः
+रामः अयोध्यानगरे कोशात् हस्तेन ब्राह्मणाय धनम् ददाति</a>.
+On the way, we shall use <i>kathambhūtinī</i> by going <i>pratilomena</i>,
+in reverse gear, with the use of two heuristics,
+ <i>matsyanyāya</i> (मत्स्यन्याय) - The longest segment wins over shorter ones,
+and <i>bimbasamuddhāra</i> (बिम्बसमुद्धार) - Cherry-picking a relevant lexical
+item.
+We shall also use "positive thinking", meaning by that that spualifiurious negations
+hypothethized by sandhi have to be canceled with the red cross of our
+segmenter. And of course, more 
+generally we shall use common sense, i.e. <i>yogyatā</i> and <i>sannidhi</i>,
+with the provision that poets do not feel bound to these restrictions. 
+<p>
+<b> Proper names identification</b> <p>
+
+Cherry-picking happens frequently with proper names, that you may expect to
+find in the story. There is a difficulty in dealing with proper names in
+Sanskrit: there is no distinguishing typographical sign like initial capital
+in English, since the written representation is the faithful encoding of
+a speech enunciation. Another difficulty is that proper names often denote.
+Thus telling Kṛṣṇa from the black color adjective is not always easy to
+decide on grammatical considerations. 
+Some are actually accommodated by grammatical constructions for patronyms,
+so there are numerous <i>taddhita</i> suffixes that serve this purpose,
+like son of X, descendant of X, etc.
+Also, doing simply <i>vṛiddhi</i> of <i>daśaratha</i>,
+one obtains <i>dāśaratha</i> "issued from Daśaratha", and thus 
+Dāśaratha is a common designation of Rāma, like Vāsudeva is one of Kṛṣṇa.
+Then many names are actually titles, like <i>bhaṭṭa</i> 'Master', that you must
+recognize as such, like in <i>kumārilabhaṭṭa</i> 'Master Kumārila'.
+And of course a commentator of Kumārila will use simply
+the title <i>bhaṭṭa</i> to refer to him.
+<p>
+But the most common situation is that the name of a person will be a Sanskrit
+compound that has an ordinary denotation, like Devadatta 'given by God',
+identical in its structure to French Dieudonné. Many grammatical examples
+use Devadatta as a dummy, like John Doe, or Alice and Bob for cryptography
+specialists. Indian philosophers discussing the problem of denotation use
+the specially coined name Ḍittha (डित्थ) to avoid the problem.
+But when the name is a compound, it is not always easy to distinguish it
+as a proper name rather than an epithet, like pītāmbara, who could be
+Viṣṇu or any person dressed in yellow. 
+Sometimes the compound is not regular, like incurring retroflexion like
+Rāmāyaṇa, or not dropping the vibhakti (<i>aluk</i>, in grammatical terminology)
+like Yudhiṣṭhira 'Firm in battle'. But the general case is an ordinary compound,
+leading to ambiguities.
+<p>
+By the way, what kind of a compound is daśaratha ? It is not a ratha (chariot),
+so it must be a <i>bahuvrīhi</i>. But it is not just a possessive compound
+'he who has 10 chariots'. It does not mean that Dazaratha
+was possessing 10 chariots,  it means is that his chariot span the
+10 directions of space, and thus Daśaratha is such a powerful king that
+he can roam his realm in the 10 directions of space,
+because he conquered all the earth.
+<p>
+Here is an exemple of difficulty:
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+tasyar.syaz.rfgam+zirasi+raajan+aasiinmahaatmana.h+tenar.syaz.rfgamityevam+tadaa+sa+prathito%27bhavat&cpts=81%2C%7BRoot%7D%2C%7Babhavat%7D%2C%7Bt%7D|48%2C%7BNouv%7D%2C%7B.r.syaz.rfgam%7D%2C%7Bt%7D|44%2C%7BPron%7D%2C%7Btena%7D%2C%7Bt%7D|36%2C%7BNouv%7D%2C%7Baatmanas%7D%2C%7Bt%7D|33%2C%7BIicc%7D%2C%7Bmahaa%7D%2C%7Bt%7D|23%2C%7BVocc%7D%2C%7Braajan%7D%2C%7Bt%7D|5%2C%7BIicv%7D%2C%7B.r.sya%7D%2C%7Bt%7D|9%2C%7BNouc%7D%2C%7Bz.rfgam%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=628&font=roma&lex=SH">
+The sage is called Antilope-horned because he has an antilope horn on his
+head</a>. 
+We profit of this example to undersand its structure as two elementary sentences
+liked by <i>tena</i> (therefore), while tasya (of him the sage) qualifies
+<i>śirasi</i> (his head) and <i>sa</i> (abbreviating nominative <i>saḥ</i>)
+is the demonstative (he) pointing to its antecedent <i>mahātmanaḥ</i> (this
+sage). One sees on this example a slick use of pronouns in Sanskrit.
+<p>
+
+<b> Active, passive, and impersonal phrasings</b> <p>
+
+Let us come back to our simple scheme of sentence S-A*-O-V.
+This simplistic scheme makes a number of hypotheses. It assumes that there
+is a finite verbal form in the active voice (<i>kartariprayoga</i>, कर्तरिप्रयोग),
+that the verb is transitive and thus demands an object in 
+the accusative (<i>dvitīyā</i>, द्वितीया), that the agent is expressed, and thus
+that there is a subject in the nominative (<i>prathamā</i>, प्रथमा), etc.
+Actually, the agent may not be expressed explicitly, since the verbal
+suffix expresses at least its number and person. If the verb is not transitive,
+it does not need an object. But it may need other arguments, in the dative
+for verbs of giving, in the ablative for objects of fear, etc.
+Furthermore, all these actants may be expressed not just as single padas,
+but as phrases of padas in agreement, and all the padas may be reshuffled in
+different orders, so the phrases may be discontinuous, and even
+almost arbitrarily dislocated.
+<P>
+If the sentence is in the passive (<i>karmaṇiprayoga</i>, कर्मणिप्रयोग),
+it is now the object (<i>karma</i>) that may be expressed in the nominative,
+and the agent must appear in the instrumental. The question then arises
+of what it means to be in the passive for an intransitive verb. Then the
+sentence expresses an impersonal statement (in <i>ekavacana prathamāpuruṣa</i>)
+like <i>āsyate devadattena</i> (आस्यते देवदत्तेन), which should be
+translated simply as "Devadatta is sitting", rather than an awkward
+"It is being seated by Devadatta". Even though this sentence has no subject
+and no object, it is perfectly acceptable in Sanskrit, as expressing an action
+and its agent.
+<p>
+Instead of having Devadatta sitting idly, let's have him cook rice.
+In the active voice, we get <i>devadatta odanaṃ pacyati</i> (देवदत्त ओदनं पचति)
+and its 8 possible permutations, like <i>pacatyodanaṃ devadatta.h</i>.
+In the passive, we get <i>odanaḥ pacyate devadattena</i> and its 6 permutations,
+where <i>odanaḥ</i> is now in the nominative (<i>prathamā</i>). 
+But <i>odanaṃ pacyate devadattena</i> is also correct, since <i>odana</i>
+is in <i>ardharcādigaṇaḥ</i> (अर्धर्चादिगणः), which licenses it
+according to (II,4,31) to be used in masculine as well as in neuter gender,
+like prototypical <i>ardharca</i>, and <i>odanam</i> is thus a correct nominative form.
+<p>
+But the rice may also cook by itself, in which case Devadatta can get back
+sitting, and we now get <i>odanaḥ pacyate</i> - rice is cooking.
+Thus the verb <i>pac</i> has become intransitive, and its object becomes the
+agent of the action. This usage is explained by sūtra (III,1,87), and is
+called <i>karmakartaa</i> (कर्मकर्ता), 'object acting as agent'. 
+And further beware, if you swap the two padas, it becomes by sandhi
+ <i>pacyata odanaḥ</i> with erasure of "e".
+<p>
+One may wonder why the language has such redundancy that there are 12 ways
+of saying the same thing, namely that Devadatta is cooking rice. But once
+you realize that poetry is heavily constrained by meter, you understand
+that such rich poetry is only possible because of the flexibility of word
+ordering, that allows to use a permutation of elements to fit the meter.
+Furthermore, it allows surprise effects and suspense. 
+<p>
+
+<b> Absolute constructions</b> <p>
+
+Moving towards more sophisticated sentence structures than the Simple
+S-A*-O-V scheme (and its various permutations), 
+we get stories built along the L-Abs*-Simple scheme, where L is an absolute
+locative clause giving the general circonstance of the episode, which consists
+of a succession of actions Abs* described by absolutive clauses, and ending
+in a Simple sentence. These absolutive clauses share the same agent than
+the main final clause. This agent will often be the subject of this main
+clause, expressed in the nominative in active voice. But if this main clause
+is expressed in the passive (<i>karmaṇiprayoga</i>, कर्मणिप्रयोग), its agent
+will be in the instrumental, and the sentence will be un-translatable directly
+in English, like in
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+vanaadgraamam+adyopetyaudanoraame.naapaaci&cpts=30%2C%7BRoot%7D%2C%7Bapaaci%7D%2C%7Bt%7D|15%2C%3C%7BPv%7D%7BAbso%7D%7Bupaa%7D%7Bitya%7D%3E%2C%7Bupetya%7D%2C%7Bt%7D|0%2C%7BNouc%7D%2C%7Bvanaat%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=334&font=roma&lex=MW">वनाद्ग्रामम्
+अद्योपेत्यौदनोरामेणापाचि</a>. 
+<p>
+
+<b> Relative clauses</b> <p>
+
+A very common construction of linked sentences is the pair relative/corelative.
+Typically, the relative pronoun <i>ya</i> or one of its forms or derivate
+is echoed in the other sentence by the corelative <i>sa</i>.
+This gives a form of implication, or expresses a causality,
+often asssociated with quantification:
+any x is a y, any x such that P(x) verifies Q(x), whenever P we have Q,
+should x be P, he would be Q (often using the optative लिङ्) etc.
+Here are a few examples:<br>
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+ya.h+pa.thet+sa_aapnuyaat&cpts=&corpdir=Heritage_citations&sentno=670&font=roma&lex=MW">यः
+पठेत् स आप्नुयात्</a> Should you study, you would succeed.<br>
+Adverbs of time, space and manner also have relative equivalents:<br>
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+yathaa_d.r.s.tam+tathaa_likhitam&cpts=12%2C%7BInde%7D%2C%7Btathaa%7D%2C%7Bt%7D|0%2C%7BInde%7D%2C%7Byathaa%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=66&font=roma&lex=MW">यथा दृष्टम् तथा लिखितम्</a>
+Such as you read, you should write (instructions for a scribe).<br>
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+ya.h+pazyati+na+sa+bruute+ya.h+bruute+sa+na+pazyati&cpts=40%2C%7BRoot%7D%2C%7Bpazyati%7D%2C%7Bt%7D|4%2C%7BRoot%7D%2C%7Bpazyati%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=332&font=roma&lex=MW">यः पश्यति न स ब्रूते यः ब्रूते स न पश्यति</a>
+He who looks does not speak, he who speaks does not see. <br>
+Besides the co-reference of the two pronouns,
+the two connected sentences are independent. Thus
+the relative and the corelative pronoun, while agreeing in number and gender,
+may wear a different case (vibhakti), corresponding to the respective role
+of the common entity in the two sentences.<br>
+Sometimes reduplication of the pronouns reinforces the quantification,
+and additional pairs of adverbs may be combined, as here:<br>
+<a
+href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+bahubhi.h+vasudhaa_dattaa_bahubhi.h+caanupaalitaa_yasya+yasya+yadaa_bhuumis+tasya+tasya+tadaa+phalam&cpts=46%2C%7BPron%7D%2C%7Byasya%7D%2C%7Bt%7D|40%2C%7BPron%7D%2C%7Byasya%7D%2C%7Bt%7D|30%2C%3C%7BPvkv%7D%7BKric%7D%7Banu%7D%7Bpaalitaas%7D%3E%2C%7Banupaalitaas%7D%2C%7Bt%7D|15%2C%7BKric%7D%2C%7Bdattaas%7D%2C%7Bt%7D|8%2C%7BNouc%7D%2C%7Bvasudhaas%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=259&font=roma&lex=MW">बहुभिः वसुधा दत्ता बहुभिः चानुपालिता यस्य यस्य यदा भूमिस् तस्य तस्य तदा फलम्</a>
+Many (kings) gave land, and many protected it; whenever anyone has land,
+he will reap its fruits (land donation title). 
+<p>
+
+  
+</td></tr></table>
+<div class="enpied">
+<table bgcolor="#00FFFF" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td align="left">
+© Gérard Huet 2022</td>
+<td align="right">
+</td></tr>
+</table>
+</div>
+
+</div>
+</body>
+</html>
