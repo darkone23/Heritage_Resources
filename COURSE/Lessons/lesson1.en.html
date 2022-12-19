@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <title>First course of Sanskrit</title>
 <meta name="author" content="Gérard Huet"/>
-<meta property="dc:datecopyrighted" content="2020">
+<meta property="dc:datecopyrighted" content="2022">
 <meta property="dc:rightsholder" content="Gérard Huet">
 <meta name="keywords" content="sanskrit,dictionary,heritage,dictionnaire,sanscrit,india,inde,indology,linguistics,panini,digital humanities,digital libraries,cultural heritage,computational linguistics,hypertext lexicon">
 <link rel="stylesheet" type="text/css" href="style.css" media="screen,tv" />
@@ -22,14 +22,14 @@
 
 This course is adressed to an English-speaking beginner.
 There is no prerequiste. In particular, it does not require
-familiarity with the devanāgarī writing system, that will be progressively
+familiarity with the devanāgarī writing system, which will be progressively
 acquired. We only assume some acquaintance with basic notions of linguistics.
   
 
 <h2 class="b2">What is Sanskrit ?</h2>
 
   Sanskrit was the learned language of Ancient India, frozen twenty-five
-  centuries ago by a genious scientist named Pāṇini. 
+  centuries ago by a genious linguist named Pāṇini. 
    Pāṇini managed to model a high-register form of the vernacular language
   of his time as a functional generative grammar. This allows to derive
   formally a correct enunciation of the language as a structure expressing
@@ -44,14 +44,14 @@ acquired. We only assume some acquaintance with basic notions of linguistics.
 <h2 class="b2">Methodology</h2>
 
   We are going to read a text with the help of the Sanskrit Heritage software.
-   In doing so, we will learn the sentence structure in Sanskrit,
+   In doing so, we will learn the basic sentence structure of Sanskrit,
    we will recognize the morphological structure of the words of the vocabulary,
    and we will be able to consult their meaning in the dictionary "Sanskrit
    Heritage", which will also provide the semiotic indications allowing
   to understand the text in the Indian tradition.
 
   It is also possible to look-up meanings in the English Monier-Williams
-  dictionary, but this will reduce the functionalities. 
+  dictionary, although this will reduce the functionalities. 
  
 <p/>
 
@@ -167,7 +167,7 @@ only 6 words, the two segments
 
 Notice that they are glued together in the devanāgarī writing of the sentence.
 This indication is important for the correctness of prosody.
-The fragment "purandarapurī" is a non-breaking writing, a compound word
+The fragment "purandarapurī" is a non-breaking chunk of writing, a compound word
 not admitting a pause between its segments. However, you can resume
 your breath between the segment "purandara" and the segment "purī" on which
 you put the accent, because here the meaning of the compound is a specialization
@@ -367,7 +367,7 @@ This difficulty is combined
 for non-Indians with the deciphering of the Devanāgarī script, specially
 when glueing two words, the first of which ending with a consonant,
 and the second starting with a consonant too, because the two syllables
-in contact collase into one, 
+in contact collapse into one, 
 and the resulting ligature conceals the border of the two words.
 Fortunately, our software overcomes the difficulty, by automatically performing
 decryption. You will gradually learn to discern on your own
@@ -381,7 +381,7 @@ It is essential to distinguish the inflected word, by declension or conjugation,
 as it appears in the sentence, from its <i>stem</i> which is referenced
 in dictionaries.
 In the following, we will use the Sanskrit "pada" (step) to designate the
-inflected word. Our software performs the "padapatha", etymologically the 
+inflected word. Our software performs the "padapaṭha", etymologically the 
 step-by-step path of the enunciation, by undoing the sandhi links between his
 constituent padas.
 
@@ -391,7 +391,7 @@ Let's continue reading with the 3rd sentence. A new color appears,
 sky blue, which indicates a pronoun, here "tad" (personal "he/she/it"
 or demonstrative "this") declined in the genitive
 <span class = blue>tasya</span> (of this).
-The verb is the same as the previous sentence, "as_1" (to be) but now
+The verb is the same as in the previous sentence, "as_1" (to be) but now
 plural "<span class = red> santi </span>" (are).
 <!-- We notice that the phonetic resemblance
 between the Sanskrit word and the French word betrays the common origin
@@ -411,12 +411,12 @@ Dictionary lookup tells us that "catur" means number "four", and
 <p/>
 
 In the following sentence, we find this same nominal phrase , but now in the
-accusative case:"<span class = blue>caturaḥ putrān</span>.
+accusative case: <span class = blue>caturaḥ putrān</span>.
 It is followed by the absolutive form
 <span class = mauve>āhūya</span> from the verb "āhū" (to summon),
 of which it forms the object complement:
 "having summoned the four sons". This absolutive clause shares its agent
-with the main verb of the sentence:"<span class = red>avādīt</span> (he
+with the main verb of the sentence: <span class = red>avādīt</span> (he
 says). It is preceded by the temporal adverb
 <span class = blue>maraṇa-samaye</span>,
 compound word in the locative expressing
@@ -436,30 +436,30 @@ This sentence has the following characteristic structure of story telling.
 First of all,
 we situate the action by a series of clauses in the absolute locative. Next,
 a series of absolutive clauses describes the sequence of actions in the story,
-terminated by the main clause which alone carries a verb declined to the person
-of the agent: "having done action 1, ..., having done action n, he did action".
+terminated by the main clause which alone carries a verb declined in the person
+of the agent: "having done action 1, ..., having done action N, he did action".
 In the English translation, we replace the sequence of absolutives by the
-sequence of actions, with forms conjugated at the time of the main clause:
+sequence of actions, with forms conjugated in the time of the main clause:
 "he did action 1, ..., he did action N, he did the main action".
 
 <p/>
 
 Two difficulties are to be noted. The first is the ambiguity
 of the pada <span class = blue>kāle</span>, visible by clicking on its blue box.
-Indeed it may be a form of the substantive "kāla_1", time, or a form
+Indeed it may be a form of the substantive "kāla_1" (time), or a form
 of the adjective "kāla_2" (black). The two meanings being very common, only the
 context allows them to be disambiguated. The second is that "gacchati" is
 a very common form (but irregular) of the present tense of the root "gam"
 (to go): "he goes".
 Here, this interpretation was not retained, because the verb "gam", transitive,
 asks for an additional object to indicate where the subject is going.
-There is no nearby noun in the accusative to fulfill this function, so
-that the locative form of this present participle (going) agrees with the phrase
-"<span class = blue> mahati kāle </span>" (long time) to mean "passed".
+There is no nearby noun in the accusative to fulfill this function, but
+the locative form of this present participle (going) agrees with the phrase
+"<span class = blue>mahati kāle</span>" (long time) to mean "passed".
 Here the ambiguity is not apparent, because we have chosen to put
 <span class = blue>gacchati</span> in a blue box,
 as a nominal form, rather than in a red box that would suit
-the verbal form "he goes". We see here that we have simplified the
+the verbal form "he goes". We see here that we have simplified your
 task, but that when you are faced with an un-analyzed text, all kinds of
 ambiguities are likely to lead you astray. Our method allows to acquire
 first the understanding of the sentence, partially disambiguated, in order to be
@@ -515,14 +515,14 @@ href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=reader&text=+h
 hare raama hare raama raama raama hare hare ||</a>.
 Surprise: all boxes are green, this is an invocation 
 of Viṣṇu alias Hari, of which Kṛṣṇa and Rāma are two incarnations (avatāra).
-We notice in passing that "<span class = green> hare </span>" is the vocative of
+We notice in passing that "<span class = green>hare</span>" is the vocative of
 "hari".
 
 <p/>
 After this interlude, let us close the window of the mantra that has just
 opened, and let us come back to sentence 5. The two blue padas
-in the gentitive plural, recognizable by their final "ām", that is to say
-"<span class = blue> bhavatām caturṇām </span>",
+in the genitive plural, recognizable by their final "ām", that is to say
+"<span class = blue>bhavatām caturṇām</span>",
 mean "of you four", the word "bhavat_2" being 
 the polite form of "you" in the third person, similar to English "Sir".
 These genitives qualify
@@ -536,7 +536,7 @@ sentences (red "bhavati" ending the first sentence); in the second choice,
 which is the one in our analysis, we have a participial clause subordinate
 to the main clause: "the estate of the four of you remaining undivided".
 The main clause has for verb the last pada, red
-<span class = red>bhaviṣyati</span>",
+<span class = red>bhaviṣyati</span>,
 which is in the future tense of the verb "bhū_1" of which we have already seen
 several forms.
 Let us note in passing that "bhū_1" is the verb "to be" in the dynamic sense
@@ -581,7 +581,7 @@ by "sharing between you four". The initial clause is formed, as in
 the previous examples, by the present participle "jīvat" in the nominative
 <span class = blue>jīvan</span> (alive), preceded by its subject
 <span class = blue>aham</span>, first person pronoun, "I". which gives
-"me alive". The negation paticle <span class = mauve na</span> is here
+"me alive". The negation particle <span class = mauve>na</span> is here
 combined with the particle <span class = mauve>iva</span> ("actually")
 to mean "barely", "just".
 
@@ -603,7 +603,7 @@ and its syntax is relatively free.
 The important thing is to see the predicate, verb or participle,
 and then recognize its arguments and complements.
 Our software does the work for us,
-put in evidence the action expressed by the verb with its blaring red
+puts in evidence the action expressed by the verb with its blaring red
 color, which governs the rest of the actants, colored blue,
 and circumstantial adverbs and other conjunctions, colored purple.
 The vocatives are distinguished in green, because
@@ -626,9 +626,9 @@ the corresponding entry in the lexicon, where we read:
 "√ अस् as_1 v. [<Span class = red>2</span>] pr. (asti)".
 The number <span class = red>2</span> indicates the conjugation class
 in the present tense of this root. It is
-itself a hypertext link which returns to you you all the
-root shapes. Click on it.
-The first array, present in the active voice, gives us
+itself a hypertext link taht returns to you all the conjugated forms of the
+root. Click on it.
+The first array, giving forms of the present tense in the active voice, gives us
 the forms "asti", "asmi" and "santi" in the expected locations.
 We notice between the singular and the plural the existence of specific forms
 for the subject in the dual, when there are exactly two agents.
@@ -658,8 +658,8 @@ that is, four parts. A locative clause indicates where these four shares
 have been deposited,
 <span class = mauve>adhaḥ</span>, meaning "under".
 Under what? As usual, under what precedes, 
-"<span class = mauve> adhaḥ </span>" is a clitic preposition, or rather
-post-position, in the general spirit to precede a notion by its argument.
+"<span class = mauve>adhaḥ</span>" is a clitic preposition, or rather
+post-position, in the general spirit of giving a notion preceded by its argument.
 What precedes is here the nominal phrase
 <span class = blue>caturṇām pādānām</span>, which designates a
 four-feet item, that is to say a bed. What bed? The one indicated by the 
@@ -691,7 +691,7 @@ involved is the formation of compound verbs, from auxiliary verbs
 noun, usually terminated by "ī", to denote the verbs to do, to be
 or to become the notion denoted by this substantive. Linguists talk
 of inchoative verbs. A typical example <span class = blue>bhasmīkṛ</span>,
-to reduce in cinders, constructed from substantive
+to reduce to cinders, constructed from substantive
 <span class = blue>bhasman</span> (cinders) with auxiliary verb "kṛ_1". 
 In our text the noun is "aṅga_1", which means portion.
 The compound verb is therefore "aṅgīkṛ", to share in parts,
@@ -825,12 +825,12 @@ It's about being happy as <span class = blue> vibhaktāḥ </span>,
 with "vibhāga", the sharing, which we saw above, is not by chance.
 "vibhakta" is the past participle of the verb "vibhaj" (to share), of which
 the noun "vibhāga" names the action.
-Going up the sentence, we find the absolutive clause, which ends
+Going up the sentence, we find the absolutive clause, ended
 by the absolutive form <span class = mauve>gṛhītvā</span> from the root "grah".
 The action is therefore to seize, and the agent is the "we" of the main clause.
 Seize what? The object awaits us, it is the compound
-<span class = blue>vibhāga-dravyam</span> in the
-accusative. The neuter substantive "dravya" is the substance of the firs component,
+<span class = blue>vibhāga-dravyam</span> in the accusative.
+The neuter substantive "dravya" is the substance of the first component,
 sharing. It is therefore the matter of inheritance. It is qualified
 by the initial compound <span class = blue>tat-mañca-adhaḥ-sthitam</span>
 formed on the past participle "sthita" from "sthā_1", so it is "what is under this bed".
@@ -851,7 +851,8 @@ indicates a pair of co-relative clauses, the second starting
 at <span class = mauve>tāvat</span>, co-relative of
 <span class = mauve>yāvat</span>. Here co-relative means that the two
 pronouns co-denote, in this case expressing a logical implication.
-The sequence <span class = mauve>yāvat</span> A <span class = mauve>tāvat</span> B"
+The sequence <span class = mauve>yāvat</span> A
+<span class = mauve>tāvat</span> B
 suggests that as soon as action A is completed,
 action B will occur. Here action A is for the brothers to dig under the bed,
 with a conjugated form of the root "khan" (to dig) which evokes cognate English
@@ -910,7 +911,7 @@ reduced to the content of each of the chests:
 <span class = blue> mṛttikā </span> is soil, but also means
 implicitly "soil exists".
 Our "contains" is necessary, because English requires a verb
-in each sentence, and even its subject, even fictitious in "it rains",
+in each sentence, and even its subject, even fictitious, as in "it rains",
 while Sanskrit has no such restrictions.
 
 <p/>
@@ -1094,13 +1095,13 @@ knowledgeable ones), after which is the main proposition
 refers to the four brothers. The sentence ends with their statement, which begins
 by the pronoun "adas",
 <!-- in the masculine nominative <span class = blue> asau </span>, -->,
-in its maasculine accusative form <span class = blue>amum</span>.
+in its masculine accusative form <span class = blue>amum</span>.
 It is the distant demonstrative "that", contrasting with
 <span class = blue>ayam</span> already met,
 which is the close demonstrative "this"
-(masculine <span class = blue> ayam </span>,
-neutral <span class = blue> idam </span>,
-feminine <span class = blue> iyam </span>).
+(masculine <span class = blue>ayam</span>,
+neutral <span class = blue>idam</span>,
+feminine <span class = blue>iyam</span>).
 The forms of these two pronouns, at the different genders, are
 varied but very frequent, and should be learned. 
 
@@ -1148,7 +1149,7 @@ the brothers find themselves, recounting their inheritance without explaining it
 distribution :
 "Immediately after, arrived at the city of Pratiṣṭhāna
 where there was a large crowd, they declared that they did not yet
-managed to make up their mind".
+manage to make up their mind".
 The city of Pratiṣṭhāna was the capital of the Sātavāhanās kings,
 on the banks of the Godāvarī river. It still exists, it is Paiṭhaṇa, the
 modern Paithan, in Maharashtra
@@ -1159,12 +1160,12 @@ was founded in 78 by the Indo-Scythian king Śālivāhana, satrap of Ujjain.
 This word "satrap" is none other than the Sanskrit "kṣatrapa" (governor),
 etymologically "kṣatra-pa", the one who protects the realm.
 Later, in the Gupta era in the 4th century, King Candragupta II conquered the
-satrapy of Ujjaïn which he made his capital under the name Puraṃdarapurī, thus evoking
+satrapy of Ujjain which he made his capital under the name Puraṃdarapurī, thus evoking
 the capital of Indra, king of the gods. He himself adorned his name
 with the title "Vikramāditya", i.e. "Heroic Sun", capitalizing on the myth
 of the generous king Vikramāditya. We should therefore not look here
 for precise historical references, the Sun King Vikramāditya is a king of legend,
-and the succesive monarchs who took his name over the centuries 
+and the successive monarchs who took his name over the centuries 
 aspired to share his fame.
 So let us continue our story.
 
@@ -1266,7 +1267,7 @@ first term is the pink prefix <span class = pink>dus-</span> meaning "bad",
 and the second term is <span class = mauve>bodhanam</span>,
 neutral form of the root agent "budh_1" (understanding)
 in a purple box. This morphological compounding process
-is called in Sanskrit "avyayībhāva", etymologically "transformation into
+is called in Sanskrit "avyayībhāva", etymologically "transformed into
 invariable ". Here, it allows to forge an adverb meaning "in ignorance".
 Conjugated with the static <span class = red>asti</span>, we get
 "to remain in the dark".
@@ -1402,8 +1403,8 @@ Here the feminine participle <span class = blue> samupārjitā </span>
 can be traced from its lemma as the form of the root "ṛj"
 (acquire), provided with the preverbs "upa" (near) and "sam" (together).
 Practice finding the entry for the verb "samupārj" in four clicks from the 
-blue box of <span class = blue> samupārjitā </span>.
-Notice that "upa-" makes sandhi with "ṛj"
+blue box of <span class = blue>samupārjitā</span>.
+Please note that "upa-" makes sandhi with "ṛj"
 as explained above: "ṛ" is expanded to "ar". Finally, we get:
 "This is how, regarding the eldest to whom the land was attributed,
 the common land is given to him in full."
@@ -1454,8 +1455,8 @@ After these words, they dug under the bed to reveal four copper chests.
 One of these chests contains earth, another contains ashes,
 another bones, yet another straw.
 At the sight of the contents of these four chests, the four brothers, flabbergasted,
-said to each other: " Oh ! Our father did the sharing fairly!
-But who can understand this sharing? "
+said to each other: "Oh ! Our father did the sharing fairly!
+But who can understand this sharing?"
 After these words, they went to the city council, where
 they communicated the event.
 They did not make known to the members of the council the distribution of
@@ -1540,7 +1541,8 @@ Others are <span class=magenta>apa</span> (out of),
 <p/>
 
 These prepositions used
-as preverbs are called in Sanskrit "upasarga". This word can be analyzed as
+as preverbs are called in Sanskrit "upasarga".
+This word can be analyzed as
 the action name of the root "sṛj_1" (to spring) prefixed with "upa" (near),
 meaning that the preverb binds the verb, in the sense that it co-denotes with
 its forms.
@@ -1552,7 +1554,7 @@ like the causative, the desiderative, the intensive, allowing other
 auxiliary senses. In total, a root gives rise to hundreds of thousands of
 regular shapes. Regular meaning obeying the rules of
 Pāṇini's grammar.
-Sanskrit shows here a great flexibility to expressed with uniform
+Sanskrit shows here a great flexibility to express with uniform
 morphological  constructions all kinds of semantic nuances.
 
 <p/>
@@ -1568,9 +1570,9 @@ It is sufficient for you to practice composing a few simple sentences
 by following the syntactic models of our story. You will have to use
 nouns and adjectives to cases other than those encountered, but our software
 is ready to help you. Indeed, the definition of the word in the dictionary
-gives the admissible genres, and each genre indication is a hypertext link
-to the appropriate declension table. Similarly, the
-verbal roots, under the indication of the conjugation class of the present system,
+gives the admissible genders, and each gender indication is a hypertext link
+to the appropriate declension table. Similarly, the verbal roots,
+under the indication of the conjugation class of the present system,
 allows you to access the table of all its conjugated forms and participles.
 No need to learn these tables by heart, which fill up to nausea
 grammar treatises: the software is there to help you,
@@ -1589,7 +1591,7 @@ Think of Lewis Caroll, who made poems that sound good in
 English, despite unknown vocabulary:
 « <span class = blue> All mimsy were the borogoves, and
 the mome raths outgrabe.</span> »
-Reading Sanskrit, you are passed through the mirror, like Alice.
+Reading Sanskrit, you passed through the mirror, like Alice.
 You start by familiarizing yourself with the syntax, which is universal,
 but soon you will know your way through the Indian borogoves!
 
