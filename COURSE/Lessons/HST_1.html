@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <title>Hypertext Sanskrit Tools I</title>
 <meta name="author" content="Gérard Huet"/>
-<meta property="dc:datecopyrighted" content="2021">
+<meta property="dc:datecopyrighted" content="2023">
 <meta property="dc:rightsholder" content="Gérard Huet">
 <meta name="keywords" content="sanskrit,dictionary,heritage,dictionnaire,sanscrit,india,inde,indology,linguistics,panini,digital humanities,digital libraries,cultural heritage,computational linguistics,hypertext lexicon">
 <link rel="stylesheet" type="text/css" href="style.css" media="screen,tv" />
@@ -17,11 +17,12 @@
 <div class="latin12"><p></p>
 
 <h1 class="title">Hypertext Sanskrit Tools I</h1>
+<h2 class="b2">Introduction to lexicon, stems and surface morphology</h1>
 
   We shall start with an invocation of Gaṇeśa.
   
 <h1 class="title"><a
-  href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=deva;cache=f;st=t;us=f;text=namoga.nezaayavighnezvaraaya;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=12,{Iicc},{vighna},{t}|4,{Nouc},{ga.nezaaya},{t}|0,{Inde},{namas},{t}"target="_blank">नमोगणेशायविघ्नेश्वराय</a></h1> <!-- 969 -->
+  href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=namoga.nezaayavighnezvaraaya;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=12,{Iicc},{vighna},{t}|4,{Nouc},{ga.nezaaya},{t}|0,{Inde},{namas},{t}"target="_blank">नमोगणेशायविघ्नेश्वराय</a></h1> <!-- 969 -->
   <p>
  Clicking on the above link invokes our Sanskrit segmenter,
   that returns the 
@@ -31,11 +32,11 @@
   invocation.
 
   We now have two Web windows: the present one, which is a digest of
-  the course transcript, and a new window, where I can demonstrate my tools
+  the course transcript, and a new window, where I can demonstrate the tools
   progressively.
   In this new window, you see first the input sentence, in blue
   <a href="https://sanskrit.inria.fr/DICO/33.html#devanaagarii">devanāgarī</a>
-script, then a graphic is shown there the sentence is written again,
+script, then a graphic is shown where the sentence is written again,
   now decomposed as a stream of phonemes represented in the IAST alphabet.
   This horizontal line is then analysed as a sequence of padas represented
   as colored rectangles. These padas are the steps that we follow when we read
@@ -64,11 +65,12 @@ internal structure, accessible by clicking on them. Thus blue <i>gaṇeśāya</i
 when clicked, reveals that it is a form of <i>gaṇeśa</i>, namely
 <center>[<i>gaṇeśa</i>]{m. sg. dat.}</center>
 where the stem <i>gaṇeśa</i> bears a link to its meaning in the dictionary,
-and the tag {m. sg. dat.} indicates its declension (vibhakti) in the
+and the tag {m. sg. dat.} indicates its declension (<i>vibhakti</i>) in the
 masculine (पुंस्), singular (एकवचन), and dative (चतुर्थी).
-The dative case is the correct vibhakti, usable to represent the semantic role
-(कारक) of giving (सम्प्रदान). It is through this vi-bhakti that we can
- discriminate the rôle of the blue pada as expressing a gift "to Gaṇeśa".
+The dative case is the correct <i>vibhakti</i>, which may be used
+to represent the semantic role
+(कारक) of giving (सम्प्रदान). It is through this <i>vibhakti</i> that we can
+discriminate the role of the blue <i>pada</i> as expressing a gift "to Gaṇeśa".
 Consistently with our homage <i>namaḥ</i>, which requires a donatory
 expressed in the dative. 
 <p>
@@ -85,7 +87,7 @@ link to the corpus repository.
 Let us complete our understanding of this Gaṇeśa invocation by discussing
 attribute <i>vighneśvarāya</i>, dative form of <i>vighneśvara</i>, i.e.
 <i>vighna-īśvara</i> the "Lord of obstacles". So we are praying to Gaṇeśa
-to remove obstacles to our understanding Sanskrit. Remember. When Vyāsa
+to remove obstacles to our understanding of Sanskrit. Remember. When Vyāsa
 recited Mahābhārata and Gaṇeśa was the scribe, Vyāsa composed
 tricky verses with knots (<i>granthi</i>) to slow him down.
 In a similar way, we are hoping that our software (<i>gaṇakayantra</i>)
@@ -103,7 +105,7 @@ you see (en) indicating that it accesses by default the Sanskrit-to-English
 Monier-Williams dictionary. The tools are the same, it is just this parameter
 that is remembered throughout the session, but this parameter is reset every time
 you click explicitly a "Lexicon access" field in one of the menus.
-I show an exemple on switching from English to French. 
+I now show an example on switching from English to French. 
 <p>
 Let me profit of it to discuss the nature of our tools. They are <i>Web
   services</i>, which does not mean that they store a bunch of Web pages
@@ -118,14 +120,15 @@ Here are a few more useful URLs:<br>
   href="https://sanskrit.inria.fr/COURSE/Lessons/HST_1.html"target="_blank">https://sanskrit.inria.fr/COURSE/Lessons/HST_1.html</a>. <br>
 You may access a mirror of the <b>Saṃsādhanī</b> site at :.<br>
 <a  href="https://sanskrit.inria.fr/scl/"target="_blank">https://sanskrit.inria.fr/scl</a>.<br>
-You may find the Reference manual of the tools at this site, in English, at :
+You may find the Reference manual of the Heritage tools at this site, in English, at :
 <a  href="https://sanskrit.inria.fr/manual.html"target="_blank">https://sanskrit.inria.fr/manual.html</a>.<br>
-But I give this link for reference
-rather than for you to read it now, since I shall explain things during the
+But I give this link for reference rather than for suggesting you to read it
+now, since I shall explain its facilities during the
 course in a different order.<br>
-Finally I show in the Help facility how to access the 
-<a href="https://sanskrit.inria.fr/DOC/transliterations.pdf"target="_blank">Table of transliteration
-  schemes</a>
+Finally I show here how to access the 
+<a
+  href="https://sanskrit.inria.fr/DOC/transliterations.pdf"target="_blank">Table
+  of transliteration schemes</a>
 <p>
 
 <!--
@@ -163,7 +166,7 @@ by morphological parameters that indicate their role in a sentence:
 gender, number and case for nominal padas.
 <p>
 This distinction is hardly visible in English, where gender has been
-relegated to pronouns, and case is expressed by syntactic means by
+relegated to pronouns, and case is expressed by syntactic means with the help of
 prepositions. Thus for instance "cat" has only two variations: plural "cats" and
 genitive "cat's", which furthermore are homophones! So we use the word
 "word" for the two notions, without even thinking of the ambiguity,
@@ -185,7 +188,7 @@ takes 12 years to learn grammar.</a>
 In the West, Sanskrit is still taught with 19th century methods, using
 bulky grammars with page after page of declension and conjugation tables
 that you are supposed to learn by heart. This is crazy.
-Now we have efficient software, built on Pāṇinian principles, that allosw you
+Now we have efficient software, built on Pāṇinian principles, that allows you
 to delay acquisition of surface details, and access texts directly
 in their interesting
 structure. The frequent paradigms you will catch progressively,
@@ -207,8 +210,8 @@ meaning of a word
 as a compositional process. By learning two generic morphological
 composition rules, you see that it was enough to know <i>pada</i> in order to
 understand <i>prātipadika</i>. So this means you should not be afraid
-of seemingly complex words, that may be analysed rather than memorized.
-Secondly, it indicates that the ancient grammairiens placed the pada
+of seemingly complex words, that may be analyzed rather than memorized.
+Secondly, it indicates that the ancient grammarians placed the pada
 notion as prior to the stem notion. The stem is an analysis of the word
 in the context of a sentence, which is a meaningful linguistic unit.
 <p>
@@ -245,14 +248,15 @@ Thus here this sentence has only 4 padas, even though it is shown in 5 segments.
 Yellow is the color of stems (<i>prātipadika</i>), since in general
 a <i>samāsa</i> of two padas (P1,P2) is formed by sandhi-glueing
 the (<i>prātipadika</i>) of P1, obtained by erasing (<i>lopa</i>) its 
-<i>vibhakti</i> with pada P2. 
+<i>vibhakti</i>, with pada P2. 
 <p>
 We have seen 4 colors of boxes so far. Let us survey all the colors that may
 appear in the analysis of a text. These colors are properly the parts of
 speech of Sanskrit. 
 We thus turn to <a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktcorpus.cgi?lex=MW&corpdir=Hoisting_the_colors&corpmode=reader"target="_blank">Hoisting the colors of Sanskrit</a> in the Corpus repository.
 <p>
-Here I comment the corresponding mini-corpus. 
+Here I comment the corresponding mini-corpus, which presents the parts-of-speech
+categories of Sanskrit, and is an introduction to morphology.
 <p>
 N.B. Pāṇini says (I,4,14): सुप्तिङन्तम् पदम्, i.e. <i>sup-tiṅ-antam padam</i>:
 A <i>pada</i> is ended in <i>sup</i> or in <i>tiṅ</i>. In this formulation,
@@ -260,7 +264,8 @@ A <i>pada</i> is ended in <i>sup</i> or in <i>tiṅ</i>. In this formulation,
 suffixes, and <i>tiṅ</i> similarly designates the conjugation suffixes.
 In our color codes, red is <i>tiṅ</i> (nominal forms) and blue is <i>sup</i>
 (verbal forms). Thus nominal forms and verbal forms are two modes
-of formation of padas. However, given a word enunciation (śabda), it does
+of formation of padas. However, given a word enunciation (śabda) out
+of its context of use in a text, it does
 not make sense to ask whether it is a <i>subanta</i> or a <i>tiṅanta</i>,
 since actually it may be both, e.g.
 <a
@@ -268,10 +273,15 @@ href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=SH&cache=t&st=t&us=
 such ambiguities are not frequent, they may occur. That is, a pada is not
 just a piece of speech, it is a structured entity, summarized in its tag.
 
-
 <p>
-After this short overview of the platform, tools, we are now ready to discuss
-sandhi. This will be the main topic of the next lesson. 
+After this short overview of some of the platform tools, we are now ready to
+start reading a simple text in the so-called corpus mode of our software.
+So please continue reading at the 
+<a href="COURSE/Lessons/lesson1.en.html">crash course on reading Sanskrit corpus</a>.
+When you are done with this little Vikramacarita story, you may turn
+to the <a href="COURSE/Lessons/HST_2.html">second lesson</a> which will
+discuss sandhi and will introduce to the use of our interactive Sanskrit reader.
+
 <p>
 
 
@@ -279,7 +289,7 @@ sandhi. This will be the main topic of the next lesson.
 <div class="enpied">
 <table bgcolor="#00FFFF" border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr><td align="left">
-© Gérard Huet 2021</td>
+© Gérard Huet 2023</td>
 <td align="right">
 </td></tr>
 </table>
