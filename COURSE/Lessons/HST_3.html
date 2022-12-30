@@ -57,7 +57,7 @@ called the
  effecting sandhi, and this is more complex, firstly because there is no mark in the
   phonetic string of where sandhi is taking place (except in the case of <i>avagraha</i>),
   and because now optional rules may have been used by the author of the text, so you have
-  to deal with such variations, and now non-determinism creeps in.
+  to deal with such variations, and now extra non-determinism creeps in.
   <p>
   This is where our tools can be used, since they know all possible ways of
 segmenting the text. Thus our Reader tool proposes all possible segmentations
@@ -80,22 +80,28 @@ This nominal phrase talks of a king "who is following the path of stars", and is
 fit for a court panegyric. But the other side of the <i>śleṣa</i> hints
 that the king "is not following the path of heroes". 
 <p>
-Note that here we are not just dealing with homonymy (<i>abhaṅgaśleṣa</i>),
+Note that here we are not just dealing with homonymy
+<ahref="https://sanskrit.inria.fr/DICO/5.html#abhafgazle.sa">(<i>abhaṅgaśleṣa</i>)</a>, 
+which is suggestive use of a reading with given padas, 
 but with ambiguity of segmentation (<i>sabhaṅgaśleṣa</i>), using oronyms.
 Another standard exemple is:
 <a
 href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=natena+likhito+lekha.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=2,{Root},{tena},{f}|0,{Kric},{nataa},{f}|0,{Iikc},{nata},{f}|4,{Inde},{na},{f}"
 target="_blank">नतेन लिखितो लेखः</a>. Did he write the letter crouching, or did he
 not write the letter ?
-<p>There is also this anecdote about a Sātavāhana King frolicking in his
+<p>There is also this story in Kathāsaritsāgara
+about a Sātavāhana King frolicking in his
 bath with his queens. As he is splashing a lady, she protests:
 <i>mā udakaṃ dehī deva</i> "don't throw water to me, Your Majesty".
 But she is learned in Sanskrit, applies sandhi, and utters मोदकं देहि देव,
 at which the King reacts by asking a servant to give her sweets (<i>modaka</i>),
 and incurs her mockery. 
 <p>
-Another interesting <i>śleṣa</i> is this grammatical saying:
-<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=taddhitamuu.dhovaiyaakara.na.h+taddhitamuu.dho%27vaiyaakara.na.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=34,{A},{a},{t}|23,{Iicc},{tat},{t}|26,{Iikc},{hita},{t}|0,{Iicc},{tat},{t}|3,{Kric},{hitam},{t}|11,{Nouc},{vaiyaakara.nas},{t}" target="_blank">तद्धितमूढोवैयाकरणः तद्धितमूढोऽवैयाकरणः</a>.
+Another interesting <i>śleṣa</i> is used in this grammatical saying:
+<a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=taddhitamuu.dhovaiyaakara.na.h+taddhitamuu.dho%27vaiyaakara.na.h;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=34,{Nouv},{avaiyaakara.nas},{t}|26,{Iikc},{hita},{t}|23,{Iicc},{tat},{t}|11,{Nouc},{vaiyaakara.nas},{t}|0,{Iicc},{tat},{t}|3,{Kric},{hitam},{t}"
+target="_blank">तद्धितमूढोवैयाकरणः तद्धितमूढोऽवैयाकरणः</a>. It contrasts the expert
+linguist, who bears the burden of secondary derivatives (through <i>taddhita</i>
+suffixes) with the non-expert, who is stupid concerning them!
 <p>
 This discussion on <i>śleṣa</i> showed that we should not always
 expect a unique solution to segmentation of Sanskrit text. Several meaningful
@@ -121,57 +127,66 @@ We are surprised by red <i>rāmaḥ</i>. It is a verbal form of Vedic root
 For blue <i>gacchati</i>, this present participle (he going) in the locative
 would require a main verb, so must be discarded.
 So in two clicks, we discriminate between 4 potential solutions.
-So don't panic if the tool lists an astronomical number of "solutions",
+So don't panic if the tool lists an astronomical number of alleged "solutions",
 the number of clicks to decide the correct one is of the order of its
-logarithm.
+logarithm, and you will soon learn to discard parasitic components.
 <p>
 Let us now process a more ambitious example, taken from
 Corpus:Heritage_citations.19:
 
 <a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?corpmode=annotator&text=+na+hi+vacanazatenaapy+anaarabhyo%27rtha.h+zakyovidhaatum&cpts=20%2C%7BNouv%7D%2C%7Banaarabhyas%7D%2C%7Bt%7D|17%2C%7BInde%7D%2C%7Bapi%7D%2C%7Bt%7D|12%2C%7BNouc%7D%2C%7Bzatena%7D%2C%7Bt%7D|6%2C%7BIicc%7D%2C%7Bvacana%7D%2C%7Bt%7D&corpdir=Heritage_citations&sentno=19" target="_blank">न हि वचनशतेनाप्य् अनारभ्योऽर्थः शक्योविधातुम्</a>.
-Our corpus is just the recording of successful solutions obtained with the
+Our corpus data is just the recording of successful solutions obtained with the
 help of the Reader tool, when you have Annotator facility in the Corpus tool.
 So now we are going to replay the sequence of clicks needed to select
-the correct solutions among 495 possible segmentations.
+the correct solutions among 68 possible segmentations.
 We select the devanāgarī Sentence in the current display, and call the Reader
 tool with this input, displaying now a lot of parasitic "solutions",
 either nonsensical or redundant.
 Actually, on this exemple, as often, you obtain the correct solution just by
 checking the top rectangles in the graphic display, except for <i>api</i>,
-that should be popped up. 
+that should be popped up. Actually checking the top <i>śatena</i>
+and <i>anārabhyaḥ</i> will automatically
+pop up <i>api</i>, and here two clicks are sufficient to obtain the desired
+segmentation. If you go strictly in left-to-right fashion, 3 clicks will be
+needed. This example should be examined carefully.
 <p>
-This example should be examined carefully. The order of clicks matter.
-If you click from right to left, <i>api</i> will get popped up automatically
-when selecting <i>anārabhyaḥ</i>, and segmentation is achieved in 3 clicks.
-If you proceed from left to right, you will need 4 clicks.
-<p>
-We have just seen an important heuristic of our graphical segmentator:
+We have just seen an important heuristic of our graphical segmenter:
 select the maximally overlapping segment, which is generally presented in the
-first line of the display. This has the advantage of bleeding most irrelevant
+first line of the display. This "cherry-picking" strategy
+has the advantage of bleeding most irrelevant
 small words, and it has the highest probability of being in the final
-solution. Please note that you do not have to proceed from left to right,
+solution. Also the large segments are usually contents words, while grammatical
+words such as <i>api</i> are usually short, and conflict a lot with word endings
+or beginnings. 
+<p>
+Please note that you do not have to proceed from left to right,
 you may select/deselect in any order. Actually, it is usually better
-to proceed from right to left, looking for the (red) verbal form, then subgoaling
+for semantic reasons to proceed from right to left,
+looking for the (red) verbal form, then subgoaling
 into its candidate <i>kāraka</i>s. The verbal personal suffix gives the
 number of its agent (in the active voice), and thus may be used as a selector for
-nominative (<i>prathama</i>) noun forms to express it. This determines in turn
-its gender, and further agreeing nominal forms may be searched to serve as
+the nominative (<i>prathama</i>) noun form referring to it by its name.
+Which determines in turn its gender, and further agreeing nominal forms
+may be searched to serve as
 qualifiers (<i>viśeṣaṇa</i>) of this qualified (<i>viśeṣya</i>) subject.
+The sequence of such nominal, adjectival, and participial forms 
+constitutes the (possibly dislocated) noun phrase that refers to the agent.
 Similarly for the other roles (<i>kāraka</i>). One may thus unfold
 the meaning by the Socratic method, asking successive questions corresponding
-to progressive elucidation of the speaker's communication intention
+to progressive elucidation of the speaker's communicative intention
 (<i>vivakṣā</i>).
 <p>
 <p>
 At this point of the course, you should train on using the segmenter on a
 variety
 of exemples. For instance, you may use the corpus of citations from
-the Sanskrit Heritage dictionary, that contains about 1000 popular
+the Sanskrit Heritage dictionary, that contains about 1100 popular
 <i>subhāṣita</i>s (maxims) as well as grammatical quotations.
 In order to do this, click on the "Corpus" link in the green bar at the bottom
-of Heritage site pages, then click OK at the Capacity Reader menu (there is no
+of Heritage site pages, then click OK at the Capacity Reader menu (there is
+actually no
 other choice on the public server), then click on the first choice
-"Heritage_citations". and you will see a page with 1077 links, each
+"Heritage_citations". and you will see a page with 1136 links, each
 leading to an analysed sentence.
 For instance, click on the 999th,
 <i>kāvyaśāstravinodena kālo gacchati dhīmatām</i>. You will see the
@@ -217,12 +232,13 @@ The solutions listed in this "Filtered Solutions" mode, as well as in the
 the manual selection of the final solution.
 When you click on it, you find yourself facing a new interface, called
 the Sanskrit Parser Assistant, that will allow you to settle the remaining
-ambiguities, such as homophony and vibhakti ambiguities, such as gender.
+ambiguities, such as homophony and <i>vibhakti</i> ambiguities, such as gender.
 <p>
 This new interface is also available from the "Unique Solutions" button.
 For instance, let us return to our
 <i>kāvyaśāstravinodena kālo gacchati dhīmatām</i>, with intended meaning
-"Smart people spend the time in playing with poetry criticism". Once we reach the
+"Smart people spend the time in playing with poetry theory"
+(or poetry and science). Once we reach the
 intended solution, by any of the above methods, by clicking
 on its check symbol we find the following
 <a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktparser.cgi?t=VH;lex=MW;font=roma;cache=f;st=t;us=f;text=kaavyazaastravinodena+kaalo+gacchati+dhiimataam;topic=;abs=f;corpmode=;corpdir=;sentno=;mode=p;cpts=0,{Iicc},{kaavya},{t}|5,{Iicc},{zaastra},{t}|11,{Nouc},{vinodena},{t}|26,{Root},{gacchati},{t}|34,{Nouc},{dhiimataam},{t};n=1"target="_blank">display</a>.
@@ -253,8 +269,8 @@ now a unique morphological tag, with proper links to the intended lexical
 entries. This Web page may then be saved in the user space.
 Please note that there is still possible ambiguity of compounding, here
 the compound <i>kāvya-śāstra-vinoden</i>a may be interpreted as
-<i>(kāvya-śāstra)-vinodena</i> (the correct one, left associative as is
-most common) and <i>kāvya-(śāstra-vinodena)</i> (dubious as "poetic
+<i>(kāvya-śāstra)-vinodena</i> (the correct one, left associative)
+and <i>kāvya-(śāstra-vinodena)</i> (dubious as "poetic 
 amusement with knowledge").
 <p>
 The second possible action is after the devanagarī layout of the sentence
@@ -277,6 +293,7 @@ of success for Classical Sanskrit, together with its gentle learning slope,
 have made the tool a popular one for perusing Sanskrit text. Think
 of it as a video game and enjoy the experience.
 <p>
+<!-- OBSOLETE
 Now you may wonder what is the interest of the red X buttons for discarding
 segments, since up to now we only applied positive selections. Their
 necessity is essentially for the privative prefix "a" (नञ्॰समास).
@@ -301,7 +318,7 @@ followed by a space in order to be recognized, like in <i>u uttiṣṭha</i>
 A similar problem is encountered with vocatives, which we demand to be
 chunk-terminal, i.e. followed by a blank. This is to prevent intense
 overgeneration in the case of <i>-a</i> stems, by ambiguity with the bare
-stem form used in compounding. 
+stem form used in compounding.  -->
 <p>
 <b>Various problems with the segmentation tool</b>.<br>
 There are two main problems with the segmenter.
@@ -319,9 +336,10 @@ If the problem is a missing nominal stem, and if you have installed locally the
 software on your own server, with annotator permission, it is possible to
 augment the lexical database, by creating your own local supplementary lexicon.
 <p>
+<!-- OBS
 Let me demonstrate this "User-aid" facility on my laptop.
 Assume you attempt to parse "<i>patamaḥ patati</i>" (पतमः पतति : the bird is flying).
-<a href="http://localhost/cgi-bin/SKT/sktgraph.cgi?lex=SH&cache=t&st=t&us=f&font=roma&text=patama.h+patati&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno=">पतमः पतति
+<a href="http://localhost/cgi-bin/SKT/sktgraph.cgi?t=VH;lex=SH;font=roma;cache=t;st=t;us=f;text=patama.h+patati;topic=;abs=f;corpmode=;corpdir=;sentno=;cpts=8,{Root},{patati},{t}">पतमः पतति
 </a>. Warning. Do not attempt to click on the above link, which is an
 invocation of the Reader tool on my own localhost server.
 You see that the segment <i>patamaḥ</i> is grey. It is unrecognized, because
@@ -343,7 +361,7 @@ added to the local lexicon, and from now on all forms of <i>patama</i>
 will be recognized, as well as compounds constructed on <i>patama</i>,
 with correct lemmas indexing the Monier-Williams dictionary. Finally,
 if the contentious pada is a neologism or a proper name, it is possible
-to get it recognized by crafting by hand its lemmatization.
+to get it recognized by crafting by hand its lemmatization. -->
 <p>
 Concerning the over-generation problem, it is mostly due to the tool
 not being informed of the relative frequencies of padas in Sanskrit texts.

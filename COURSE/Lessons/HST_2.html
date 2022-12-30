@@ -29,7 +29,7 @@ We are now going to discuss sandhi.
   in modern linguistic communication. Writing is a way to <b>store</b>
   linguistic information, it is a modern invention, merely a few
   millenia away in the earliest of cases, compared to articulated speech,
-  that is co-existent with mankind. Writing was not for the common man,
+  that is co-existent with mankind. Writing was not for the layman,
   it was the professional occupation of scribes. Furthermore, reading was
   for a long time actually reading out the text loud. In the West,
   it is Saint Ambrose, Roman governor of Liguria in the 4th century,
@@ -58,10 +58,11 @@ dealt precisely with the problem of segmentation: how to deconstruct
 into its step-by-step <i>padapāṭha</i> word chain. All this phonetic
 science could be put to use by further linguists such as Pāṇini to
 explain grammar in formal terms. Formal to the point of being amenable
-to mathematical analysis, and informatics implementation !
+to mathematical analysis, and computer implementation !
 <p>
-Pāṇini was living roughly 25 centuries ago, way before writing was used in
-  India. The first attested pieces of writing date from the inscriptions
+Pāṇini was living roughly 25 centuries ago, probably before writing was used in
+India. The first attested pieces of writing date from the prakrit
+(<i>prakṛta</i>) inscriptions
 of Emperor Aśoka, one century later. And devanāgarī is a much later
 development of the script. So we may question the Indian Post Office
 rendition of Pāṇini as a 
@@ -75,16 +76,22 @@ beginning of sentence, signalling a change in turn of speech: typically,
 the current agent is going to act after hearing some statement, given
 in the previous sentence and ended by <i>iti</i>, the indirect speech end marker.
 It is analysed as a 2-pada chunk as follows:
- <a   href="http://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=MW&cache=t&st=t&us=f&font=roma&text=tacchrutvaa&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno="target="_blank"><i>tacchrutvā</i></a>.
-NB. Here I show that I am not cheating by actually calling the Reader on
+ <a href="http://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=MW&cache=t&st=t&us=f&font=roma&text=tacchrutvaa&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno="target="_blank"><i>tacchrutvā</i></a>.
+Here I show that I am not cheating by actually calling the Heritage Reader on
 तच्छ्रुत्वा.
 The 9 letter line t.a.c.ch.r.u.t.v.ā explains clearly the phonetic change:
 the sequence t|ś is transformed into the sequence cch.
 We redo it again in mode Tagging, where the sandhi rule is clearly stated:
-t|ś → cch. 
+<span class = red>t</span><span class = green>|</span><span class = red>ś</span> → <span class = red>cch</span>. 
 I can also do it with printing in devanāgarī, but then the rule is
-muddled with viramas. And the input chunk has been massaged into
-just 3 akṣaras, with the middle one an incredible jungle of glyphs
+muddled with <i>viramās</i>.
+Aside for beginners in devanāgarī: letter त encodes syllable ta,
+and various extra decorations give त् ता for tā, ति for ti, ती for tī, तु for tu,
+तू for tū, तृ for tṛ, तॄ for tṝ, ते for te, तै for tai तो for to and तौ for tau.
+And you must also use the special <i>virama</i> subscript to denote just the
+consonant t. 
+Furthermore the input chunk has been massaged into
+just 3 <i>akṣarā</i>, with the middle one an incredible jungle of glyphs
 च्छ्रु pasting together 3 consonants and a vowel. Which we have to deconstruct
 in order to understand the sandhi, but there is no way to cut its picture
 into its proper components. In other words, the problem with devanāgarī
@@ -206,8 +213,9 @@ first the convention for writing an English sentence is really that of its
 reduced to liaison, not marked in writing. So the problem
 of <i>sandhiviccheda</i> does not occur in reading text, only in
 disambiguating continuous speech. Thus there is no problem
-in disambiguating "a notion" from "an ocean" in writing,
-but orally we have ambiguity, and this is precisely the
+in disambiguating English "a notion" from "an ocean" in writing,
+or similarly "I scream" from "ice-cream", 
+but orally we have a real ambiguity, and this is precisely the
 <i>sandhiviccheda</i> problem. The problem arises in Sanskrit
 reading not because of a default of devanāgarī, but on the contrary
 because of its quality, to be a perfect encoding of speech !
