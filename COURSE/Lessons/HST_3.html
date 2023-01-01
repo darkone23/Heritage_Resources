@@ -131,6 +131,13 @@ So don't panic if the tool lists an astronomical number of alleged "solutions",
 the number of clicks to decide the correct one is of the order of its
 logarithm, and you will soon learn to discard parasitic components.
 <p>
+At this point you should go over the various examples of <i>śleṣa</i>
+given above, and re-enter them in the Reader tool. You will see that the
+two different readings that we exhibited, leading to actual semantic
+ambiguities, are actually mixed with many parasitic segmentations, which
+may or may not be meaninful. For instance, श्वेतोधावति may be segmented into 22
+different segmentations, most of which do not make sense. 
+<p>
 Let us now process a more ambitious example, taken from
 Corpus:Heritage_citations.19:
 
@@ -176,10 +183,18 @@ the meaning by the Socratic method, asking successive questions corresponding
 to progressive elucidation of the speaker's communicative intention
 (<i>vivakṣā</i>).
 <p>
-<p>
 At this point of the course, you should train on using the segmenter on a
-variety
-of exemples. For instance, you may use the corpus of citations from
+variety of exemples. For instance, go back in the little Vikramacarita story,
+take each sentence raw input (the blue devanāgarī unanalysed input),
+and copy-paste it in the Reader tool input field, setting Input convention to 
+Devanagari, Lexicon access to Monier-Williams if you prefer English over French,
+and Sanskrit display font to Devanagari if you prefer it over IAST romanisation.
+Now click on the green and red check signs associated with each colored box
+in order to retrieve the reading that was proposed by the Corpus annotator.
+if you make a mistake, it is easy to backtrack using the Undo button.
+<p>
+When you are familiar with the tool, you may try more difficult sentences.
+For instance, you may use the corpus of citations from
 the Sanskrit Heritage dictionary, that contains about 1100 popular
 <i>subhāṣita</i>s (maxims) as well as grammatical quotations.
 In order to do this, click on the "Corpus" link in the green bar at the bottom
@@ -189,16 +204,18 @@ other choice on the public server), then click on the first choice
 "Heritage_citations". and you will see a page with 1136 links, each
 leading to an analysed sentence.
 For instance, click on the 999th,
-<i>kāvyaśāstravinodena kālo gacchati dhīmatām</i>. You will see the
+<i>kāvyaśāstravinodena kālo gacchati dhīmatām | vyaasasena ca mūrkhāṇāṃ nidrayā
+kalahena vā ||</i>. You will see the
 segmentation of this sentence chosen by the annotator to be recorded in the
-corpus, following its devanāgarī rendering काव्यशास्त्रविनोदेन कालो गच्छति धीमताम्.
+corpus, following its devanāgarī rendering काव्यशास्त्रविनोदेन कालो गच्छति धीमताम्
+व्यसनेन च मूर्खाणां निद्रया कलहेन वा.
 Now copy this devanāgarī string with your mouse, and open a new window of
 your navigator at the Heritage site (English) or (French) according to your
 preferred dictionary (Monier-Williams or Heritage respectively). Now
 click on Reader, in the input window paste the sentence, select
 "Devanagari" in the Input convention menu, select your preference
 in the Sanskrit display font menu, and press "Read".
-Now you get the segmenter display of the potential 1848 Solutions.
+You will thus get the segmenter display of the potential 25560 Solutions.
 Now click on the green check signs ✓ to select a segment, or to its red
 cross sign X to discard it. You will see the number of All solutions
 decrease rapidly. When you reach "Unique Solution" you are done,
@@ -367,7 +384,9 @@ Concerning the over-generation problem, it is mostly due to the tool
 not being informed of the relative frequencies of padas in Sanskrit texts.
 We are now working on a refinement of the segmentation tool, properly informed
 about such occurrences probabilities, and are investigating this as
-an experimental module. 
+an experimental module. You may glimpse into the current state of this
+experimental module by using the two upper Modes of our Reader, labelled
+respectively "The Best!" and "Best n solutions". 
 <p> 
 At this point it is advisable to read the full
 <a href="https://sanskrit.inria.fr/manual.html">User manual</a>,
@@ -375,11 +394,16 @@ in order to understand additional functionalities, pitfalls, and
 practical advices in the way to chunk the input to help
 the segmenter.
 <p>
+When you are completely confident with your use of the various tools, you may
+try reading sentences from the extensive digital corpus>GRETIL</a>.
+<p>
+
 <b>Credits</b>.<br>
 Pawan Goyal implemented the graphic display of the segmenter, the alignment
 of the Monier-Williams dictionary with Heritage, and the User-aid facility.
 Idir Lankri implemented the Corpus mode. Sriram Krishna is working on the
 statistical segmenter in the framework of his doctoral research. 
+<p>
 
   
 </td></tr></table>
