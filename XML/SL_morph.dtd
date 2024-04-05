@@ -20,11 +20,12 @@
      Version 3.3 Date: Jun 08 2015 - tasil undeclinable taddhitas added
      Version 3.7 Date: May 26 2018 - subjunctive added
      Version 3.13 Date: Feb 28 2019 - fixed gerundive parameter
+     Version 3.55 Date: Mar 05 2024 - fixed absolutives and periphrastic future
 -->
 
-<!-- Transliteration of forms according to Sanskrit Library scheme SLP1:
-a A i I u U f F x e E o O M ~ H
-k K g G N c C j J Y w W q Q R t T d D n p P b B m y r l v S z s h
+<!-- Transliteration of forms according to Sanskrit Library scheme SLP1: 
+a A i I u U q Q L e E o O M z H
+k K g G f c C j J F t T d D N w W x X n p P b B m y r l v S R s h
 The generating stem is a form optionally suffixed by a homonymy index #n,
 it indexes an entry in the Sanskrit Heritage dictionary.
 -->
@@ -79,7 +80,6 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 <!ELEMENT tasil EMPTY> <!-- undeclinable - adverbs of manner in -tas -->
 <!ELEMENT pa (na,kr)> <!-- participial forms have nominal declension parameters and kridanta generator -->
 <!ELEMENT kr (vb)>     <!-- kridanta generator has verbal structure -->
-<!ELEMENT ab (cj)>     <!-- abs in tvaa with conjugation -->
 <!ELEMENT vb (cj,no)>   <!-- verbal has conjugation and nominal -->
 <!ELEMENT vu (cj,iv)>   <!-- undeclinable verbal form -->
 <!ELEMENT na ((nom | voc | acc | ins | dat | abl | gen | loc), 
@@ -115,9 +115,10 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 
 <!ELEMENT pas (md)> <!-- passive system has mode-->
 
-<!ELEMENT tp ((fut | prf | aor | inj | cnd | ben | subj),(para | atma | pass))> <!-- tense paradigm has tense and voice -->
+<!ELEMENT tp ((fut | pef | prf | aor | inj | cnd | ben | subj),(para | atma | pass))> <!-- tense paradigm has tense and voice -->
 
 <!ELEMENT fut EMPTY> <!-- future -->
+<!ELEMENT pef EMPTY> <!-- periphrastic future -->
 <!ELEMENT prf EMPTY> <!-- perfect -->
 <!ELEMENT aor (#PCDATA)> <!-- aorist has kind, integer between 1 and 7-->
 <!ELEMENT inj (#PCDATA)> <!-- injunctive (aorist without augment) has kind -->
@@ -125,7 +126,6 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 <!ELEMENT cnd EMPTY> <!-- conditional -->
 <!ELEMENT subj EMPTY> <!-- subjunctive -->
 
-<!ELEMENT pef (para | atma)> <!-- perif future -->
 <!ELEMENT no (ppp | ppa | ppr | pprp | ppft | pfut | pfutp)> <!-- nominal form is one among kridanta formation schemes -->
 <!ELEMENT ppp EMPTY> <!-- passive past participle -->
 <!ELEMENT ppa EMPTY> <!-- active past participle -->
@@ -142,5 +142,5 @@ it indexes an entry in the Sanskrit Heritage dictionary.
 
 <!ELEMENT iv (inf | abs | per)> <!-- invariable verbal form -->
 <!ELEMENT inf EMPTY> <!-- infinitive -->
-<!ELEMENT abs EMPTY> <!-- absolutive in ya -->
+<!ELEMENT abs EMPTY> <!-- absolutives in ya and tvaa, .namul -->
 <!ELEMENT per EMPTY> <!-- periphrastic perfect -->
